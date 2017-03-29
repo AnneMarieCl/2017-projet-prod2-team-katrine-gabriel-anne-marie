@@ -1,12 +1,22 @@
-h5 {
-    font-family: 'Tauri', sans-serif;
+#img-footer{
+    padding-left: 25px;
+}
+
+#reseaux-sociaux{
+    padding-right: 25px;
+}
+
+#reseaux-sociaux h5, 
+#infolettre h5 {
     font-size: 16px;
-    text-transform: uppercase;
+
+    margin:0 0 10px 0;
 }
 
 footer {
     background: #3e3d3d;
     color: #fff;
+    font-family: 'Tauri', sans-serif;
     padding: 100px 0;
 }
 
@@ -15,20 +25,14 @@ footer p {
     margin: 15px 0;
 }
 
-footer ul {
-    font-family: 'Tauri', sans-serif;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
-}
 
 footer #footer-menu li {
     display: block;
     font-size: 16px;
-    margin: 15px 0;
+    margin: 0 0 15px 0;
 }
 
-footer #footer-menu li a{
+footer #footer-menu li a, footer #social li a{
     text-decoration: none;
     color: #fff;
 }
@@ -38,13 +42,12 @@ footer #footer-menu .current a{
     color: #ee3a43;
 }
 
-footer #footer-menu li a:hover{
+footer #footer-menu li a:hover, footer #social li a:hover{
     color: #ee3a43;
 }
 
 footer #social li {
     display: inline-block;
     font-size: 18px;
-    margin: 5px 10px;
+    margin: 5px 0 0 5px;
 }
-
