@@ -34,6 +34,10 @@ footer p {
 }
 
 /* Section du menu dans le footer */
+footer #footer-menu {
+    margin:0;
+    padding:0;
+}
 footer #footer-menu li {
     display: block;
     font-size: 16px;
@@ -79,10 +83,17 @@ footer #social li {
     footer #img-footer, footer #reseaux-sociaux{
         padding: 0;
     }
-    footer #footer-menu {
+    footer #footer-menu, footer #infolettre, footer #reseaux-sociaux {
        margin-top: 40px;
     }
-
+    /* Centrer les icones des réseaux sociaux */
+    footer #reseaux-sociaux ul#social{
+        margin:0;
+        padding:0;
+    }
+    footer #reseaux-sociaux ul#social li{
+        margin: 0 5px 0 0;
+    }
 }
 
 /* Small device */
