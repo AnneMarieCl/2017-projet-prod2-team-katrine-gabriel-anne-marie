@@ -4,6 +4,7 @@ footer #footer-un {
     background: #3e3d3d;
     font-family: 'Tauri', sans-serif;
     padding: 100px 0;
+    color: #ffffff;
     overflow:hidden;
 }
 
@@ -49,7 +50,7 @@ footer #footer-un #footer-menu li {
 footer #footer-un #footer-menu li a, 
 footer #footer-un #social li a{
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
 }
 
 /* Couleur de la page en cours */
@@ -80,7 +81,8 @@ footer #footer-un #social li {
 }
 #form-infolettre input[type="submit"]{
     background-color:transparent;
-    margin-top: 10px;
+    margin: 10px 0 0 0;
+    padding:0;
     outline: transparent;
     border: none;
 }
