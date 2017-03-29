@@ -8,7 +8,6 @@ html{
 body{
     height:100%;
     font-family: 'Lato', sans-serif;
-    color: white;
 }
 h1, h2, h3, h4 {
     font-family: 'Tauri', sans-serif;
@@ -19,10 +18,11 @@ h2 {font-size: 48pt;
 h3 {font-size: 44pt;
     
 }
-h4 {font-size: 36pt;
+h4 {font-size: 24px;
     
 }
-p {font-size: 30pt;
+
+p {font-size: 18px;
 }
 .logo {
     position: absolute;
@@ -109,3 +109,160 @@ ul.contact{ height:40px;
     color: white;
 }
 
+/* #################### FOOTER ####################*/
+/* Stylistique général du footer */
+
+footer #footer-un {
+    background: #3e3d3d;
+    font-family: 'Tauri', sans-serif;
+    padding: 100px 0;
+    color: #ffffff;
+    overflow:hidden;
+}
+
+/* Aligner le texte à droite */
+footer #footer-un #footer-nav, footer #footer-un #infolettre, footer #footer-un #reseaux-sociaux{
+    text-align: right;
+}
+
+/* Espace à gauche du logo */
+footer #footer-un #img-footer{
+    padding-left: 25px;
+}
+
+/* Espace à droite de la section réseaux sociaux */
+footer #footer-un #reseaux-sociaux{
+    padding-right: 25px;
+}
+
+/* Stylistique de la police */
+footer #footer-un #reseaux-sociaux h5, 
+footer #footer-un #infolettre h5 {
+    font-size: 16px;
+    margin:0 0 10px 0;
+}
+
+footer #footer-un p {
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+/* Section du menu dans le footer */
+footer #footer-un #footer-menu {
+    margin:0;
+    padding:0;
+}
+footer #footer-un #footer-menu li {
+    display: block;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+}
+
+/* Stylistique des liens */
+footer #footer-un #footer-menu li a, 
+footer #footer-un #social li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Couleur de la page en cours */
+footer #footer-un #footer-menu .current a{
+    color: #ee3a43;
+}
+
+/* Hover des éléments du footer */
+footer #footer-un #footer-menu li a:hover, 
+footer #footer-un #social li a:hover{
+    color: #ee3a43;
+}
+
+/* Espace entre les icones des réseaux sociaux */
+footer #footer-un #social li {
+    display: inline-block;
+    font-size: 18px;
+    margin: 5px 0 0 5px;
+}
+
+/* Infolettre */
+#form-infolettre input[type="email"]{
+    color: #3e3d3d;
+    text-align: right;
+    padding: 5px 5px 5px 0px;
+    width: 60%;
+    outline: transparent;
+}
+#form-infolettre input[type="submit"]{
+    background-color:transparent;
+    margin: 10px 0 0 0;
+    padding:0;
+    outline: transparent;
+    border: none;
+}
+#form-infolettre input[type="submit"]:hover{
+  color: #ee3a43;
+}
+
+/* Footer partie du copyright */
+footer #footer-deux{
+    background-color: #ffffff;
+    overflow:hidden;
+}
+footer #footer-deux h5 {
+    color: #3e3d3d;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 10px;
+    margin: 20px 0;
+}
+
+/* #################### ADAPTATION MOBILE ####################*/
+/* X-Small device */
+@media (max-width: 768px){
+    /* Aligner les textes au centre */
+    footer #footer-un, 
+    footer #footer-un #footer-nav, 
+    footer #footer-un #infolettre, 
+    footer #footer-un #reseaux-sociaux{
+        text-align: center;
+    }
+    /* Enlever les espaces de trop à droite et à gauche */
+    footer #footer-un #img-footer, footer #footer-un #reseaux-sociaux{
+        padding: 0;
+    }
+    footer #footer-un #footer-menu, footer #footer-un #infolettre, footer #footer-un #reseaux-sociaux {
+       margin-top: 40px;
+    }
+    /* Centrer les icones des réseaux sociaux */
+    footer #footer-un #reseaux-sociaux ul#social{
+        margin:0;
+        padding:0;
+    }
+    footer #footer-un #reseaux-sociaux ul#social li{
+        margin: 0 5px 0 0;
+    }
+    /* Copyright à center */
+    footer #footer-deux h5 {
+        text-align: center;
+        padding-right: 0;
+    }
+    /* Infolettre à centrer */
+    #form-infolettre input[type="email"]{
+        padding: 5px 0px 5px 0px;
+        text-align: center;
+        width: 50%;
+    }
+}
+
+/* Small device */
+@media screen and (min-width: 768px) and (max-width: 992px){
+    /* Infolettre */
+    #form-infolettre input[type="email"]{
+        width: 90%;
+    }
+
+}
+
+/* Medium device */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+}
