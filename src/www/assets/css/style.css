@@ -1,7 +1,21 @@
-p {
-    font-family: 'Lato', sans-serif;
+html{
+    height:100%
 }
 
-h {
+body{
+    height:100%;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+h1, h2, h3, h4 {
     font-family: 'Tauri', sans-serif;
+}
+h2 {font-size: 48pt;
+    
+}
+h3 {font-size: 44pt;
+    
+}
+h4 {font-size: 36pt;
+    
 }
