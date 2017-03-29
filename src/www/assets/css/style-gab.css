@@ -1,23 +1,31 @@
-#img-footer{
+/* #################### FOOTER ####################*/
+/* Stylistique général du footer */
+footer {
+    background: #3e3d3d;
+    font-family: 'Tauri', sans-serif;
+    padding: 100px 0;
+}
+
+/* Aligner le texte à droite */
+footer #footer-nav, footer #infolettre, footer #reseaux-sociaux{
+    text-align: right;
+}
+
+/* Espace à gauche du logo */
+footer #img-footer{
     padding-left: 25px;
 }
 
-#reseaux-sociaux{
+/* Espace à droite de la section réseaux sociaux */
+footer #reseaux-sociaux{
     padding-right: 25px;
 }
 
-#reseaux-sociaux h5, 
-#infolettre h5 {
+/* Stylistique de la police */
+footer #reseaux-sociaux h5, 
+footer #infolettre h5 {
     font-size: 16px;
-
     margin:0 0 10px 0;
-}
-
-footer {
-    background: #3e3d3d;
-    color: #fff;
-    font-family: 'Tauri', sans-serif;
-    padding: 100px 0;
 }
 
 footer p {
@@ -25,29 +33,64 @@ footer p {
     margin: 15px 0;
 }
 
-
+/* Section du menu dans le footer */
 footer #footer-menu li {
     display: block;
     font-size: 16px;
     margin: 0 0 15px 0;
 }
 
-footer #footer-menu li a, footer #social li a{
+/* Stylistique des liens */
+footer #footer-menu li a, 
+footer #social li a{
     text-decoration: none;
     color: #fff;
 }
 
+/* Couleur de la page en cours */
 footer #footer-menu .current a{
-    text-decoration: none;
     color: #ee3a43;
 }
 
-footer #footer-menu li a:hover, footer #social li a:hover{
+/* Hover des éléments du footer */
+footer #footer-menu li a:hover, 
+footer #social li a:hover{
     color: #ee3a43;
 }
 
+/* Espace entre les icones des réseaux sociaux */
 footer #social li {
     display: inline-block;
     font-size: 18px;
     margin: 5px 0 0 5px;
+}
+
+/* #################### ADAPTATION MOBILE ####################*/
+/* X-Small device */
+@media (max-width: 768px){
+    /* Aligner les textes au centre */
+    footer, 
+    footer #footer-nav, 
+    footer #infolettre, 
+    footer #reseaux-sociaux{
+        text-align: center;
+    }
+    /* Enlever les espaces de trop à droite et à gauche */
+    footer #img-footer, footer #reseaux-sociaux{
+        padding: 0;
+    }
+    footer #footer-menu {
+       margin-top: 40px;
+    }
+
+}
+
+/* Small device */
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+}
+
+/* Medium device */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
 }
