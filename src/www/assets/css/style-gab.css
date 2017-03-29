@@ -1,98 +1,115 @@
 /* #################### FOOTER ####################*/
 /* Stylistique général du footer */
-footer {
+footer #footer-un {
     background: #3e3d3d;
     font-family: 'Tauri', sans-serif;
     padding: 100px 0;
 }
 
 /* Aligner le texte à droite */
-footer #footer-nav, footer #infolettre, footer #reseaux-sociaux{
+footer #footer-un #footer-nav, footer #footer-un #infolettre, footer #footer-un #reseaux-sociaux{
     text-align: right;
 }
 
 /* Espace à gauche du logo */
-footer #img-footer{
+footer #footer-un #img-footer{
     padding-left: 25px;
 }
 
 /* Espace à droite de la section réseaux sociaux */
-footer #reseaux-sociaux{
+footer #footer-un #reseaux-sociaux{
     padding-right: 25px;
 }
 
 /* Stylistique de la police */
-footer #reseaux-sociaux h5, 
-footer #infolettre h5 {
+footer #footer-un #reseaux-sociaux h5, 
+footer #footer-un #infolettre h5 {
     font-size: 16px;
     margin:0 0 10px 0;
 }
 
-footer p {
+footer #footer-un p {
     font-size: 14px;
     margin: 15px 0;
 }
 
 /* Section du menu dans le footer */
-footer #footer-menu {
+footer #footer-un #footer-menu {
     margin:0;
     padding:0;
 }
-footer #footer-menu li {
+footer #footer-un #footer-menu li {
     display: block;
     font-size: 16px;
     margin: 0 0 15px 0;
 }
 
 /* Stylistique des liens */
-footer #footer-menu li a, 
-footer #social li a{
+footer #footer-un #footer-menu li a, 
+footer #footer-un #social li a{
     text-decoration: none;
     color: #fff;
 }
 
 /* Couleur de la page en cours */
-footer #footer-menu .current a{
+footer #footer-un #footer-menu .current a{
     color: #ee3a43;
 }
 
 /* Hover des éléments du footer */
-footer #footer-menu li a:hover, 
-footer #social li a:hover{
+footer #footer-un #footer-menu li a:hover, 
+footer #footer-un #social li a:hover{
     color: #ee3a43;
 }
 
 /* Espace entre les icones des réseaux sociaux */
-footer #social li {
+footer #footer-un #social li {
     display: inline-block;
     font-size: 18px;
     margin: 5px 0 0 5px;
+}
+
+/* Footer partie du copyright */
+footer #footer-deux{
+    background-color: #ffffff;
+}
+footer #footer-deux p {
+    color: #3e3d3d;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 10px;
+    margin: 20px 0;
 }
 
 /* #################### ADAPTATION MOBILE ####################*/
 /* X-Small device */
 @media (max-width: 768px){
     /* Aligner les textes au centre */
-    footer, 
-    footer #footer-nav, 
-    footer #infolettre, 
-    footer #reseaux-sociaux{
+    footer #footer-un, 
+    footer #footer-un #footer-nav, 
+    footer #footer-un #infolettre, 
+    footer #footer-un #reseaux-sociaux{
         text-align: center;
     }
     /* Enlever les espaces de trop à droite et à gauche */
-    footer #img-footer, footer #reseaux-sociaux{
+    footer #footer-un #img-footer, footer #footer-un #reseaux-sociaux{
         padding: 0;
     }
-    footer #footer-menu, footer #infolettre, footer #reseaux-sociaux {
+    footer #footer-un #footer-menu, footer #footer-un #infolettre, footer #footer-un #reseaux-sociaux {
        margin-top: 40px;
     }
     /* Centrer les icones des réseaux sociaux */
-    footer #reseaux-sociaux ul#social{
+    footer #footer-un #reseaux-sociaux ul#social{
         margin:0;
         padding:0;
     }
-    footer #reseaux-sociaux ul#social li{
+    footer #footer-un #reseaux-sociaux ul#social li{
         margin: 0 5px 0 0;
+    }
+    /* Copyright à center */
+    footer #footer-deux p {
+        text-align: center;
+        padding-right: 0;
     }
 }
 
