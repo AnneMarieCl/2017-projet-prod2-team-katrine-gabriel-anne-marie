@@ -54,8 +54,11 @@ ul.contact{ height:40px;
 
 }
 
-.nav>li {
+.contact.nav>li {
     padding-right: 20px;
+}
+.menu-principal.nav>li {
+    padding-left: 90px;
 }
 .nav>li>a:hover { 
 }
