@@ -24,10 +24,13 @@ h4 {font-size: 36pt;
 }
 p {font-size: 30pt;
 }
-/* MENU PRINCIPAL */
+/* MENU HEADER */
 ul.contact{ height:40px;
             padding-top: 10px;
             
+}
+.contact.nav>li {
+    padding-right: 20px;
 }
 .navbar-right {
     margin-right: 30px;
@@ -50,15 +53,13 @@ ul.contact{ height:40px;
                     font-family: 'Tauri', sans-serif;
                     text-transform: uppercase;
 }
-.navbar-default .navbar-nav.menu-principal>li>a { color: white;
-
-}
-
-.contact.nav>li {
-    padding-right: 20px;
+.navbar-default .navbar-nav.menu-principal>li>a { 
+                    color: white;
 }
 .menu-principal.nav>li {
-    padding-left: 90px;
+    padding-left: 80px;
 }
-.nav>li>a:hover { 
+.nav.menu-principal>li>a:hover { 
+                 background-color: #c6262d;
+                 height: 80px;  
 }
