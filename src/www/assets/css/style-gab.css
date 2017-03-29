@@ -73,7 +73,7 @@ footer #footer-un #social li {
 footer #footer-deux{
     background-color: #ffffff;
 }
-footer #footer-deux p {
+footer #footer-deux h5 {
     color: #3e3d3d;
     font-size: 12px;
     text-align: right;
@@ -107,7 +107,7 @@ footer #footer-deux p {
         margin: 0 5px 0 0;
     }
     /* Copyright à center */
-    footer #footer-deux p {
+    footer #footer-deux h5 {
         text-align: center;
         padding-right: 0;
     }
