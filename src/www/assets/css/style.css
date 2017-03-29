@@ -24,13 +24,24 @@ h4 {font-size: 36pt;
 }
 p {font-size: 30pt;
 }
+.logo {
+    position: absolute;
+    background-color: white;
+    margin-left: 30px;
+}
 /* MENU HEADER */
 ul.contact{ height:40px;
             padding-top: 10px;
             
 }
+#bs-example-navbar-collapse-2 {
+    background-color: white;
+}
 .contact.nav>li {
     padding-right: 20px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ee3a43;
 }
 .navbar-right {
     margin-right: 30px;
@@ -63,3 +74,38 @@ ul.contact{ height:40px;
                  background-color: #c6262d;
                  height: 80px;  
 }
+/*** MENU DÉROULANT ***/
+.sf-menu li {
+	position: relative;
+}
+.sf-menu ul a {
+    padding-left: 15px;
+    padding-top: 30px;
+}
+.sf-menu ul {
+	position: absolute;  
+    padding-left: 0px;
+    width: 2000px; 
+    list-style: none;
+}
+.sf-menu ul.rangee2 {
+	position: absolute;  
+    margin-left: 500px;
+    background-color: #c6262d;
+}
+.sf-menu a {
+    display: block;
+	position: relative;
+	background-color: #c6262d;
+	color: white;
+	height: 80px;
+    text-decoration: none;
+}
+.navbar-default .navbar-nav>.active>a {
+    background: none;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: #c6262d;
+    color: white;
+}
+
