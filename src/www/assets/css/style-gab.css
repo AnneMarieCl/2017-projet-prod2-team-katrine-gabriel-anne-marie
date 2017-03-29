@@ -4,6 +4,7 @@ footer #footer-un {
     background: #3e3d3d;
     font-family: 'Tauri', sans-serif;
     padding: 100px 0;
+    overflow:hidden;
 }
 
 /* Aligner le texte à droite */
@@ -69,9 +70,28 @@ footer #footer-un #social li {
     margin: 5px 0 0 5px;
 }
 
+/* Infolettre */
+#form-infolettre input[type="email"]{
+    color: #3e3d3d;
+    text-align: right;
+    padding: 5px 5px 5px 0px;
+    width: 60%;
+    outline: transparent;
+}
+#form-infolettre input[type="submit"]{
+    background-color:transparent;
+    margin-top: 10px;
+    outline: transparent;
+    border: none;
+}
+#form-infolettre input[type="submit"]:hover{
+  color: #ee3a43;
+}
+
 /* Footer partie du copyright */
 footer #footer-deux{
     background-color: #ffffff;
+    overflow:hidden;
 }
 footer #footer-deux h5 {
     color: #3e3d3d;
@@ -111,10 +131,19 @@ footer #footer-deux h5 {
         text-align: center;
         padding-right: 0;
     }
+    /* Infolettre à centrer */
+    #form-infolettre input[type="email"]{
+        text-align: center;
+        width: 50%;
+    }
 }
 
 /* Small device */
 @media screen and (min-width: 768px) and (max-width: 992px){
+    /* Infolettre */
+    #form-infolettre input[type="email"]{
+        width: 90%;
+    }
 
 }
 
