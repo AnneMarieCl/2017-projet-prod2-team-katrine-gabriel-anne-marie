@@ -38,9 +38,6 @@
                                         <a href="#">819-536-0777</a>
                                     </li>
                                     <li>
-                                        <a href="#">Nous joindre</a>
-                                    </li>
-                                    <li>
                                         <a href="#">info@ccishawinigan.ca</a>
                                     </li>
                                     <li>
