@@ -4,19 +4,11 @@
     <body>
         <!-- Main -->
         <main>
-            <!-- Section : SideBar -->
-            <section id="sidebar-a-propos">
-                <div class="container">
-                    <div class="row">
-                        <!--class="col-xs-12 col-sm-4 col-md-4 col-lg-4"-->
-                        
-                    </div>
-                </div>
-            </section>
+
 
             <!-- Section : Présentation de la chambre -->
             <section id="presentation-chambre">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <h3 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Présentation de la chambre</h3>
 
@@ -69,22 +61,15 @@
                             <li>Intervenir auprès des différentes instances afin de mieux défendre les intérêts de nos membres.</li>
                             <li>Cultiver l'entrepreneuriat pour diversifier notre économie.</li>
                         </ul>
-                    </div>
-                </div>
-            </section>
 
-            <!-- Section : Devenez membre -->
-            <section id="devenez-membre">
-                <div class="container">
-                    <div class="row">
-                        <img class="col-xs-3 col-sm-3 col-md-3 col-lg-3 img-responsive" src="assets/images/avatar-membre.png" alt="Devenez membre">
+                        <!-- Section : Devenez membre -->
+                        <img class="col-xs-3 col-sm-3 col-md-3 col-lg-3" src="assets/images/avatar-membre.png" alt="Devenez membre">
                         <p class="col-xs-9 col-sm-9 col-md-9 col-lg-9">DEVENEZ MEMBRE<p>
-                        <p class="col-xs-9 col-sm-9 col-md-9 col-lg-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit error provident, sint alias aliquid delectus deleniti repudiandae dolores cum, omnis. Eveniet sunt voluptatum, cupiditate nemo quo tempora, possimus voluptate dolores!</p>
+                        <p class="col-xs-9 col-sm-9 col-md-9 col-lg-9">Solidifiez vos acquis et accédez à une clientèle privilège!</p>
                         <a class="col-xs-9 col-sm-9 col-md-9 col-lg-9" href="">En savoir plus</a>
                     </div>
                 </div>
-            </section>
-            
+            </section>   
         </main>
         <!-- Fin du main -->
 
