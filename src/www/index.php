@@ -65,9 +65,9 @@
                         <!-- MENU PRINCIPAL -->
                         <div class="collapse navbar-collapse principal" id="bs-example-navbar-collapse-1">
                             <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 enleve-padding">       
-                                <ul class="nav navbar-nav menu-principal" id="menu-deroulant">
+                                <ul class="nav navbar-nav menu-principal navbar-right" id="menu-deroulant">
                                     
-                                    <li>
+                                    <li class="onglet">
                                         <a href="a-propos.php">La ccis</a>
                                                     <ul class="deroule">
                                                         <li class="lien-1">
@@ -80,19 +80,19 @@
                                                         </li>
                                                     </ul>
                                     </li>
-                                    <li>
+                                    <li class="onglet">
                                         <a href="publications.php">Publications</a>
                                     </li>
-                                    <li>
+                                    <li class="onglet">
                                         <a href="evenement.php">Formations et événements</a>
                                     </li>
-                                    <li>
+                                    <li class="onglet">
                                         <a href="blogue.php">Blogue</a>
                                     </li>
-                                    <li>
+                                    <li class="onglet">
                                         <a href="membre.php">espace membre</a>
                                     </li>
-                                    <li>
+                                    <li class="onglet">
                                         <a href="boutique.php">Boutique</a>
                                     </li>
                                     <li>
