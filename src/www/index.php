@@ -44,7 +44,7 @@
                                         <a href="#">info@ccishawinigan.ca</a>
                                     </li>
                                     <li>
-                                        <a href="#">Contact</a>
+                                        <a href="nous-joindre.php">Contact</a>
                                     </li>
                                     <li>
                                         <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
@@ -61,7 +61,7 @@
                  <div class="row">
                     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
                                 <!-- LOGO -->
-                                <a class="logo" href="index.html">
+                                <a class="logo" href="index.php">
                                     <img src="assets/images/logo-principal.png" alt="">
                                 </a>
                             </div>
@@ -71,7 +71,7 @@
                                 <ul class="nav navbar-nav menu-principal" id="menu-deroulant">
                                     
                                     <li>
-                                        <a href="#">La ccis</a>
+                                        <a href="a-propos.php">La ccis</a>
                                                     <ul class="deroule">
                                                         <li class="lien-1">
                                                             <a class="a-1" href="#">Présentation de la chambre</a>
@@ -84,19 +84,19 @@
                                                     </ul>
                                     </li>
                                     <li>
-                                        <a href="#">Publications</a>
+                                        <a href="publications.php">Publications</a>
                                     </li>
                                     <li>
-                                        <a href="#">Formations et événements</a>
+                                        <a href="evenement.php">Formations et événements</a>
                                     </li>
                                     <li>
-                                        <a href="blogue.html">Blogue</a>
+                                        <a href="blogue.php">Blogue</a>
                                     </li>
                                     <li>
-                                        <a href="#">espace membre</a>
+                                        <a href="membre.php">espace membre</a>
                                     </li>
                                     <li>
-                                        <a href="#">Boutique</a>
+                                        <a href="boutique.php">Boutique</a>
                                     </li>
                                     <li>
                                         <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
