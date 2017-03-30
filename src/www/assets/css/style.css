@@ -64,6 +64,7 @@ ul.contact{ height:40px;
                     font-size:12pt;
                     font-family: 'Tauri', sans-serif;
                     text-transform: uppercase;
+                    height: 80px; 
 }
 .navbar-default .navbar-nav.menu-principal>li>a { 
                     color: white;
@@ -75,39 +76,37 @@ ul.contact{ height:40px;
                  background-color: #c6262d;
                  height: 80px;  
 }
-/*** MENU DÉROULANT ***/
-.sf-menu li {
-	position: relative;
-}
-.sf-menu ul a {
-    padding-left: 35px;
-    padding-top: 30px;
-}
-.sf-menu ul {
-	position: absolute;  
-    padding-left: 0px;
-    width: 2000px; 
+/*** MENU DÉROULANT test***/
+#menu-deroulant, #menu-deroulant ul {
+    padding-left: 15px;
     list-style: none;
 }
-.sf-menu ul.rangee2 {
-	position: absolute;  
-    margin-left: 500px;
-    background-color: #c6262d;
+.lien-1 {
+    margin-top: 40px;
+    padding-bottom: 20px;
 }
-.sf-menu a {
-    display: block;
-	position: relative;
-	background-color: #c6262d;
-	color: white;
-	height: 80px;
+.lien-2 {
+    margin-bottom: 40px;
+}
+a.a-1 {
+    margin-right: 375px;
+}
+#menu-deroulant a {
     text-decoration: none;
+	color:white;
 }
-.navbar-default .navbar-nav>.active>a {
-    background: none;
+#menu-deroulant ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
 }
-.navbar-default .navbar-nav>.active>a:hover {
-    background-color: #c6262d;
-    color: white;
+#menu-deroulant li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+    background-color:#c6262d; 
+    width: 850%;
 }
 
 /* #################### FOOTER #################### */

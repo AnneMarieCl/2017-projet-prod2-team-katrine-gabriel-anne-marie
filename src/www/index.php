@@ -68,27 +68,20 @@
                         <!-- MENU PRINCIPAL -->
                         <div class="collapse navbar-collapse principal" id="bs-example-navbar-collapse-1">
                             <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 enleve-padding">       
-                                <ul class="nav navbar-nav navbar-right menu-principal" id="example">
+                                <ul class="nav navbar-nav navbar-right menu-principal" id="menu-deroulant">
                                     
-                                    <li class="active sf-menu">
+                                    <li>
                                         <a href="#">La ccis</a>
-                                                    <ul>
-                                                        <li class="inactive">
-                                                            <a href="#">Présentation de la chambre</a>
-                                                        </li>
-                                                        <li class="inactive">
-                                                            <a href="#">Conseil d'administration</a>
-                                                        </li>
-                                                    </ul>
-                                                    <ul class="rangee2">
-                                                        <li class="inactive">
+                                                    <ul class="deroule">
+                                                        <li class="lien-1">
+                                                            <a class="a-1" href="#">Présentation de la chambre</a>
                                                             <a href="#">Les comités d'organisation</a>
                                                         </li>
-                                                        <li class="inactive">
+                                                        <li class="lien-2">
+                                                            <a href="#">Conseil d'administration</a>
                                                             <a href="#">Les implications</a>
                                                         </li>
                                                     </ul>
-                                                
                                     </li>
                                     <li>
                                         <a href="#">Publications</a>
@@ -125,36 +118,5 @@
     <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
     <script src="assets/js/jquery.js"></script>
 
-    <!--superfish-->
-    <script src="assets/js/superfish.js"></script>
-    <script>
-
-            (function($){ //create closure so we can safely use $ as alias for jQuery
-
-            $(document).ready(function(){
-                
-                var exampleOptions = {
-                speed: 'fast'
-                }
-                // initialise plugin
-                var example = $('#example').superfish(exampleOptions);
-
-                $('.init').on('click', function(){
-                example.superfish(exampleOptions);
-                });
-
-                $('.open').on('click', function(){
-                example.children('li:first').superfish('show');
-                });
-
-                $('.close').on('click', function(){
-                example.children('li:first').superfish('hide');
-                });
-            });
-
-            })(jQuery);
-
-
-    </script>
 </body>
 </html>
