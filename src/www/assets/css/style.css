@@ -12,16 +12,17 @@ body{
 h1, h2, h3, h4 {
     font-family: 'Tauri', sans-serif;
 }
-h2 {font-size: 48pt;
-    
+h2 {
+    font-size: 48pt; 
 }
-h3 {font-size: 44pt;
-    
+h3 {
+    font-size: 44pt;
 }
-h4 {font-size: 24px;
-    
+h4 {
+    font-size: 24px;
 }
-p {font-size: 18px;
+p {
+    font-size: 18px;
 }
 .logo {
     position: absolute;
@@ -34,8 +35,9 @@ p {font-size: 18px;
 a.logo img{
     border: 5px solid white;
 }
-ul.contact{ height:40px;
-            padding-top: 10px;
+ul.contact{ 
+    height:40px;
+    padding-top: 10px;
             
 }
 .menu-contact {
@@ -45,11 +47,12 @@ ul.contact{ height:40px;
 .contact.nav>li {
     margin-left: 40px;
 }
-.contact>li>a { margin: 0px 0px; 
-                padding:0px; 
-                font-size:9pt;
-                font-family: 'Tauri', sans-serif;
-                text-transform: uppercase;
+.contact>li>a { 
+    margin: 0px 0px; 
+    padding:0px; 
+    font-size:9pt;
+    font-family: 'Tauri', sans-serif;
+    text-transform: uppercase;
 }
 .principal {
     padding-right: 20px;
@@ -63,24 +66,24 @@ ul.contact{ height:40px;
     height: 80px!important;
 }
 .menu-principal>li>a { margin: 0px 0px; 
-                    padding-top: 30px; 
-                    font-size:12pt;
-                    font-family: 'Tauri', sans-serif;
-                    text-transform: uppercase;
-                    height: 80px; 
-                    width: 100%;
-                    text-align: center;
-                    padding-left: 60px;
-                    padding-right: 60px;
+    padding-top: 30px; 
+    font-size:12pt;
+    font-family: 'Tauri', sans-serif;
+    text-transform: uppercase;
+    height: 80px; 
+    width: 100%;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 .navbar-default .navbar-nav.menu-principal>li>a { 
-                    color: white;
+    color: white;
 }
 
 .nav.menu-principal>li>a:hover { 
-                 background-color: #c6262d;
-                 height: 80px;  
-}
+    background-color: #c6262d;
+    height: 80px;  
+}æ
 
 /*** MENU DÉROULANT ***/
 #menu-deroulant, #menu-deroulant ul {
@@ -328,6 +331,17 @@ footer #footer-deux h5 {
     #form-infolettre input[type="email"]{
         width: 90%;
     }
+    /* Stylistique de la police */
+    footer #footer-un #reseaux-sociaux h5, 
+    footer #footer-un #infolettre h5,
+    footer #footer-un #footer-menu li,
+    #form-infolettre input[type="email"],
+    #form-infolettre input[type="submit"] {
+        font-size: 7pt;
+    }
+    footer #footer-un p {
+        font-size: 5pt;
+    }
     /* #################### Menu #################### */
     .contact>li>a { 
         font-size:6pt;
@@ -396,6 +410,18 @@ footer #footer-deux h5 {
     a.a-2 {
         margin-right: 11.1%;
     }
+    /* #################### Footer #################### */
+    /* Stylistique de la police */
+    footer #footer-un #reseaux-sociaux h5, 
+    footer #footer-un #infolettre h5,
+    footer #footer-un #footer-menu li,
+    #form-infolettre input[type="email"],
+    #form-infolettre input[type="submit"] {
+        font-size: 7pt;
+    }
+    footer #footer-un p {
+        font-size: 5pt;
+    }
 }
 @media screen and (min-width: 1201px) and (max-width: 1600px)  {
     /* #################### Menu #################### */
@@ -418,6 +444,13 @@ footer #footer-deux h5 {
     #menu-deroulant, #menu-deroulant ul {
         font-size: 7pt;
         margin-right: -27px;
+    }
+    /* #################### Footer #################### */
+    /* Stylistique de la police */
+    footer #footer-un #reseaux-sociaux h5, 
+    footer #footer-un #infolettre h5,
+    footer #footer-un #footer-menu li {
+        font-size: 10pt;
     }
 }
 /*//////////////////////////// LARGE DESTOPS AMD LAPTOPS /////////////////////////// 1 /*/
