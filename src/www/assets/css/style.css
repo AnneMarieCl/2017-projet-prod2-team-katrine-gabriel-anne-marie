@@ -92,10 +92,10 @@ ul.contact{ height:40px;
     margin-bottom: 40px;
 }
 a.a-1 {
-    margin-right: 375px;
+    margin-right: 24%;
 }
 a.a-2 {
-    margin-right: 398px;
+    margin-right: 25.5%;
 }
 #menu-deroulant a {
     text-decoration: none;
@@ -112,7 +112,7 @@ a.a-2 {
 /* Au survol des li du menu on replace les sous menus */
     left: auto;
     background-color:#c6262d; 
-    width: 850%;
+    width: 1850%;
 }
 #menu-deroulant a:hover {
     color: #455560;
@@ -308,6 +308,9 @@ footer #footer-deux h5 {
         text-align: center;
         width: 50%;
     }
+    #menu-deroulant ul {
+    display: none;
+    }
 }
 
 /* Small device */
@@ -331,7 +334,9 @@ footer #footer-deux h5 {
     .menu-principal.nav>li {
     padding-left: 0px;
     }
-   
+    #menu-deroulant, #menu-deroulant ul {
+    font-size: 7pt;
+    }
     a.logo img {
         width: 140%;
         background-color: white;
@@ -369,6 +374,9 @@ footer #footer-deux h5 {
     .menu-principal.nav>li {
     padding-left: 0px;
     }
+    #menu-deroulant, #menu-deroulant ul {
+    font-size: 7pt;
+    }
     a.logo img {
         width: 120%;
         background-color: white;
@@ -381,11 +389,17 @@ footer #footer-deux h5 {
     .onglet {
     margin-right: 50px;
     }
+    #menu-deroulant, #menu-deroulant ul {
+    font-size: 7pt;
+    }
 }
 /*//////////////////////////// LARGE DESTOPS AMD LAPTOPS /////////////////////////// 1 /*/
-@media screen and (min-width: 1601px) and ( max-width: 1900px ) {
+@media screen and (min-width: 1601px) and ( max-width: 1701px ) {
     .menu-principal>li>a {
         font-size: 10pt;  
+    }
+    #menu-deroulant, #menu-deroulant ul {
+    font-size: 9pt;
     }
 }
 
