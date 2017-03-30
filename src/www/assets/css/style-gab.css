@@ -1,7 +1,13 @@
+a:hover {
+    text-decoration: none;
+}
+
+/*Correction horizontal Scroll Bar*/
 #blog .row {
     margin: 0;
 }
 
+/*Style des catégories des articles*/
 #post-type ul{
     padding: 0;
 }
@@ -17,7 +23,6 @@
 
 #post-type ul li a{
     display: block;
-    text-decoration: none;
     color:#000;
     padding: 15px 0;
 }
@@ -32,8 +37,96 @@
     background: #ee3a43;
 }
 
+/* Tentative Page Bar
+.fa-angle-double-left {
+    position: relative;
+}
+
+.fa-angle-double-left span {
+    padding-right: 50px;
+}
+
+.fa-angle-double-left:after {
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 0;
+    height: 0.5em;
+    border-top: 1px solid black;
+    z-index: -1;
+}
+
+.fa-angle-double-right {
+    position: relative;
+}
+
+.fa-angle-double-right span {
+    padding-right: 50px;
+}
+
+.fa-angle-double-right:before {
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 10px;
+    height: 0.5em;
+    border-top: 1px solid black;
+    z-index: -1;
+}
+*/
+
+.pager {
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.pager li {
+    display: block;
+    float: left;
+    width:12.5%;
+}
+
+.pager a {
+    font-size: 18px;
+    color: #ee3a43;
+    padding: 0;
+    border: 0!important;
+}
+
+.pager a:hover {
+    background: #fff!important;
+    color: #000;
+}
+
+.article {
+    padding: 50px 0;
+    border-bottom: 1px #ee3a43 solid;
+}
+
+.article a {
+    color: #ee3a43;
+    font-size: 18px;
+}
+
+.article img {
+    position: relative;
+}
+
+.article .ruban {
+    color: #fff;
+    background: #ee3a43;
+    position: absolute;
+    top: 10%;
+    width: 50%;
+    padding: 5px 10px ;
+}
+
 aside {
     background: #d5dbdf;
+    height: 100%;
+    display: block;
 }
 
 aside h4 {
@@ -52,7 +145,6 @@ aside a {
     font-size: 16px;
     background: #ee3a43;
     color: #fff;
-    text-decoration: none;
     width: 100%;
     display: block;
     padding: 10px 0;
