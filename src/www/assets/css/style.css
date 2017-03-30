@@ -69,9 +69,7 @@ ul.contact{ height:40px;
 .navbar-default .navbar-nav.menu-principal>li>a { 
                     color: white;
 }
-.menu-principal.nav>li {
-    padding-left: 100px;
-}
+
 .nav.menu-principal>li>a:hover { 
                  background-color: #c6262d;
                  height: 80px;  
@@ -80,6 +78,9 @@ ul.contact{ height:40px;
 #menu-deroulant, #menu-deroulant ul {
     padding-left: 15px;
     list-style: none;
+    text-transform: uppercase;
+    font-family: 'Tauri', sans-serif;
+    font-size: 10pt;
 }
 .lien-1 {
     margin-top: 40px;
@@ -90,6 +91,9 @@ ul.contact{ height:40px;
 }
 a.a-1 {
     margin-right: 375px;
+}
+a.a-2 {
+    margin-right: 398px;
 }
 #menu-deroulant a {
     text-decoration: none;
@@ -107,6 +111,9 @@ a.a-1 {
     left: auto;
     background-color:#c6262d; 
     width: 850%;
+}
+#menu-deroulant a:hover {
+    color: #455560;
 }
 
 /* #################### FOOTER #################### */

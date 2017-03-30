@@ -68,7 +68,7 @@
                         <!-- MENU PRINCIPAL -->
                         <div class="collapse navbar-collapse principal" id="bs-example-navbar-collapse-1">
                             <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 enleve-padding">       
-                                <ul class="nav navbar-nav navbar-right menu-principal" id="menu-deroulant">
+                                <ul class="nav navbar-nav menu-principal" id="menu-deroulant">
                                     
                                     <li>
                                         <a href="#">La ccis</a>
@@ -78,7 +78,7 @@
                                                             <a href="#">Les comités d'organisation</a>
                                                         </li>
                                                         <li class="lien-2">
-                                                            <a href="#">Conseil d'administration</a>
+                                                            <a class="a-2" href="#">Conseil d'administration</a>
                                                             <a href="#">Les implications</a>
                                                         </li>
                                                     </ul>
