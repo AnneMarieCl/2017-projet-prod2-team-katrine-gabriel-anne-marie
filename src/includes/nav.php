@@ -20,13 +20,13 @@
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                                 <ul class="nav navbar-nav navbar-right contact">
                                     <li>
-                                        <a href="#">Facebook</a>
+                                        <a href="https://www.facebook.com/CCIShawi" target="_blank">Facebook</a>
                                     </li>
                                     <li>
-                                        <a href="#">Linkedin</a>
+                                        <a href="https://www.linkedin.com/company/3266947?trk=tyah&trkInfo=tas%3AChambre%20de%20commerce%20et%20d%27industrie%20de%20Shawi" target="_blank">Linkedin</a>
                                     </li>
                                     <li>
-                                        <a href="#">Twitter</a>
+                                        <a href="https://twitter.com/CCIShawinigan" target="_blank">Twitter</a>
                                     </li>
                                     <li>
                                         <a href="#">819-536-0777</a>
