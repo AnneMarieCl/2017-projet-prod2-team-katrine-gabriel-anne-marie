@@ -63,34 +63,40 @@
                                     
                                     <li class="onglet">
                                         <a class="premier-niveau" href="ccis.php">La ccis</a>
-                                                    <ul id="deroule">
-                                                        <li class="lien-1">
-                                                            <a class="a-1" href="#">Présentation de la chambre</a>
-                                                            <a href="#">Les comités d'organisation</a>
-                                                        </li>
-                                                        <li class="lien-2">
-                                                            <a class="a-2" href="#">Conseil d'administration</a>
-                                                            <a href="#">Les implications</a>
-                                                        </li>
-                                                    </ul>
+                                        <ul id="deroule">
+                                            <li class="lien-1">
+                                                <a class="a-1" href="#">Présentation de la chambre</a>
+                                                <a href="#">Les comités d'organisation</a>
+                                            </li>
+                                            <li class="lien-2">
+                                                <a class="a-2" href="#">Conseil d'administration</a>
+                                                <a href="#">Les implications</a>
+                                            </li>
+                                        </ul>
                                     </li>
+
                                     <li id="onglet">
                                         <a href="publications.php">Publications</a>
                                     </li>
+
                                     <li id="onglet">
                                         <a href="formations-evenements.php">Formations et événements</a>
                                     </li>
+
                                     <li id="onglet">
                                         <a href="blogue.php">Blogue</a>
                                     </li>
+
                                     <li id="onglet">
                                         <a href="espace-membre.php">espace membre</a>
                                     </li>
+
                                     <li id="onglet">
                                         <a href="boutique.php">Boutique</a>
                                     </li>
+
                                     <li>
-                                        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-search" id="loupe" aria-hidden="true"></i></a>
                                     </li>
                                 </ul>
                         </div>
