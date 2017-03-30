@@ -80,7 +80,7 @@ ul.contact{ height:40px;
                  height: 80px;  
 }
 
-/*** MENU DÉROULANT test***/
+/*** MENU DÉROULANT ***/
 #menu-deroulant, #menu-deroulant ul {
     list-style: none;
     text-transform: uppercase;
@@ -241,7 +241,7 @@ footer #footer-deux h5 {
     .logo {
         background: none;
     }
-    /* #################### NAV #################### */
+    /* #################### MENU #################### */
     .burger {
         background-color: #ee3a43;
         margin-top: 25px;
@@ -328,7 +328,6 @@ footer #footer-deux h5 {
         width: 90%;
     }
     /* #################### Menu #################### */
-    /* Menu de navigation */
     .contact>li>a { 
                 font-size:6pt;
     }
@@ -356,13 +355,11 @@ footer #footer-deux h5 {
     a.a-2 {
         margin-right: 11.4%;
     }
-
 }
 
 /* Medium device */
 @media screen and (min-width: 992px) and (max-width: 1200px){
     /* #################### Menu #################### */
-    /* Menu de navigation */
     .contact>li>a { 
                 font-size:7pt;
     }
@@ -373,7 +370,6 @@ footer #footer-deux h5 {
                     padding-left: 25px;
                     padding-right: 25px;
     }
-
     a.logo img {
         width: 120%;
         background-color: white;
@@ -401,6 +397,7 @@ footer #footer-deux h5 {
     }
 }
 @media screen and (min-width: 1201px) and (max-width: 1600px)  {
+    /* #################### Menu #################### */
     .menu-principal>li>a {
          font-size: 10pt;  
          width: 100%;
@@ -424,6 +421,7 @@ footer #footer-deux h5 {
 }
 /*//////////////////////////// LARGE DESTOPS AMD LAPTOPS /////////////////////////// 1 /*/
 @media screen and (min-width: 1601px) and ( max-width: 1701px ) {
+    /* #################### Menu #################### */
     .menu-principal>li>a {
          font-size: 10pt;
          width: 100%;
@@ -447,6 +445,7 @@ footer #footer-deux h5 {
 }
 /*//////////////////////////// LARGE DESTOPS AMD LAPTOPS /////////////////////////// 1 /*/
 @media screen and (min-width: 1702px) and ( max-width: 1760px ) {
+    /* #################### Menu #################### */
     .menu-principal>li>a {
          font-size: 11pt;
          width: 100%;
