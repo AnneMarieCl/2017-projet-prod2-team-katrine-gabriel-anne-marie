@@ -6,18 +6,18 @@
                     <div class="row">
                         <!-- Logo de l'entreprise -->
                         <div id="img-footer" class="col-xs-12 col-sm-3 col-md-3 col-lg-2">
-                            <a href="#"><img src="assets/images/logo-footer.png" alt="Logo CCIS"></a>
+                            <a href="index.php"><img src="assets/images/logo-footer.png" alt="Logo CCIS"></a>
                         </div>
 
                         <!-- Menu de navigation -->
                         <div id="footer-nav" class="col-xs-12 col-sm-3 col-md-3 col-lg-2">
                             <ul id="footer-menu">
-                                <li><a href="#">LA CCIS</a></li>
-                                <li><a href="#">PUBLICATIONS</a></li>
-                                <li><a href="#">FORMATIONS ET ÉVÉNEMENTS</a></li>
-                                <li><a href="#">BLOGUE</a></li>
-                                <li><a href="#">ESPACE MEMBRE</a></li>
-                                <li><a href="#">BOUTIQUE</a></li>
+                                <li><a href="index.php">LA CCIS</a></li>
+                                <li><a href="publications.php">PUBLICATIONS</a></li>
+                                <li><a href="evenement.php">FORMATIONS ET ÉVÉNEMENTS</a></li>
+                                <li><a href="blogue.php">BLOGUE</a></li>
+                                <li><a href="membre.php">ESPACE MEMBRE</a></li>
+                                <li><a href="boutique.php">BOUTIQUE</a></li>
                             </ul>
                         </div>
 
