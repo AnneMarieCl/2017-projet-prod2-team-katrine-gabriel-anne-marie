@@ -329,20 +329,46 @@ footer #footer-deux h5 {
 }
 /* X-Small device */
 @media (max-width: 768px){
-    /* #################### NAV #################### */
-    .contact>li>a { 
-                font-size:6pt;
-    }
-    .menu-principal>li>a {
-                    font-size:7pt;
-    }
-    .menu-principal.nav>li {
-    padding-left: 0px;
-    }
-   
+    /* #################### LOGO #################### */
     a.logo img {
-        width: 140%;
         background-color: white;
+        width: 50%;
+        margin-top: -50px;
+    }
+    .logo {
+        background: none;
+    }
+    /* #################### NAV #################### */
+    .burger {
+        background-color: #ee3a43;
+        margin-top: 25px;
+    }
+    .enleve-border {
+        min-height: 0px;
+    }
+    .navbar-header {
+        padding-right: 25px;
+    }
+    .sf-menu {
+        background-color: #ee3a43;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+    }
+    .navbar-default {
+        background: none;
+    }
+    #bs-example-navbar-collapse-1 {
+    height: auto!important;
+    }
+    .enleve-padding {
+        padding-right: 0px;
+    }
+    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height:none;
+    }
+    .navbar-nav {
+    margin: 35px -45px;
     }
     /* #################### FOOTER #################### */
     /* Aligner les textes au centre */

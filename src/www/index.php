@@ -6,6 +6,7 @@
        
         <!-- LOGO | MENU PRINCIPAL | INFORMATION DE CONTACT -->
         <nav class="navbar navbar-default navbar-fixed-top">
+          <section class="burger">
             <div class="container-fluid">
                 <!-- BOUTON RESPONSIVE -->
                 <div class="navbar-header">
@@ -17,10 +18,11 @@
                     </button>
                    
                 </div>
+            </section>
                 <section class="menu-contact">
                  <!-- Menu de contact -->
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 enleve-border">
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                                 <ul class="nav navbar-nav navbar-right contact">
                                     <li>
@@ -65,7 +67,7 @@
                             </div>
                         <!-- MENU PRINCIPAL -->
                         <div class="collapse navbar-collapse principal" id="bs-example-navbar-collapse-1">
-                            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">       
+                            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 enleve-padding">       
                                 <ul class="nav navbar-nav navbar-right menu-principal" id="example">
                                     
                                     <li class="active sf-menu">
