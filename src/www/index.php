@@ -68,8 +68,8 @@
                                 <ul class="nav navbar-nav menu-principal navbar-right" id="menu-deroulant">
                                     
                                     <li class="onglet">
-                                        <a href="a-propos.php">La ccis</a>
-                                                    <ul class="deroule">
+                                        <a class="premier-niveau" href="a-propos.php">La ccis</a>
+                                                    <ul id="deroule">
                                                         <li class="lien-1">
                                                             <a class="a-1" href="#">Présentation de la chambre</a>
                                                             <a href="#">Les comités d'organisation</a>
@@ -80,19 +80,19 @@
                                                         </li>
                                                     </ul>
                                     </li>
-                                    <li class="onglet">
+                                    <li id="onglet">
                                         <a href="publications.php">Publications</a>
                                     </li>
-                                    <li class="onglet">
+                                    <li id="onglet">
                                         <a href="evenement.php">Formations et événements</a>
                                     </li>
-                                    <li class="onglet">
+                                    <li id="onglet">
                                         <a href="blogue.php">Blogue</a>
                                     </li>
-                                    <li class="onglet">
+                                    <li id="onglet">
                                         <a href="membre.php">espace membre</a>
                                     </li>
-                                    <li class="onglet">
+                                    <li id="onglet">
                                         <a href="boutique.php">Boutique</a>
                                     </li>
                                     <li>

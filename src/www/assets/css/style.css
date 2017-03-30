@@ -65,7 +65,12 @@ ul.contact{ height:40px;
                     font-family: 'Tauri', sans-serif;
                     text-transform: uppercase;
                     height: 80px; 
+                    width: 100%;
+                    text-align: center;
+                    padding-left: 60px;
+                    padding-right: 60px;
 }
+
 .navbar-default .navbar-nav.menu-principal>li>a { 
                     color: white;
 }
@@ -74,28 +79,29 @@ ul.contact{ height:40px;
                  background-color: #c6262d;
                  height: 80px;  
 }
-.onglet {
-    margin-right: 90px;
-}
+
 /*** MENU DÉROULANT test***/
 #menu-deroulant, #menu-deroulant ul {
     list-style: none;
     text-transform: uppercase;
     font-family: 'Tauri', sans-serif;
     font-size: 10pt;
+    margin-right: -60px;
 }
 .lien-1 {
     margin-top: 40px;
     padding-bottom: 20px;
+    margin-left: 20px;
 }
 .lien-2 {
     margin-bottom: 40px;
+    margin-left: 20px;
 }
 a.a-1 {
-    margin-right: 24%;
+    margin-right: 10%;
 }
 a.a-2 {
-    margin-right: 25.5%;
+    margin-right: 10.75%;
 }
 #menu-deroulant a {
     text-decoration: none;
@@ -114,7 +120,7 @@ a.a-2 {
     background-color:#c6262d; 
     width: 1850%;
 }
-#menu-deroulant a:hover {
+#deroule a:hover {
     color: #455560;
 }
 
@@ -272,8 +278,9 @@ footer #footer-deux h5 {
     }
     .menu-principal>li>a { 
                     font-size:9pt;
-                    margin-left: 10px;
-}
+                    margin-left: -50px;
+                    text-align: left;
+    }
     /* #################### FOOTER #################### */
     /* Aligner les textes au centre */
     footer #footer-un, 
@@ -327,19 +334,27 @@ footer #footer-deux h5 {
     }
     .menu-principal>li>a {
                     font-size:7pt;
-    }
-    .onglet {
-    margin-right: 5px;
-    }
-    .menu-principal.nav>li {
-    padding-left: 0px;
+                    width: 100%;
+                    text-align: center;
+                    padding-left: 16px;
+                    padding-right: 16px;
     }
     #menu-deroulant, #menu-deroulant ul {
     font-size: 7pt;
+    margin-right: -16px;
     }
     a.logo img {
-        width: 140%;
+        width: 120%;
         background-color: white;
+    }
+    .lien-1 {
+    margin-left: -20px;
+    }
+    .lien-2 {
+        margin-left: -20px;
+    }
+    a.a-2 {
+        margin-right: 11.4%;
     }
 
 }
@@ -352,12 +367,13 @@ footer #footer-deux h5 {
                 font-size:7pt;
     }
     .menu-principal>li>a {
-                    font-size:10pt;
+                    font-size:7pt;
+                    width: 100%;
+                    text-align: center;
+                    padding-left: 25px;
+                    padding-right: 25px;
     }
-    .menu-principal.nav>li {
-    padding-left: 0px;
-    }
-   
+
     a.logo img {
         width: 120%;
         background-color: white;
@@ -365,41 +381,91 @@ footer #footer-deux h5 {
      .contact>li>a { 
                 font-size:7pt;
     }
-    .menu-principal>li>a {
-        font-size: 8pt;  
-    }
-    .onglet {
-    margin-right: 20px;
-    }
-    .menu-principal.nav>li {
-    padding-left: 0px;
-    }
+
     #menu-deroulant, #menu-deroulant ul {
     font-size: 7pt;
+     margin-right: -20px;
     }
     a.logo img {
         width: 120%;
         background-color: white;
     }
+    .lien-1 {
+    margin-left: -16px;
+    }
+    .lien-2 {
+        margin-left: -16px;
+    }
+    a.a-2 {
+        margin-right: 11.1%;
+    }
 }
 @media screen and (min-width: 1201px) and (max-width: 1600px)  {
     .menu-principal>li>a {
-        font-size: 8pt;  
+         font-size: 10pt;  
+         width: 100%;
+         text-align: center;
+         padding-left: 30px;
+         padding-right: 30px;
     }
-    .onglet {
-    margin-right: 50px;
+    .lien-1 {
+    margin-left: -10px;
+    }
+    .lien-2 {
+        margin-left: -10px;
+    }
+    a.a-2 {
+        margin-right: 10.85%;
     }
     #menu-deroulant, #menu-deroulant ul {
     font-size: 7pt;
+    margin-right: -27px;
     }
 }
 /*//////////////////////////// LARGE DESTOPS AMD LAPTOPS /////////////////////////// 1 /*/
 @media screen and (min-width: 1601px) and ( max-width: 1701px ) {
     .menu-principal>li>a {
-        font-size: 10pt;  
+         font-size: 10pt;
+         width: 100%;
+         text-align: center;
+         padding-left: 50px;
+         padding-right: 50px;
+    }
+    .lien-1 {
+    margin-left: 10px;
+    }
+    .lien-2 {
+        margin-left: 10px;
+    }
+    a.a-2 {
+        margin-right: 10.8%;
     }
     #menu-deroulant, #menu-deroulant ul {
     font-size: 9pt;
+    margin-right: -50px;
+    }
+}
+/*//////////////////////////// LARGE DESTOPS AMD LAPTOPS /////////////////////////// 1 /*/
+@media screen and (min-width: 1702px) and ( max-width: 1760px ) {
+    .menu-principal>li>a {
+         font-size: 11pt;
+         width: 100%;
+         text-align: center;
+         padding-left: 50px;
+         padding-right: 50px;
+    }
+    .lien-1 {
+    margin-left: 10px;
+    }
+    .lien-2 {
+        margin-left: 10px;
+    }
+    a.a-2 {
+        margin-right: 10.8%;
+    }
+    #menu-deroulant, #menu-deroulant ul {
+    font-size: 9pt;
+    margin-right: -50px;
     }
 }
 
