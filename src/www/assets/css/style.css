@@ -248,6 +248,9 @@ footer #footer-deux h5 {
         background: none;
     }
     /* #################### MENU #################### */
+    .navbar-default .navbar-toggle:focus{
+        background-color:transparent;
+    }
     .burger {
         margin-top: 0px;
         background-color: #ee3a43;
@@ -285,8 +288,10 @@ footer #footer-deux h5 {
     }
     .menu-principal>li>a { 
         font-size:9pt;
-        margin-left: -50px;
-        text-align: left;
+        margin-left: 0px;
+        margin-right:0px;
+        padding:0;
+        text-align: center;
     }
     /* #################### FOOTER #################### */
     /* Aligner les textes au centre */
