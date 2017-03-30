@@ -111,10 +111,6 @@ a.a-1 {
 a.a-2 {
     margin-right: 10.75%;
 }
-#menu-deroulant a {
-    text-decoration: none;
-	color:white;
-}
 #menu-deroulant ul {
     position: absolute;
 /* on cache les sous menus complètement sur la gauche */
@@ -263,7 +259,8 @@ footer #footer-deux h5 {
         background-color: #c6262d;
     }
     .navbar-default .navbar-nav.menu-principal>li>a:hover {
-        color: #555;
+        color: #3e3d3d;
+        background:transparent;
     }
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
         border: none;
