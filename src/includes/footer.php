@@ -1,24 +1,3 @@
-<!DOCTYPE html>
-<html lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Title Page</title>
-
-        <!-- Bootstrap CSS -->
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-        <!-- Font Awesome -->
-        <script src="https://use.fontawesome.com/6bafb21672.js"></script>
-        <!-- FONT -->
-        <link href="https://fonts.googleapis.com/css?family=Lato%7CTauri" rel="stylesheet">
-        <!-- Feuille de style générale -->
-        <link href="assets/css/style.css" rel="stylesheet">
-        <!-- Feuille de style générale -->
-        <link href="assets/css/style-gab.css" rel="stylesheet">
-
-    </head>
-    <body>
         <!-- Début du footer-->
         <footer>
             <!-- Première section du footer -->
@@ -36,7 +15,7 @@
                                 <li><a href="#">LA CCIS</a></li>
                                 <li><a href="#">PUBLICATIONS</a></li>
                                 <li><a href="#">FORMATIONS ET ÉVÉNEMENTS</a></li>
-                                <li class="current"><a href="">BLOGUE</a></li>
+                                <li><a href="#">BLOGUE</a></li>
                                 <li><a href="#">ESPACE MEMBRE</a></li>
                                 <li><a href="#">BOUTIQUE</a></li>
                             </ul>
@@ -80,10 +59,3 @@
             </section>
         </footer>
         <!-- Fin du footer-->
-
-        <!-- jQuery -->
-        <script src="//code.jquery.com/jquery.js"></script>
-        <!-- Bootstrap JavaScript -->
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    </body>
-</html>

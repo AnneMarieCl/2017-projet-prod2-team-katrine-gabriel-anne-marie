@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-     <meta charset="utf-8">
-     <meta http-equiv="X-UA-Compatible" content="IE-edge">
-     <title>Chambre de commerce et d'industrie de Shawinigan</title>
-     <!-- Bootstrap -->
-     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-     <!-- FONT -->
-     <link href="https://fonts.googleapis.com/css?family=Lato|Tauri" rel="stylesheet">
-     <script src="https://use.fontawesome.com/2a85d3823f.js"></script>
-     <!-- Feuille de style générale -->
-     <link href="assets/css/style.css" rel="stylesheet">
-</head>
+    <?php include'../includes/head.php'; ?>
 <body>
     <header>
        
@@ -127,6 +116,9 @@
         
     </header>
 
+    <?php include'../includes/footer.php'; ?>
+
+    <?php include'../includes/script.php'; ?>
 
     <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
     <script src="assets/js/jquery.js"></script>

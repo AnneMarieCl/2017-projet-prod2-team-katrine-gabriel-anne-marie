@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-     <meta charset="utf-8">
-     <meta http-equiv="X-UA-Compatible" content="IE-edge">
-     <title>LA CCIS</title>
-     <!-- Bootstrap -->
-     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-     <!-- FONT -->
-     <link href="https://fonts.googleapis.com/css?family=Lato|Tauri" rel="stylesheet">
-     <!-- Feuille de style générale -->
-     <link href="../assets/css/style.css" rel="stylesheet">
-</head>
+    <?php include'../includes/head.php'; ?>
     <body>
         <!-- Main -->
         <main>
@@ -96,5 +86,10 @@
             
         </main>
         <!-- Fin du main -->
+
+        <?php include'../includes/footer.php'; ?>
+
+        <?php include'../includes/script.php'; ?>
+
     </body>
 </html>
