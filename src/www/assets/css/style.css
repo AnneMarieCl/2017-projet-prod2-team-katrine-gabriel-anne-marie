@@ -478,7 +478,7 @@ footer #footer-deux h5 {
     }
 }
 /*//////////////////////////// LARGE DESTOPS AMD LAPTOPS /////////////////////////// 1 /*/
-@media screen and (min-width: 1702px) and ( max-width: 1760px ) {
+@media screen and (min-width: 1702px) and ( max-width: 4000px) {
     /* #################### Menu #################### */
     .menu-principal>li>a {
          font-size: 11pt;
