@@ -57,15 +57,15 @@
               </section>
               <section class="principal">
                  <div class="row">
-                        <!-- MENU PRINCIPAL -->
-                        <div class="collapse navbar-collapse principal" id="bs-example-navbar-collapse-1">
-                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
                                 <!-- LOGO -->
                                 <a class="logo" href="index.html">
                                     <img src="assets/images/logo-principal.png" alt="">
                                 </a>
                             </div>
-                            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">       
+                        <!-- MENU PRINCIPAL -->
+                        <div class="collapse navbar-collapse principal" id="bs-example-navbar-collapse-1">
+                            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">       
                                 <ul class="nav navbar-nav navbar-right menu-principal" id="example">
                                     
                                     <li class="active sf-menu">
@@ -116,7 +116,7 @@
         
     </header>
 
-    <?php include'../includes/footer.php'; ?>
+    
 
     <?php include'../includes/script.php'; ?>
 
