@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <?php include'../includes/head.php'; ?>
-<body>
+    <body>
 
-    <header>
-        <?php include'../includes/nav.php'; ?>
-    </header>
+        <header>
+            <?php include'../includes/nav.php'; ?>
+        </header>
 
-    <main>
-        
-    </main>
+        <main>
 
-    <?php include'../includes/footer.php'; ?>
+        </main>
 
-    <?php include'../includes/script.php'; ?>
+        <?php include'../includes/footer.php'; ?>
 
-    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
-    <script src="assets/js/jquery.js"></script>
+        <?php include'../includes/script.php'; ?>
 
-</body>
+        <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+        <script src="assets/js/jquery.js"></script>
+
+    </body>
 </html>
