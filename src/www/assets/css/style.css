@@ -328,7 +328,7 @@ footer #footer-deux h5 {
     }
 }
 /* X-Small device */
-@media (max-width: 768px){
+@media (max-width: 767px){
     /* #################### LOGO #################### */
     a.logo img {
         background-color: white;
@@ -349,8 +349,11 @@ footer #footer-deux h5 {
     .navbar-header {
         padding-right: 25px;
     }
-    .sf-menu {
-        background-color: #ee3a43;
+    .principal {
+        background-color: #c6262d;
+    }
+    .navbar-default .navbar-nav.menu-principal>li>a:hover {
+    color: #555;
     }
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border: none;
