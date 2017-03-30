@@ -2,12 +2,12 @@ a:hover {
     text-decoration: none;
 }
 
-/*Correction horizontal Scroll Bar*/
+/* Correction horizontal Scroll Bar */
 #blog .row {
     margin: 0;
 }
 
-/*Style des catégories des articles*/
+/* Style des catégories des articles */
 #post-type ul{
     padding: 0;
 }

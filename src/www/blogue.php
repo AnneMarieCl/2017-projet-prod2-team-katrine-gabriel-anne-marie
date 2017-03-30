@@ -2,8 +2,12 @@
 <html lang="">
     <?php include'../includes/head.php'; ?>
     <body>
-        <!-- Début du main -->
+        
+        <header>
+            <?php include'../includes/nav.php'; ?>
+        </header>
 
+        <!-- Début du main -->
         <main>
             <section id="blog">
                 <div class="container-fluid">

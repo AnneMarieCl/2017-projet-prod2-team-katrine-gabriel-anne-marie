@@ -2,6 +2,11 @@
 <html>
     <?php include'../includes/head.php'; ?>
     <body>
+        
+        <header>
+            <?php include'../includes/nav.php'; ?>
+        </header>
+
         <!-- Main -->
         <main>
 

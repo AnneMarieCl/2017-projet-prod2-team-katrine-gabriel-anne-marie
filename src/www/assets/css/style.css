@@ -21,7 +21,6 @@ h3 {font-size: 44pt;
 h4 {font-size: 24px;
     
 }
-
 p {font-size: 18px;
 }
 .logo {
@@ -31,6 +30,10 @@ p {font-size: 18px;
 }
 /* #################### HEADER #################### */
 /*** MENU HEADER ***/
+/* Ajouter une bordure autour du logo */
+a.logo img{
+    border: 5px solid white;
+}
 ul.contact{ height:40px;
             padding-top: 10px;
             
@@ -70,7 +73,6 @@ ul.contact{ height:40px;
                     padding-left: 60px;
                     padding-right: 60px;
 }
-
 .navbar-default .navbar-nav.menu-principal>li>a { 
                     color: white;
 }
@@ -126,7 +128,6 @@ a.a-2 {
 
 /* #################### FOOTER #################### */
 /* Stylistique général du footer */
-
 footer #footer-un {
     background: #3e3d3d;
     font-family: 'Tauri', sans-serif;
@@ -243,8 +244,8 @@ footer #footer-deux h5 {
     }
     /* #################### MENU #################### */
     .burger {
+        margin-top: 0px;
         background-color: #ee3a43;
-        margin-top: 25px;
     }
     .enleve-border {
         min-height: 0px;
@@ -256,30 +257,30 @@ footer #footer-deux h5 {
         background-color: #c6262d;
     }
     .navbar-default .navbar-nav.menu-principal>li>a:hover {
-    color: #555;
+        color: #555;
     }
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border: none;
+        border: none;
     }
     .navbar-default {
         background: none;
     }
     #bs-example-navbar-collapse-1 {
-    height: auto!important;
+        height: auto!important;
     }
     .enleve-padding {
         padding-right: 0px;
     }
     .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
-    max-height:none;
+        max-height:none;
     }
     .navbar-nav {
-    margin: 35px 0px;
+        margin: 35px 0px;
     }
     .menu-principal>li>a { 
-                    font-size:9pt;
-                    margin-left: -50px;
-                    text-align: left;
+        font-size:9pt;
+        margin-left: -50px;
+        text-align: left;
     }
     /* #################### FOOTER #################### */
     /* Aligner les textes au centre */
@@ -316,7 +317,7 @@ footer #footer-deux h5 {
         width: 50%;
     }
     #menu-deroulant ul {
-    display: none;
+        display: none;
     }
 }
 
@@ -329,25 +330,25 @@ footer #footer-deux h5 {
     }
     /* #################### Menu #################### */
     .contact>li>a { 
-                font-size:6pt;
+        font-size:6pt;
     }
     .menu-principal>li>a {
-                    font-size:7pt;
-                    width: 100%;
-                    text-align: center;
-                    padding-left: 16px;
-                    padding-right: 16px;
+        font-size:7pt;
+        width: 100%;
+        text-align: center;
+        padding-left: 16px;
+        padding-right: 16px;
     }
     #menu-deroulant, #menu-deroulant ul {
-    font-size: 7pt;
-    margin-right: -16px;
+        font-size: 7pt;
+        margin-right: -16px;
     }
     a.logo img {
         width: 120%;
         background-color: white;
     }
     .lien-1 {
-    margin-left: -20px;
+        margin-left: -20px;
     }
     .lien-2 {
         margin-left: -20px;
@@ -361,33 +362,33 @@ footer #footer-deux h5 {
 @media screen and (min-width: 992px) and (max-width: 1200px){
     /* #################### Menu #################### */
     .contact>li>a { 
-                font-size:7pt;
+        font-size:7pt;
     }
     .menu-principal>li>a {
-                    font-size:7pt;
-                    width: 100%;
-                    text-align: center;
-                    padding-left: 25px;
-                    padding-right: 25px;
+        font-size:7pt;
+        width: 100%;
+        text-align: center;
+        padding-left: 25px;
+        padding-right: 25px;
     }
     a.logo img {
         width: 120%;
         background-color: white;
     }
      .contact>li>a { 
-                font-size:7pt;
+        font-size:7pt;
     }
 
     #menu-deroulant, #menu-deroulant ul {
-    font-size: 7pt;
-     margin-right: -20px;
+        font-size: 7pt;
+        margin-right: -20px;
     }
     a.logo img {
         width: 120%;
         background-color: white;
     }
     .lien-1 {
-    margin-left: -16px;
+        margin-left: -16px;
     }
     .lien-2 {
         margin-left: -16px;
@@ -406,7 +407,7 @@ footer #footer-deux h5 {
          padding-right: 30px;
     }
     .lien-1 {
-    margin-left: -10px;
+        margin-left: -10px;
     }
     .lien-2 {
         margin-left: -10px;
@@ -415,8 +416,8 @@ footer #footer-deux h5 {
         margin-right: 10.85%;
     }
     #menu-deroulant, #menu-deroulant ul {
-    font-size: 7pt;
-    margin-right: -27px;
+        font-size: 7pt;
+        margin-right: -27px;
     }
 }
 /*//////////////////////////// LARGE DESTOPS AMD LAPTOPS /////////////////////////// 1 /*/
@@ -430,7 +431,7 @@ footer #footer-deux h5 {
          padding-right: 50px;
     }
     .lien-1 {
-    margin-left: 10px;
+        margin-left: 10px;
     }
     .lien-2 {
         margin-left: 10px;
@@ -439,8 +440,8 @@ footer #footer-deux h5 {
         margin-right: 10.8%;
     }
     #menu-deroulant, #menu-deroulant ul {
-    font-size: 9pt;
-    margin-right: -50px;
+        font-size: 9pt;
+        margin-right: -50px;
     }
 }
 /*//////////////////////////// LARGE DESTOPS AMD LAPTOPS /////////////////////////// 1 /*/
@@ -454,7 +455,7 @@ footer #footer-deux h5 {
          padding-right: 50px;
     }
     .lien-1 {
-    margin-left: 10px;
+        margin-left: 10px;
     }
     .lien-2 {
         margin-left: 10px;
@@ -463,8 +464,8 @@ footer #footer-deux h5 {
         margin-right: 10.8%;
     }
     #menu-deroulant, #menu-deroulant ul {
-    font-size: 9pt;
-    margin-right: -50px;
+        font-size: 9pt;
+        margin-right: -50px;
     }
 }
 
