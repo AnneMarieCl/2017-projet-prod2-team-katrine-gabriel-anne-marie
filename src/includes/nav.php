@@ -35,7 +35,7 @@
                                         <a href="#">info@ccishawinigan.ca</a>
                                     </li>
                                     <li>
-                                        <a href="nous-joindre.php">Contact</a>
+                                        <a href="contact.php">Contact</a>
                                     </li>
                                     <li>
                                         <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
@@ -62,7 +62,7 @@
                                 <ul class="nav navbar-nav menu-principal navbar-right" id="menu-deroulant">
                                     
                                     <li class="onglet">
-                                        <a class="premier-niveau" href="a-propos.php">La ccis</a>
+                                        <a class="premier-niveau" href="ccis.php">La ccis</a>
                                                     <ul id="deroule">
                                                         <li class="lien-1">
                                                             <a class="a-1" href="#">Présentation de la chambre</a>
@@ -78,13 +78,13 @@
                                         <a href="publications.php">Publications</a>
                                     </li>
                                     <li id="onglet">
-                                        <a href="evenement.php">Formations et événements</a>
+                                        <a href="formations-evenements.php">Formations et événements</a>
                                     </li>
                                     <li id="onglet">
                                         <a href="blogue.php">Blogue</a>
                                     </li>
                                     <li id="onglet">
-                                        <a href="membre.php">espace membre</a>
+                                        <a href="espace-membre.php">espace membre</a>
                                     </li>
                                     <li id="onglet">
                                         <a href="boutique.php">Boutique</a>

@@ -12,11 +12,11 @@
                         <!-- Menu de navigation -->
                         <div id="footer-nav" class="col-xs-12 col-sm-3 col-md-3 col-lg-2">
                             <ul id="footer-menu">
-                                <li><a href="index.php">LA CCIS</a></li>
+                                <li><a href="ccis.php">LA CCIS</a></li>
                                 <li><a href="publications.php">PUBLICATIONS</a></li>
-                                <li><a href="evenement.php">FORMATIONS ET ÉVÉNEMENTS</a></li>
+                                <li><a href="formations-evenements.php">FORMATIONS ET ÉVÉNEMENTS</a></li>
                                 <li><a href="blogue.php">BLOGUE</a></li>
-                                <li><a href="membre.php">ESPACE MEMBRE</a></li>
+                                <li><a href="espace-membre.php">ESPACE MEMBRE</a></li>
                                 <li><a href="boutique.php">BOUTIQUE</a></li>
                             </ul>
                         </div>
