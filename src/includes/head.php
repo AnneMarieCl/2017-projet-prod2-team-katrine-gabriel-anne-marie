@@ -9,5 +9,6 @@
      <script src="https://use.fontawesome.com/2a85d3823f.js"></script>
      <!-- Style.css -->
      <link href="assets/css/style.css" rel="stylesheet">
+     <link href="assets/css/style-gab.css" rel="stylesheet">
 </head>
 

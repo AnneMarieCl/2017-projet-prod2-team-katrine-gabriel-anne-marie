@@ -1,11 +1,35 @@
-#post-type{
-    background: #d5dbdf;
+#blog .row {
+    margin: 0;
+}
+
+#post-type ul{
+    padding: 0;
 }
 
 #post-type ul li{
-    display: inline-block;
-    font-size: 24px;
-    padding: 30px;
+    display: block;
+    float: left;
+    font-size: 18px;
+    width: 20%;
+    background: #d5dbdf;
+    font-family: 'Tauri', sans-serif;
+}
+
+#post-type ul li a{
+    display: block;
+    text-decoration: none;
+    color:#000;
+    padding: 15px 0;
+}
+
+#post-type ul li a.current {
+    background: #ee3a43;
+    color: #fff;
+}
+
+#post-type ul li a:hover{
+    color: #fff;
+    background: #ee3a43;
 }
 
 aside {
