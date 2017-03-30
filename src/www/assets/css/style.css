@@ -146,12 +146,12 @@ footer #footer-un #footer-nav, footer #footer-un #infolettre, footer #footer-un 
 
 /* Espace à gauche du logo */
 footer #footer-un #img-footer{
-    padding-left: 25px;
+    padding-left: 40px;
 }
 
 /* Espace à droite de la section réseaux sociaux */
 footer #footer-un #reseaux-sociaux{
-    padding-right: 25px;
+    padding-right: 40px;
 }
 
 /* Stylistique de la police */
@@ -230,7 +230,7 @@ footer #footer-deux h5 {
     color: #3e3d3d;
     font-size: 12px;
     text-align: right;
-    padding-right: 10px;
+    padding-right: 25px;
     margin: 20px 0;
 }
  /* #################### RESPONSIVE #################### */
