@@ -27,36 +27,38 @@ p {font-size: 18px;
 .logo {
     position: absolute;
     background-color: white;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 /* MENU HEADER */
 ul.contact{ height:40px;
             padding-top: 10px;
             
 }
-#bs-example-navbar-collapse-2 {
+.menu-contact {
     background-color: white;
+    padding-right: 40px;
 }
 .contact.nav>li {
-    padding-right: 20px;
-}
-.navbar-default .navbar-nav>li>a:hover {
-    color: #ee3a43;
-}
-.navbar-right {
-    margin-right: 30px;
-}
-.principal{ background:#ee3a43;
-    
-}
-#bs-example-navbar-collapse-1 {
-    height: 80px!important;
+    margin-left: 40px;
 }
 .contact>li>a { margin: 0px 0px; 
                 padding:0px; 
                 font-size:9pt;
                 font-family: 'Tauri', sans-serif;
                 text-transform: uppercase;
+}
+.principal {
+    padding-right: 20px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ee3a43;
+}
+
+.principal{ background:#ee3a43;
+    
+}
+#bs-example-navbar-collapse-1 {
+    height: 80px!important;
 }
 .menu-principal>li>a { margin: 0px 0px; 
                     padding-top: 30px; 
@@ -68,7 +70,7 @@ ul.contact{ height:40px;
                     color: white;
 }
 .menu-principal.nav>li {
-    padding-left: 80px;
+    padding-left: 101px;
 }
 .nav.menu-principal>li>a:hover { 
                  background-color: #c6262d;
@@ -79,7 +81,7 @@ ul.contact{ height:40px;
 	position: relative;
 }
 .sf-menu ul a {
-    padding-left: 15px;
+    padding-left: 35px;
     padding-top: 30px;
 }
 .sf-menu ul {
