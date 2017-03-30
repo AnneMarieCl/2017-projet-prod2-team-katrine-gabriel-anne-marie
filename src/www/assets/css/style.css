@@ -222,7 +222,7 @@ footer #footer-deux h5 {
     margin: 20px 0;
 }
 
-/* #################### ADAPTATION MOBILE ####################*/
+ /*#################### ADAPTATION MOBILE ####################
 /*//////////////////////////// LARGE DESTOPS AMD LAPTOPS /////////////////////////// 1 /*/
 @media screen and (min-width: 1601px) and ( max-width: 1900px ) {
     .menu-principal>li>a {
@@ -298,41 +298,9 @@ footer #footer-deux h5 {
         width: 120%;
         background-color: white;
     }
-}
-/* ///////////////////////////// TABLETS AMD MEDIUM DESTOPS //////////////////////// 2 /*/
-@media screen and (min-width: 992px) and (max-width: 1050px) {
-    .contact>li>a { 
-                font-size:7pt;
-    }
-    .menu-principal>li>a {
-                    font-size:10pt;
-    }
-    .menu-principal.nav>li {
-    padding-left: 0px;
-    }
-   
-    a.logo img {
-        width: 120%;
-        background-color: white;
-    }
-}
-/*///////////////////////////// TABLETS AND SMALL DESTOPS ////////////////////////// 3 /*/
-@media screen and (min-width: 768px) and (max-width: 991px) {
-    .contact>li>a { 
-                font-size:6pt;
-    }
-    .menu-principal>li>a {
-                    font-size:7pt;
-    }
-    .menu-principal.nav>li {
-    padding-left: 0px;
-    }
-   
-    a.logo img {
-        width: 140%;
-        background-color: white;
-    }
-}
+}*/
+
+
 /* X-Small device */
 @media (max-width: 767px){
     /* #################### LOGO #################### */
@@ -422,10 +390,41 @@ footer #footer-deux h5 {
     #form-infolettre input[type="email"]{
         width: 90%;
     }
+    /* #################### Menu #################### */
+    /* Menu de navigation */
+    .contact>li>a { 
+                font-size:6pt;
+    }
+    .menu-principal>li>a {
+                    font-size:7pt;
+    }
+    .menu-principal.nav>li {
+    padding-left: 0px;
+    }
+   
+    a.logo img {
+        width: 140%;
+        background-color: white;
+    }
 
 }
 
 /* Medium device */
 @media screen and (min-width: 992px) and (max-width: 1200px){
-
+    /* #################### Menu #################### */
+    /* Menu de navigation */
+    .contact>li>a { 
+                font-size:7pt;
+    }
+    .menu-principal>li>a {
+                    font-size:10pt;
+    }
+    .menu-principal.nav>li {
+    padding-left: 0px;
+    }
+   
+    a.logo img {
+        width: 120%;
+        background-color: white;
+    }
 }
