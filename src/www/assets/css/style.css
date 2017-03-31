@@ -187,7 +187,7 @@ p.inscription2:hover, p.inscription:hover {
     font-size: 15pt;
 }
 /* #################### SECTION PUBLICATION ET BLOGUE #################### */
-.publication {
+.publication,.blogue {
     min-height: 825px;
 }
 .titre {
@@ -210,13 +210,36 @@ p.inscription2:hover, p.inscription:hover {
 .publication a, .blogue a {
     display:inline-block;   
 }
-.publication p.lien, .blogue p.lien {
+.publication a p.lien, .blogue a p.lien {
     padding-right: 280px;   
     color: #ee3a43;
+    padding-top: 50px;
 }
 .publication p.lien:hover, .blogue p.lien:hover {  
     color: #3e3d3d;
 }
+.blogue .image {
+    padding-bottom: 55px;
+}
+/* #################### DEVENIR MEMBRE #################### */
+img.fond {
+    position: absolute;
+}
+.devenir-membre {
+    min-height: 500px;
+}
+.devenir-membre h2 {
+    color: white;
+    padding-top: 100px;
+    text-align: right;
+}
+a.bouton {
+    background-color: #ee3a43;
+    position: absolute;
+    width: 740px;
+    text-align: center;
+}
+
 /* #################### FOOTER #################### */
 /* Stylistique général du footer */
 footer #footer-un {
@@ -419,6 +442,7 @@ footer #footer-deux h5 {
     #menu-deroulant ul {
         display: none;
     }
+    
 }
 
 /* Small device */
