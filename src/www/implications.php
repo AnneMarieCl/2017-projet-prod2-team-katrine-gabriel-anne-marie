@@ -33,13 +33,12 @@
                                     <li>Réseautage Mauricie</li>
                                     <li>Femmessor</li>
                                     <li>Jeune Chambre de Commerce de la Mauricie</li>
-                                <ul>
+                                </ul>
 
                                 <!-- Événements -->
                                 <h4 class="espaceenahut">Événements</h4>
                                 <p>En plus d’organiser divers événements pour ses membres, la CCIS considère important de s’impliquer activement dans les activités externes répondant à son mandat.</p>
-                                <p>Vous désirez inviter la CCIS à s’impliquer dans votre événement?</p> 
-                                info@ccishawinigan.ca
+                                <p class="gras">Vous désirez inviter la CCIS à s’impliquer dans votre événement?<br><a href="#">info@ccishawinigan.ca</a></p> 
 
                             </div>
                             <!-- Section : Devenez membre -->

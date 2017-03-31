@@ -91,3 +91,7 @@ div.background-image{
     font-weight: bold;
     padding-top: 15px
 }
+
+#presentation-chambre p a{
+    color: #ee3a43;
+}
