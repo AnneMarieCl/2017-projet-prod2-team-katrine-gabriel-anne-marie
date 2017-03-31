@@ -86,7 +86,7 @@ ul.contact{
 .nav.menu-principal>li>a:hover { 
     background-color: #c6262d;
     height: 80px;  
-}æ
+}
 
 /*** MENU DÉROULANT ***/
 #menu-deroulant, #menu-deroulant ul {
@@ -121,7 +121,7 @@ a.a-2 {
 #menu-deroulant li:hover ul {
 /* Au survol des li du menu on replace les sous menus */
     left: auto;
-    background-color:#c6262d; 
+    background-color:rgba(198, 38, 45, 0.7); 
     width: 1850%;
 }
 #deroule a{
@@ -130,7 +130,22 @@ a.a-2 {
 #deroule a:hover {
     color: #455560;
 }
-
+.navbar {
+    border:none;
+}
+/* #################### SLIDER #################### */
+.image-1 {
+    position: relative;
+}
+.carousel-caption {
+    text-align: left;
+    left: 12%;
+    padding-bottom: 50px;
+}
+.carousel-caption h2 {
+    text-transform: uppercase;
+    font-size: 38pt;
+}
 /* #################### FOOTER #################### */
 /* Stylistique général du footer */
 footer #footer-un {
