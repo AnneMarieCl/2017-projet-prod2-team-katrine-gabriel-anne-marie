@@ -150,14 +150,14 @@
                     </div>
                     <section class="partenaire">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                                <h3>Partenaire</h3>
+                            <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 texte2">
+                                <h3>Nos partenaires</h3>
                             </div>
                             <div class="col-xs-hidden col-sm-hidden col-md-8 col-lg-8">
                                 
                             </div>
-                            <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
-                                <p>Voir tous les partenaires</p>
+                            <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 texte3">
+                                <a class="bouton-partn" href="#"><p>Voir tous les partenaires</p></a>
                             </div>
                         </div>
                         <div class="row">
