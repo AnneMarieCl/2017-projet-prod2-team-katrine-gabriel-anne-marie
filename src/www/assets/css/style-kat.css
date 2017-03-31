@@ -14,10 +14,22 @@ div.background-image{
     padding:0;
 }
 
-/* Grandeur du background de la sidebar */
+/* Grandeur du background de la sidebar page présentation de la chambre */
 #presentation-chambre aside{
     min-height: 1700px;
     max-height: 4000px;
+}
+
+/* Grandeur du background de la sidebar page comites organisation de la chambre */
+#presentation-chambre.comites aside{
+    min-height: 1900px;
+}
+
+#presentation-chambre.comites a{
+    color: #333;
+}
+#presentation-chambre.comites a:hover{
+    color: #ee3a43;
 }
 
 /* Liens dans la sidebar */
@@ -52,7 +64,7 @@ div.background-image{
 }
 
 /* Mettre le texte en gras */
-#presentation-chambre p.gras{
+#presentation-chambre p.gras, #presentation-chambre h5.gras{
     font-weight: bold;
 }
 
@@ -72,4 +84,10 @@ div.background-image{
     color: #ffffff;
     padding: 10px 50px;
     margin-bottom: 50px;
+}
+
+#presentation-chambre h5 {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px
 }

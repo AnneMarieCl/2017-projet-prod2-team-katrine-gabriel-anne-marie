@@ -24,9 +24,11 @@
                         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                             <div id="margedroite" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <h3>Conseil d'administration</h3>
-                                <h4> </h4>
-
+                                <h4 class="espaceenahut">Liste des membres du conseil d'administration 2015-2016</h4>
+                                <h4 class="espaceenahut">Administrateurs</h4>
+                                <h4 class="espaceenahut">Grands partenaires</h4>
                             </div>
+                            
                             <!-- Section : Devenez membre -->
                             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                                 <img src="assets/images/avatar-membre.png" alt="Devenez membre">
