@@ -146,6 +146,62 @@ a.a-2 {
     text-transform: uppercase;
     font-size: 38pt;
 }
+.slider p.savoir-plus{
+    color: #ee3a43;
+    font-size: 18pt;
+}
+ /* #################### SECTION ÉVÉNEMENT #################### */
+ .evenement {
+     min-height: 500px;
+     background-color: #999999;
+     color: white;
+ }
+.texte {
+     padding-top: 75px;
+     padding-left: 40px;
+}
+.image {
+     padding-top: 50px;
+     padding-left: 40px;
+}
+.evenement p {
+    font-size: 18pt;
+}
+.evenement h3 {
+    font-size: 25pt;
+    padding-bottom: 50px;
+}
+p.inscription2 {
+    padding-top: 30px;
+    color: #ee3a43;
+}
+p.inscription {
+    padding-top: 15px;
+    color: #ee3a43;
+}
+p.inscription2:hover, p.inscription:hover {
+    color: #3e3d3d;
+}
+.image .ruban {
+    color: #fff;
+    background: #ee3a43;
+    position: absolute;
+    top: 20%;
+    width: 50%;
+    padding: 10px 15px ;
+    font-size: 15pt;
+}
+/* #################### SECTION PUBLICATION #################### */
+.publication {
+    min-height: 825px;
+}
+.titre {
+    padding-top: 55px;
+    padding-left: 100px;
+}
+.blogue .image, .publication .image {
+    padding-left: 100px;
+}
 /* #################### FOOTER #################### */
 /* Stylistique général du footer */
 footer #footer-un {
