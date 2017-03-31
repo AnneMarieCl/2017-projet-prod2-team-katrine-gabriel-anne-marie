@@ -66,12 +66,12 @@
                                     <a class="premier-niveau" id="ccis" href="ccis.php">La ccis</a>
                                     <ul id="deroule">
                                         <li class="lien-1">
-                                            <a class="a-1" href="#">Présentation de la chambre</a>
-                                            <a href="#">Les comités d'organisation</a>
+                                            <a class="a-1" href="ccis.php">Présentation de la chambre</a>
+                                            <a href="comites-organisations.php">Les comités d'organisation</a>
                                         </li>
                                         <li class="lien-2">
-                                            <a class="a-2" href="#">Conseil d'administration</a>
-                                            <a href="#">Les implications</a>
+                                            <a class="a-2" href="conseil-administration.php">Conseil d'administration</a>
+                                            <a href="implications.php">Les implications</a>
                                         </li>
                                     </ul>
                                 </li>
