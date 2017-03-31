@@ -5,7 +5,8 @@
         
         <header>
             <?php include'../includes/nav.php'; ?>
-            <!-- Image -->
+
+            <!-- Image dans le header -->
             <div class="background-image">
                 <img src="assets/images/background-header.jpg" alt="CCIS">
             </div>
@@ -20,16 +21,15 @@
                     
                     <div class="row">
                         
-                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-
-                            <div class="row">
-                                <h3 class="col-xs-12 col-sm-8 col-md-8 col-lg-8">Présentation de la chambre</h3>
+                        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <h3>Présentation de la chambre</h3>
 
                                 <!-- Intégration Google Maps -->
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sfr!2sus!4v1490800428198!6m8!1m7!1sGhuAfBcIWMAAAAQWnf1Wwg!2m2!1d46.52240245695442!2d-72.7484868765236!3f66.7892009827807!4f-3.9025932898902482!5f0.4000000000000002" style="border: 0; width: 60%; height: 100%"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sfr!2sus!4v1490800428198!6m8!1m7!1sGhuAfBcIWMAAAAQWnf1Wwg!2m2!1d46.52240245695442!2d-72.7484868765236!3f66.7892009827807!4f-3.9025932898902482!5f0.4000000000000002" style="border: 0; width: 100%; height: 100%"></iframe>
 
                                 <!-- Information générales sur la CCIS -->
-                                <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12 gras">La CCIS est un réseau structuré de plus de 600 gens d'affaires représentant la communauté d'affaires de Shawinigan et qui a pour mandat d'initier des actions concertées favorisant l'avancement économique de son territoire. Le territoire desservi par la CCIS est : la Ville de Shawinigan (secteurs Grand-Mère, Lac-à-la-Tortue, Saint-Georges-de-Champlain, Saint-Gérard-des-Laurentides, Shawinigan et Shawinigan-Sud), ainsi que les municipalités de Charrette, Saint-Boniface, Notre-Dame-du-Mont-Carmel et Saint-Mathieu-du-Parc.<br></p>
+                                <p class="gras">La CCIS est un réseau structuré de plus de 600 gens d'affaires représentant la communauté d'affaires de Shawinigan et qui a pour mandat d'initier des actions concertées favorisant l'avancement économique de son territoire. Le territoire desservi par la CCIS est : la Ville de Shawinigan (secteurs Grand-Mère, Lac-à-la-Tortue, Saint-Georges-de-Champlain, Saint-Gérard-des-Laurentides, Shawinigan et Shawinigan-Sud), ainsi que les municipalités de Charrette, Saint-Boniface, Notre-Dame-du-Mont-Carmel et Saint-Mathieu-du-Parc.<br></p>
                                 <p>La Chambre met en valeur le succès économique régional des entreprises et des gens d’affaires de la région. Elle intervient de façon vigilante et constructive auprès des instances et autorités afin de défendre ses membres. Elle stimule le réseautage de ses membres et développe les compétences des gens d’affaires en offrant de l’information, de l’expertise es et en les aiguillant vers les ressources locales.<p>
 
                                 <p><b>La Chambre de commerce et d'industrie de Shawinigan :</b></p>
@@ -53,7 +53,7 @@
 
                                 <!-- Historique -->
                                 <h3>Historique</h3>
-                                <p><b>À l'origine, trois chambres de commerce &#339;uvraient sur l'ensemble du territoire du Centre-de-la-Mauricie.</b></p>
+                                <p><b>À l'origine, trois chambres de commerce oeuvraient sur l'ensemble du territoire du Centre-de-la-Mauricie.</b></p>
                                 <p>Grâce à la fusion des chambres de Shawinigan, de Grand-Mère et de St-Boniface, la Chambre de commerce du Centre-de-la-Mauricie a vu le jour en 2000. 
                                     Cette initiative était une première pour doter un territoire aussi grand qu'une MRC d'une Chambre régionale de cette ampleur. Depuis, la Chambre de commerce
                                     du Centre-de-la-Mauricie a su s'investir dans de nombreux projets socioéconomiques et devenir un acteur important au sein de la région. En 2007, la Chambre 
@@ -81,31 +81,16 @@
                             </div>
                         </div>
                         
-                        <aside class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <!-- Sidebar -->
+                        <aside class="hidden-xs hidden-sm col-md-3 col-lg-3">
                             
                             <div class="row">
                                 
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                    <div id="membre" class="sidebar">
-                                        <h4><img src="https://dummyimage.com/28x28/000/fff.jpg" alt="">DEVENEZ MEMBRE</h4>
-                                        <p>Solidifier vos acquis et  accédez à une clientèle privilèges</p>
-                                        <a href="" class="text-center">Devenir membre</a>
-                                    </div>
-                                    <div id="sms" class="sidebar">
-                                        <h4><img src="https://dummyimage.com/28x28/000/fff.jpg" alt="">NE RATEZ AUCUNE ACTIVITÉ</h4>
-                                        <p>Inscrivez-vous à l’alerte SMS !</p>
-                                        <a href="" class="text-center">S'inscrire</a>
-                                    </div>
-                                    <div id="membre" class="sidebar">
-                                        <h4><img src="https://dummyimage.com/28x28/000/fff.jpg" alt="">TOUTE LA VILLE PARLE PME</h4>
-                                        <p>Les entrepreneurs d’ici sont inspirants. Venez découvrir leur parcours tout au long du développement de leur entreprise...</p>
-                                        <a href="" class="text-center">S'inscrire</a>
-                                    </div>
-                                    <div id="membre" class="sidebar">
-                                        <h4><img src="https://dummyimage.com/28x28/000/fff.jpg" alt="">DÉFI DES ENTREPRISES</h4>
-                                        <p>Venez vivre en grand nombre une expérience sportive unique sur l’île Melville.</p>
-                                        <a href="" class="text-center">S'inscrire</a>
-                                    </div>
+                                <div id="sousnav" class="hidden-xs hidden-sm col-md-12 col-lg-12">
+                                    <a href="implications.php" class="text-right">Présentation de la chambre</a>
+                                    <a href="conseil-administration.php" class="text-right">Conseil d'administration</a>
+                                    <a href="comites-organisation.php" class="text-right">Les comités d'organisation</a>
+                                    <a href="implications.php" class="text-right">Les implications</a>
                                 </div>
                                 
                             </div>

@@ -1,19 +1,42 @@
 /* Titre de la page - À propos */
 #presentation-chambre h3{
     margin-top: 50px;
-    margin-left: 25px;
 }
 
 /* Image d'arrière-plan */
-#presentation-chambre .background-image{
+div.background-image{
     margin-top: 120px;
 }
 
 /* Espace à gauche du GoogleMaps */
 #presentation-chambre iframe{
-    margin: 20px 0px 20px 40px;
+    margin: 20px 0px 20px 0px;
+    padding:0;
 }
 
-#presentation-chambre.gras{
+#presentation-chambre{
     margin-left: 25px;
 }
+
+/* Grandeur du background de la sidebar */
+#presentation-chambre aside{
+    min-height: 2200px;
+}
+
+/* Liens dans la sidebar */
+#presentation-chambre #sousnav a{
+    background-color: transparent;
+    color:#455560;
+    padding: 15px 40px 15px 0px;
+}
+
+/* Liens dans la sidebar */
+#presentation-chambre #sousnav a:hover{
+    background-color: #ee3a43;
+    color:#ffffff;
+}
+
+#presentation-chambre #sousnav{
+    padding:0;
+}
+
