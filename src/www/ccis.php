@@ -7,7 +7,7 @@
             <?php include'../includes/nav.php'; ?>
 
             <!-- Image dans le header -->
-            <div class="background-image">
+            <div class="background-image hidden-xs hidden-sm">
                 <img class="img-responsive" src="assets/images/background-header.jpg" alt="CCIS">
             </div>
         </header>
@@ -75,14 +75,14 @@
                             </div>
 
                             <!-- Section : Devenez membre -->
-                            <div class="col-xs-12 col-sm-2 col-md-3 col-lg-3">
-                                <img class="" src="assets/images/avatar-membre.png" alt="Devenez membre">
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <img src="assets/images/avatar-membre.png" alt="Devenez membre">
                             </div>
                                                         
-                            <div class="col-xs-12 col-sm-10 col-md-9 col-lg-9">
-                                <p class="">DEVENEZ MEMBRE<p>
-                                <p class="">Solidifiez vos acquis et accédez à une clientèle privilège!</p>
-                                <a class="" href="">En savoir plus</a>
+                            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                                <h4 class="">DEVENEZ MEMBRE</h4>
+                                <p class="espacebas">Solidifiez vos acquis et accédez à une clientèle privilège!</p>
+                                <a href="espace-membre.php" id="moreinfo">En savoir plus</a>
                             </div>
                         </div>
                         

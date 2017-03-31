@@ -51,10 +51,25 @@ div.background-image{
     overflow:hidden;
 }
 
-p.gras{
+/* Mettre le texte en gras */
+#presentation-chambre p.gras{
     font-weight: bold;
 }
 
-h4.espaceenahut{
+/* Espace en haut des sections du texte */
+#presentation-chambre h4.espaceenahut{
     margin-top: 40px;
+}
+
+/* Espace en haut du bouton : En savoir plus */
+#presentation-chambre p.espacebas{
+    margin-bottom: 30px;
+}
+
+/* Bouton en savoir plus */
+#presentation-chambre a#moreinfo {
+    background-color: #ee3a43;
+    color: #ffffff;
+    padding: 10px 50px;
+    margin-bottom: 50px;
 }
