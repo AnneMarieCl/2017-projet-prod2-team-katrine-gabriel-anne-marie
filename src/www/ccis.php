@@ -22,7 +22,7 @@
                     <div class="row">
                         
                         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-                            <div id="margedroite"class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div id="margedroite" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <h3>Présentation de la chambre</h3>
 
                                 <!-- Intégration Google Maps -->
