@@ -177,7 +177,7 @@
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
 
-                                    <ul class="pager">
+                                    <ul class="pager pager-bottom">
 			
                                         <li><a class="icon-prev" href=""><span class="fa fa-angle-double-left"></span></a></li>                           
                                         <li><a class="page-nbr current" href="?page=1">1</a></li>                               

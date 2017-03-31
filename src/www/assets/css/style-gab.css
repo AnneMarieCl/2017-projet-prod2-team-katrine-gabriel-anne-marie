@@ -128,6 +128,11 @@ header h1 {
     color: #c6262d;
 }
 
+/*Ajout d'un margin entre main et footer*/
+.pager-bottom {
+    margin-bottom: 50px;
+}
+
 /* Style des articles */
 .article {
     padding: 50px 0;
@@ -226,6 +231,7 @@ aside a {
 .sidebar {
     padding: 100px 0;
     border-bottom: 1px #000 solid; 
+    height: 100%;
 }
 
 @media (max-width: 767px){
