@@ -39,4 +39,8 @@ div.background-image{
 #presentation-chambre #sousnav{
     padding:0;
 }
+/* Ajout d'un espace à droite du contenu */
+#margedroite{
+    padding-right: 25px;
+}
 
