@@ -25,6 +25,11 @@ div.background-image{
     min-height: 1900px;
 }
 
+/* Grandeur du background de la sidebar page comites organisation de la chambre */
+#presentation-chambre.implications aside{
+    min-height: 850px;
+}
+
 #presentation-chambre.comites a{
     color: #333;
 }

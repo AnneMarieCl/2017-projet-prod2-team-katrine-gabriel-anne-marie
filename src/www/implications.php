@@ -16,7 +16,7 @@
         <main>
 
             <!-- Section : Présentation de la chambre -->
-            <section id="presentation-chambre">
+            <section id="presentation-chambre" class="implications">
                 <div class="container-fluid">
                     
                     <div class="row">
