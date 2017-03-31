@@ -255,6 +255,13 @@ a.bouton:hover {
     margin-top: 40px;
     margin-left: 50px;
 }
+/* #################### PARTENAIRE #################### */
+.partenaire {
+    min-height: 815px;
+}
+.partn {
+    width: 75%;
+}
 /* #################### FOOTER #################### */
 /* Stylistique général du footer */
 footer #footer-un {

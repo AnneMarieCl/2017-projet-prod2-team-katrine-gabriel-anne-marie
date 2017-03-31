@@ -11,7 +11,7 @@
              <div class="container-fluid">
                 <section class="slider">
                     <div class="image-1">
-                            <img class="un" src="assets/images/slider-1.jpg" alt="Chania">
+                            <img class="un" src="assets/images/slider-1.jpg" alt="">
                             <div class="carousel-caption">
                                 <p>Blogue</p>
                                 <h2>Shawinigan, un modèle en matière de développement des régions</h2>
@@ -148,6 +148,33 @@
                             </div>
                         </section>
                     </div>
+                    <section class="partenaire">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                                <h3>Partenaire</h3>
+                            </div>
+                            <div class="col-xs-hidden col-sm-hidden col-md-8 col-lg-8">
+                                
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                                <p>Voir tous les partenaires</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                <img class="partn" src="assets/images/logo-deloitte.png" alt="">
+                            </div>  
+                            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                <img class="partn" src="assets/images/logo-desjardins.png" alt="">
+                            </div>  
+                            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                <img class="partn" src="assets/images/logo-shawinigan.png" alt="">
+                            </div>  
+                            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                                <img class="partn" src="assets/images/logo-culture-shawinigan.png" alt="">
+                            </div>  
+                        </div>
+                    </section>
             </div>
 
         </main>
