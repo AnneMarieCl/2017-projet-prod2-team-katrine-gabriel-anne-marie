@@ -7,8 +7,8 @@
             <?php include'../includes/nav.php'; ?>
 
             <!-- Image dans le header -->
-            <div class="background-image">
-                <img src="assets/images/background-header.jpg" alt="CCIS">
+            <div class="background-image hidden-xs">
+                <img class="img-responsive" src="assets/images/background-header.jpg" alt="CCIS">
             </div>
         </header>
 
@@ -22,10 +22,19 @@
                     <div class="row">
                         
                         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div id="margedroite" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <h3>Conseil d'administration</h3>
 
-
+                            </div>
+                            <!-- Section : Devenez membre -->
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <img src="assets/images/avatar-membre.png" alt="Devenez membre">
+                            </div>
+                                                        
+                            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 devenezmembre">
+                                <h4>DEVENEZ MEMBRE</h4>
+                                <p class="espacebas">Solidifiez vos acquis et accédez à une clientèle privilège!</p>
+                                <a href="espace-membre.php" id="moreinfo">En savoir plus</a>
                             </div>
                         </div>
                         
