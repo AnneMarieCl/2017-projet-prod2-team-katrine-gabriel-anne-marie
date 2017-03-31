@@ -137,8 +137,14 @@ a.a-2 {
     border:none;
 }
 /* #################### SLIDER #################### */
+.slider {
+    padding-top: 100px;
+}
 .image-1 {
     position: relative;
+}
+.image-1 p {
+    padding-bottom: 25px;
 }
 .carousel-caption {
     text-align: left;
@@ -149,8 +155,10 @@ a.a-2 {
     text-transform: uppercase;
 }
 .slider p.savoir-plus{
-    color: #ee3a43;
-    
+    color: #ee3a43; 
+}
+img.un {
+    width: 100%;
 }
  /* #################### SECTION ÉVÉNEMENT #################### */
  .evenement {
@@ -204,7 +212,7 @@ p.inscription2:hover, p.inscription:hover {
     padding-bottom: 25px;
     padding-top: 0px;
 }
-.publication span, .blogue span {
+.texte span {
     text-transform: uppercase;
 }
 .publication .texte, .blogue .texte {
@@ -227,6 +235,7 @@ p.inscription2:hover, p.inscription:hover {
 /* #################### DEVENIR MEMBRE #################### */
 img.fond {
     position: absolute;
+    width: 100%;
 }
 .devenir-membre {
     min-height: 500px;
@@ -242,7 +251,6 @@ a.bouton {
     width: 740px;
     text-align: center;
     color: white;
-    padding-bottom: 15px;
 }
 a.bouton:hover {
     color: #3e3d3d;
@@ -256,11 +264,25 @@ a.bouton:hover {
     margin-left: 50px;
 }
 /* #################### PARTENAIRE #################### */
-.partenaire {
-    min-height: 815px;
+img.partn {
+    width: 85%;
+    padding-left: 55px;
+    padding-top: 50px;
+    padding-bottom: 150px;
 }
-.partn {
-    width: 75%;
+.texte2 {
+     padding-top: 25px;
+     padding-left: 40px;
+}
+.texte3 {
+     padding-top: 35px;
+     padding-left: 20px;
+}
+.bouton-partn {
+    color: #ee3a43;
+}
+.bouton-partn:hover {
+    color: #3e3d3d;
 }
 /* #################### FOOTER #################### */
 /* Stylistique général du footer */
