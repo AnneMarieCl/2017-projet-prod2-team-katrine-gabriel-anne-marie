@@ -530,9 +530,8 @@ footer #footer-deux h5 {
     }
 
     /* #################### PAGE À PROPOS #################### */
-    /* Titre de la page */
-    #presentation-chambre h3{
-        padding-top: 150px;
+    #presentation-chambre div.devenezmembre{
+        margin-bottom: 200px;
     }
 
     /* #################### FOOTER #################### */
