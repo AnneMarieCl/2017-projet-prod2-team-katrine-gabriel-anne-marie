@@ -65,10 +65,10 @@
                         </ul>
 
                         <!-- Section : Devenez membre -->
-                        <img class="col-xs-3 col-sm-3 col-md-3 col-lg-3" src="assets/images/avatar-membre.png" alt="Devenez membre">
-                        <p class="col-xs-9 col-sm-9 col-md-9 col-lg-9">DEVENEZ MEMBRE<p>
-                        <p class="col-xs-9 col-sm-9 col-md-9 col-lg-9">Solidifiez vos acquis et accédez à une clientèle privilège!</p>
-                        <a class="col-xs-9 col-sm-9 col-md-9 col-lg-9" href="">En savoir plus</a>
+                        <img class="" src="assets/images/avatar-membre.png" alt="Devenez membre">
+                        <p class="">DEVENEZ MEMBRE<p>
+                        <p class="">Solidifiez vos acquis et accédez à une clientèle privilège!</p>
+                        <a class="" href="">En savoir plus</a>
                     </div>
                 </div>
             </section>   
