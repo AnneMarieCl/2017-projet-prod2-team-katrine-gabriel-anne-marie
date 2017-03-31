@@ -12,6 +12,9 @@ body{
 h1, h2, h3, h4 {
     font-family: 'Tauri', sans-serif;
 }
+h1 {
+    color: white;
+}
 h2 {
     font-size: 38pt; 
 }
@@ -238,8 +241,20 @@ a.bouton {
     position: absolute;
     width: 740px;
     text-align: center;
+    color: white;
+    padding-bottom: 15px;
 }
-
+a.bouton:hover {
+    color: #3e3d3d;
+}
+.gauche {
+    margin-left: 125px;
+    margin-top: 40px;
+}
+.droit {
+    margin-top: 40px;
+    margin-left: 50px;
+}
 /* #################### FOOTER #################### */
 /* Stylistique général du footer */
 footer #footer-un {

@@ -127,7 +127,7 @@
                                     <div class="appel-action"> 
                                         <div class="row">
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                                <h2>Vous désirez vous joindre à nous?</h2>
+                                                <h2>Vous désirez vous joindre à nous ?</h2>
                                             </div>
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                                 
@@ -135,11 +135,11 @@
                                         </div>
                                         <div class"row">
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 bouton-gauche">
-                                                <a class="bouton" href="#"><h3>Devenez membre !</h3>
+                                                <a class="bouton gauche" href="#"><h3>Devenez membre !</h3>
                                                 <p>Solidifier vos acquis et  accédez à une clientèle privilège</p></a>
                                             </div>
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 bouton-droit">
-                                                <a class="bouton" href="#"><h3>Ne ratez aucune activité !</h3>
+                                                <a class="bouton droit" href="#"><h3>Ne ratez aucune activité !</h3>
                                                 <p>Inscrivez-vous à l’alerte <span>SMS</span></p></a>
                                             </div>
                                         </div>    
