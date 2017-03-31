@@ -47,7 +47,7 @@
                 <section class="publication">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titre">
-                            <h3>Publication</h3>
+                            <h2>Publication</h2>
                         </div>
                     </div>
                     <div class="row">
@@ -56,7 +56,7 @@
                              <span class="ruban pull-left">Catégorie</span>
                         </div>
                         <div class="col-xs-12 col-sm-8 col-md-7 col-lg-6 texte">
-                            <h2>Formulaire de candidature <span>ca ccis</span> 2017-2018</h2>
+                            <h3>Formulaire de candidature <span>ca ccis</span> 2017-2018</h3>
                             <p>Remplissez un formulaire et déposer votre candidature comme administrateur de la CCIS.</p>
                             <a href="#"><p class="lien">Lire la suite</p></a>
                             <a href="#"><p class="lien">Allez aux publications</p></a>
@@ -71,7 +71,7 @@
                              <span class="ruban pull-left">Catégorie</span>
                         </div>
                         <div class="col-xs-12 col-sm-8 col-md-7 col-lg-6 texte">
-                            <h2>Formulaire de candidature <span>ca ccis</span> 2017-2018</h2>
+                            <h3>Formulaire de candidature <span>ca ccis</span> 2017-2018</h3>
                             <p>Remplissez un formulaire et déposer votre candidature comme administrateur de la CCIS.</p>
                             <a href="#"><p class="lien">Lire la suite</p></a>
                             <a href="#"><p class="lien">Allez aux publications</p></a>
@@ -84,7 +84,7 @@
                 <section class="blogue">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titre">
-                            <h3>Blogue</h3>
+                            <h2>Blogue</h2>
                         </div>
                     </div>
                     <div class="row">
@@ -93,7 +93,7 @@
                              <span class="ruban pull-left">Catégorie</span>
                         </div>
                         <div class="col-xs-12 col-sm-8 col-md-7 col-lg-6 texte">
-                            <h2>Formulaire de candidature <span>ca ccis</span> 2017-2018</h2>
+                            <h3>Formulaire de candidature <span>ca ccis</span> 2017-2018</h3>
                             <p>Remplissez un formulaire et déposer votre candidature comme administrateur de la CCIS.</p>
                             <a href="#"><p class="lien">Lire la suite</p></a>
                             <a href="#"><p class="lien">Allez sur le blogue</p></a>
@@ -108,7 +108,7 @@
                              <span class="ruban pull-left">Catégorie</span>
                         </div>
                         <div class="col-xs-12 col-sm-8 col-md-7 col-lg-6 texte">
-                            <h2>Formulaire de candidature <span>ca ccis</span> 2017-2018</h2>
+                            <h3>Formulaire de candidature <span>ca ccis</span> 2017-2018</h3>
                             <p>Remplissez un formulaire et déposer votre candidature comme administrateur de la CCIS.</p>
                             <a href="#"><p class="lien">Lire la suite</p></a>
                             <a href="#"><p class="lien">Allez sur le blogue</p></a>
