@@ -79,8 +79,8 @@
                                 <img src="assets/images/avatar-membre.png" alt="Devenez membre">
                             </div>
                                                         
-                            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                                <h4 class="">DEVENEZ MEMBRE</h4>
+                            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 devenezmembre">
+                                <h4>DEVENEZ MEMBRE</h4>
                                 <p class="espacebas">Solidifiez vos acquis et accédez à une clientèle privilège!</p>
                                 <a href="espace-membre.php" id="moreinfo">En savoir plus</a>
                             </div>

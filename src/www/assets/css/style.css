@@ -444,6 +444,9 @@ footer #footer-deux h5 {
     #presentation-chambre h3{
         padding-top: 80px;
     }
+    #presentation-chambre div.devenezmembre{
+        margin-bottom: 75px;
+    }
 
     /* #################### FOOTER #################### */
     /* Aligner les textes au centre */
