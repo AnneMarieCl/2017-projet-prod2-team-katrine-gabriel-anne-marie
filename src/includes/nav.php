@@ -33,7 +33,7 @@
                                     <a href="#">819-536-0777</a>
                                 </li>
                                 <li>
-                                    <a href="#">info@ccishawinigan.ca</a>
+                                    <a href="mailto:info@ccishawinigan.ca">info@ccishawinigan.ca</a>
                                 </li>
                                 <li>
                                     <a href="contact.php">Contact</a>

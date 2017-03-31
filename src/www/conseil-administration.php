@@ -24,9 +24,41 @@
                         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                             <div id="margedroite" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <h3>Conseil d'administration</h3>
+                                <!-- Liste des membres -->
                                 <h4 class="espaceenahut">Liste des membres du conseil d'administration 2015-2016</h4>
+
+                                <!-- Membres -->
+                                <h5 class="format">Mario Lamontagne</h5>
+                                <h5 class="formatdeux">Président de la CCIS</h5>
+                                <p>Deloitte S.E.N.C.R.L<br>
+                                1785 Avenue St-Marc Bureau 303<br>
+                                Shawinigan (QC) G9N 2H6<br>
+                                819 538-1721<br>
+                                <a href="mailto:mlamontagne@deloitte.ca">mlamontagne@deloitte.ca</a></p>
+
+                                <h5 class="format">Martin Dumont</h5>
+                                <h5 class="formatdeux">Pemier vice-président de la CCIS</h5>
+                                <p>PMA Assurances<br>
+                                1000 Avenue des Cèdres<br>
+                                Shawinigan (QC) G9N 1P6<br>
+                                819 537-8861<br>
+                                <a href="mailto:mdumont@pma.qc.ca">mdumont@pma.qc.ca</a></p>
+
+                                <h5 class="format">Philippe Brunel</h5>
+                                <h5 class="formatdeux">Secrétaire-trésorier de la CCIS</h5>
+                                <p>Microbrasserie le Trou du Diable<br>
+                                1250 Rue de la Station<br>
+                                Shawinigan (QC) G9N 8K9<br>
+                                819-731-1260<br>
+                                <a href="mailto:philippe@troududiable.com">philippe@troududiable.com</a></p>
+
+                                <!-- Administrateurs -->
                                 <h4 class="espaceenahut">Administrateurs</h4>
+                                <h5 class="format">Le comité de programmation</h5>
+
+                                <!-- Grands partenaires -->
                                 <h4 class="espaceenahut">Grands partenaires</h4>
+                                
                             </div>
                             
                             <!-- Section : Devenez membre -->
