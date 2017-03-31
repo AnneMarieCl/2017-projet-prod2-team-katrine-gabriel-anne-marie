@@ -1,6 +1,31 @@
+h6 {
+    color: #d5dbdf;
+}
+
+/* Retire style par défauts des liens*/
 a:hover {
     text-decoration: none;
 }
+
+/*Header Blogue*/
+
+#header-img {
+    position: relative;
+}
+
+#header-img img {
+    background-size: 100%;
+    padding-top: 120px;
+}
+
+header h1 {
+    position: absolute;
+    top: 55%;
+    left: 45%; 
+}
+
+
+
 
 /* Correction horizontal Scroll Bar */
 #blog .row {
@@ -8,6 +33,11 @@ a:hover {
 }
 
 /* Style des catégories des articles */
+
+#post-type {
+    margin-top: 50px;
+}
+
 #post-type ul{
     padding: 0;
 }
@@ -121,6 +151,47 @@ a:hover {
     top: 10%;
     width: 50%;
     padding: 5px 10px ;
+    font-size: 15pt;
+}
+
+.article .day {
+    background: #fff;
+    color: #ee3a43;
+    border: 1px#ee3a43 solid;
+    position: absolute;
+    padding: 10px 15px;
+    bottom: 0;
+    right: 15px;
+    font-size: 32px;
+    width: 28%;
+}
+
+.article .month {
+    color: #fff;
+    background: #ee3a43;
+    border-left: 1px#ee3a43 solid;
+    position: absolute;
+    padding: 5px 20px ;
+    bottom: 60px;
+    right: 15px;
+    width: 28%;
+    font-size: 12px;
+}
+
+.month .fa-circle {
+    font-size: 5px;
+}
+
+.left-circle {
+    position: absolute;
+    top: 13px;
+    left: 7px;
+}
+
+.right-circle {
+    position: absolute;
+    top: 13px;
+    right: 7px;
 }
 
 aside {
@@ -154,3 +225,37 @@ aside a {
     padding: 100px 0;
     border-bottom: 1px #000 solid; 
 }
+
+@media (max-width: 767px){
+    #post-type ul li{
+        float: none;
+        width: 100%;
+    }
+    /*Remove Sidebar*/
+    aside {
+        display: none;
+    }
+}
+
+/* Small device */
+@media screen and (min-width: 768px) and (max-width: 992px){
+    #post-type ul li{
+        font-size: 14px;
+    }
+}
+    
+/* Medium device */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+        #post-type ul li{
+        font-size: 16px;
+    }
+}
+    
+@media screen and (min-width: 1201px) and (max-width: 1600px)  {}
+    
+/*//////////////////////////// LARGE DESTOPS AMD LAPTOPS /////////////////////////// 1 /*/
+@media screen and (min-width: 1601px) and ( max-width: 1701px ) {}
+    
+/*//////////////////////////// LARGE DESTOPS AMD LAPTOPS /////////////////////////// 1 /*/
+@media screen and (min-width: 1702px) and ( max-width: 4000px) {}
+    

@@ -5,6 +5,10 @@
 
         <header>
             <?php include'../includes/nav.php'; ?>
+            <div id="header-img"> 
+                <img src="assets/images/background-header.jpg" class="img-responsive center-block" alt="">
+                <h1>BLOGUE</h1>
+            </div> 
         </header>
 
         <!-- Début du main -->
@@ -14,7 +18,7 @@
                     
                     <div class="row">
                         
-                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 
                             
                             <div class="row">
@@ -55,14 +59,16 @@
                                     <div class="article">
                                         <div class="row">
                                         
-                                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                                                 <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
                                                 <span class="ruban pull-left">Catégorie</span>
+                                                <div class="date"><span class="day">11</span><span class="month"><span class = "fa fa-circle left-circle"></span>Mars<span class = "fa fa-circle right-circle"></span></span></div>
                                             </div>
                                         
-                                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
 
                                                 <h4>À l’aube du transport intelligent au Québec</h4>
+                                                <h6>Par Sousso Kelouwani, PH. D., Professeur à l'Université' du Québec à Trois-Rivières </h6>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate [...]</p>
                                                 <a href="">Lire la suite</a>
 
@@ -73,14 +79,16 @@
                                     <div class="article">
                                         <div class="row">
                                         
-                                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                                                 <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
                                                 <span class="ruban">Catégorie</span>
+                                                <div class="date"><span class="day">1</span><span class="month pull-center"><span class = "fa fa-circle left-circle"></span>Janvier<span class = "fa fa-circle right-circle"></span></span></div>
                                             </div>
                                         
-                                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
 
                                                 <h4>À l’aube du transport intelligent au Québec</h4>
+                                                <h6>Par Sousso Kelouwani, PH. D., Professeur à l'Université' du Québec à Trois-Rivières </h6>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate [...]</p>
                                                 <a href="">Lire la suite</a>
 
@@ -91,14 +99,16 @@
                                     <div class="article">
                                         <div class="row">
                                         
-                                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                                                 <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
                                                 <span class="ruban">Catégorie</span>
+                                                <div class="date"><span class="day">30</span><span class="month"><span class = "fa fa-circle left-circle"></span>Avril<span class = "fa fa-circle right-circle"></span></span></div>
                                             </div>
                                         
-                                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
 
                                                 <h4>À l’aube du transport intelligent au Québec</h4>
+                                                <h6>Par Sousso Kelouwani, PH. D., Professeur à l'Université' du Québec à Trois-Rivières </h6>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate [...]</p>
                                                 <a href="">Lire la suite</a>
 
@@ -109,14 +119,15 @@
                                     <div class="article">
                                         <div class="row">
                                         
-                                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                                                 <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
                                                 <span class="ruban">Catégorie</span>
                                             </div>
                                         
-                                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
 
                                                 <h4>À l’aube du transport intelligent au Québec</h4>
+                                                <h6>Par Sousso Kelouwani, PH. D., Professeur à l'Université' du Québec à Trois-Rivières </h6>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate [...]</p>
                                                 <a href="">Lire la suite</a>
 
@@ -127,14 +138,15 @@
                                     <div class="article">
                                         <div class="row">
                                         
-                                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                                                 <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
                                                 <span class="ruban">Catégorie</span>
                                             </div>
                                         
-                                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
 
                                                 <h4>À l’aube du transport intelligent au Québec</h4>
+                                                <h6>Par Sousso Kelouwani, PH. D., Professeur à l'Université' du Québec à Trois-Rivières </h6>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate [...]</p>
                                                 <a href="">Lire la suite</a>
 
@@ -145,14 +157,15 @@
                                     <div class="article">
                                         <div class="row">
                                         
-                                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                                                 <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
                                                 <span class="ruban">Catégorie</span>
                                             </div>
                                         
-                                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
 
                                                 <h4>À l’aube du transport intelligent au Québec</h4>
+                                                <h6>Par Sousso Kelouwani, PH. D., Professeur à l'Université' du Québec à Trois-Rivières </h6>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate [...]</p>
                                                 <a href="">Lire la suite</a>
 
@@ -183,7 +196,7 @@
                             
                         </div>
                         
-                        <aside class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <aside class="col-xs-0 col-sm-3 col-md-3 col-lg-3">
                             
                             <div class="row">
                                 
