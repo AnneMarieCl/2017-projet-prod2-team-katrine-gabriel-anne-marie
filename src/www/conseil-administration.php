@@ -24,6 +24,7 @@
                         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                             <div id="margedroite" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <h3>Conseil d'administration</h3>
+                                <h4> </h4>
 
                             </div>
                             <!-- Section : Devenez membre -->
@@ -33,7 +34,7 @@
                                                         
                             <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 devenezmembre">
                                 <h4>DEVENEZ MEMBRE</h4>
-                                <p class="espacebas">Solidifiez vos acquis et accédez à une clientèle privilège!</p>
+                                <p class="espacebas">Être membre de la CCIS, c'est choisir de solidifier ses acquis en partageant votre expertise et celle d'autres membres tout en bénéficiant de plusieurs services vous donnant accès à une clientèle privilège.</p>
                                 <a href="espace-membre.php" id="moreinfo">En savoir plus</a>
                             </div>
                         </div>
