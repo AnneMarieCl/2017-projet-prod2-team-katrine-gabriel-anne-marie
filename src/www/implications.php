@@ -25,6 +25,22 @@
                             <div id="margedroite" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <h3>Les implications</h3>
 
+                                <!-- Comités et associations -->
+                                <h4 class="espaceenahut">Comités et associations</h4>
+                                <p>La CCIS siège sur plusieurs comités et associations afin de représenter les gens d’affaires dans la réflexion et les actions de divers réseaux.</p>
+                                <ul>
+                                    <li>Comité de diversification (Ville de Shawinigan)</li>
+                                    <li>Réseautage Mauricie</li>
+                                    <li>Femmessor</li>
+                                    <li>Jeune Chambre de Commerce de la Mauricie</li>
+                                <ul>
+
+                                <!-- Événements -->
+                                <h4 class="espaceenahut">Événements</h4>
+                                <p>En plus d’organiser divers événements pour ses membres, la CCIS considère important de s’impliquer activement dans les activités externes répondant à son mandat.</p>
+                                <p>Vous désirez inviter la CCIS à s’impliquer dans votre événement?</p> 
+                                info@ccishawinigan.ca
+
                             </div>
                             <!-- Section : Devenez membre -->
                             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
