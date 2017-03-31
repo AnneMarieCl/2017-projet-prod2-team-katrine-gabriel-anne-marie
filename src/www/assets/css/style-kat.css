@@ -16,7 +16,8 @@ div.background-image{
 
 /* Grandeur du background de la sidebar */
 #presentation-chambre aside{
-    min-height: 2250px;
+    min-height: 1700px;
+    max-height: 4000px;
 }
 
 /* Liens dans la sidebar */
@@ -24,6 +25,7 @@ div.background-image{
     background-color: transparent;
     color:#455560;
     padding: 15px 40px 15px 0px;
+    border-bottom: 1px solid #455560;
 }
 
 /* Liens dans la sidebar */
@@ -41,7 +43,7 @@ div.background-image{
     margin-bottom: 50px;
 }
 #presentation-chambre{
-    margin-left: 25px;
+    margin-left: 15px;
 }
 
 /* Enlever la scroll bar horizontal */
@@ -51,4 +53,8 @@ div.background-image{
 
 p.gras{
     font-weight: bold;
+}
+
+h4.espaceenahut{
+    margin-top: 40px;
 }

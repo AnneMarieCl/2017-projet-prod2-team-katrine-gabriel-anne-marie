@@ -52,7 +52,7 @@
                                 </ul>
 
                                 <!-- Historique -->
-                                <h4>Historique</h4>
+                                <h4 class="espaceenahut">Historique</h4>
                                 <p><b>À l'origine, trois chambres de commerce oeuvraient sur l'ensemble du territoire du Centre-de-la-Mauricie.</b></p>
                                 <p>Grâce à la fusion des chambres de Shawinigan, de Grand-Mère et de St-Boniface, la Chambre de commerce du Centre-de-la-Mauricie a vu le jour en 2000. 
                                     Cette initiative était une première pour doter un territoire aussi grand qu'une MRC d'une Chambre régionale de cette ampleur. Depuis, la Chambre de commerce
@@ -60,11 +60,11 @@
                                     de commerce du Centre-de-la-Mauricie changeait son appellation pour la Chambre de commerce et d'industrie de Shawinigan.</p>
 
                                 <!-- Mission -->
-                                <h4>Mission</h4>
+                                <h4 class="espaceenahut">Mission</h4>
                                 <p>Être un acteur incontournable dans le développement économique de Shawinigan et de la Mauricie.</p>
 
                                 <!-- Objectifs -->
-                                <h4>Objectifs</h4>
+                                <h4 class="espaceenahut">Objectifs</h4>
                                 <ul>
                                     <li>Agir pour la prospérité de nos membres en favorisant la croissance économique, le développement durable et la responsabilité sociale de notre région.</li>
                                     <li>Stimuler le réseautage de nos membres.</li>
