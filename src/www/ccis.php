@@ -8,7 +8,7 @@
 
             <!-- Image dans le header -->
             <div class="background-image">
-                <img src="assets/images/background-header.jpg" alt="CCIS">
+                <img class="img-responsive" src="assets/images/background-header.jpg" alt="CCIS">
             </div>
         </header>
 
@@ -52,7 +52,7 @@
                                 </ul>
 
                                 <!-- Historique -->
-                                <h3>Historique</h3>
+                                <h4>Historique</h4>
                                 <p><b>À l'origine, trois chambres de commerce oeuvraient sur l'ensemble du territoire du Centre-de-la-Mauricie.</b></p>
                                 <p>Grâce à la fusion des chambres de Shawinigan, de Grand-Mère et de St-Boniface, la Chambre de commerce du Centre-de-la-Mauricie a vu le jour en 2000. 
                                     Cette initiative était une première pour doter un territoire aussi grand qu'une MRC d'une Chambre régionale de cette ampleur. Depuis, la Chambre de commerce
@@ -60,11 +60,11 @@
                                     de commerce du Centre-de-la-Mauricie changeait son appellation pour la Chambre de commerce et d'industrie de Shawinigan.</p>
 
                                 <!-- Mission -->
-                                <h3>Mission</h3>
+                                <h4>Mission</h4>
                                 <p>Être un acteur incontournable dans le développement économique de Shawinigan et de la Mauricie.</p>
 
                                 <!-- Objectifs -->
-                                <h3>Objectifs</h3>
+                                <h4>Objectifs</h4>
                                 <ul>
                                     <li>Agir pour la prospérité de nos membres en favorisant la croissance économique, le développement durable et la responsabilité sociale de notre région.</li>
                                     <li>Stimuler le réseautage de nos membres.</li>
@@ -72,9 +72,14 @@
                                     <li>Intervenir auprès des différentes instances afin de mieux défendre les intérêts de nos membres.</li>
                                     <li>Cultiver l'entrepreneuriat pour diversifier notre économie.</li>
                                 </ul>
+                            </div>
 
-                                <!-- Section : Devenez membre -->
+                            <!-- Section : Devenez membre -->
+                            <div class="col-xs-12 col-sm-2 col-md-3 col-lg-3">
                                 <img class="" src="assets/images/avatar-membre.png" alt="Devenez membre">
+                            </div>
+                                                        
+                            <div class="col-xs-12 col-sm-10 col-md-9 col-lg-9">
                                 <p class="">DEVENEZ MEMBRE<p>
                                 <p class="">Solidifiez vos acquis et accédez à une clientèle privilège!</p>
                                 <a class="" href="">En savoir plus</a>

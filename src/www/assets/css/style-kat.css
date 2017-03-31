@@ -14,13 +14,9 @@ div.background-image{
     padding:0;
 }
 
-#presentation-chambre{
-    margin-left: 25px;
-}
-
 /* Grandeur du background de la sidebar */
 #presentation-chambre aside{
-    min-height: 2200px;
+    min-height: 2250px;
 }
 
 /* Liens dans la sidebar */
@@ -39,8 +35,20 @@ div.background-image{
 #presentation-chambre #sousnav{
     padding:0;
 }
-/* Ajout d'un espace à droite du contenu */
+/* Ajout d'un espace à droite et à gauche du contenu */
 #margedroite{
     padding-right: 25px;
+    margin-bottom: 50px;
+}
+#presentation-chambre{
+    margin-left: 25px;
 }
 
+/* Enlever la scroll bar horizontal */
+#presentation-chambre{
+    overflow:hidden;
+}
+
+p.gras{
+    font-weight: bold;
+}
