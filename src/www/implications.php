@@ -38,7 +38,7 @@
                                 <!-- Événements -->
                                 <h4 class="espaceenahut">Événements</h4>
                                 <p>En plus d’organiser divers événements pour ses membres, la CCIS considère important de s’impliquer activement dans les activités externes répondant à son mandat.</p>
-                                <p class="gras">Vous désirez inviter la CCIS à s’impliquer dans votre événement?<br><a href="#">info@ccishawinigan.ca</a></p> 
+                                <p class="gras">Vous désirez inviter la CCIS à s’impliquer dans votre événement?<br><a href="mailto:info@ccishawinigan.ca">info@ccishawinigan.ca</a></p> 
 
                             </div>
                             <!-- Section : Devenez membre -->

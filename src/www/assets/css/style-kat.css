@@ -1,3 +1,4 @@
+/*** TOUTES LES PAGES DE LA CCIS ***/
 /* Titre de la page - À propos */
 #presentation-chambre h3{
     margin-top: 50px;
@@ -25,9 +26,14 @@ div.background-image{
     min-height: 1900px;
 }
 
-/* Grandeur du background de la sidebar page comites organisation de la chambre */
+/* Grandeur du background de la sidebar page implications */
 #presentation-chambre.implications aside{
     min-height: 850px;
+}
+
+/* Grandeur du background de la sidebar page ca */
+#presentation-chambre.ca aside{
+    min-height: 3000px;
 }
 
 #presentation-chambre.comites a{
