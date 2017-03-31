@@ -1,0 +1,19 @@
+/* Titre de la page - À propos */
+#presentation-chambre h3{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+/* Image d'arrière-plan */
+#presentation-chambre .background-image{
+    margin-top: 120px;
+}
+
+/* Espace à gauche du GoogleMaps */
+#presentation-chambre iframe{
+    margin: 20px 0px 20px 40px;
+}
+
+#presentation-chambre.gras{
+    margin-left: 25px;
+}
