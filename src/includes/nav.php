@@ -67,7 +67,7 @@
                                     <ul id="deroule">
                                         <li class="lien-1">
                                             <a class="a-1" href="ccis.php">Présentation de la chambre</a>
-                                            <a href="comites-organisations.php">Les comités d'organisation</a>
+                                            <a href="comites-organisation.php">Les comités d'organisation</a>
                                         </li>
                                         <li class="lien-2">
                                             <a class="a-2" href="conseil-administration.php">Conseil d'administration</a>
