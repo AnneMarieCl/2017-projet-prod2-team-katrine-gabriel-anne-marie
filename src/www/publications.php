@@ -6,6 +6,10 @@
             <?php include'../includes/nav.php'; ?>
         </header>
 
+        <main>
+
+        </main>
+
         <?php include'../includes/footer.php'; ?>
 
         <?php include'../includes/script.php'; ?>
