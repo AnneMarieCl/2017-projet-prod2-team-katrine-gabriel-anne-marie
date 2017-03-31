@@ -1,7 +1,7 @@
 <head>
      <meta charset="utf-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-     <title>Chambre de commerce et d'industrie de Shawinigan</title>
+     <title>CCIS</title>
      <!-- BootStrap -->
      <link href="assets/css/bootstrap.min.css" rel="stylesheet">
      <!-- Fonts -->
