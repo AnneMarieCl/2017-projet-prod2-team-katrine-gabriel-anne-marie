@@ -164,7 +164,7 @@ a.a-2 {
      padding-top: 50px;
      padding-left: 40px;
 }
-.evenement p {
+.publication p, .blogue p, .evenement p {
     font-size: 18pt;
 }
 .evenement h3 {
@@ -191,7 +191,7 @@ p.inscription2:hover, p.inscription:hover {
     padding: 10px 15px ;
     font-size: 15pt;
 }
-/* #################### SECTION PUBLICATION #################### */
+/* #################### SECTION PUBLICATION ET BLOGUE #################### */
 .publication {
     min-height: 825px;
 }
@@ -201,6 +201,30 @@ p.inscription2:hover, p.inscription:hover {
 }
 .blogue .image, .publication .image {
     padding-left: 100px;
+}
+.blogue h2, .publication h2 {
+    padding-bottom: 25px;
+    font-size: 38pt;
+    padding-top: 0px;
+}
+.publication h3, .blogue h3 {
+    font-size: 25pt;
+}
+.publication span, .blogue span {
+    text-transform: uppercase;
+}
+.publication .texte, .blogue .texte {
+    padding-top: 25px;
+}
+.publication a, .blogue a {
+    display:inline-block;   
+}
+.publication p.lien, .blogue p.lien {
+    padding-right: 280px;   
+    color: #ee3a43;
+}
+.publication p.lien:hover, .blogue p.lien:hover {  
+    color: #3e3d3d;
 }
 /* #################### FOOTER #################### */
 /* Stylistique général du footer */
