@@ -15,7 +15,7 @@ a:hover {
 
 #header-img img {
     background-size: 100%;
-    padding-top: 120px;
+    padding-top: 120px; 
 }
 
 header h1 {
@@ -23,9 +23,6 @@ header h1 {
     top: 55%;
     left: 45%; 
 }
-
-
-
 
 /* Correction horizontal Scroll Bar */
 #blog .row {
@@ -107,6 +104,7 @@ header h1 {
 }
 */
 
+/* Navigation tmeporaire */
 .pager {
     margin-top: 50px;
     margin-bottom: 0;
@@ -127,9 +125,10 @@ header h1 {
 
 .pager a:hover {
     background: #fff!important;
-    color: #000;
+    color: #c6262d;
 }
 
+/* Style des articles */
 .article {
     padding: 50px 0;
     border-bottom: 1px #ee3a43 solid;
@@ -144,6 +143,7 @@ header h1 {
     position: relative;
 }
 
+/*Ruban pour display catégories*/
 .article .ruban {
     color: #fff;
     background: #ee3a43;
@@ -154,6 +154,7 @@ header h1 {
     font-size: 15pt;
 }
 
+/* Style pour afficher date */
 .article .day {
     background: #fff;
     color: #ee3a43;
@@ -194,6 +195,7 @@ header h1 {
     right: 7px;
 }
 
+/* Sidebar */
 aside {
     background: #d5dbdf;
     height: 100%;
@@ -227,6 +229,7 @@ aside a {
 }
 
 @media (max-width: 767px){
+    /* Change la liste des post type */
     #post-type ul li{
         float: none;
         width: 100%;
@@ -239,6 +242,7 @@ aside a {
 
 /* Small device */
 @media screen and (min-width: 768px) and (max-width: 992px){
+    /*Correction fonts*/
     #post-type ul li{
         font-size: 14px;
     }
@@ -246,7 +250,8 @@ aside a {
     
 /* Medium device */
 @media screen and (min-width: 992px) and (max-width: 1200px){
-        #post-type ul li{
+    /*Correction fonts*/
+    #post-type ul li{
         font-size: 16px;
     }
 }
