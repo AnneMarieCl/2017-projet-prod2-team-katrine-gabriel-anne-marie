@@ -10,5 +10,6 @@
      <!-- Style.css -->
      <link href="assets/css/style.css" rel="stylesheet">
      <link href="assets/css/style-gab.css" rel="stylesheet">
+     <link href="assets/css/style-kat.css" rel="stylesheet">
 </head>
 
