@@ -16,7 +16,7 @@
         <main>
 
             <!-- Section : Espace membre  -->
-            <section id="presentation-chambre">
+            <section id="presentation-chambre" class="espace-membre">
                 <div class="container-fluid">
                     
                     <div class="row">
@@ -28,7 +28,7 @@
                                 <!-- Les membres -->
                                 <h4 class="espaceenahut">Qui sont nos membres</h4>
 
-                                <p>Nous effectuons présentement une mise à jour complète du profil de nos 600 membres. Nous vous présenterons cet automne un portrait détaillé de notre membership sur notre site.</p>
+                                <p>Nous effectuons présentement une mise à jour complète du profil de nos 600 membres. Nous vous présenterons cet automne un portrait détaillé de notre membership.</p>
 
 
                                 <!-- Rabais et privilèges -->

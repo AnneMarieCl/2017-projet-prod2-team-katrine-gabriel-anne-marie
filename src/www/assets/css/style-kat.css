@@ -36,10 +36,19 @@ div.background-image{
     min-height: 3000px;
 }
 
+/* Style des liens de la page comités */
 #presentation-chambre.comites a{
     color: #333;
 }
 #presentation-chambre.comites a:hover{
+    color: #ee3a43;
+}
+/* Style des liens de la page espace-membre */
+#presentation-chambre.espace-membre #margedroite > ul > li > a{
+    text-decoration: none;
+    color: #333;
+}
+#presentation-chambre.espace-membre #margedroite > ul > li > a:hover{
     color: #ee3a43;
 }
 
