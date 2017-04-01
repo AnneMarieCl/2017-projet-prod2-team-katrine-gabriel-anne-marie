@@ -52,11 +52,12 @@
             <section class="principal">
                 <div class="row">
                 <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-                            <!-- LOGO -->
-                            <a class="logo" href="index.php">
-                                <img src="assets/images/logo-principal.png" alt="">
-                            </a>
-                        </div>
+                    <!-- LOGO -->
+                    <a class="logo" href="index.php">
+                        <img src="assets/images/logo-principal.png" alt="">
+                    </a>
+                </div>
+                
                     <!-- MENU PRINCIPAL -->
                     <div class="collapse navbar-collapse principal" id="bs-example-navbar-collapse-1">
                         <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 enleve-padding">       
@@ -98,6 +99,14 @@
 
                                 <li>
                                     <a href="#"><i class="fa fa-search" id="loupe" aria-hidden="true"></i></a>
+                                </li>
+
+                                <li class="hidden-sm hidden-md hidden-lg">
+                                    <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+                                </li>
+
+                                <li class="hidden-sm hidden-md hidden-lg">
+                                    <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                                 </li>
                             </ul>
                     </div>

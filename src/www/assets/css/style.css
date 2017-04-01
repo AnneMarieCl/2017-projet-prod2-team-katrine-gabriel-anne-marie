@@ -428,15 +428,24 @@ footer #footer-deux h5 {
     .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
         max-height:none;
     }
-    .navbar-nav {
-        margin: 35px 0px;
-    }
     .menu-principal>li>a { 
         font-size:9pt;
-        margin-left: 0px;
-        margin-right:0px;
+        margin: 0;
         padding:0;
         text-align: center;
+        height: 30px;
+    }
+
+    .nav>li>a {
+        display: initial;
+    }
+    #bs-example-navbar-collapse-1{
+        text-align:center;
+        padding: 80px;
+    }
+
+    #bs-example-navbar-collapse-1 #menu-deroulant li{
+        padding: 10px 0;
     }
 
     /* #################### PAGE À PROPOS #################### */
