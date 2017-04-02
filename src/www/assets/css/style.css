@@ -464,9 +464,8 @@ footer #footer-deux h5 {
     }
     #menu-deroulant li:hover ul {
     left: auto;
-    background-color: rgba(198, 38, 45, 0.7);
     width: 200%;
-    margin-left: -89px;
+    margin-left: -85px;
     text-align: center;
     font-size: 8pt;
     }
@@ -499,6 +498,9 @@ footer #footer-deux h5 {
     }
     #menu-deroulant, #menu-deroulant ul {
         margin-left:1px;
+    }
+    .lien-2 {
+        margin-bottom: 20px;
     }
     /* #################### PAGE À PROPOS #################### */
     /* Titre de la page */
