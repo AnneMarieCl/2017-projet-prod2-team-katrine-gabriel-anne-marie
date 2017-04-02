@@ -8,7 +8,7 @@
 
             <!-- Image dans le header -->
             <div class="background-image hidden-xs">
-                <img class="img-responsive" src="assets/images/espace-membre.png" alt="CCIS">
+                <img class="img-responsive" src="assets/images/background-membre.png" alt="CCIS">
             </div>
         </header>
 
