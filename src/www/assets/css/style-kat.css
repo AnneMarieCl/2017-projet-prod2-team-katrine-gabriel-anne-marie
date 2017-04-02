@@ -35,7 +35,7 @@ div.background-image{
 
 /* Grandeur du background de la sidebar page ca */
 #presentation-chambre.ca aside{
-    min-height: 2400px;
+    min-height: 2700px;
     max-height: 3000px;
 }
 
@@ -121,4 +121,15 @@ div.background-image{
 }
 #presentation-chambre p a{
     color: #ee3a43;
+}
+
+/* Image des commanditaires */
+#presentation-chambre div.partenaire {
+    margin:0;
+    padding:0;
+    min-height: 100%;
+}
+#presentation-chambre div img.partenaire {
+    margin:0;
+    padding-right:25px;
 }
