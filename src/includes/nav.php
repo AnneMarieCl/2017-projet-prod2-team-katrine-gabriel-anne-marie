@@ -63,7 +63,7 @@
                         <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 enleve-padding">       
                             <ul class="nav navbar-nav menu-principal navbar-right" id="menu-deroulant">
                                 
-                                <li class="onglet">
+                                <li class="onglet-1">
                                     <a class="premier-niveau" id="ccis" href="ccis.php">La ccis</a>
                                     <ul id="deroule">
                                         <li class="lien-1">

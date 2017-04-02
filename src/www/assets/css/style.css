@@ -137,6 +137,9 @@ a.a-2 {
 .navbar {
     border:none;
 }
+li.onglet-1 {
+
+}
 /* #################### SLIDER #################### */
 .slider {
     padding-top: 100px;
@@ -459,7 +462,23 @@ footer #footer-deux h5 {
     #bs-example-navbar-collapse-1 #menu-deroulant li{
         padding: 10px 0;
     }
-
+    #menu-deroulant li:hover ul {
+     left: auto;
+    background-color: rgba(198, 38, 45, 0.7);
+    width: 150%;
+    margin-left: -50px;
+    text-align: center;
+    font-size: 8pt;
+    }
+    #menu-deroulant li ul {
+    left: auto;
+    background-color: rgba(198, 38, 45, 0.7);
+    width: 150%;
+    position: relative;
+    margin-left: -50px;
+    text-align: center;
+    font-size: 8pt;
+}
     /* #################### PAGE À PROPOS #################### */
     /* Titre de la page */
     #presentation-chambre h3{
@@ -504,7 +523,7 @@ footer #footer-deux h5 {
         width: 50%;
     }
     #menu-deroulant ul {
-        display: none;
+        
     }
     /* Stylistique de la police */
     footer #footer-un #reseaux-sociaux h5, 
