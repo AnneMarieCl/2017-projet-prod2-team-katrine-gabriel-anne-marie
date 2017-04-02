@@ -33,6 +33,13 @@
                                             <li><a href="">Grand dossiers</a></li>
                                             <li><a href="">Autres</a></li>
                                         </ul>
+                                        <select id="post-type">
+                                            <option value="Tout">Tout</option>
+                                            <option value="Faits saillants">Faits saillants</option>
+                                            <option value="Actualités">Actualités</option>
+                                            <option value="Grand dossiers">Grand dossiers</option>
+                                            <option value="Autres">Autres</option>
+                                        </select>
                                     </div>
 
                                  </div>
