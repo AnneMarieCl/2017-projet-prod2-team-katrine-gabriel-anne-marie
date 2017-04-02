@@ -21,6 +21,18 @@ h1 {
     background-color: white;
     margin-left: 25px;
 }
+#index h2 {
+    font-size: 38pt; 
+}
+#index h3 {
+    font-size: 25pt;
+}
+#index h4 {
+    font-size: 24px;
+}
+#index p {
+    font-size: 18pt;
+}
 /* #################### HEADER #################### */
 /*** MENU HEADER ***/
 /* Ajouter une bordure autour du logo */
@@ -458,15 +470,6 @@ footer #footer-deux h5 {
     text-align: center;
     font-size: 8pt;
     }
-    /*#menu-deroulant li ul {
-    left: auto;
-    background-color: rgba(198, 38, 45, 0.7);
-    width: 200%;
-    position: relative;
-    margin-left: -80px;
-    text-align: center;
-    font-size: 8pt;
-    }*/
     li.onglet-1:hover {
     margin-bottom: 195px;
 }
@@ -556,7 +559,7 @@ footer #footer-deux h5 {
         font-size:6pt;
     }
     .menu-principal>li>a {
-        font-size:7pt;
+        font-size:6pt;
         width: 100%;
         text-align: center;
         padding-left: 16px;

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
     <?php include'../includes/head.php'; ?>
-    <body>
+    <body id="index">
 
         <header>
             <?php include'../includes/nav.php'; ?>
