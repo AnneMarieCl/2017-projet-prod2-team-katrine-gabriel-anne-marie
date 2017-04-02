@@ -466,7 +466,7 @@ footer #footer-deux h5 {
     left: auto;
     background-color: rgba(198, 38, 45, 0.7);
     width: 200%;
-    margin-left: -80px;
+    margin-left: -89px;
     text-align: center;
     font-size: 8pt;
     }
@@ -496,6 +496,9 @@ footer #footer-deux h5 {
     margin-top: 20px;
     padding-bottom: 0px;
     margin-left: 15px;
+    }
+    #menu-deroulant, #menu-deroulant ul {
+        margin-left:1px;
     }
     /* #################### PAGE À PROPOS #################### */
     /* Titre de la page */
