@@ -109,16 +109,16 @@
                                 <!-- Grands partenaires -->
                                 <h4 class="espaceenahut">Grands partenaires</h4>
                                 <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 partenaire">
-                                    <img class="partenaire img-responsive" src="assets/images/logo-deloitte.png" alt="">
+                                    <img class="partenaire img-responsive" src="assets/images/logo-deloitte.png" alt="Deloitte">
                                 </div>  
                                 <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 partenaire">
-                                    <img class="partenaire img-responsive" src="assets/images/logo-desjardins.png" alt="">
+                                    <img class="partenaire img-responsive" src="assets/images/logo-desjardins.png" alt="Desjardins">
                                 </div>  
                                 <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 partenaire">
-                                    <img class="partenaire img-responsive" src="assets/images/logo-shawinigan.png" alt="">
+                                    <img class="partenaire img-responsive" src="assets/images/logo-shawinigan.png" alt="Ville de Shawinigan">
                                 </div>  
                                 <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 partenaire">
-                                    <img class="partenaire img-responsive" src="assets/images/logo-culture-shawinigan.png" alt="">
+                                    <img class="partenaire img-responsive" src="assets/images/logo-culture-shawinigan.png" alt="Culture Shawinigan">
                                 </div>  
                                 
                             </div>
