@@ -463,22 +463,40 @@ footer #footer-deux h5 {
         padding: 10px 0;
     }
     #menu-deroulant li:hover ul {
-     left: auto;
+    left: auto;
     background-color: rgba(198, 38, 45, 0.7);
-    width: 150%;
-    margin-left: -50px;
+    width: 200%;
+    margin-left: -80px;
     text-align: center;
     font-size: 8pt;
     }
-    #menu-deroulant li ul {
+    /*#menu-deroulant li ul {
     left: auto;
     background-color: rgba(198, 38, 45, 0.7);
-    width: 150%;
+    width: 200%;
     position: relative;
-    margin-left: -50px;
+    margin-left: -80px;
     text-align: center;
     font-size: 8pt;
+    }*/
+    li.onglet-1:hover {
+    margin-bottom: 195px;
 }
+    a.a-1 {
+    margin-right: 0%;
+    display: block;
+    margin-bottom: 20px;
+    }
+    a.a-2 {
+    margin-right: 0%;
+    margin-bottom: 20px;
+    display: block;
+    }
+    .lien-1 {
+    margin-top: 20px;
+    padding-bottom: 0px;
+    margin-left: 15px;
+    }
     /* #################### PAGE À PROPOS #################### */
     /* Titre de la page */
     #presentation-chambre h3{
