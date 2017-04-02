@@ -124,11 +124,11 @@
                             </div>
                             
                             <!-- Section : Devenez membre -->
-                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
                                 <img src="assets/images/avatar-membre.png" alt="Devenez membre">
                             </div>
                                                         
-                            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 devenezmembre">
+                            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9 devenezmembre">
                                 <h4>DEVENEZ MEMBRE</h4>
                                 <p class="espacebas">Être membre de la CCIS, c'est choisir de solidifier ses acquis en partageant votre expertise et celle d'autres membres tout en bénéficiant de plusieurs services vous donnant accès à une clientèle privilège.</p>
                                 <a href="espace-membre.php" id="moreinfo">En savoir plus</a>
