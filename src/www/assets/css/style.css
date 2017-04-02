@@ -522,6 +522,10 @@ footer #footer-deux h5 {
     .image {
         padding-left: 15px;
     }
+    /* Section publication index */
+    .publication {
+        padding-left: 0px;
+    }
     /* #################### PAGE À PROPOS #################### */
     /* Titre de la page */
     #presentation-chambre h3{
