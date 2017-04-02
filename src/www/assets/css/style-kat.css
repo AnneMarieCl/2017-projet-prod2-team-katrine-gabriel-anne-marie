@@ -127,10 +127,9 @@ div.background-image{
 #presentation-chambre div.partenaire {
     margin:0;
     padding:0;
-    max-height: 100%;
-}
-#presentation-chambre div img.partenaire {
-    margin:0;
-    padding-right:25px;
+    float: left;
 }
 
+#presentation-chambre div.partenaire img.partenaire{
+    padding-right: 20px;
+}

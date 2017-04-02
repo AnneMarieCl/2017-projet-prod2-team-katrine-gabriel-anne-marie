@@ -72,6 +72,14 @@
                                     <li>Intervenir auprès des différentes instances afin de mieux défendre les intérêts de nos membres.</li>
                                     <li>Cultiver l'entrepreneuriat pour diversifier notre économie.</li>
                                 </ul>
+
+                                <!-- Mot du  président et du directeur général -->
+                                <h4 class="espaceenahut">Mot du président et du directeur général</h4>
+                                <p><b>Mot du président Mario Lamontagne</b></p>
+                                <p>Eius populus ab incunabulis primis ad usque pueritiae tempus extremum, quod annis circumcluditur fere trecentis, circummurana pertulit bella, deinde aetatem ingressus adultam post multiplices bellorum aerumnas Alpes transcendit et fretum, in iuvenem erectus et virum ex omni plaga quam orbis ambit inmensus, reportavit laureas et triumphos, iamque vergens in senium et nomine solo aliquotiens vincens ad tranquilliora vitae discessit.</p><br>
+                                
+                                <p><b>Mot du directeur général Martin St-Pierre</b></p>
+                                <p>Eius populus ab incunabulis primis ad usque pueritiae tempus extremum, quod annis circumcluditur fere trecentis, circummurana pertulit bella, deinde aetatem ingressus adultam post multiplices bellorum aerumnas Alpes transcendit et fretum, in iuvenem erectus et virum ex omni plaga quam orbis ambit inmensus, reportavit laureas et triumphos, iamque vergens in senium et nomine solo aliquotiens vincens ad tranquilliora vitae discessit.</p>
                             </div>
 
                             <!-- Section : Devenez membre -->
