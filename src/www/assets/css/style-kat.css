@@ -16,8 +16,8 @@ div.background-image{
 }
 
 /* Grandeur du background de la sidebar page présentation de la chambre */
-#presentation-chambre aside{
-    min-height: 1800px;
+#presentation-chambre.ccis aside{
+    min-height: 2000px;
     max-height: 4000px;
 }
 
