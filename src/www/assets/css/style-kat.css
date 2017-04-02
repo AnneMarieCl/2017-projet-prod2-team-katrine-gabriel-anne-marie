@@ -15,9 +15,28 @@ div.background-image{
     padding:0;
 }
 
-/* Grandeur du background de la sidebar */
+/* Grandeur du background de la sidebar page présentation de la chambre */
 #presentation-chambre aside{
-    height: inherit
+    min-height: 1700px;
+    max-height: 4000px;
+}
+
+/* Grandeur du background de la sidebar page comites organisation de la chambre */
+#presentation-chambre.comites aside{
+    min-height: 1850px;
+    max-height: 4000px;
+}
+
+/* Grandeur du background de la sidebar page implications */
+#presentation-chambre.implications aside{
+    min-height: 800px;
+    max-height: 4000px;
+}
+
+/* Grandeur du background de la sidebar page ca */
+#presentation-chambre.ca aside{
+    min-height: 2400px;
+    max-height: 3000px;
 }
 
 /* Style des liens de la page comités */
