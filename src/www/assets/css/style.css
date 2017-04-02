@@ -464,8 +464,9 @@ footer #footer-deux h5 {
         padding: 10px 0;
     }
     #menu-deroulant li:hover ul {
-    width: 83%;
+    width: 100%;
     margin: 0;
+    padding:0;
     text-align: center;
     font-size: 8pt;
     }
@@ -494,13 +495,14 @@ footer #footer-deux h5 {
     .lien-1 {
     margin-top: 20px;
     padding-bottom: 0px;
-    margin-left: 15px;
+    margin-left: 0px;
     }
     #menu-deroulant, #menu-deroulant ul {
         margin-left:1px;
     }
     .lien-2 {
         margin-bottom: 20px;
+        margin-left:0;
     }
     /* #################### PAGE À PROPOS #################### */
     /* Titre de la page */
