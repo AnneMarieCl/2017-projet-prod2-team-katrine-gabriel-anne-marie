@@ -22,16 +22,16 @@ h1 {
     margin-left: 25px;
 }
 #index h2 {
-    font-size: 38pt; 
+    font-size: 24px; 
 }
 #index h3 {
-    font-size: 25pt;
+    font-size: 20px;
 }
 #index h4 {
-    font-size: 24px;
+    font-size: 18px;
 }
 #index p {
-    font-size: 18pt;
+    font-size: 16px;
 }
 /* #################### HEADER #################### */
 /*** MENU HEADER ***/
@@ -153,13 +153,18 @@ li.onglet-1 {
 .carousel-caption {
     text-align: left;
     left: 12%;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 .carousel-caption h2 {
     text-transform: uppercase;
+    font-size: 30px!important;
+}
+.carousel-caption p {
+    font-size: 20px!important;
 }
 .slider p.savoir-plus{
     color: #ee3a43; 
+    font-size: 20px!important;
 }
 img.un {
     width: 100%;
@@ -495,6 +500,36 @@ footer #footer-deux h5 {
         margin-bottom: 20px;
         margin-left:0;
     }
+     /* Slider */
+    img.un {
+    display: none;
+    }
+    .carousel-caption {
+    position: relative; 
+    padding-bottom: 20px;
+    text-align: center;
+    left: 0%;
+    }
+    .carousel-caption h2 {
+        color:#3e3d3d;
+    }
+    .carousel-caption p {
+        color:#3e3d3d;
+    }
+     /* Section evenement index */
+     #index h2 {
+         font-size: 15pt!important;
+     }
+     #index p {
+         font-size: 12pt!important;
+     }
+     #index h3 {
+         font-size: 18pt!important;
+     }
+     .texte {
+     padding-left: 0px; 
+     text-align: center;
+}
     /* #################### PAGE À PROPOS #################### */
     /* Titre de la page */
     #presentation-chambre h3{
