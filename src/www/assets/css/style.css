@@ -21,6 +21,18 @@ h1 {
     background-color: white;
     margin-left: 25px;
 }
+h2 {
+    font-size: 38pt; 
+}
+h3 {
+    font-size: 25pt;
+}
+h4 {
+    font-size: 24px;
+}
+p {
+    font-size: 18pt;
+}
 /* #################### HEADER #################### */
 /*** MENU HEADER ***/
 /* Ajouter une bordure autour du logo */
