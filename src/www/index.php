@@ -193,7 +193,7 @@
                                 <section class="devenir-membre">
                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                         <div class="image-1">
-                                            <img class="fond" src="assets/images/background-membre.png" alt="">
+                                            <img class="fond" src="assets/images/background-membre-index.png" alt="">
                                             <div class="appel-action"> 
                                                 <div class="row">
                                                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
