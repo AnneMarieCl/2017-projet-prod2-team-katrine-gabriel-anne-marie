@@ -215,7 +215,7 @@ p.inscription2:hover, p.inscription:hover {
     text-transform: uppercase;
 }
 .publication .texte, .blogue .texte {
-    padding-top: 25px;
+    padding-top: 65px;
 }
 .publication a, .blogue a {
     display:inline-block;   
@@ -229,9 +229,7 @@ p.inscription2:hover, p.inscription:hover {
 .publication p.lien:hover, .blogue p.lien:hover {  
     color: #3e3d3d;
 }
-.blogue .image {
-    padding-bottom: 55px;
-}
+
 /* #################### DEVENIR MEMBRE #################### */
 img.fond {
     position: absolute;
@@ -239,6 +237,7 @@ img.fond {
 }
 .devenir-membre {
     min-height: 500px;
+    padding-top: 55px;
 }
 .devenir-membre h2 {
     color: white;
@@ -248,22 +247,29 @@ img.fond {
 a.bouton {
     background-color: #ee3a43;
     position: absolute;
-    width: 740px;
+    width: 540px;
     text-align: center;
     color: white;
+    border-radius: 4px;
 }
 a.bouton:hover {
     color: #3e3d3d;
 }
 .gauche {
-    margin-left: 125px;
+    margin-left: 300px;
     margin-top: 40px;
 }
 .droit {
     margin-top: 40px;
     margin-left: 50px;
 }
+.appel-action p {
+    padding-bottom: 15px;
+}
 /* #################### PARTENAIRE #################### */
+.partenaire {
+    padding-top: 55px;
+}
 img.partn {
     width: 85%;
     padding-left: 55px;
@@ -530,10 +536,37 @@ footer #footer-deux h5 {
         padding-left: 15px;
     }
     .publication a p.lien, .blogue a p.lien {
-    padding-right: 0px;
     padding-top: 50px;
     padding-right: 15px;
-}
+    }
+    .blogue .image {
+        padding-left: 15px;
+    }
+    /* Section devenir membre index */
+    .devenir-membre {
+        background-color: #455560;
+        margin-top: 100px;
+        min-height: 550px;
+    }
+    img.fond {
+        display:none;
+    }
+    .devenir-membre h2 {
+    color: #fff;
+    padding-top: 15px;
+    text-align: center;
+    }
+    a.bouton {
+        width: 240px;
+    }
+    .gauche {
+        margin-left: 10px;
+        margin-top: 200px;
+    }
+    .droit {
+        margin-left: 10px;
+    }
+   
     /* #################### PAGE À PROPOS #################### */
     /* Titre de la page */
     #presentation-chambre h3{
