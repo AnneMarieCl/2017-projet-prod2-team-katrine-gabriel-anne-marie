@@ -81,7 +81,7 @@
                                                 </div>
                                             </div>
                                         
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 infoarticle">
 
                                                 <h4>À l’aube du transport intelligent au Québec</h4>
                                                 <h6>Par Sousso Kelouwani, PH. D., Professeur à l'Université' du Québec à Trois-Rivières </h6>
@@ -110,7 +110,7 @@
                                                 </div>
                                             </div>
                                         
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 infoarticle">
 
                                                 <h4>À l’aube du transport intelligent au Québec</h4>
                                                 <h6>Par Sousso Kelouwani, PH. D., Professeur à l'Université' du Québec à Trois-Rivières </h6>
@@ -139,7 +139,7 @@
                                                 </div>
                                             </div>
                                         
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 infoarticle">
 
                                                 <h4>À l’aube du transport intelligent au Québec</h4>
                                                 <h6>Par Sousso Kelouwani, PH. D., Professeur à l'Université' du Québec à Trois-Rivières </h6>
@@ -168,7 +168,7 @@
                                                 </div>
                                             </div>
                                         
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 infoarticle">
 
                                                 <h4>À l’aube du transport intelligent au Québec</h4>
                                                 <h6>Par Sousso Kelouwani, PH. D., Professeur à l'Université' du Québec à Trois-Rivières </h6>
@@ -197,7 +197,7 @@
                                                 </div>
                                             </div>
                                         
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 infoarticle">
 
                                                 <h4>À l’aube du transport intelligent au Québec</h4>
                                                 <h6>Par Sousso Kelouwani, PH. D., Professeur à l'Université' du Québec à Trois-Rivières </h6>
@@ -226,7 +226,7 @@
                                                 </div>
                                             </div>
                                         
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 infoarticle">
 
                                                 <h4>À l’aube du transport intelligent au Québec</h4>
                                                 <h6>Par Sousso Kelouwani, PH. D., Professeur à l'Université' du Québec à Trois-Rivières </h6>

@@ -164,23 +164,32 @@ header h1 {
 }
 
 /* Style des articles */
-.article {
+#blog .article {
     padding: 50px 0;
     border-bottom: 1px #ee3a43 solid;
 }
 
-.article a {
+#blog .article a {
     color: #ee3a43;
     font-size: 18px;
 }
 
+#blog .article div{
+    margin:0;
+    padding:0;
+}
+#blog .article div.infoarticle{
+    margin:0;
+    padding-left: 20px;
+}
+
 /*Postionnement pour img article*/
-.img-article {
+#blog .img-article {
     position: relative;
     overflow: hidden; 
 }
 
-.img-article img {
+#blog .img-article img {
     float:clear;
 }
 
@@ -329,6 +338,15 @@ aside a {
     .article h4 {
         margin-top: 50px; 
     }
+        /* Style des articles */
+    #blog .article div{
+        margin:0;
+        padding:0;
+    }
+    #blog .article div.infoarticle{
+        margin:0;
+        padding-left: 0px;
+    }
 
     
 }
@@ -344,6 +362,15 @@ aside a {
     }
     .article h4 {
         margin-top: 50px; 
+    }
+    /* Style des articles */
+    #blog .article div{
+        margin:0;
+        padding:0;
+    }
+    #blog .article div.infoarticle{
+        margin:0;
+        padding-left: 0px;
     }
 }
     
