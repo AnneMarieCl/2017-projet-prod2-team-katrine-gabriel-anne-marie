@@ -177,10 +177,12 @@ img.un {
 p.inscription2 {
     padding-top: 30px;
     color: #ee3a43;
+    font-size: 20px!important;
 }
 p.inscription {
     padding-top: 15px;
     color: #ee3a43;
+    font-size: 20px!important;
 }
 p.inscription2:hover, p.inscription:hover {
     color: #3e3d3d;
@@ -222,6 +224,7 @@ p.inscription2:hover, p.inscription:hover {
     padding-right: 280px;   
     color: #ee3a43;
     padding-top: 50px;
+    font-size: 20px!important;
 }
 .publication p.lien:hover, .blogue p.lien:hover {  
     color: #3e3d3d;
