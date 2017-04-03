@@ -116,13 +116,15 @@
                                             <h3 class="titre">Activités à venir</h3>
                                         </div>
                                         <div class="row">
-                                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                                                <div id="membre" class="sidebar">
-                                                    <h4><div class="date"><span class="day">11</span><span class="month"><span class = "fa fa-circle left-circle"></span>Mai<span class = "fa fa-circle right-circle"></span></span></div>Toute la ville parle pme</h4>
+                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                                <div id="calendar-1" class="sidebar-am">
+                                                    <h4><div class="calendrier"><span class="mois"><span class = "fa fa-circle left-circle"></span>Mai<span class = "fa fa-circle right-circle"></span></span><span class="jour">11</span></div></h4>
                                                 </div>
                                             </div>
-                                            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">  
-                                                <h4>Toute la ville en parle</h4>
+                                            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">  
+                                                <div id="titre-calendar-1" class="sidebar-am">
+                                                     <h4>Toute la ville en parle</h4>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -136,13 +138,15 @@
                                             </div>
                                         </div>
                                          <div class="row">
-                                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                                                <div id="membre" class="sidebar">
-                                                    <h4><div class="date"><span class="day">11</span><span class="month"><span class = "fa fa-circle left-circle"></span>Mai<span class = "fa fa-circle right-circle"></span></span></div>Toute la ville parle pme</h4>
+                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                                <div id="calendar-2" class="sidebar-am">
+                                                    <h4><div class="calendrier"><span class="mois"><span class = "fa fa-circle left-circle"></span>Mai<span class = "fa fa-circle right-circle"></span></span><span class="jour">11</span></div></h4>
                                                 </div>
                                             </div>
-                                            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">  
-                                                <h4>Toute la ville en parle</h4>
+                                            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">  
+                                                <div id="titre-calendar-2" class="sidebar-am">
+                                                     <h4>Toute la ville en parle</h4>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -156,13 +160,15 @@
                                             </div>
                                         </div>
                                          <div class="row">
-                                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                                                <div id="membre" class="sidebar">
-                                                    <h4><div class="date"><span class="day">11</span><span class="month"><span class = "fa fa-circle left-circle"></span>Mai<span class = "fa fa-circle right-circle"></span></span></div>Toute la ville parle pme</h4>
+                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                                <div id="calendar-3" class="sidebar-am">
+                                                    <h4><div class="calendrier"><span class="mois"><span class = "fa fa-circle left-circle"></span>Mai<span class = "fa fa-circle right-circle"></span></span><span class="jour">11</span></div></h4>
                                                 </div>
                                             </div>
-                                            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">  
-                                                <h4>Toute la ville en parle</h4>
+                                            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">  
+                                                <div id="titre-calendar-4" class="sidebar-am">
+                                                     <h4>Toute la ville en parle</h4>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="row">
