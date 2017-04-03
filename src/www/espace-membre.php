@@ -7,8 +7,9 @@
             <?php include'../includes/nav.php'; ?>
 
             <!-- Image dans le header -->
-            <div class="background-image hidden-xs">
-                <img class="img-responsive" src="assets/images/background-membre.png" alt="CCIS">
+            <div class="background-img hidden-xs">
+                <img class="img-responsive" src="assets/images/background-membre.png" alt="L'espace membre">
+                <h1>ESPACE MEMBRE</h1>
             </div>
         </header>
 

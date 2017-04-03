@@ -9,7 +9,7 @@
             <!-- Image dans le header -->
             <div class="background-img hidden-xs">
                 <img class="img-responsive" src="assets/images/background-header.jpg" alt="CCIS">
-                <h1>LA CCIS</h1>
+                <h1>PRÉSENTATION DE LA CHAMBRE</h1>
             </div>
         </header>
 
