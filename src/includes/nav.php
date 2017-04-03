@@ -30,7 +30,7 @@
                                     <a href="https://twitter.com/CCIShawinigan" target="_blank">Twitter</a>
                                 </li>
                                 <li>
-                                    <a href="contact.php">819-536-0777</a>
+                                    <a href="contact.php">819 536-0777</a>
                                 </li>
                                 <li>
                                     <a href="mailto:info@ccishawinigan.ca">info@ccishawinigan.ca</a>
