@@ -143,7 +143,7 @@ div.marginpadding{
 /* X-Small device */
 @media (max-width: 767px){
     /* Ajout d'un espace à droite et à gauche du contenu */
-    #margedroite{
+    #margedroite, .devenezmembre{
         padding-right: 25px;
         margin-bottom: 50px;
     }
