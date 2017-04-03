@@ -172,8 +172,14 @@ header h1 {
     font-size: 18px;
 }
 
-.article img {
+/*Postionnement pour img article*/
+.img-article {
     position: relative;
+    overflow: hidden; 
+}
+
+.img-article img {
+    float:clear;
 }
 
 /*Ruban pour display catégories*/
@@ -188,6 +194,12 @@ header h1 {
 }
 
 /* Style pour afficher date */
+
+.date {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
 .square-box{
     position: relative;
@@ -257,45 +269,6 @@ header h1 {
     text-align: center;
     vertical-align: middle;
 }
-/*.article .day {
-    background: #fff;
-    color: #ee3a43;
-    border: 1px#ee3a43 solid;
-    position: absolute;
-    padding: 10px 15px;
-    bottom: 0;
-    right: 15px;
-    font-size: 32px;
-    width: 28%;
-}
-
-.article .month {
-    color: #fff;
-    background: #ee3a43;
-    border-left: 1px#ee3a43 solid;
-    position: absolute;
-    padding: 5px 20px ;
-    bottom: 60px;
-    right: 15px;
-    width: 28%;
-    font-size: 12px;
-}
-
-.month .fa-circle {
-    font-size: 5px;
-}
-
-.left-circle {
-    position: absolute;
-    top: 13px;
-    left: 7px;
-}
-
-.right-circle {
-    position: absolute;
-    top: 13px;
-    right: 7px;
-}*/
 
 /* Sidebar */
 aside {

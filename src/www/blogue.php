@@ -67,17 +67,18 @@
                                         <div class="row">
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                                <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
-                                                <span class="ruban pull-left">Catégorie</span>
-                                                <div class="date">
-                                                    <div class='square-box month-box'>
-                                                        <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Décembre<span class = "fa fa-circle right-circle"></span></span></div></div>
-                                                    </div>
-                                                    <div class='square-box day-box'>
-                                                        <div class='square-content day-content'><div><span class="month">29</span></div></div>
+                                                <div class="img-article">
+                                                    <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
+                                                    <span class="ruban pull-left">Catégorie</span>
+                                                    <div class="date">
+                                                        <div class='square-box month-box'>
+                                                            <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Avril<span class = "fa fa-circle right-circle"></span></span></div></div>
+                                                        </div>
+                                                        <div class='square-box day-box'>
+                                                            <div class='square-content day-content'><div><span class="day">3</span></div></div>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <!--<div class="date"><span class="day">11</span><span class="month"><span class = "fa fa-circle left-circle"></span>Mars<span class = "fa fa-circle right-circle"></span></span></div>-->
                                             </div>
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
@@ -95,9 +96,18 @@
                                         <div class="row">
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                                <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
-                                                <span class="ruban">Catégorie</span>
-                                                <div class="date"><span class="day">1</span><span class="month pull-center"><span class = "fa fa-circle left-circle"></span>Janvier<span class = "fa fa-circle right-circle"></span></span></div>
+                                                <div class="img-article">
+                                                    <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
+                                                    <span class="ruban pull-left">Catégorie</span>
+                                                    <div class="date">
+                                                        <div class='square-box month-box'>
+                                                            <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Mars<span class = "fa fa-circle right-circle"></span></span></div></div>
+                                                        </div>
+                                                        <div class='square-box day-box'>
+                                                            <div class='square-content day-content'><div><span class="day">31</span></div></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
@@ -115,9 +125,18 @@
                                         <div class="row">
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                                <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
-                                                <span class="ruban">Catégorie</span>
-                                                <div class="date"><span class="day">30</span><span class="month"><span class = "fa fa-circle left-circle"></span>Avril<span class = "fa fa-circle right-circle"></span></span></div>
+                                                <div class="img-article">
+                                                    <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
+                                                    <span class="ruban pull-left">Catégorie</span>
+                                                    <div class="date">
+                                                        <div class='square-box month-box'>
+                                                            <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Mars<span class = "fa fa-circle right-circle"></span></span></div></div>
+                                                        </div>
+                                                        <div class='square-box day-box'>
+                                                            <div class='square-content day-content'><div><span class="day">29</span></div></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
@@ -135,8 +154,18 @@
                                         <div class="row">
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                                <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
-                                                <span class="ruban">Catégorie</span>
+                                                <div class="img-article">
+                                                    <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
+                                                    <span class="ruban pull-left">Catégorie</span>
+                                                    <div class="date">
+                                                        <div class='square-box month-box'>
+                                                            <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Mars<span class = "fa fa-circle right-circle"></span></span></div></div>
+                                                        </div>
+                                                        <div class='square-box day-box'>
+                                                            <div class='square-content day-content'><div><span class="day">9</span></div></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
@@ -154,8 +183,18 @@
                                         <div class="row">
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                                <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
-                                                <span class="ruban">Catégorie</span>
+                                                <div class="img-article">
+                                                    <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
+                                                    <span class="ruban pull-left">Catégorie</span>
+                                                    <div class="date">
+                                                        <div class='square-box month-box'>
+                                                            <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Février<span class = "fa fa-circle right-circle"></span></span></div></div>
+                                                        </div>
+                                                        <div class='square-box day-box'>
+                                                            <div class='square-content day-content'><div><span class="day">28</span></div></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
@@ -173,8 +212,18 @@
                                         <div class="row">
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                                <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
-                                                <span class="ruban">Catégorie</span>
+                                                <div class="img-article">
+                                                    <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
+                                                    <span class="ruban pull-left">Catégorie</span>
+                                                    <div class="date">
+                                                        <div class='square-box month-box'>
+                                                            <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Janvier<span class = "fa fa-circle right-circle"></span></span></div></div>
+                                                        </div>
+                                                        <div class='square-box day-box'>
+                                                            <div class='square-content day-content'><div><span class="day">13</span></div></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
