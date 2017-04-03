@@ -19,9 +19,11 @@ a:hover {
 }
 
 header h1 {
-    position: absolute;
-    top: 55%;
-    left: 45%; 
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 60%;
+    width: 100%
 }
 
 /* Correction horizontal Scroll Bar */
@@ -189,11 +191,27 @@ header h1 {
 
 .square-box{
     position: relative;
-    width: 350px;
-    height: 50px;
     overflow: hidden;
-    background: #4679BD;
 }
+
+.month-box {
+    height: 20px;
+    width: 85px;
+    background: #ee3a43;
+    border: 1px #ee3a43 solid;
+}
+
+.month-box .fa-circle {
+    font-size: 5px;   
+}
+
+.day-box {
+    height: 65px;
+    width: 85px;
+    background: #fff;
+    border: 1px #ee3a43 solid;
+}
+
 .square-box:before{
     content: "";
     display: block;
@@ -205,8 +223,30 @@ header h1 {
     left: 0;
     bottom: 0;
     right: 0;
-    color: white;
 }
+
+.month-content {
+    color: #fff;
+    font-size: 12px;
+}
+
+.left-circle {
+    position: absolute;
+    top: 8px;
+    left: 5px;
+}
+
+.right-circle {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+}
+
+.day-content {
+    color: #000;
+    font-size: 32px;
+}
+
 .square-content div {
    display: table;
    width: 100%;
@@ -216,7 +256,6 @@ header h1 {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    color: white
 }
 /*.article .day {
     background: #fff;

@@ -71,7 +71,7 @@
                                                 <span class="ruban pull-left">Catégorie</span>
                                                 <div class="date">
                                                     <div class='square-box month-box'>
-                                                        <div class='square-content month-content'><div><span class="month">Mars</span></div></div>
+                                                        <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Décembre<span class = "fa fa-circle right-circle"></span></span></div></div>
                                                     </div>
                                                     <div class='square-box day-box'>
                                                         <div class='square-content day-content'><div><span class="month">29</span></div></div>
