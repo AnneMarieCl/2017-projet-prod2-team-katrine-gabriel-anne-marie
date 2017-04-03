@@ -6,7 +6,7 @@
         <header>
             <?php include'../includes/nav.php'; ?>
             <div class="background-img hidden-xs">
-                <img src="assets/images/background-header.jpg" class="img-responsive center-block" alt="">
+                <img src="assets/images/background-publications.png" class="img-responsive center-block" alt="publications">
                 <h1>PUBLICATIONS</h1>
             </div> 
         </header>
