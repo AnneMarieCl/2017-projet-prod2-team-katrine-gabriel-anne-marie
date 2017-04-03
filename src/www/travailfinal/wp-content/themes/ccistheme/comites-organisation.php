@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <?php include'../includes/head.php'; ?>
-    <body>
-        
-        <header>
-            <?php include'../includes/nav.php'; ?>
+        <?php get_header();?>
+        <!-- Image dans le header -->
+        <div class="background-img hidden-xs">
+            <img class="img-responsive" src="assets/images/background-header.jpg" alt="CCIS">
+            <h1>LES COMITÉS D'ORGANISATION</h1>
+        </div>
 
-            <!-- Image dans le header -->
-            <div class="background-img hidden-xs">
-                <img class="img-responsive" src="assets/images/background-header.jpg" alt="CCIS">
-                <h1>LES COMITÉS D'ORGANISATION</h1>
-            </div>
-        </header>
 
         <!-- Main -->
         <main>

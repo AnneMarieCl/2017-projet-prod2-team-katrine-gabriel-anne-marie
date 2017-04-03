@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <?php include'../includes/head.php'; ?>
-    <body>
+        <?php get_header();?>
 
-        <header>
-            <?php include'../includes/nav.php'; ?>
-            <div class="background-img hidden-xs">
-                <img src="assets/images/background-blogue.png" class="img-responsive center-block" alt="blogue">
-                <h1>BLOGUE</h1>
-            </div> 
-        </header>
+        <!--<div class="background-img hidden-xs">
+            <img src="assets/images/background-blogue.png" class="img-responsive center-block" alt="blogue">
+            <h1>BLOGUE</h1>
+        </div> -->
 
         <!-- Début du main -->
         <main>

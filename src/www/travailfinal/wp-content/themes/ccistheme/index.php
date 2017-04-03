@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <?php include'../includes/head.php'; ?>
-    <body id="index">
-
-        <header>
-            <?php include'../includes/nav.php'; ?>
-        </header>
+        <?php get_header();?>
 
         <main>
              <div class="container-fluid">
