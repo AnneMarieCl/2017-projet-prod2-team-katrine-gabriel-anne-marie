@@ -296,13 +296,14 @@ img.partn {
      padding-left:0px!important;   
     }
     .sidebar-am {
-    padding-top: 25px;
+    padding-top: 65px;
+    text-transform: uppercase;
     }
     .sidebar-am h4 {
         font-size: 20px;
     }
     .date-index {
-        padding-top: 25px;
+        padding-top: 45px;
     }
 
 /* #################### FOOTER #################### */
