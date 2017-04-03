@@ -116,9 +116,14 @@
                                             <h3 class="titre">Activités à venir</h3>
                                         </div>
                                         <div class="row">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                                <div id="calendar-1" class="sidebar-am">
-                                                    <h4><div class="calendrier"><span class="mois"><span class = "fa fa-circle left-circle"></span>Mai<span class = "fa fa-circle right-circle"></span></span><span class="jour">11</span></div></h4>
+                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 date-index">
+                                                <div class="date">
+                                                    <div class='square-box month-box'>
+                                                        <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Mai<span class = "fa fa-circle right-circle"></span></span></div></div>
+                                                    </div>
+                                                    <div class='square-box day-box'>
+                                                        <div class='square-content day-content'><div><span class="month">11</span></div></div>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">  
@@ -138,9 +143,14 @@
                                             </div>
                                         </div>
                                          <div class="row">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                                <div id="calendar-2" class="sidebar-am">
-                                                    <h4><div class="calendrier"><span class="mois"><span class = "fa fa-circle left-circle"></span>Mai<span class = "fa fa-circle right-circle"></span></span><span class="jour">11</span></div></h4>
+                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 date-index">
+                                                <div class="date">
+                                                    <div class='square-box month-box'>
+                                                        <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Décembre<span class = "fa fa-circle right-circle"></span></span></div></div>
+                                                    </div>
+                                                    <div class='square-box day-box'>
+                                                        <div class='square-content day-content'><div><span class="month">29</span></div></div>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">  
@@ -160,9 +170,14 @@
                                             </div>
                                         </div>
                                          <div class="row">
-                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                                <div id="calendar-3" class="sidebar-am">
-                                                    <h4><div class="calendrier"><span class="mois"><span class = "fa fa-circle left-circle"></span>Mai<span class = "fa fa-circle right-circle"></span></span><span class="jour">11</span></div></h4>
+                                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 date-index">
+                                                <div class="date">
+                                                    <div class='square-box month-box'>
+                                                        <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Décembre<span class = "fa fa-circle right-circle"></span></span></div></div>
+                                                    </div>
+                                                    <div class='square-box day-box'>
+                                                        <div class='square-content day-content'><div><span class="month">29</span></div></div>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">  
