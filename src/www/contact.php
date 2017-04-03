@@ -8,7 +8,7 @@
 
             <!-- Image dans le header -->
             <div class="background-img hidden-xs">
-                <img class="img-responsive" src="assets/images/background-membre.png" alt="Contact">
+                <img class="img-responsive" src="assets/images/background-contact.jpg" alt="Contact">
                 <h1>CONTACT</h1>
             </div>
         </header>
