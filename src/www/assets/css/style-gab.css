@@ -249,7 +249,10 @@ aside a {
     #post-type ul {
         display: none;
     }
-
+    /* Espace en haut de la navigation des pages*/
+    ul.margintop{
+        margin-top:100px;
+    }
     /*Display select box*/
     #post-type select {
         display: block;
