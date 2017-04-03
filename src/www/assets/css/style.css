@@ -1066,7 +1066,6 @@ div.marginpadding{
     }
     
 }
-
 /* Small device */
 @media screen and (min-width: 768px) and (max-width: 992px){
     /* Titre des pages */
@@ -1075,7 +1074,7 @@ div.marginpadding{
     }
     /* #################### Menu #################### */
     .contact>li>a { 
-        font-size:6pt;
+        font-size:5pt;
     }
     .menu-principal>li>a {
         font-size:6pt;
@@ -1085,7 +1084,7 @@ div.marginpadding{
         padding-right: 16px;
     }
     #menu-deroulant, #menu-deroulant ul {
-        font-size: 7pt;
+        font-size: 6pt;
     }
     a.logo img {
         width: 120%;
@@ -1305,8 +1304,7 @@ div.marginpadding{
     #menu-deroulant, #menu-deroulant ul {
         font-size: 7pt;
         margin-right: -27px;
-    }
-
+    }   
     /* PAGE DE LA CCIS */
     /* Grandeur du background de la sidebar page présentation de la chambre */
     #presentation-chambre.ccis aside{
