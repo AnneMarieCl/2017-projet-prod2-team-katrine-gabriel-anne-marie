@@ -7,7 +7,7 @@
             <?php include'../includes/nav.php'; ?>
             <div class="background-img hidden-xs">
                 <img src="assets/images/background-formations-evenements.jpg" class="img-responsive center-block" alt="Formations et événements">
-                <h1>BLOGUE</h1>
+                <h1>FORMATIONS ET ÉVÉNEMENTS</h1>
             </div> 
         </header>
 
