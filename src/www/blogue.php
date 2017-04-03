@@ -27,7 +27,7 @@
                                     
                                     <div id="post-type" class="text-center center">
                                         <ul>
-                                            <li><a class="current" href="">Tout</a></li>
+                                            <li><a href="">Tout</a></li>
                                             <li><a href="">Faits saillants</a></li>
                                             <li><a href="">Actualités</a></li>
                                             <li><a href="">Grand dossiers</a></li>

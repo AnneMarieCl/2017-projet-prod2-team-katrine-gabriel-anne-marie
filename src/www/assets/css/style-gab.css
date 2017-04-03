@@ -66,7 +66,9 @@ header h1 {
     background: #ee3a43;
 }
 
+/*Select pour responsive*/
 #post-type select {
+    margin-top: 145px;
     display: none;
     background: #d5dbdf;
     width: 100%;
@@ -324,6 +326,9 @@ aside a {
     #post-type select {
         display: block;
     }
+    .article h4 {
+        margin-top: 50px; 
+    }
 
     
 }
@@ -337,6 +342,9 @@ aside a {
     header h1 {
         top: calc(50% + 32px);
     }
+    .article h4 {
+        margin-top: 50px; 
+    }
 }
     
 /* Medium device */
@@ -347,6 +355,9 @@ aside a {
     }
     header h1 {
         top: calc(50% + 32px);
+    }
+    .article h4 {
+        margin-top: 50px; 
     }
 
 }
