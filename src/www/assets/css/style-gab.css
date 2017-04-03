@@ -1,23 +1,19 @@
-h6 {
+/* #################### PUBLICATIONS ET BLOGUE #################### */
+#blog h6 {
     color: #455560;
 }
-
-/* Retire style par défauts des liens*/
+/* Retire style par défauts des liens */
 a:hover {
     text-decoration: none;
 }
-
-/*Header Blogue*/
-
+/* Header Blogue */
 .background-img {
     position: relative;
 }
-
 .background-img img {
     background-size: 100%;
     padding-top: 120px; 
 }
-
 header h1 {
     left: 0;
     position:absolute;
@@ -25,22 +21,17 @@ header h1 {
     top: calc(50% + 20px);
     width: 100%
 }
-
 /* Correction horizontal Scroll Bar */
 #blog .row {
     margin: 0;
 }
-
 /* Style des catégories des articles */
-
 #post-type {
     margin-top: 50px;
 }
-
 #post-type ul{
     padding: 0;
 }
-
 #post-type ul li{
     display: block;
     float: left;
@@ -49,24 +40,20 @@ header h1 {
     background: #d5dbdf;
     font-family: 'Tauri', sans-serif;
 }
-
 #post-type ul li a{
     display: block;
     color:#000;
     padding: 15px 0;
 }
-
 #post-type ul li a.current {
     background: #ee3a43;
     color: #fff;
 }
-
 #post-type ul li a:hover{
     color: #fff;
     background: #ee3a43;
 }
-
-/*Select pour responsive*/
+/* Select pour responsive */
 #post-type select {
     margin-top: 145px;
     display: none;
@@ -93,87 +80,39 @@ header h1 {
     background-repeat: no-repeat;
     border: none;
 }
-
-/* Tentative Page Bar
-.fa-angle-double-left {
-    position: relative;
-}
-
-.fa-angle-double-left span {
-    padding-right: 50px;
-}
-
-.fa-angle-double-left:after {
-    content:"";
-    position: absolute;
-    bottom: 0;
-    left: 10px;
-    right: 0;
-    height: 0.5em;
-    border-top: 1px solid black;
-    z-index: -1;
-}
-
-.fa-angle-double-right {
-    position: relative;
-}
-
-.fa-angle-double-right span {
-    padding-right: 50px;
-}
-
-.fa-angle-double-right:before {
-    content:"";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 10px;
-    height: 0.5em;
-    border-top: 1px solid black;
-    z-index: -1;
-}
-*/
-
-/* Navigation tmeporaire */
+/* Navigation */
 .pager {
     margin-top: 50px;
     margin-bottom: 0;
 }
-
 .pager li {
     display: block;
     float: left;
     width:12.5%;
 }
-
 .pager a {
     font-size: 18px;
     color: #ee3a43;
     padding: 0;
     border: 0!important;
 }
-
 .pager a:hover {
     background: #fff!important;
     color: #c6262d;
 }
-
-/*Ajout d'un margin entre main et footer*/
+/* Ajout d'un margin entre main et footer */
 .pager-bottom {
     margin-bottom: 50px;
 }
-
 /* Style des articles */
 #blog .article {
     padding: 50px 0;
     border-bottom: 1px #ee3a43 solid;
 }
-
 #blog .article a {
     color: #ee3a43;
     font-size: 18px;
 }
-
 #blog .article div{
     margin:0;
     padding:0;
@@ -182,8 +121,7 @@ header h1 {
     margin:0;
     padding-left: 20px;
 }
-
-/*Postionnement pour img article*/
+/* Postionnement pour img article */
 #blog .img-article {
     position: relative;
     overflow: hidden; 
@@ -192,8 +130,7 @@ header h1 {
 #blog .img-article img {
     float:clear;
 }
-
-/*Ruban pour display catégories*/
+/* Ruban pour display catégories */
 .article .ruban {
     color: #fff;
     background: #ee3a43;
@@ -203,38 +140,31 @@ header h1 {
     padding: 5px 10px ;
     font-size: 15pt;
 }
-
 /* Style pour afficher date */
-
 .date {
     position: absolute;
     bottom: 0;
     right: 0;
 }
-
 .square-box{
     position: relative;
     overflow: hidden;
 }
-
 .month-box {
     height: 20px;
     width: 85px;
     background: #ee3a43;
     border: 1px #ee3a43 solid;
 }
-
 .month-box .fa-circle {
     font-size: 5px;   
 }
-
 .day-box {
     height: 65px;
     width: 85px;
     background: #fff;
     border: 1px #ee3a43 solid;
 }
-
 .square-box:before{
     content: "";
     display: block;
@@ -247,29 +177,24 @@ header h1 {
     bottom: 0;
     right: 0;
 }
-
 .month-content {
     color: #fff;
     font-size: 12px;
 }
-
 .left-circle {
     position: absolute;
     top: 8px;
     left: 5px;
 }
-
 .right-circle {
     position: absolute;
     top: 8px;
     right: 5px;
 }
-
 .day-content {
     color: #000;
     font-size: 32px;
 }
-
 .square-content div {
    display: table;
    width: 100%;
@@ -280,26 +205,21 @@ header h1 {
     text-align: center;
     vertical-align: middle;
 }
-
 /* Sidebar */
 aside {
     background: #d5dbdf;
     height: 100%;
     display: block;
 }
-
 aside h4 {
     font-size: 24px;
 }
-
 aside p {
     margin: 20px 0;
 }
-
 aside h4 img {
     margin-right: 10px
 }
-
 aside a {
     font-size: 16px;
     background: #ee3a43;
@@ -308,15 +228,13 @@ aside a {
     display: block;
     padding: 10px 0;
 }
-
-
 .sidebar {
     padding: 100px 0;
     border-bottom: 1px #000 solid; 
     height: 100%;
 }
-
 @media (max-width: 767px){
+    /* #################### PUBLICATIONS ET BLOGUE #################### */
     /* Change la liste des post type */
     #post-type ul li{
         float: none;
@@ -353,6 +271,7 @@ aside a {
 
 /* Small device */
 @media screen and (min-width: 768px) and (max-width: 992px){
+    /* #################### PUBLICATIONS ET BLOGUE #################### */
     /*Correction fonts*/
     #post-type ul li{
         font-size: 14px;
@@ -376,6 +295,7 @@ aside a {
     
 /* Medium device */
 @media screen and (min-width: 992px) and (max-width: 1200px){
+    /* #################### PUBLICATIONS ET BLOGUE #################### */
     /*Correction fonts*/
     #post-type ul li{
         font-size: 16px;
