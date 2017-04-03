@@ -8,6 +8,6 @@
      <link href="https://fonts.googleapis.com/css?family=Lato%7CTauri" rel="stylesheet">
      <script src="https://use.fontawesome.com/2a85d3823f.js"></script>
      <!-- Style.css -->
-     <link href="assets/css/style.css" rel="stylesheet">
+     <link href="assets/css/main.css" rel="stylesheet">
 </head>
 
