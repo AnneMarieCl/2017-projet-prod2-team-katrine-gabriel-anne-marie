@@ -70,7 +70,7 @@
                     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
                         <!-- LOGO -->
                         <a class="logo" href="index.php">
-                        <?php echo '<img src="' .get_template_directory_uri(). '/assets/images/logo-principal.png">'?>
+                            <img src="assets/images/logo-principal.png" alt="">
                         </a>
                     </div>
                     
