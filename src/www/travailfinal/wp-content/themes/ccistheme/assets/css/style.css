@@ -1,0 +1,1387 @@
+html{
+    height:100%
+}
+.container-fluid {
+    padding-right: 0px;;
+    padding-left: 0px;
+}
+body{
+    height:100%;
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4 {
+    font-family: 'Tauri', sans-serif;
+}
+h1 {
+    color: #fff;
+}
+
+.logo {
+    position: absolute;
+    background-color: white;
+    margin-left: 25px;
+}
+/* #################### HEADER #################### */
+/*** MENU HEADER ***/
+/* Ajouter une bordure autour du logo */
+a.logo img{
+    border: 5px solid white;
+    -webkit-box-shadow:0px 3px 1px 0px #ffffff ,0px 7px 9px 0px #9a9a9a ;
+    -moz-box-shadow:0px 3px 1px 0px #ffffff ,0px 7px 9px 0px #9a9a9a ;
+    box-shadow:0px 3px 1px 0px #ffffff ,0px 7px 9px 0px #9a9a9a ;
+}
+ul.contact{ 
+    height:40px;
+    padding-top: 10px;
+            
+}
+.menu-contact {
+    background-color: white;
+    padding-right: 40px;
+}
+.contact.nav>li {
+    margin-left: 40px;
+}
+.contact>li>a { 
+    margin: 0px 0px; 
+    padding:0px; 
+    font-size:9pt;
+    font-family: 'Tauri', sans-serif;
+    text-transform: uppercase;
+}
+.principal {
+    padding-right: 20px;
+    background:#ee3a43;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ee3a43;
+}
+
+#bs-example-navbar-collapse-1 {
+    height: 80px!important;
+}
+.menu-principal>li>a { margin: 0px 0px; 
+    padding-top: 30px; 
+    font-size:12pt;
+    font-family: 'Tauri', sans-serif;
+    text-transform: uppercase;
+    height: 80px; 
+    width: 100%;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.navbar-default .navbar-nav.menu-principal>li>a { 
+    color: white;
+}
+
+.nav.menu-principal>li>a:hover { 
+    background-color: #c6262d;
+    height: 80px;  
+}
+
+/*** MENU DÉROULANT ***/
+#menu-deroulant, #menu-deroulant ul {
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'Tauri', sans-serif;
+    font-size: 10pt;
+    margin-left: 15px;
+}
+.lien-1 {
+    margin-top: 40px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.lien-2 {
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+a.a-1 {
+    margin-right: 10%;
+}
+a.a-2 {
+    margin-right: 10.75%;
+}
+#menu-deroulant ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+#menu-deroulant li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+    background-color:rgba(198, 38, 45, 0.7); 
+    width: 1850%;
+    margin-left:0;
+}
+#deroule a{
+    color:#ffffff;
+}
+#deroule a:hover {
+    color: #455560;
+}
+.navbar {
+    border:none;
+}
+/* #################### SLIDER #################### */
+.slider {
+    padding-top: 100px;
+}
+.image-1 {
+    position: relative;
+}
+.image-1 p {
+    padding-bottom: 25px;
+}
+.carousel-caption {
+    text-align: left;
+    left: 12%;
+    padding-bottom: 100px;
+}
+.carousel-caption h2 {
+    text-transform: uppercase;
+    font-size: 30px!important;
+}
+.carousel-caption p {
+    font-size: 20px!important;
+}
+.slider p.savoir-plus{
+    color: #ee3a43; 
+    font-size: 20px!important;
+}
+img.un {
+    width: 100%;
+}
+ /* #################### SECTION ÉVÉNEMENT #################### */
+ .evenement {
+     min-height: 500px;
+     background-color: #999999;
+     color: white;
+ }
+.texte {
+     padding-top: 75px;
+     padding-left: 40px;
+}
+.image {
+     padding-top: 50px;
+     padding-left: 40px;
+}
+.evenement h3 {
+    padding-bottom: 50px;
+}
+p.inscription2 {
+    padding-top: 30px;
+    color: #ee3a43;
+    font-size: 20px!important;
+}
+p.inscription {
+    padding-top: 15px;
+    color: #ee3a43;
+    font-size: 20px!important;
+}
+p.inscription2:hover, p.inscription:hover {
+    color: #3e3d3d;
+}
+.image .ruban {
+    color: #fff;
+    background: #ee3a43;
+    position: absolute;
+    top: 20%;
+    width: 50%;
+    padding: 10px 15px ;
+    font-size: 15pt;
+}
+/* #################### SECTION PUBLICATION ET BLOGUE #################### */
+.publication,.blogue {
+    min-height: 825px;
+}
+.titre {
+    padding-top: 55px;
+    padding-left: 100px;
+}
+.blogue .image, .publication .image {
+    padding-left: 100px;
+}
+.blogue h2, .publication h2 {
+    padding-bottom: 25px;
+    padding-top: 0px;
+}
+.texte span {
+    text-transform: uppercase;
+}
+.publication .texte, .blogue .texte {
+    padding-top: 65px;
+}
+.publication a, .blogue a {
+    display:inline-block;   
+}
+.publication a p.lien, .blogue a p.lien {
+    padding-right: 280px;   
+    color: #ee3a43;
+    padding-top: 50px;
+    font-size: 20px!important;
+}
+.publication p.lien:hover, .blogue p.lien:hover {  
+    color: #3e3d3d;
+}
+/* #################### DEVENIR MEMBRE #################### */
+img.fond {
+    position: absolute;
+    width: 100%;
+}
+.devenir-membre {
+    min-height: 500px;
+    padding-top: 55px;
+}
+.devenir-membre h2 {
+    color: white;
+    padding-top: 100px;
+    text-align: right;
+}
+a.bouton {
+    background-color: #ee3a43;
+    position: absolute;
+    width: 540px;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+}
+a.bouton:hover {
+    color: #3e3d3d;
+}
+.gauche {
+    margin-left: 300px;
+    margin-top: 40px;
+}
+.droit {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.appel-action p {
+    padding-bottom: 15px;
+}
+a.bouton h4 {
+    padding-top: 15px;
+}
+/* #################### PARTENAIRES #################### */
+.partenaire {
+    padding-top: 55px;
+}
+img.partn {
+    width: 85%;
+    padding-left: 55px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.texte2 {
+     padding-top: 25px;
+     padding-left: 40px;
+}
+.texte3 {
+     padding-top: 35px;
+     padding-left: 20px;
+}
+.bouton-partn {
+    color: #ee3a43;
+}
+.bouton-partn:hover {
+    color: #3e3d3d;
+}
+/* #################### ASIDE INDEX #################### */
+.aside h3.titre {
+    padding-left:0px!important;   
+}
+.sidebar-am {
+    padding-top: 65px;
+    text-transform: uppercase;
+}
+.sidebar-am h4 {
+    font-size: 20px;
+}
+.date-index {
+     padding-top: 135px;
+     padding-left: 30px;
+}
+#index aside p {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+#index .text-center {
+    margin-bottom: 25px;
+}
+.border {
+    border-bottom: 1px solid #000;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 35px;
+}
+.aside {
+    padding-left: 0px;
+}
+/* #################### PUBLICATIONS ET BLOGUE #################### */
+#blog h6 {
+    color: #455560;
+}
+/* Retire style par défauts des liens */
+a:hover {
+    text-decoration: none;
+}
+/* Header Blogue */
+.background-img {
+    position: relative;
+}
+.background-img img {
+    background-size: 100%;
+    padding-top: 120px; 
+}
+header h1 {
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: calc(50% + 20px);
+    width: 100%
+}
+/* Correction horizontal Scroll Bar */
+#blog .row {
+    margin: 0;
+}
+/* Style des catégories des articles */
+#post-type {
+    margin-top: 50px;
+}
+#post-type ul{
+    padding: 0;
+}
+#post-type ul li{
+    display: block;
+    float: left;
+    font-size: 18px;
+    width: 20%;
+    background: #d5dbdf;
+    font-family: 'Tauri', sans-serif;
+}
+#post-type ul li a{
+    display: block;
+    color:#000;
+    padding: 15px 0;
+}
+#post-type ul li a.current {
+    background: #ee3a43;
+    color: #fff;
+}
+#post-type ul li a:hover{
+    color: #fff;
+    background: #ee3a43;
+}
+/* Select pour responsive */
+#post-type select {
+    margin-top: 145px;
+    display: none;
+    background: #d5dbdf;
+    width: 100%;
+    height: 55px;
+    font-size: 18px;
+    font-family: 'Tauri', sans-serif;
+    padding-left: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image:
+    linear-gradient(45deg, transparent 50%, #fff 50%),
+    linear-gradient(135deg, #fff 50%, transparent 50%),
+    linear-gradient(to right, #ee3a43, #ee3a43);
+    background-position:
+    calc(100% - 27.5px),
+    calc(100% - 22.5px),
+    100% 0;
+    background-size:
+    5px 5px,
+    5px 5px,
+    55px 55px;
+    background-repeat: no-repeat;
+    border: none;
+}
+/* Navigation */
+.pager {
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.pager li {
+    display: block;
+    float: left;
+    width:12.5%;
+}
+.pager a {
+    font-size: 18px;
+    color: #ee3a43;
+    padding: 0;
+    border: 0!important;
+}
+.pager a:hover {
+    background: #fff!important;
+    color: #c6262d;
+}
+/* Ajout d'un margin entre main et footer */
+.pager-bottom {
+    margin-bottom: 50px;
+}
+/* Style des articles */
+#blog .article {
+    padding: 50px 0;
+    border-bottom: 1px #ee3a43 solid;
+}
+#blog .article a {
+    color: #ee3a43;
+    font-size: 18px;
+}
+#blog .article div{
+    margin:0;
+    padding:0;
+}
+#blog .article div.infoarticle{
+    margin:0;
+    padding-left: 20px;
+}
+/* Postionnement pour img article */
+#blog .img-article {
+    position: relative;
+    overflow: hidden; 
+}
+
+#blog .img-article img {
+    float:clear;
+}
+
+/* Ruban pour display catégories */
+.article .ruban {
+    color: #fff;
+    background: #ee3a43;
+    position: absolute;
+    top: 10%;
+    width: 50%;
+    padding: 5px 10px ;
+    font-size: 15pt;
+}
+/* Style pour afficher date */
+.date {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.square-box{
+    position: relative;
+    overflow: hidden;
+}
+.month-box {
+    height: 20px;
+    width: 85px;
+    background: #ee3a43;
+    border: 1px #ee3a43 solid;
+}
+.month-box .fa-circle {
+    font-size: 5px;   
+}
+.day-box {
+    height: 65px;
+    width: 85px;
+    background: #fff;
+    border: 1px #ee3a43 solid;
+}
+.square-box:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+.square-content{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.month-content {
+    color: #fff;
+    font-size: 12px;
+}
+.left-circle {
+    position: absolute;
+    top: 8px;
+    left: 5px;
+}
+.right-circle {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+}
+.day-content {
+    color: #000;
+    font-size: 32px;
+}
+.square-content div {
+   display: table;
+   width: 100%;
+   height: 100%;
+}
+.square-content span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+/* Sidebar */
+aside {
+    background: #d5dbdf;
+    height: 100%;
+    display: block;
+}
+aside h4 {
+    font-size: 24px;
+}
+aside p {
+    margin: 20px 0;
+}
+aside h4 img {
+    margin-right: 10px
+}
+aside a {
+    font-size: 16px;
+    background: #ee3a43;
+    color: #fff;
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+}
+.sidebar {
+    padding: 100px 0;
+    border-bottom: 1px #000 solid; 
+    height: 100%;
+}
+/* #################### FOOTER #################### */
+/* Stylistique général du footer */
+footer #footer-un {
+    background: #3e3d3d;
+    font-family: 'Tauri', sans-serif;
+    padding: 100px 0;
+    color: #ffffff;
+    overflow:hidden;
+}
+/* Aligner le texte à droite */
+footer #footer-un #footer-nav, footer #footer-un #infolettre, footer #footer-un #reseaux-sociaux{
+    text-align: right;
+}
+/* Espace à gauche du logo */
+footer #footer-un #img-footer{
+    padding-left: 40px;
+}
+/* Espace à droite de la section réseaux sociaux */
+footer #footer-un #reseaux-sociaux{
+    padding-right: 40px;
+}
+/* Stylistique de la police */
+footer #footer-un #reseaux-sociaux h5, 
+footer #footer-un #infolettre h5 {
+    font-size: 16px;
+    margin:0 0 10px 0;
+}
+footer #footer-un p {
+    font-size: 14px;
+    margin: 15px 0;
+}
+/* Section du menu dans le footer */
+footer #footer-un #footer-menu {
+    margin:0;
+    padding:0;
+}
+footer #footer-un #footer-menu li {
+    display: block;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+}
+/* Stylistique des liens */
+footer #footer-un #footer-menu li a, 
+footer #footer-un #social li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/* Couleur de la page en cours */
+footer #footer-un #footer-menu .current a{
+    color: #ee3a43;
+}
+/* Hover des éléments du footer */
+footer #footer-un #footer-menu li a:hover, 
+footer #footer-un #social li a:hover{
+    color: #ee3a43;
+}
+/* Espace entre les icones des réseaux sociaux */
+footer #footer-un #social li {
+    display: inline-block;
+    font-size: 18px;
+    margin: 5px 0 0 5px;
+}
+/* Infolettre */
+#form-infolettre input[type="email"]{
+    color: #3e3d3d;
+    text-align: right;
+    padding: 5px 5px 5px 0px;
+    width: 60%;
+    outline: transparent;
+}
+#form-infolettre input[type="submit"]{
+    background-color:transparent;
+    margin: 10px 0 0 0;
+    padding:0;
+    outline: transparent;
+    border: none;
+}
+#form-infolettre input[type="submit"]:hover{
+  color: #ee3a43;
+}
+/* Footer partie du copyright */
+footer #footer-deux{
+    background-color: #ffffff;
+    overflow:hidden;
+}
+footer #footer-deux h5 {
+    color: #3e3d3d;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 25px;
+    margin: 20px 0;
+}
+/*** TOUTES LES PAGES DE LA CCIS ***/
+/* Map */
+#map{
+    height: 100%;
+    width: 100%;
+}
+/* Titre de la page - À propos */
+#presentation-chambre h3{
+    margin-top: 50px;
+}
+/* Image d'arrière-plan */
+div.background-image{
+    margin-top: 120px;
+}
+/* Espace à gauche du GoogleMaps */
+#presentation-chambre iframe{
+    margin: 20px 0px 20px 0px;
+    padding:0;
+}
+/* Grandeur du background de la sidebar page présentation de la chambre */
+#presentation-chambre.ccis aside{
+    height: 1800px;
+}
+/* Grandeur du background de la sidebar page comites organisation de la chambre */
+#presentation-chambre.comites aside{
+    min-height: 1800px;
+}
+/* Grandeur du background de la sidebar page implications */
+#presentation-chambre.implications aside{
+    min-height: 900px;
+}
+/* Grandeur du background de la sidebar page ca */
+#presentation-chambre.ca aside{
+    min-height: 2850px;
+}
+/* Style des liens de la page comités */
+#presentation-chambre.comites a{
+    color: #333;
+}
+#presentation-chambre.comites a:hover{
+    color: #ee3a43;
+}
+/* Style des liens de la page espace-membre */
+#presentation-chambre.espace-membre #margedroite > ul > li > a{
+    text-decoration: none;
+    color: #333;
+}
+#presentation-chambre.espace-membre #margedroite > ul > li > a:hover{
+    color: #ee3a43;
+}
+/* Liens dans la sidebar */
+#presentation-chambre #sousnav a{
+    background-color: transparent;
+    color:#455560;
+    padding: 15px 40px 15px 0px;
+    border-bottom: 1px solid #455560;
+}
+/* Liens dans la sidebar */
+#presentation-chambre #sousnav a:hover{
+    background-color: #ee3a43;
+    color:#ffffff;
+}
+#presentation-chambre #sousnav{
+    padding:0;
+}
+/* Ajout d'un espace à droite et à gauche du contenu */
+#margedroite, .devenezmembre{
+    padding-right: 110px;
+    margin-bottom: 50px;
+}
+#presentation-chambre{
+    margin-left: 100px;
+}
+/* Enlever la scroll bar horizontal */
+#presentation-chambre{
+    overflow:hidden;
+}
+/* Mettre le texte en gras */
+#presentation-chambre p.gras, #presentation-chambre h5.gras{
+    font-weight: bold;
+}
+/* Espace en haut des sections du texte */
+#presentation-chambre h4.espaceenahut{
+    margin-top: 40px;
+}
+/* Espace en haut du bouton : En savoir plus */
+#presentation-chambre p.espacebas{
+    margin-bottom: 30px;
+}
+/* Bouton en savoir plus */
+#presentation-chambre a#moreinfo {
+    background-color: #ee3a43;
+    color: #ffffff;
+    padding: 10px 50px;
+    margin-bottom: 50px;
+}
+#presentation-chambre h5.format {
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 15px
+}
+#presentation-chambre h5.formatdeux {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#presentation-chambre p a{
+    color: #ee3a43;
+}
+/* Image des commanditaires */
+#presentation-chambre div.partenaire {
+    margin:0;
+    padding:0;
+    float: left;
+}
+#presentation-chambre div.partenaire img.partenaire{
+    padding-right: 20px;
+}
+div.nousjoindre{
+    margin:10px 0 0 0;
+    padding:0;
+}
+div.marginpadding{
+    margin:0;
+    padding:0;
+}
+/* #################### RESPONSIVE #################### */
+/* X-Small device */
+@media (max-width: 767px){
+    /* #################### LOGO #################### */
+    a.logo img {
+        background-color: white;
+        width: 50%;
+        margin-top: -50px;
+    }
+    .logo {
+        background: none;
+    }
+    /* #################### MENU #################### */
+    .navbar-nav{
+        margin:0;
+    }
+    .navbar-default .navbar-toggle:focus{
+        background-color:transparent;
+    }
+    .burger {
+        margin-top: 0px;
+        background-color: #ee3a43;
+    }
+    .enleve-border {
+        min-height: 0px;
+    }
+    .navbar-header {
+        padding-right: 25px;
+    }
+    .principal {
+        background-color: #c6262d;
+        padding-right: 0px;
+    }
+    #ccis{
+        margin-top: 50px;
+    }
+    .navbar-default .navbar-nav.menu-principal>li>a:hover {
+        color: #3e3d3d;
+        background:transparent;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border: none;
+    }
+    .navbar-default {
+        background: none;
+    }
+    #bs-example-navbar-collapse-1 {
+        height: auto!important;
+    }
+    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+        max-height:none;
+    }
+    .menu-principal>li>a { 
+        font-size:9pt;
+        margin: 0;
+        padding:0;
+        text-align: center;
+        height: 30px;
+    }
+
+    .nav>li>a {
+        display: initial;
+    }
+    #bs-example-navbar-collapse-1{
+        text-align:center;
+        padding: 80px;
+    }
+
+    #bs-example-navbar-collapse-1 #menu-deroulant li{
+        padding: 10px 0;
+    }
+    #menu-deroulant li:hover ul {
+        width: 100%;
+        margin: 0;
+        padding:0;
+        text-align: center;
+        font-size: 8pt;
+    }
+    li.onglet-1:hover {
+        margin-bottom: 195px;
+    }
+    a.a-1 {
+        margin-right: 0%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    a.a-2 {
+        margin-right: 0%;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .lien-1 {
+        margin-top: 20px;
+        padding-bottom: 0px;
+        margin-left: 0px;
+    }
+    #menu-deroulant, #menu-deroulant ul {
+        margin-left:1px;
+    }
+    .lien-2 {
+        margin-bottom: 20px;
+        margin-left:0;
+    }
+     /* Slider */
+    img.un {
+        display: none;
+    }
+    .carousel-caption {
+        position: relative; 
+        padding-bottom: 20px;
+        padding-top: 50px;
+        text-align: center;
+        left: 0%;
+    }
+    .carousel-caption h2 {
+        color:#3e3d3d;
+    }
+    .carousel-caption p {
+        color:#3e3d3d;
+    }
+     /* Section evenement index */
+     #index h2 {
+        font-size: 15pt!important;
+     }
+     #index p {
+        font-size: 12pt!important;
+     }
+     #index h3 {
+        font-size: 18pt!important;
+     }
+    .texte {
+        padding-left: 9%; 
+        width: 95%;
+    }
+    .image {
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+    /* Section publication index */
+    .publication .image {
+        padding-left: 9%;
+        padding-left: 9%;
+    }
+    .publication .titre {
+        padding-left: 9%;
+    }
+    .blogue .titre {
+         padding-left: 9%;
+    }
+    .publication a p.lien, .blogue a p.lien {
+        padding-top: 50px;
+        padding-right: 15px;
+    }
+    .blogue .image {
+        padding-left: 9%;
+        padding-left: 9%;
+    }
+    /* Section devenir membre index */
+    .devenir-membre {
+        background-color: #455560;
+        margin-top: 100px;
+        min-height: 550px;
+    }
+    img.fond {
+        display:none;
+    }
+    .devenir-membre h2 {
+        color: #fff;
+        padding-top: 15px;
+        text-align: left;
+        padding-left: 9%;
+    }
+    a.bouton {
+        width: 70%;
+    }
+    .gauche {
+        margin-left: 9%;
+        margin-top: 200px;
+    }
+    .droit {
+        margin-left: 9%;
+    }
+    /* Section partenaires index */
+    img.partn {
+        width: 85%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .bouton-partn p {
+        padding-left: 6.5%;
+    }
+    /* #################### PUBLICATIONS ET BLOGUE #################### */
+    /* Change la liste des post type */
+    #post-type ul li{
+        float: none;
+        width: 100%;
+    }
+    /*Remove Sidebar*/
+    aside {
+        display: none;
+    }
+    /*Hide liste des catégories*/
+    #post-type ul {
+        display: none;
+    }
+    /* Espace en haut de la navigation des pages*/
+    ul.margintop{
+        margin-top:100px;
+    }
+    /*Display select box*/
+    #post-type select {
+        display: block;
+    }
+    .article h4 {
+        margin-top: 50px; 
+    }
+        /* Style des articles */
+    #blog .article div{
+        margin:0;
+        padding:0;
+    }
+    #blog .article div.infoarticle{
+        margin:0;
+        padding-left: 0px;
+    }
+    /* #################### PAGE À PROPOS #################### */
+    /* Titre de la page */
+    #presentation-chambre h3{
+        padding-top: 80px;
+    }
+    #presentation-chambre div.devenezmembre{
+        margin-bottom: 75px;
+    }
+
+    /* PAGE DE LA CCIS */
+    /* Ajout d'un espace à droite et à gauche du contenu */
+    #margedroite, .devenezmembre{
+        padding-right: 25px;
+        margin-bottom: 50px;
+    }
+    #presentation-chambre{
+        margin-left: 15px;
+    }
+    /* #################### FOOTER #################### */
+    /* Aligner les textes au centre */
+    footer #footer-un, 
+    footer #footer-un #footer-nav, 
+    footer #footer-un #infolettre, 
+    footer #footer-un #reseaux-sociaux{
+        text-align: center;
+    }
+    /* Enlever les espaces de trop à droite et à gauche */
+    footer #footer-un #img-footer, footer #footer-un #reseaux-sociaux{
+        padding: 0;
+    }
+    footer #footer-un #footer-menu, footer #footer-un #infolettre, footer #footer-un #reseaux-sociaux {
+        margin-top: 40px;
+    }
+    /* Centrer les icones des réseaux sociaux */
+    footer #footer-un #reseaux-sociaux ul#social{
+        margin:0;
+        padding:0;
+    }
+    footer #footer-un #reseaux-sociaux ul#social li{
+        margin: 0 5px 0 0;
+    }
+    /* Copyright à center */
+    footer #footer-deux h5 {
+        text-align: center;
+        padding-right: 0;
+    }
+    /* Infolettre à centrer */
+    #form-infolettre input[type="email"]{
+        padding: 5px 0px 5px 0px;
+        text-align: center;
+        width: 50%;
+    }
+    /* Stylistique de la police */
+    footer #footer-un #reseaux-sociaux h5, 
+    footer #footer-un #infolettre h5,
+    footer #footer-un #footer-menu li,
+    #form-infolettre input[type="email"],
+    #form-infolettre input[type="submit"] {
+        font-size: 9pt;
+    }
+    footer #footer-un p {
+        font-size: 8pt;
+    }
+    
+}
+/* Small device */
+@media screen and (min-width: 768px) and (max-width: 992px){
+    /* Titre des pages */
+    h1 {
+        font-size: 16px;
+    }
+    /* #################### Menu #################### */
+    .contact>li>a { 
+        font-size:5pt;
+    }
+    .menu-principal>li>a {
+        font-size:6pt;
+        width: 100%;
+        text-align: center;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    #menu-deroulant, #menu-deroulant ul {
+        font-size: 6pt;
+    }
+    a.logo img {
+        width: 120%;
+        background-color: white;
+    }
+    .lien-1 {
+        margin-left: -20px;
+    }
+    .lien-2 {
+        margin-left: -20px;
+    }
+    a.a-2 {
+        margin-right: 11.4%;
+    }
+     /* #################### SLIDER #################### */
+    .carousel-caption {
+        bottom: -105px;
+        left: 18%;
+    }
+    .carousel-caption h2{
+        font-size: 20px!important;
+        margin-top: -10px;
+    }
+    .carousel-caption p{
+        font-size: 15px!important;
+    }
+    .image-1 p {
+    padding-bottom: 15px; 
+    }
+    /* #################### PUBLICATION INDEX #################### */
+    .publication .image {
+        padding-left: 9%;
+        padding-left: 9%;
+    }
+    .publication .titre {
+        padding-left: 9%;
+    }
+    .blogue .titre {
+         padding-left: 9%;
+    }
+    .publication a p.lien, .blogue a p.lien {
+        padding-top: 50px;
+        padding-right: 100px;
+    }
+    .blogue .image {
+        padding-left: 9%;
+        padding-left: 9%;
+    }
+    .texte {
+        padding-left: 9%;
+    }
+    .image .ruban {
+        width: 25%;
+    }
+    /* #################### SIDEBAR INDEX #################### */
+    .date {
+        left:9%;
+    }
+    .sidebar-am h4 {
+        padding-left: 4%;
+    }
+    #index aside p {
+        padding-left: 4%;
+    }
+    /* #################### PAGE À PROPOS #################### */
+    #presentation-chambre div.devenezmembre{
+        margin-bottom: 200px;
+    }
+    /* PAGE DE LA CCIS */
+    /* Ajout d'un espace à droite et à gauche du contenu */
+    #margedroite, .devenezmembre{
+        padding-right: 50px;
+    }
+    #presentation-chambre{
+        margin-left: 50px;
+    }
+    /* #################### PUBLICATIONS ET BLOGUE #################### */
+    /*Correction fonts*/
+    #post-type ul li{
+        font-size: 14px;
+    }
+    header h1 {
+        top: calc(50% + 32px);
+    }
+    .article h4 {
+        margin-top: 50px; 
+    }
+    /* Style des articles */
+    #blog .article div{
+        margin:0;
+        padding:0;
+    }
+    #blog .article div.infoarticle{
+        margin:0;
+        padding-left: 0px;
+    }
+    /* #################### FOOTER #################### */
+    /* Infolettre */
+    #form-infolettre input[type="email"]{
+        width: 90%;
+    }
+    /* Stylistique de la police */
+    footer #footer-un #reseaux-sociaux h5, 
+    footer #footer-un #infolettre h5,
+    footer #footer-un #footer-menu li,
+    #form-infolettre input[type="email"],
+    #form-infolettre input[type="submit"] {
+        font-size: 7pt;
+    }
+    footer #footer-un p {
+        font-size: 6pt;
+    }
+}
+/* Medium device */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    /* Titre des pages */
+    h1 {
+        font-size: 20px;
+    }
+    /* #################### Menu #################### */
+    .contact>li>a { 
+        font-size:7pt;
+    }
+    .menu-principal>li>a {
+        font-size:7pt;
+        width: 100%;
+        text-align: center;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    a.logo img {
+        width: 120%;
+        background-color: white;
+    }
+     .contact>li>a { 
+        font-size:7pt;
+    }
+
+    #menu-deroulant, #menu-deroulant ul {
+        font-size: 7pt;
+        margin-right: -20px;
+    }
+    a.logo img {
+        width: 120%;
+        background-color: white;
+    }
+    .lien-1 {
+        margin-left: -16px;
+    }
+    .lien-2 {
+        margin-left: -16px;
+    }
+    a.a-2 {
+        margin-right: 11.1%;
+    }
+
+    /* PAGE DE LA CCIS */
+    /* Grandeur du background de la sidebar page présentation de la chambre */
+    #presentation-chambre.ccis aside{
+        height: 2200px;
+    }
+
+    /* Grandeur du background de la sidebar page comites organisation de la chambre */
+    #presentation-chambre.comites aside{
+        min-height: 1950px;
+    }
+
+    /* Grandeur du background de la sidebar page implications */
+    #presentation-chambre.implications aside{
+        min-height: 900px;
+    }
+
+    /* Grandeur du background de la sidebar page ca */
+    #presentation-chambre.ca aside{
+        min-height: 2600px;
+    }
+    /* #################### PUBLICATIONS ET BLOGUE #################### */
+    /*Correction fonts*/
+    #post-type ul li{
+        font-size: 16px;
+    }
+    header h1 {
+        top: calc(50% + 32px);
+    }
+    /* #################### Footer #################### */
+    /* Stylistique de la police */
+    footer #footer-un #reseaux-sociaux h5, 
+    footer #footer-un #infolettre h5,
+    footer #footer-un #footer-menu li,
+    #form-infolettre input[type="email"],
+    #form-infolettre input[type="submit"] {
+        font-size: 7pt;
+    }
+    footer #footer-un p {
+        font-size: 7pt;
+    }
+}
+/* Large device */
+@media screen and (min-width: 1201px) and (max-width: 1600px)  {
+    /* #################### Menu #################### */
+    .menu-principal>li>a {
+         font-size: 10pt;  
+         width: 100%;
+         text-align: center;
+         padding-left: 30px;
+         padding-right: 30px;
+    }
+    .lien-1 {
+        margin-left: -10px;
+    }
+    .lien-2 {
+        margin-left: -10px;
+    }
+    a.a-2 {
+        margin-right: 10.85%;
+    }
+    #menu-deroulant, #menu-deroulant ul {
+        font-size: 7pt;
+        margin-right: -27px;
+    }   
+    /* PAGE DE LA CCIS */
+    /* Grandeur du background de la sidebar page présentation de la chambre */
+    #presentation-chambre.ccis aside{
+        height: 2000px;
+    }
+
+    /* Grandeur du background de la sidebar page comites organisation de la chambre */
+    #presentation-chambre.comites aside{
+        min-height: 1900px;
+    }
+
+    /* Grandeur du background de la sidebar page implications */
+    #presentation-chambre.implications aside{
+        min-height: 900px;
+    }
+
+    /* Grandeur du background de la sidebar page ca */
+    #presentation-chambre.ca aside{
+        min-height: 2700px;
+    }
+
+    /* #################### Footer #################### */
+    /* Stylistique de la police */
+    footer #footer-un #reseaux-sociaux h5, 
+    footer #footer-un #infolettre h5,
+    footer #footer-un #footer-menu li {
+        font-size: 10pt;
+    }
+}
+/* X-Large device */
+@media screen and (min-width: 1601px) and ( max-width: 1701px ) {
+    /* #################### Menu #################### */
+    .menu-principal>li>a {
+        font-size: 10pt;
+        width: 100%;
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .lien-1 {
+        margin-left: 10px;
+    }
+    .lien-2 {
+        margin-left: 10px;
+    }
+    a.a-2 {
+        margin-right: 10.8%;
+    }
+    #menu-deroulant, #menu-deroulant ul {
+        font-size: 9pt;
+        margin-right: -50px;
+    }
+}
+/* XX-Large device */
+@media screen and (min-width: 1702px) and ( max-width: 4000px) {
+    /* #################### Menu #################### */
+    .menu-principal>li>a {
+        font-size: 11pt;
+        width: 100%;
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .lien-1 {
+        margin-left: 10px;
+    }
+    .lien-2 {
+        margin-left: 10px;
+    }
+    a.a-2 {
+        margin-right: 10.8%;
+    }
+    #menu-deroulant, #menu-deroulant ul {
+        font-size: 9pt;
+        margin-right: -50px;
+    }
+    #loupe{
+        margin-right:20px;
+    }
+}
