@@ -334,6 +334,9 @@ aside a {
     #post-type ul li{
         font-size: 14px;
     }
+    header h1 {
+        top: calc(50% + 32px);
+    }
 }
     
 /* Medium device */
@@ -342,6 +345,10 @@ aside a {
     #post-type ul li{
         font-size: 16px;
     }
+    header h1 {
+        top: calc(50% + 32px);
+    }
+
 }
     
 @media screen and (min-width: 1201px) and (max-width: 1600px)  {}
