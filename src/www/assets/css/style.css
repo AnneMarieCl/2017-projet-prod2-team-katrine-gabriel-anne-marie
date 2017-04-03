@@ -287,20 +287,39 @@ img.partn {
 .bouton-partn:hover {
     color: #3e3d3d;
 }
-/* Section aside index */
-    .aside h3.titre {
-        padding-left:0px!important;   
-    }
-    .sidebar-am {
-        padding-top: 65px;
-        text-transform: uppercase;
-    }
-    .sidebar-am h4 {
-        font-size: 20px;
-    }
-    .date-index {
-        padding-top: 45px;
-    }
+/* #################### ASIDE INDEX #################### */
+.aside h3.titre {
+    padding-left:0px!important;   
+}
+.sidebar-am {
+    padding-top: 65px;
+    text-transform: uppercase;
+}
+.sidebar-am h4 {
+    font-size: 20px;
+}
+.date-index {
+     padding-top: 45px;
+     padding-left: 30px;
+}
+#index aside p {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+#index .text-center {
+    margin-bottom: 25px;
+}
+.border {
+    border-bottom: 1px solid #000;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 35px;
+}
+.aside {
+    padding-left: 0px;
+}
 
 /* #################### FOOTER #################### */
 /* Stylistique général du footer */
