@@ -263,6 +263,9 @@ a.bouton:hover {
 .appel-action p {
     padding-bottom: 15px;
 }
+a.bouton h4 {
+    padding-top: 15px;
+}
 /* #################### PARTENAIRES #################### */
 .partenaire {
     padding-top: 55px;
@@ -670,22 +673,30 @@ div.marginpadding{
      }
     .texte {
         padding-left: 9%; 
-        text-align: center;
         width: 95%;
     }
     .image {
-        padding-left: 0px;
+        padding-left: 9%;
+        padding-right: 9%;
     }
     /* Section publication index */
     .publication .image {
-        padding-left: 0px;
+        padding-left: 9%;
+        padding-left: 9%;
+    }
+    .publication .titre {
+        padding-left: 9%;
+    }
+    .blogue .titre {
+         padding-left: 9%;
     }
     .publication a p.lien, .blogue a p.lien {
         padding-top: 50px;
         padding-right: 15px;
     }
     .blogue .image {
-        padding-left: 0px;
+        padding-left: 9%;
+        padding-left: 9%;
     }
     /* Section devenir membre index */
     .devenir-membre {
@@ -699,17 +710,18 @@ div.marginpadding{
     .devenir-membre h2 {
         color: #fff;
         padding-top: 15px;
-        text-align: center;
+        text-align: left;
+        padding-left: 9%;
     }
     a.bouton {
-        width: 240px;
+        width: 70%;
     }
     .gauche {
-        margin-left: 8px;
+        margin-left: 9%;
         margin-top: 200px;
     }
     .droit {
-        margin-left: 8px;
+        margin-left: 9%;
     }
     /* Section partenaires index */
     img.partn {
@@ -717,6 +729,10 @@ div.marginpadding{
         padding-top: 0px;
         padding-bottom: 0px;
     }
+    .bouton-partn p {
+        padding-left: 6.5%;
+    }
+    
     /* #################### PAGE À PROPOS #################### */
     /* Titre de la page */
     #presentation-chambre h3{
@@ -817,7 +833,48 @@ div.marginpadding{
     a.a-2 {
         margin-right: 11.4%;
     }
-
+     /* #################### SLIDER #################### */
+    .carousel-caption {
+        bottom: -105px;
+        left: 18%;
+    }
+    .carousel-caption h2{
+        font-size: 20px!important;
+        margin-top: -10px;
+    }
+    .carousel-caption p{
+        font-size: 15px!important;
+    }
+    .image-1 p {
+    padding-bottom: 15px; 
+    }
+    /* #################### PUBLICATION INDEX #################### */
+    .publication .image {
+        padding-left: 9%;
+        padding-left: 9%;
+    }
+    .publication .titre {
+        padding-left: 9%;
+    }
+    .blogue .titre {
+         padding-left: 9%;
+    }
+    .publication a p.lien, .blogue a p.lien {
+        padding-top: 50px;
+        padding-right: 100px;
+    }
+    .blogue .image {
+        padding-left: 9%;
+        padding-left: 9%;
+    }
+    .texte {
+        padding-left: 9%;
+    }
+    .image .ruban {
+        width: 25%;
+    }
+    /* #################### SIDEBAR INDEX #################### */
+    
     /* #################### PAGE À PROPOS #################### */
     #presentation-chambre div.devenezmembre{
         margin-bottom: 200px;
@@ -831,7 +888,6 @@ div.marginpadding{
     #presentation-chambre{
         margin-left: 50px;
     }
-
     /* #################### FOOTER #################### */
     /* Infolettre */
     #form-infolettre input[type="email"]{
