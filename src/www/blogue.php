@@ -5,7 +5,7 @@
 
         <header>
             <?php include'../includes/nav.php'; ?>
-            <div id="header-img"> 
+            <div class="background-img hidden-xs">
                 <img src="assets/images/background-header.jpg" class="img-responsive center-block" alt="">
                 <h1>BLOGUE</h1>
             </div> 
@@ -69,7 +69,15 @@
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                                                 <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
                                                 <span class="ruban pull-left">Catégorie</span>
-                                                <div class="date"><span class="day">11</span><span class="month"><span class = "fa fa-circle left-circle"></span>Mars<span class = "fa fa-circle right-circle"></span></span></div>
+                                                <div class="date">
+                                                    <div class='square-box month-box'>
+                                                        <div class='square-content month-content'><div><span class="month">Mars</span></div></div>
+                                                    </div>
+                                                    <div class='square-box day-box'>
+                                                        <div class='square-content day-content'><div><span class="month">29</span></div></div>
+                                                    </div>
+                                                </div>
+                                                <!--<div class="date"><span class="day">11</span><span class="month"><span class = "fa fa-circle left-circle"></span>Mars<span class = "fa fa-circle right-circle"></span></span></div>-->
                                             </div>
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
