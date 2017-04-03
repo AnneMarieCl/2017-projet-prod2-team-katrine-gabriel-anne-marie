@@ -17,25 +17,25 @@ div.background-image{
 
 /* Grandeur du background de la sidebar page présentation de la chambre */
 #presentation-chambre.ccis aside{
-    min-height: 2000px;
-    max-height: 4000px;
+    min-height: 2200px;
+    max-height: 2300px;
 }
 
 /* Grandeur du background de la sidebar page comites organisation de la chambre */
 #presentation-chambre.comites aside{
-    min-height: 1850px;
+    min-height: 1950px;
     max-height: 4000px;
 }
 
 /* Grandeur du background de la sidebar page implications */
 #presentation-chambre.implications aside{
-    min-height: 800px;
+    min-height: 900px;
     max-height: 4000px;
 }
 
 /* Grandeur du background de la sidebar page ca */
 #presentation-chambre.ca aside{
-    min-height: 2700px;
+    min-height: 2800px;
     max-height: 3000px;
 }
 
@@ -73,12 +73,12 @@ div.background-image{
     padding:0;
 }
 /* Ajout d'un espace à droite et à gauche du contenu */
-#margedroite{
-    padding-right: 25px;
+#margedroite, .devenezmembre{
+    padding-right: 100px;
     margin-bottom: 50px;
 }
 #presentation-chambre{
-    margin-left: 15px;
+    margin-left: 100px;
 }
 
 /* Enlever la scroll bar horizontal */
@@ -132,4 +132,29 @@ div.background-image{
 
 #presentation-chambre div.partenaire img.partenaire{
     padding-right: 20px;
+}
+
+ /* #################### RESPONSIVE #################### */
+/* X-Small device */
+@media (max-width: 767px){
+    /* Ajout d'un espace à droite et à gauche du contenu */
+    #margedroite{
+        padding-right: 25px;
+        margin-bottom: 50px;
+    }
+    #presentation-chambre{
+        margin-left: 15px;
+    }
+}
+
+/* Small device */
+@media screen and (min-width: 768px) and (max-width: 992px){
+    /* #################### Menu #################### */
+    /* Ajout d'un espace à droite et à gauche du contenu */
+    #margedroite, .devenezmembre{
+        padding-right: 50px;
+    }
+    #presentation-chambre{
+        margin-left: 50px;
+    }
 }
