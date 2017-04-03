@@ -126,9 +126,6 @@ a.a-2 {
 .navbar {
     border:none;
 }
-li.onglet-1 {
-
-}
 /* #################### SLIDER #################### */
 .slider {
     padding-top: 100px;
@@ -230,7 +227,6 @@ p.inscription2:hover, p.inscription:hover {
 .publication p.lien:hover, .blogue p.lien:hover {  
     color: #3e3d3d;
 }
-
 /* #################### DEVENIR MEMBRE #################### */
 img.fond {
     position: absolute;
@@ -267,7 +263,7 @@ a.bouton:hover {
 .appel-action p {
     padding-bottom: 15px;
 }
-/* #################### PARTENAIRE #################### */
+/* #################### PARTENAIRES #################### */
 .partenaire {
     padding-top: 55px;
 }
@@ -292,12 +288,12 @@ img.partn {
     color: #3e3d3d;
 }
 /* Section aside index */
-     .aside h3.titre {
-     padding-left:0px!important;   
+    .aside h3.titre {
+        padding-left:0px!important;   
     }
     .sidebar-am {
-    padding-top: 65px;
-    text-transform: uppercase;
+        padding-top: 65px;
+        text-transform: uppercase;
     }
     .sidebar-am h4 {
         font-size: 20px;
@@ -315,34 +311,28 @@ footer #footer-un {
     color: #ffffff;
     overflow:hidden;
 }
-
 /* Aligner le texte à droite */
 footer #footer-un #footer-nav, footer #footer-un #infolettre, footer #footer-un #reseaux-sociaux{
     text-align: right;
 }
-
 /* Espace à gauche du logo */
 footer #footer-un #img-footer{
     padding-left: 40px;
 }
-
 /* Espace à droite de la section réseaux sociaux */
 footer #footer-un #reseaux-sociaux{
     padding-right: 40px;
 }
-
 /* Stylistique de la police */
 footer #footer-un #reseaux-sociaux h5, 
 footer #footer-un #infolettre h5 {
     font-size: 16px;
     margin:0 0 10px 0;
 }
-
 footer #footer-un p {
     font-size: 14px;
     margin: 15px 0;
 }
-
 /* Section du menu dans le footer */
 footer #footer-un #footer-menu {
     margin:0;
@@ -353,32 +343,27 @@ footer #footer-un #footer-menu li {
     font-size: 16px;
     margin: 0 0 15px 0;
 }
-
 /* Stylistique des liens */
 footer #footer-un #footer-menu li a, 
 footer #footer-un #social li a{
     text-decoration: none;
     color: #ffffff;
 }
-
 /* Couleur de la page en cours */
 footer #footer-un #footer-menu .current a{
     color: #ee3a43;
 }
-
 /* Hover des éléments du footer */
 footer #footer-un #footer-menu li a:hover, 
 footer #footer-un #social li a:hover{
     color: #ee3a43;
 }
-
 /* Espace entre les icones des réseaux sociaux */
 footer #footer-un #social li {
     display: inline-block;
     font-size: 18px;
     margin: 5px 0 0 5px;
 }
-
 /* Infolettre */
 #form-infolettre input[type="email"]{
     color: #3e3d3d;
@@ -397,7 +382,6 @@ footer #footer-un #social li {
 #form-infolettre input[type="submit"]:hover{
   color: #ee3a43;
 }
-
 /* Footer partie du copyright */
 footer #footer-deux{
     background-color: #ffffff;
@@ -410,7 +394,6 @@ footer #footer-deux h5 {
     padding-right: 25px;
     margin: 20px 0;
 }
-
 /*** TOUTES LES PAGES DE LA CCIS ***/
 /* Map */
 #map{
@@ -421,38 +404,31 @@ footer #footer-deux h5 {
 #presentation-chambre h3{
     margin-top: 50px;
 }
-
 /* Image d'arrière-plan */
 div.background-image{
     margin-top: 120px;
 }
-
 /* Espace à gauche du GoogleMaps */
 #presentation-chambre iframe{
     margin: 20px 0px 20px 0px;
     padding:0;
 }
-
 /* Grandeur du background de la sidebar page présentation de la chambre */
 #presentation-chambre.ccis aside{
     height: 1800px;
 }
-
 /* Grandeur du background de la sidebar page comites organisation de la chambre */
 #presentation-chambre.comites aside{
     min-height: 1800px;
 }
-
 /* Grandeur du background de la sidebar page implications */
 #presentation-chambre.implications aside{
     min-height: 900px;
 }
-
 /* Grandeur du background de la sidebar page ca */
 #presentation-chambre.ca aside{
     min-height: 2850px;
 }
-
 /* Style des liens de la page comités */
 #presentation-chambre.comites a{
     color: #333;
@@ -468,7 +444,6 @@ div.background-image{
 #presentation-chambre.espace-membre #margedroite > ul > li > a:hover{
     color: #ee3a43;
 }
-
 /* Liens dans la sidebar */
 #presentation-chambre #sousnav a{
     background-color: transparent;
@@ -476,13 +451,11 @@ div.background-image{
     padding: 15px 40px 15px 0px;
     border-bottom: 1px solid #455560;
 }
-
 /* Liens dans la sidebar */
 #presentation-chambre #sousnav a:hover{
     background-color: #ee3a43;
     color:#ffffff;
 }
-
 #presentation-chambre #sousnav{
     padding:0;
 }
@@ -494,27 +467,22 @@ div.background-image{
 #presentation-chambre{
     margin-left: 100px;
 }
-
 /* Enlever la scroll bar horizontal */
 #presentation-chambre{
     overflow:hidden;
 }
-
 /* Mettre le texte en gras */
 #presentation-chambre p.gras, #presentation-chambre h5.gras{
     font-weight: bold;
 }
-
 /* Espace en haut des sections du texte */
 #presentation-chambre h4.espaceenahut{
     margin-top: 40px;
 }
-
 /* Espace en haut du bouton : En savoir plus */
 #presentation-chambre p.espacebas{
     margin-bottom: 30px;
 }
-
 /* Bouton en savoir plus */
 #presentation-chambre a#moreinfo {
     background-color: #ee3a43;
@@ -522,13 +490,11 @@ div.background-image{
     padding: 10px 50px;
     margin-bottom: 50px;
 }
-
 #presentation-chambre h5.format {
     font-size: 17px;
     font-weight: bold;
     padding-top: 15px
 }
-
 #presentation-chambre h5.formatdeux {
     font-size: 15px;
     margin-bottom: 20px;
@@ -536,28 +502,24 @@ div.background-image{
 #presentation-chambre p a{
     color: #ee3a43;
 }
-
 /* Image des commanditaires */
 #presentation-chambre div.partenaire {
     margin:0;
     padding:0;
     float: left;
 }
-
 #presentation-chambre div.partenaire img.partenaire{
     padding-right: 20px;
 }
-
 div.nousjoindre{
     margin:10px 0 0 0;
     padding:0;
 }
-
 div.marginpadding{
     margin:0;
     padding:0;
 }
- /* #################### RESPONSIVE #################### */
+/* #################### RESPONSIVE #################### */
 /* X-Small device */
 @media (max-width: 767px){
     /* #################### LOGO #################### */
@@ -629,29 +591,29 @@ div.marginpadding{
         padding: 10px 0;
     }
     #menu-deroulant li:hover ul {
-    width: 100%;
-    margin: 0;
-    padding:0;
-    text-align: center;
-    font-size: 8pt;
+        width: 100%;
+        margin: 0;
+        padding:0;
+        text-align: center;
+        font-size: 8pt;
     }
     li.onglet-1:hover {
-    margin-bottom: 195px;
-}
+        margin-bottom: 195px;
+    }
     a.a-1 {
-    margin-right: 0%;
-    display: block;
-    margin-bottom: 20px;
+        margin-right: 0%;
+        display: block;
+        margin-bottom: 20px;
     }
     a.a-2 {
-    margin-right: 0%;
-    margin-bottom: 20px;
-    display: block;
+        margin-right: 0%;
+        margin-bottom: 20px;
+        display: block;
     }
     .lien-1 {
-    margin-top: 20px;
-    padding-bottom: 0px;
-    margin-left: 0px;
+        margin-top: 20px;
+        padding-bottom: 0px;
+        margin-left: 0px;
     }
     #menu-deroulant, #menu-deroulant ul {
         margin-left:1px;
@@ -662,14 +624,14 @@ div.marginpadding{
     }
      /* Slider */
     img.un {
-    display: none;
+        display: none;
     }
     .carousel-caption {
-    position: relative; 
-    padding-bottom: 20px;
-    padding-top: 50px;
-    text-align: center;
-    left: 0%;
+        position: relative; 
+        padding-bottom: 20px;
+        padding-top: 50px;
+        text-align: center;
+        left: 0%;
     }
     .carousel-caption h2 {
         color:#3e3d3d;
@@ -679,18 +641,18 @@ div.marginpadding{
     }
      /* Section evenement index */
      #index h2 {
-         font-size: 15pt!important;
+        font-size: 15pt!important;
      }
      #index p {
-         font-size: 12pt!important;
+        font-size: 12pt!important;
      }
      #index h3 {
-         font-size: 18pt!important;
+        font-size: 18pt!important;
      }
-     .texte {
-     padding-left: 9%; 
-     text-align: center;
-     width: 95%;
+    .texte {
+        padding-left: 9%; 
+        text-align: center;
+        width: 95%;
     }
     .image {
         padding-left: 0px;
@@ -700,8 +662,8 @@ div.marginpadding{
         padding-left: 0px;
     }
     .publication a p.lien, .blogue a p.lien {
-    padding-top: 50px;
-    padding-right: 15px;
+        padding-top: 50px;
+        padding-right: 15px;
     }
     .blogue .image {
         padding-left: 0px;
@@ -716,9 +678,9 @@ div.marginpadding{
         display:none;
     }
     .devenir-membre h2 {
-    color: #fff;
-    padding-top: 15px;
-    text-align: center;
+        color: #fff;
+        padding-top: 15px;
+        text-align: center;
     }
     a.bouton {
         width: 240px;
@@ -732,9 +694,9 @@ div.marginpadding{
     }
     /* Section partenaires index */
     img.partn {
-    width: 85%;
-    padding-top: 0px;
-    padding-bottom: 0px;
+        width: 85%;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
     /* #################### PAGE À PROPOS #################### */
     /* Titre de la page */
