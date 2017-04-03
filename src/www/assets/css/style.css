@@ -874,7 +874,15 @@ div.marginpadding{
         width: 25%;
     }
     /* #################### SIDEBAR INDEX #################### */
-    
+    .date {
+        left:9%;
+    }
+    .sidebar-am h4 {
+        padding-left: 4%;
+    }
+    #index aside p {
+        padding-left: 4%;
+    }
     /* #################### PAGE À PROPOS #################### */
     #presentation-chambre div.devenezmembre{
         margin-bottom: 200px;
