@@ -97,8 +97,8 @@
                                     <a href="boutique.php">Boutique</a>
                                 </li>
 
-                                <li>
-                                    <a href="#"><i class="fa fa-search" id="loupe" aria-hidden="true"></i></a>
+                                <li class="hidden-sm hidden-md hidden-lg">
+                                    <a href="contact.php">Contact</a>
                                 </li>
 
                                 <li class="hidden-sm hidden-md hidden-lg">
@@ -107,6 +107,10 @@
 
                                 <li class="hidden-sm hidden-md hidden-lg">
                                     <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                                </li>
+
+                                <li>
+                                    <a href="#"><i class="fa fa-search" id="loupe" aria-hidden="true"></i></a>
                                 </li>
                             </ul>
                     </div>
