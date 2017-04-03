@@ -22,7 +22,7 @@ header h1 {
     left: 0;
     position:absolute;
     text-align:center;
-    top: 60%;
+    top: calc(50% + 20px);
     width: 100%
 }
 
