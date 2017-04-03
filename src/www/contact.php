@@ -60,9 +60,9 @@
                                 </div>
 
 
-
                                 <!-- Intégration Google maps -->
-                                <iframe src="https://www.google.com/maps/d/embed?mid=1ncfaSiqE49ILDwXeuc_o5nxe08o" width="100%" height="100%"></iframe>
+                                <iframe id="map" src="https://www.google.com/maps/d/embed?mid=1ncfaSiqE49ILDwXeuc_o5nxe08o"></iframe>
+                            </div>
                         </div>
 
                         

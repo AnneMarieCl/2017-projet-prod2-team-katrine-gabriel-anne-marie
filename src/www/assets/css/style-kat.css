@@ -1,4 +1,9 @@
 /*** TOUTES LES PAGES DE LA CCIS ***/
+/* Map */
+#map{
+    height: 100%;
+    width: 100%;
+}
 /* Titre de la page - À propos */
 #presentation-chambre h3{
     margin-top: 50px;
