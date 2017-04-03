@@ -27,9 +27,10 @@
                                 <h3>Contact</h3>
                                 <!-- Formulaire avec le plug-in WP -->
                                 <h4 class="espaceenahut">Demande d'information</h4>
+                                <p>******AJOUTER LE PLUG-IN FORMULAIRE DE CONTACT (nom, courriel, tel, commentaire) ******</p>
                                 
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 marginpadding">
-                                    <div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 marginpadding">
+                                    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 marginpadding">
                                     <!-- Coordonnées -->
                                     <h4 class="espaceenahut">Nous joindre</h4>
                                     <p><b>1250, avenue de la Station, bureau 1-116</b></p>
@@ -40,7 +41,7 @@
                                     <p><a href="mailto:info@ccishawinigan.ca">info@ccishawinigan.ca</a></p>
                                     </div>
 
-                                    <div class="col-xs-12 col-sm-7 col-md-7 col-lg-8 marginpadding">
+                                    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-8 marginpadding">
                                     <!-- Question en particulier -->
                                     <h4 class="espaceenahut">Une question en particulier?</h4>
 
