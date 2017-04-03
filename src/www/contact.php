@@ -61,6 +61,7 @@
 
 
                                 <!-- Intégration Google maps -->
+                                <!-- LE FAIRE AVEC WORDPRESS!!!! https://wordpress.org/plugins/google-maps-builder/ -->
                                 <iframe id="map" src="https://www.google.com/maps/d/embed?mid=1ncfaSiqE49ILDwXeuc_o5nxe08o"></iframe>
                             </div>
                         </div>
