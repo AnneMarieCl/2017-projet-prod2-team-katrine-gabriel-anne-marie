@@ -290,6 +290,10 @@ img.partn {
 .bouton-partn:hover {
     color: #3e3d3d;
 }
+/* Section aside index */
+     .aside h3.titre {
+     padding-left:0px!important;   
+    }
 /* #################### FOOTER #################### */
 /* Stylistique général du footer */
 footer #footer-un {
@@ -504,6 +508,7 @@ footer #footer-deux h5 {
     .carousel-caption {
     position: relative; 
     padding-bottom: 20px;
+    padding-top: 50px;
     text-align: center;
     left: 0%;
     }
@@ -529,18 +534,18 @@ footer #footer-deux h5 {
      width: 95%;
     }
     .image {
-        padding-left: 15px;
+        padding-left: 0px;
     }
     /* Section publication index */
     .publication .image {
-        padding-left: 15px;
+        padding-left: 0px;
     }
     .publication a p.lien, .blogue a p.lien {
     padding-top: 50px;
     padding-right: 15px;
     }
     .blogue .image {
-        padding-left: 15px;
+        padding-left: 0px;
     }
     /* Section devenir membre index */
     .devenir-membre {
@@ -560,13 +565,18 @@ footer #footer-deux h5 {
         width: 240px;
     }
     .gauche {
-        margin-left: 10px;
+        margin-left: 8px;
         margin-top: 200px;
     }
     .droit {
-        margin-left: 10px;
+        margin-left: 8px;
     }
-   
+    /* Section partenaires index */
+    img.partn {
+    width: 85%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
     /* #################### PAGE À PROPOS #################### */
     /* Titre de la page */
     #presentation-chambre h3{
