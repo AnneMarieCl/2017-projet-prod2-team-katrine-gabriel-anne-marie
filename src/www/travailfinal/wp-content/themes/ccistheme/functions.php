@@ -4,7 +4,8 @@ function mesMenus() {
 	register_nav_menus( array(
 		'menuprincipal' => 'Menu principal',
         'menusecondaire' => 'Menu footer',
-		'menuccis' => 'Menu à propos'
+		'menuccis' => 'Menu à propos',
+		'menucontact' => 'Menu contact',
 		) );
 }
 
