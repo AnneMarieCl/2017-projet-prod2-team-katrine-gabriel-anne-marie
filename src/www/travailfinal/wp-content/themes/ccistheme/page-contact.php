@@ -43,7 +43,7 @@
                                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 marginpadding">
                                     <!-- Coordonnées -->
                                     <h4 class="espaceenahut">Nous joindre</h4>
-                                    <p><b>1250, avenue de la Station, bureau 1-116</b></p>
+                                    <p><b>1250, Avenue de la Station, Bureau 1-116</b></p>
                                     <p>Shawinigan (Québec)</p>
                                     <p>G9N 1W8</p>
                                     <p><b>819 536-0777</b></p>
@@ -68,7 +68,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
 
