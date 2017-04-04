@@ -36,30 +36,14 @@
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 enleve-border">
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                                 <ul class="nav navbar-nav navbar-right contact">
-                                    <li>
-                                        <a href="https://www.facebook.com/CCIShawi" target="_blank">Facebook</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/company/3266947?trk=tyah&trkInfo=tas%3AChambre%20de%20commerce%20et%20d%27industrie%20de%20Shawi" target="_blank">Linkedin</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/CCIShawinigan" target="_blank">Twitter</a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.php">819 536-0777</a>
-                                    </li>
-                                    <li>
-                                        <a href="mailto:info@ccishawinigan.ca">info@ccishawinigan.ca</a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.php">Contact</a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                                    </li>
+                                    <li><a href="https://www.facebook.com/CCIShawi" target="_blank">Facebook</a></li>
+                                    <li><a href="https://www.linkedin.com/company/3266947?trk=tyah&trkInfo=tas%3AChambre%20de%20commerce%20et%20d%27industrie%20de%20Shawi" target="_blank">Linkedin</a></li>
+                                    <li><a href="https://twitter.com/CCIShawinigan" target="_blank">Twitter</a></li>
+                                    <li><a href="contact.php">819 536-0777</a></li>
+                                    <li><a href="mailto:info@ccishawinigan.ca">info@ccishawinigan.ca</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
+                                    <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
                                 </ul>
                             </div>
                         </div>
