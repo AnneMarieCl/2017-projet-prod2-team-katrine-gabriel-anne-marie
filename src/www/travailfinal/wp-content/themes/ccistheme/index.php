@@ -249,7 +249,7 @@
                                         <img class="partn" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-shawinigan.png" alt="Logo de la ville de Shawinigan">
                                     </div>  
                                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                                        <img class="partn" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-culture-shawinigan.png" alt="Logo de la culture Shawinigan">
+                                        <img class="partn cult-shawi" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-culture-shawinigan.png" alt="Logo de la culture Shawinigan">
                                     </div>  
                                 </div>
                             </section>

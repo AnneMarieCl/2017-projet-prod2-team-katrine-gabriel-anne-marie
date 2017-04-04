@@ -933,6 +933,9 @@ div.marginpadding{
         padding-left: 9%;
         padding-left: 9%;
     }
+    .image .ruban {
+        width: 35%;
+    }
     /* Section devenir membre index */
     .devenir-membre {
         background-color: #455560;
@@ -1137,7 +1140,7 @@ div.marginpadding{
         padding-left: 9%;
     }
     .image .ruban {
-        width: 25%;
+        width: 35%;
     }
     /* #################### SIDEBAR INDEX #################### */
     .date {
@@ -1148,6 +1151,44 @@ div.marginpadding{
     }
     #index aside p {
         padding-left: 4%;
+    }
+    /* #################### DEVENIR MEMBRE INDEX #################### */
+    .devenir-membre h2 {
+        padding-top: 15px;
+        text-align: left;
+        padding-left: 4%;
+        font-size: 18px;    
+    }
+    .devenir-membre {
+        min-height: 250px;
+    }
+    a.bouton {
+        width: 46%;
+    }
+    .gauche {
+        margin-left: 0%;
+    }
+    .droit {
+        margin-left: 50%;
+    }
+    .bouton-gauche {
+        top: -25px;
+    }
+    .bouton-droit {
+        top:-25px;
+    }
+    /* #################### PARTENAIRES INDEX #################### */
+    img.partn {
+        width: 85%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .bouton-partn p {
+        padding-left: 6.5%;
+        margin-top: 15px;
+    }
+    .cult-shawi {
+        margin-top: -75%;
     }
     /* #################### PAGE À PROPOS #################### */
     #presentation-chambre div.devenezmembre{
@@ -1240,7 +1281,63 @@ div.marginpadding{
     a.a-2 {
         margin-right: 11.1%;
     }
-
+    /* #################### SLIDER #################### */
+    .carousel-caption {
+        bottom: -105px;
+        left: 18%;
+    }
+    .carousel-caption h2{
+        font-size: 20px!important;
+        margin-top: -10px;
+    }
+    .carousel-caption p{
+        font-size: 15px!important;
+    }
+    .image-1 p {
+    padding-bottom: 15px; 
+    }
+    /* #################### EVENEMENT #################### */
+    .image {
+        padding-top: 10%; 
+        padding-left: 0px;
+    }
+    .image .ruban {
+        top:42%;
+    }
+    .col-md-3 {
+    width: 24%;
+    }
+    /* #################### PUBLICATION INDEX #################### */
+    .publication .image {
+        padding-left: 9%;
+        padding-left: 9%;
+        width: 30%;
+    }
+    .publication .titre {
+        padding-left: 9%;
+    }
+    .blogue .titre {
+         padding-left: 9%;
+    }
+    .publication .texte {
+        width: 65%;
+    }
+    .publication .texte h2{
+        font-size: 20px;
+    }
+    .publication a p.lien, .blogue a p.lien {
+        padding-right: 100px;
+        padding-top: 0px;
+    }
+    .blogue .image {
+        padding-left: 9%;
+        padding-left: 9%;
+    }
+    .image .ruban {
+        padding: 0px;
+        width: 40%;
+        top: 37%;
+    }
     /* PAGE DE LA CCIS */
     /* Grandeur du background de la sidebar page présentation de la chambre */
     #presentation-chambre.ccis aside{
