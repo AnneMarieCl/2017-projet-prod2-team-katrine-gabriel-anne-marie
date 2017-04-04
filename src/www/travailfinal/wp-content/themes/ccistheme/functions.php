@@ -2,8 +2,8 @@
 // Activer les menus
 function mesMenus() {
 	register_nav_menus( array(
-		'monMenuPrincipal' => 'Menu principal',
-        'monMenuSecondaire' => 'Menu footer',
+		'menuprincipal' => 'Menu principal',
+        'menusecondaire' => 'Menu footer',
 		'menuccis' => 'Menu à propos'
 		) );
 }

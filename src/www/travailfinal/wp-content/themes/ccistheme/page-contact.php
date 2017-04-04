@@ -18,7 +18,26 @@
                                 <h3>Contact</h3>
                                 <!-- Formulaire avec le plug-in WP -->
                                 <h4 class="espaceenahut">Demande d'information</h4>
-                                <p>******AJOUTER LE PLUG-IN FORMULAIRE DE CONTACT (nom, courriel, tel, commentaire) ******</p>
+                                <p><?php the_content();?></p>
+                                <?php 
+                                if ( have_posts() ) {
+                                    while ( have_posts() ) {
+                                    the_post(); 
+                                    //
+                                    // Post Content here
+                                    //
+                                    ?>	
+
+                                    <!-- Contenu de la page -->
+                                    <p><?php the_content();?></p>
+
+                                    <?php
+                                    } // end while
+
+
+                                } // end if
+                                ?>
+
                                 
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 marginpadding">
                                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 marginpadding">
