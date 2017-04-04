@@ -52,7 +52,7 @@
                     <div class="row">
                     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
                         <!-- LOGO -->
-                        <a class="logo" href="index.php">
+                        <a class="logo" href="http://localhost:8000/travailfinal/">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-principal.png" alt="Logo de la CCIS">
                         </a>
                     </div>
