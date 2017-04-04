@@ -12,7 +12,6 @@
             <!-- Section : Espace membre  -->
             <section id="presentation-chambre" class="espace-membre">
                 <div class="container-fluid">
-                    
                     <div class="row">
                         
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -52,7 +51,6 @@
                                     </div>
                                 </div>
 
-
                                 <!-- Intégration Google maps -->
                                 <!-- LE FAIRE AVEC WORDPRESS!!!! https://wordpress.org/plugins/google-maps-builder/ -->
                                 <iframe id="map" src="https://www.google.com/maps/d/embed?mid=1ncfaSiqE49ILDwXeuc_o5nxe08o"></iframe>
@@ -61,8 +59,6 @@
 
                         
                     </div>
-                    
-                    
                 </div>
             </section>   
         </main>
