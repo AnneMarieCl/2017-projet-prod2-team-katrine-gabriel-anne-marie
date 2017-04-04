@@ -856,7 +856,6 @@ div.marginpadding{
         text-align: center;
         height: 30px;
     }
-
     .nav>li>a {
         display: initial;
     }
@@ -868,16 +867,7 @@ div.marginpadding{
     #bs-example-navbar-collapse-1 #menu-deroulant li{
         padding: 10px 0;
     }
-    #menu-deroulant li:hover ul {
-        width: 100%;
-        margin: 0;
-        padding:0;
-        text-align: center;
-        font-size: 8pt;
-    }
-    li.onglet-1:hover {
-        margin-bottom: 195px;
-    }
+    
      /* Slider */
     img.un {
         display: none;
@@ -994,7 +984,7 @@ div.marginpadding{
     .article h4 {
         margin-top: 50px; 
     }
-        /* Style des articles */
+    /* Style des articles */
     #blog .article div{
         margin:0;
         padding:0;
