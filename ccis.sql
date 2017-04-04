@@ -104,8 +104,8 @@ CREATE TABLE `ccis_options` (
 --
 
 INSERT INTO `ccis_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
-(1, 'siteurl', 'http://localhost:8000', 'yes'),
-(2, 'home', 'http://localhost:8000', 'yes'),
+(1, 'siteurl', 'http://localhost:8889', 'yes'),
+(2, 'home', 'http://localhost:8889', 'yes'),
 (3, 'blogname', 'CCIS', 'yes'),
 (4, 'blogdescription', 'Un site utilisant WordPress', 'yes'),
 (5, 'users_can_register', '0', 'yes'),
