@@ -2,9 +2,10 @@
 
         <main>
              <div class="container-fluid">
+
                 <!-- Slider -->
-                <section class="slider">
-                    <div class="image-1 hidden-xs">
+                <section class="slider hidden-xs">
+                    <div class="image-1">
                         <img class="un" src="<?php echo get_template_directory_uri(); ?>/assets/images/slider-1.jpg" alt="">
                         <div class="carousel-caption">
                             <p>Blogue</p>
@@ -14,23 +15,27 @@
                         </div> 
                     </div>
                 </section>  
+                
                 <!-- Section : Événements -->
                 <section class="evenement">
                     <div class="row">
+                        <!-- Événement 1 -->
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 texte">
-                            <p>Événement</p>
-                            <h3>Toute la ville parle PME</h3>
-                            <p>Les entrepreneurs d’ici sont inspirants. Venez découvrir leur parcours tout au long du développement de leur entreprise [...]</p>
+                            <p class="premiertruc">Événement</p>
+                            <h3 class="espacedessous">Toute la ville parle PME</h3>
+                            <p class="paragraphe">Les entrepreneurs d’ici sont inspirants. Venez découvrir leur parcours tout au long du développement de leur entreprise [...]</p>
                             <a href="#"><p class="inscription">S'inscrire</p></a>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 image">
                             <img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>
                             <span class="ruban pull-left">Catégorie</span>
                         </div>
+
+                        <!-- Événement 2 -->
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 texte">
                             <p>Événement</p>
-                            <h3>Défis des entreprises</h3>
-                            <p>Venez vivre en grand nombre une expérience sportive unique sur l’île Melville.</p>
+                            <h3 class="espacedessous">Défis des entreprises</h3>
+                            <p class="paragraphe">Venez vivre en grand nombre une expérience sportive unique sur l’île Melville.</p>
                             <a href="#"><p class="inscription2">S'inscrire</p></a>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 image">

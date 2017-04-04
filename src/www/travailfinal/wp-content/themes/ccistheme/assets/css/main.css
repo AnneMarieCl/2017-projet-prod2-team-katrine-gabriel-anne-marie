@@ -1004,6 +1004,40 @@ div.marginpadding{
         margin:0;
         padding-left: 0px;
     }
+/* #################### SECTION ÉVÉNEMENTS #################### */
+    .premiertruc {
+        padding-top: 50px;
+    }
+    .paragraphe {
+        padding-top: 0px;
+        margin-top:0px;
+    }
+    h3.espacedessous{
+        margin-bottom:0px;
+        padding:10px 0;
+    }
+    p.inscription2 {
+        padding-top: 30px;
+        color: #ee3a43;
+        font-size: 20px!important;
+    }
+    p.inscription {
+        padding-top: 15px;
+        color: #ee3a43;
+        font-size: 20px!important;
+    }
+    p.inscription2:hover, p.inscription:hover {
+        color: #3e3d3d;
+    }
+    .image .ruban {
+        color: #fff;
+        background: #ee3a43;
+        position: absolute;
+        top: 20%;
+        width: 50%;
+        padding: 10px 15px ;
+        font-size: 15pt;
+    }
     /* #################### PAGE À PROPOS #################### */
     /* Titre de la page */
     #presentation-chambre h3{
@@ -1207,7 +1241,7 @@ div.marginpadding{
     #post-type ul li{
         font-size: 14px;
     }
-    header h1 {
+    #header h1 {
         top: calc(50% + 32px);
     }
     .article h4 {
@@ -1408,7 +1442,7 @@ div.marginpadding{
     #post-type ul li{
         font-size: 16px;
     }
-    header h1 {
+    #header h1 {
         top: calc(50% + 32px);
     }
     /* #################### Footer #################### */
