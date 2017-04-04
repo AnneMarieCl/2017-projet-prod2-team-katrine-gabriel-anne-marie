@@ -2,7 +2,6 @@
         
         <!-- Main -->
         <main>
-
             <!-- Image dans le header -->
             <div class="background-img hidden-xs" id="header">
                 <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/images/background-contact.jpg" alt="Contact">

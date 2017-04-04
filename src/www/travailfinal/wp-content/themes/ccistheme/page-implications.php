@@ -1,14 +1,12 @@
         <?php get_header();?>
 
-        <!--Image dans le header 
-        <div class="background-img hidden-xs">
-            <img class="img-responsive" src="assets/images/background-header.jpg" alt="CCIS">
-            <h1>LES IMPLICATIONS</h1>
-        </div>-->
-
-
         <!-- Main -->
         <main>
+            <!--Image dans le header -->
+            <div class="background-img hidden-xs" id="header">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/images/background-header.jpg" alt="CCIS">
+                <h1>LES IMPLICATIONS</h1>
+            </div>
 
             <!-- Section : Présentation de la chambre -->
             <section id="presentation-chambre" class="implications">
