@@ -806,14 +806,14 @@ div.marginpadding{
     display:block;
     color: #ee3a43;
 }
-button, input, select, textarea {
+#wpcf7-f35-p5-o1 button, #wpcf7-f35-p5-o1 input, #wpcf7-f35-p5-o1 select, #wpcf7-f35-p5-o1 textarea {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
     width: 100%;
 }
 /* Formulaire 100% de large */
-form p label {
+#wpcf7-f35-p5-o1 form p label {
     width:100%!important;
 }
 #wpcf7-f35-p5-o1 > form > p > label > span > textarea{
