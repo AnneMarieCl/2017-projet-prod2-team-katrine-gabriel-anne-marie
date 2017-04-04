@@ -88,20 +88,20 @@ ul.contact{
     font-size: 10pt;
     margin-left: 15px;
 }
-.lien-1 {
-    margin-top: 40px;
-    padding-bottom: 20px;
-    margin-left: 20px;
+#menu-item-34 {
+   padding-top: 25px;
 }
-.lien-2 {
-    margin-bottom: 40px;
-    margin-left: 20px;
+#menu-item-33 {
+    padding-top: 25px;
 }
-a.a-1 {
-    margin-right: 10%;
+#menu-item-32 {
+    padding-left: 15%;
+    margin-top: -60px; 
 }
-a.a-2 {
-    margin-right: 10.75%;
+#menu-item-60 {
+    padding-left: 15%;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 #menu-deroulant ul {
     position: absolute;
@@ -116,12 +116,16 @@ a.a-2 {
     background-color:rgba(198, 38, 45, 0.7); 
     width: 1850%;
     margin-left:0;
+    padding-left: 33%;
 }
 .sub-menu a{
     color:#ffffff;
 }
 .sub-menu a:hover {
     color: #455560;
+}
+.sub-menu {
+    display: inline-block;
 }
 .navbar {
     border:none;
@@ -1144,14 +1148,8 @@ div.marginpadding{
         width: 120%;
         background-color: white;
     }
-    .lien-1 {
-        margin-left: -20px;
-    }
-    .lien-2 {
-        margin-left: -20px;
-    }
-    a.a-2 {
-        margin-right: 11.4%;
+    #menu-item-32 {
+    margin-top: -48px!important;
     }
      /* #################### SLIDER #################### */
     .carousel-caption {
@@ -1323,14 +1321,8 @@ div.marginpadding{
         width: 120%;
         background-color: white;
     }
-    .lien-1 {
-        margin-left: -16px;
-    }
-    .lien-2 {
-        margin-left: -16px;
-    }
-    a.a-2 {
-        margin-right: 11.1%;
+    #menu-item-32 {
+    margin-top: -51px!important;
     }
     /* #################### SLIDER #################### */
     .carousel-caption {
@@ -1482,14 +1474,8 @@ div.marginpadding{
          padding-left: 30px;
          padding-right: 30px;
     }
-    .lien-1 {
-        margin-left: -10px;
-    }
-    .lien-2 {
-        margin-left: -10px;
-    }
-    a.a-2 {
-        margin-right: 10.85%;
+    #menu-item-32 {
+    margin-top: -51px!important;
     }
     #menu-deroulant, #menu-deroulant ul {
         font-size: 7pt;
