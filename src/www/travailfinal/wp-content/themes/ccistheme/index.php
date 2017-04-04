@@ -4,7 +4,7 @@
              <div class="container-fluid">
                             <section class="slider">
                                 <div class="image-1">
-                                        <img class="un" src="assets/images/slider-1.jpg" alt="">
+                                        <img class="un" src="<?php echo get_template_directory_uri(); ?>/assets/images/slider-1.jpg" alt="">
                                         <div class="carousel-caption">
                                             <p>Blogue</p>
                                             <h2>Shawinigan, un modèle en matière de développement des régions</h2>
@@ -201,7 +201,7 @@
                                 <section class="devenir-membre">
                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                         <div class="image-1">
-                                            <img class="fond" src="assets/images/background-membre-index.png" alt="">
+                                            <img class="fond" src="<?php echo get_template_directory_uri(); ?>/assets/images/background-membre-index.png" alt="">
                                             <div class="appel-action"> 
                                                 <div class="row">
                                                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -240,16 +240,16 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                                        <img class="partn" src="assets/images/logo-deloitte.png" alt="">
+                                        <img class="partn" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-deloitte.png" alt="Logo Deloitte">
                                     </div>  
                                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                                        <img class="partn" src="assets/images/logo-desjardins.png" alt="">
+                                        <img class="partn" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-desjardins.png" alt="Logo de la Caisse Desjardins">
                                     </div>  
                                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                                        <img class="partn" src="assets/images/logo-shawinigan.png" alt="">
+                                        <img class="partn" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-shawinigan.png" alt="Logo de la ville de Shawinigan">
                                     </div>  
                                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                                        <img class="partn" src="assets/images/logo-culture-shawinigan.png" alt="">
+                                        <img class="partn" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-culture-shawinigan.png" alt="Logo de la culture Shawinigan">
                                     </div>  
                                 </div>
                             </section>
