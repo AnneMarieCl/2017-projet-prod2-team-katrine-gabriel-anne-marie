@@ -78,6 +78,7 @@
                                     <a href="#"><p class="lien">Lire la suite</p></a>
                                     <a href="#"><p class="lien">Allez aux publications</p></a>
                                 </div>
+<<<<<<< HEAD
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 image">
                                         <img src="https://dummyimage.com/325.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>
@@ -106,7 +107,8 @@
                                                             <div class='square-box day-box'>
                                                                 <div class='square-content day-content'><div><span class="month">11</span></div></div>
                                                             </div>
-                                                      </div>
+                                                        </div>
+=======
                             </div>
                         </section>
 
@@ -160,6 +162,7 @@
                                                 <div class="date">
                                                     <div class='square-box month-box'>
                                                         <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Mai<span class = "fa fa-circle right-circle"></span></span></div></div>
+>>>>>>> origin/master
                                                     </div>
                                                     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">  
                                                         <div id="titre-calendar-1" class="sidebar-am">
