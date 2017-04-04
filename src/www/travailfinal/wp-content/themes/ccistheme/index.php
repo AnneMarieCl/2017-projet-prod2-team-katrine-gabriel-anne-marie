@@ -42,60 +42,43 @@
                             <img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>
                             <span class="ruban pull-left">Catégorie</span>
                         </div>
+
                     </div>
                 </section>
                             
-                  <div class="row">
-                        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">  
-                            <section class="publication">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titre">
-                                        <h3>Publication</h3>
-                                    </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">  
+                        <!-- Section : Publications -->
+                        <section class="publication">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titre">
+                                    <h3>Publication</h3>
                                 </div>
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 image">
-                                        <img src="https://dummyimage.com/325.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>
-                                        <span class="ruban pull-left">Catégorie</span>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 texte">
-                                        <h2>Formulaire de candidature <span>ca ccis</span> 2017-2018</h2>
-                                        <p>Remplissez un formulaire et déposer votre candidature comme administrateur de la CCIS.</p>
-                                        <a href="#"><p class="lien">Lire la suite</p></a>
-                                        <a href="#"><p class="lien">Allez aux publications</p></a>
-                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 image">
+                                    <img src="https://dummyimage.com/325.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>
+                                    <span class="ruban pull-left">Catégorie</span>
                                 </div>
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 image">
-                                        <img src="https://dummyimage.com/325.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>
-                                        <span class="ruban pull-left">Catégorie</span>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 texte">
-                                        <h2>Formulaire de candidature <span>ca ccis</span> 2017-2018</h2>
-                                        <p>Remplissez un formulaire et déposer votre candidature comme administrateur de la CCIS.</p>
-                                        <a href="#"><p class="lien">Lire la suite</p></a>
-                                        <a href="#"><p class="lien">Allez aux publications</p></a>
-                                    </div>
+                                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 texte">
+                                    <h2>Formulaire de candidature <span>ca ccis</span> 2017-2018</h2>
+                                    <p>Remplissez un formulaire et déposer votre candidature comme administrateur de la CCIS.</p>
+                                    <a href="#"><p class="lien">Lire la suite</p></a>
+                                    <a href="#"><p class="lien">Allez aux publications</p></a>
                                 </div>
-                            </section>
-                            <section class="blogue">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titre">
-                                        <h3>Blogue</h3>
-                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 image">
+                                    <img src="https://dummyimage.com/325.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>
+                                    <span class="ruban pull-left">Catégorie</span>
                                 </div>
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 image">
-                                        <img src="https://dummyimage.com/325.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>
-                                        <span class="ruban pull-left">Catégorie</span>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 texte">
-                                        <h2>Formulaire de candidature <span>ca ccis</span> 2017-2018</h2>
-                                        <p>Remplissez un formulaire et déposer votre candidature comme administrateur de la CCIS.</p>
-                                        <a href="#"><p class="lien">Lire la suite</p></a>
-                                        <a href="#"><p class="lien">Allez sur le blogue</p></a>
-                                    </div>
+                                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 texte">
+                                    <h2>Formulaire de candidature <span>ca ccis</span> 2017-2018</h2>
+                                    <p>Remplissez un formulaire et déposer votre candidature comme administrateur de la CCIS.</p>
+                                    <a href="#"><p class="lien">Lire la suite</p></a>
+                                    <a href="#"><p class="lien">Allez aux publications</p></a>
                                 </div>
+<<<<<<< HEAD
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 image">
                                         <img src="https://dummyimage.com/325.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>
@@ -125,6 +108,61 @@
                                                                 <div class='square-content day-content'><div><span class="month">11</span></div></div>
                                                             </div>
                                                         </div>
+=======
+                            </div>
+                        </section>
+
+                        <!-- Section : Blogue -->
+                        <section class="blogue">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titre">
+                                    <h3>Blogue</h3>
+                                </div>
+                            </div>
+
+                            <!-- Article de blogue 1 -->
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 image">
+                                    <img src="https://dummyimage.com/325.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>
+                                    <span class="ruban pull-left">Catégorie</span>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 texte">
+                                    <h2>Formulaire de candidature <span>ca ccis</span> 2017-2018</h2>
+                                    <p>Remplissez un formulaire et déposer votre candidature comme administrateur de la CCIS.</p>
+                                    <a href="#"><p class="lien">Lire la suite</p></a>
+                                    <a href="#"><p class="lien">Allez sur le blogue</p></a>
+                                </div>
+                            </div>
+
+                            <!-- Article de blogue 2 -->
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 image">
+                                    <img src="https://dummyimage.com/325.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>
+                                    <span class="ruban pull-left">Catégorie</span>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 texte">
+                                    <h2>Formulaire de candidature <span>ca ccis</span> 2017-2018</h2>
+                                    <p>Remplissez un formulaire et déposer votre candidature comme administrateur de la CCIS.</p>
+                                    <a href="#"><p class="lien">Lire la suite</p></a>
+                                    <a href="#"><p class="lien">Allez sur le blogue</p></a>
+                                </div>
+                            </div>
+                        </section>
+                        
+                    </div>
+                </div>
+
+                            <!-- SideBar -->
+                             <aside class="col-xs-0 col-sm-4 col-md-4 col-lg-3">
+                                 
+                                          <section class="aside col-xs-12 col-sm-12 col-md-12 col-lg-12 activite">
+                                            <h3 class="titre">Activités à venir</h3>
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 date-index">
+                                                <div class="date">
+                                                    <div class='square-box month-box'>
+                                                        <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Mai<span class = "fa fa-circle right-circle"></span></span></div></div>
+>>>>>>> origin/master
                                                     </div>
                                                     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">  
                                                         <div id="titre-calendar-1" class="sidebar-am">
@@ -202,7 +240,9 @@
                          </div>
                      </div>
                     
+                            <!-- Section : Devenir membre -->
                             <div class="row">
+
                                 <section class="devenir-membre">
                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                         <div class="image-1">
@@ -230,7 +270,10 @@
                                         </div>
                                     </div>
                                 </section>
+                                
                             </div>
+
+                            <!-- Partenaires -->
                             <section class="partenaire">
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 texte2">

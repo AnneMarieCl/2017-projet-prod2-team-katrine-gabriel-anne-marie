@@ -29,39 +29,30 @@
                         </div>
                     </div>
                 </section>
-                    
+                
                 <section class="menu-contact">
                     <!-- Menu de contact -->
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 enleve-border">
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-                                 <?php
+                                <?php
                                 wp_nav_menu( array(
-                                'theme_location' => 'menucontact',
-                                'menu_id'     => 'menu-contact',
-                                'container' => '', 
-                                'items_wrap' => '<ul class="nav navbar-nav navbar-right contact id="menu-contact">%3$s</ul>',
-                                            ) );
-                                ?>   
-                                <!--<ul class="nav navbar-nav navbar-right contact">
-                                    <li><a href="https://www.facebook.com/CCIShawi" target="_blank">Facebook</a></li>
-                                    <li><a href="https://www.linkedin.com/company/3266947?trk=tyah&trkInfo=tas%3AChambre%20de%20commerce%20et%20d%27industrie%20de%20Shawi" target="_blank">Linkedin</a></li>
-                                    <li><a href="https://twitter.com/CCIShawinigan" target="_blank">Twitter</a></li>
-                                    <li><a href="contact.php">819 536-0777</a></li>
-                                    <li><a href="mailto:info@ccishawinigan.ca">info@ccishawinigan.ca</a></li>
-                                    <li><a href="contact.php">Contact</a></li>
-                                    <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                </ul>-->
+                                    'theme_location' => 'menucontact',
+                                    'menu_id'  => 'menu-contact',
+                                    'container' => '', 
+                                    'items_wrap' => '<ul class="nav navbar-nav navbar-right contact">%3$s</ul>',
+                                ) );
+                                ?>
                             </div>
                         </div>
                     </div>
                 </section>
+
                 <section class="principal">
                     <div class="row">
                     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
                         <!-- LOGO -->
-                        <a class="logo" href="index.php">
+                        <a class="logo" href="http://localhost:8000/travailfinal/">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-principal.png" alt="Logo de la CCIS">
                         </a>
                     </div>
@@ -71,17 +62,18 @@
                             <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 enleve-padding">       
                                 <?php
                                 wp_nav_menu( array(
-                                'theme_location' => 'menuprincipal',
-                                'menu_id'     => 'menu-deroulant',
-                                'container' => '', 
-                                'items_wrap' => '<ul class="nav navbar-nav menu-principal navbar-right" id="menu-deroulant">%3$s</ul>',
-                                            ) );
+                                    'theme_location' => 'menuprincipal',
+                                    'menu_id'  => 'menu-deroulant',
+                                    'container' => '', 
+                                    'items_wrap' => '<ul class="nav navbar-nav menu-principal navbar-right" id="menu-deroulant">%3$s</ul>',
+                                ) );
                                 ?>   
                             </div>
 
      
                                 <!--<ul class="nav navbar-nav menu-principal navbar-right" id="menu-deroulant">
                                     
+                                    SOUS-MENU :
                                     <li class="onglet-1">
                                         <a class="premier-niveau" id="ccis" href="ccis.php">La ccis</a>
                                         <ul id="deroule">
@@ -116,6 +108,7 @@
                                         <a href="boutique.php">Boutique</a>
                                     </li>
 
+                                    CE QUE L'ON MONTRE EN XS SEULEMENT :
                                     <li class="hidden-sm hidden-md hidden-lg">
                                         <a href="contact.php">Contact</a>
                                     </li>
