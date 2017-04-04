@@ -62,7 +62,7 @@
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                                                 <div class="img-article">
-                                                    <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blogue.jpg" class="img-responsive" alt="">
                                                     <span class="ruban pull-left">Catégorie</span>
                                                     <div class="date">
                                                         <div class='square-box month-box'>
@@ -91,7 +91,7 @@
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                                                 <div class="img-article">
-                                                    <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blogue.jpg" class="img-responsive" alt="">
                                                     <span class="ruban pull-left">Catégorie</span>
                                                     <div class="date">
                                                         <div class='square-box month-box'>
@@ -120,7 +120,7 @@
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                                                 <div class="img-article">
-                                                    <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blogue.jpg" class="img-responsive" alt="">
                                                     <span class="ruban pull-left">Catégorie</span>
                                                     <div class="date">
                                                         <div class='square-box month-box'>
@@ -149,7 +149,7 @@
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                                                 <div class="img-article">
-                                                    <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blogue.jpg" class="img-responsive" alt="">
                                                     <span class="ruban pull-left">Catégorie</span>
                                                     <div class="date">
                                                         <div class='square-box month-box'>
@@ -178,7 +178,7 @@
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                                                 <div class="img-article">
-                                                    <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blogue.jpg" class="img-responsive" alt="">
                                                     <span class="ruban pull-left">Catégorie</span>
                                                     <div class="date">
                                                         <div class='square-box month-box'>
@@ -207,7 +207,7 @@
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                                                 <div class="img-article">
-                                                    <img src="assets/images/blogue.jpg" class="img-responsive" alt="">
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blogue.jpg" class="img-responsive" alt="">
                                                     <span class="ruban pull-left">Catégorie</span>
                                                     <div class="date">
                                                         <div class='square-box month-box'>

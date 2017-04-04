@@ -1,10 +1,10 @@
         <?php get_header();?>
 
         <!-- Image dans le header -->
-        <div class="background-img hidden-xs">
+        <!--<div class="background-img hidden-xs">
             <img class="img-responsive" src="assets/images/background-membre.png" alt="L'espace membre">
             <h1>ESPACE MEMBRE</h1>
-        </div>
+        </div>-->
 
         <!-- Main -->
         <main>
@@ -82,7 +82,7 @@
             </section>   
         </main>
         <!-- Fin du main -->
-        
+
         <?php get_footer();?>
     </body>
 </html>

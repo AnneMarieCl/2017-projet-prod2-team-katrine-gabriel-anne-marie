@@ -102,23 +102,23 @@
                                 <!-- Grands partenaires -->
                                 <h4 class="espaceenahut">Grands partenaires</h4>
                                 <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 partenaire">
-                                    <img class="partenaire img-responsive" src="assets/images/logo-deloitte.png" alt="Deloitte">
+                                    <img class="partenaire img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-deloitte.png" alt="Deloitte">
                                 </div>  
                                 <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 partenaire">
-                                    <img class="partenaire img-responsive" src="assets/images/logo-desjardins.png" alt="Desjardins">
+                                    <img class="partenaire img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-desjardins.png" alt="Desjardins">
                                 </div>  
                                 <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 partenaire">
-                                    <img class="partenaire img-responsive" src="assets/images/logo-shawinigan.png" alt="Ville de Shawinigan">
+                                    <img class="partenaire img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-shawinigan.png" alt="Ville de Shawinigan">
                                 </div>  
                                 <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 partenaire">
-                                    <img class="partenaire img-responsive" src="assets/images/logo-culture-shawinigan.png" alt="Culture Shawinigan">
+                                    <img class="partenaire img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-culture-shawinigan.png" alt="Culture Shawinigan">
                                 </div>  
                                 
                             </div>
                             
                             <!-- Section : Devenez membre -->
                             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                                <img src="assets/images/avatar-membre.png" alt="Devenez membre">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/avatar-membre.png" alt="Devenez membre">
                             </div>
                                                         
                             <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9 devenezmembre">

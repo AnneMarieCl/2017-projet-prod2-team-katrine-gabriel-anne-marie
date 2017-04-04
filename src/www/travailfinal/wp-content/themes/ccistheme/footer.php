@@ -6,7 +6,7 @@
                     <div class="row">
                         <!-- Logo de l'entreprise -->
                         <div id="img-footer" class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-                            <a href="index.php"><img src="assets/images/logo-footer.png" alt="Logo CCIS"></a>
+                            <a href="index.php"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-footer.png" alt="Logo CCIS"></a>
                         </div>
 
                         <!-- Menu de navigation -->
