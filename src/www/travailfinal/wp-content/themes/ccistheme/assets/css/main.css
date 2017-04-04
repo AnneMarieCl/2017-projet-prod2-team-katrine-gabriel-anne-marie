@@ -686,11 +686,6 @@ footer #footer-deux h5 {
 div.background-image{
     margin-top: 120px;
 }
-/* Espace à gauche du GoogleMaps */
-#presentation-chambre iframe{
-    margin: 20px 0px 20px 0px;
-    padding:0;
-}
 /* Grandeur du background de la sidebar page présentation de la chambre */
 #presentation-chambre.ccis aside{
     height: 1800px;
