@@ -339,7 +339,7 @@ a:hover {
     background-size: 100%;
     padding-top: 120px; 
 }
-header h1 {
+#header h1 {
     left: 0;
     position:absolute;
     text-align:center;
@@ -1307,7 +1307,10 @@ div.marginpadding{
     .col-md-3 {
     width: 24%;
     }
-    /* #################### PUBLICATION INDEX #################### */
+    /* #################### PUBLICATION ET BLOGUE INDEX #################### */
+    .publication, .blogue {
+    min-height: 0px;
+    }
     .publication .image {
         padding-left: 9%;
         padding-left: 9%;
@@ -1315,9 +1318,6 @@ div.marginpadding{
     }
     .publication .titre {
         padding-left: 9%;
-    }
-    .blogue .titre {
-         padding-left: 9%;
     }
     .publication .texte {
         width: 65%;
@@ -1329,14 +1329,59 @@ div.marginpadding{
         padding-right: 100px;
         padding-top: 0px;
     }
+    .blogue .texte h2{
+        font-size: 20px;
+    }
     .blogue .image {
         padding-left: 9%;
         padding-left: 9%;
+        width: 30%;
+    }
+    .blogue .titre {
+         padding-left: 9%;
+    }
+    .blogue .texte {
+        width: 65%;
     }
     .image .ruban {
         padding: 0px;
         width: 40%;
         top: 37%;
+    }
+    /* #################### DEVENIR MEMBRE INDEX #################### */
+    .devenir-membre h2 {
+        padding-top: 15px;
+        text-align: left;
+        padding-left: 6%;
+        font-size: 18px;    
+    }
+    .devenir-membre {
+        min-height: 300px;
+    }
+    a.bouton {
+        width: 46%;
+    }
+    .gauche {
+        margin-left: 1%;
+    }
+    .droit {
+        margin-left: 50%;
+    }
+    .bouton-gauche {
+        top: -25px;
+    }
+    .bouton-droit {
+        top:-25px;
+    }
+     /* #################### SIDEBAR INDEX #################### */
+    .date {
+        left:32%;
+    }
+    .sidebar-am h4 {
+        padding-left: 14%;
+    }
+    .paragraphe {
+           padding-left: 8%!important;
     }
     /* PAGE DE LA CCIS */
     /* Grandeur du background de la sidebar page présentation de la chambre */
@@ -1401,7 +1446,33 @@ div.marginpadding{
     #menu-deroulant, #menu-deroulant ul {
         font-size: 7pt;
         margin-right: -27px;
-    }   
+    }  
+    /* #################### SLIDER #################### */
+    .carousel-caption {
+        bottom: -55px;
+        left: 18%;
+    }
+    .carousel-caption h2{
+        
+        margin-top: -10px;
+    }
+    .carousel-caption p{
+        font-size: 15px!important;
+    }
+    .image-1 p {
+    padding-bottom: 15px; 
+    } 
+    /* #################### EVENEMENT #################### */
+    .image {
+        padding-top: 8%; 
+        padding-left: 0px;
+    }
+    .image .ruban {
+        top:30%;
+    }
+    .col-md-3 {
+    width: 24.5%;
+    }
     /* PAGE DE LA CCIS */
     /* Grandeur du background de la sidebar page présentation de la chambre */
     #presentation-chambre.ccis aside{

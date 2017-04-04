@@ -39,7 +39,7 @@
                 </section>
                             
                   <div class="row">
-                        <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9">  
+                        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">  
                             <section class="publication">
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titre">
@@ -103,7 +103,7 @@
                                </div>
                              </section>
                          </div>
-                             <aside class="col-xs-0 col-sm-4 col-md-3 col-lg-3">
+                             <aside class="col-xs-0 col-sm-4 col-md-4 col-lg-3">
                                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 activite">
                                           <section class="aside">
                                             <h3 class="titre">Activités à venir</h3>
@@ -126,7 +126,7 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">  
+                                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 paragraphe">  
                                                 <p>Les entrepreneurs d’ici sont inspirants. Venez découvrir leur parcours tout au long du développement de leur entreprise...</p>
                                             </div>
                                         </div>
@@ -153,7 +153,7 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">  
+                                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 paragraphe">  
                                                 <p>Les entrepreneurs d’ici sont inspirants. Venez découvrir leur parcours tout au long du développement de leur entreprise...</p>
                                             </div>
                                         </div>
@@ -180,7 +180,7 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">  
+                                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 paragraphe">  
                                                 <p>Les entrepreneurs d’ici sont inspirants. Venez découvrir leur parcours tout au long du développement de leur entreprise...</p>
                                             </div>
                                         </div>
@@ -228,13 +228,13 @@
                             </div>
                             <section class="partenaire">
                                 <div class="row">
-                                    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 texte2">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 texte2">
                                         <h3>Nos partenaires</h3>
                                     </div>
-                                    <div class="col-xs-hidden col-sm-hidden col-md-8 col-lg-8">
+                                    <div class="col-xs-hidden col-sm-hidden col-md-6 col-lg-8">
                                         
                                     </div>
-                                    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 texte3">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 texte3">
                                         <a class="bouton-partn" href="#"><p>Voir tous les partenaires</p></a>
                                     </div>
                                 </div>
