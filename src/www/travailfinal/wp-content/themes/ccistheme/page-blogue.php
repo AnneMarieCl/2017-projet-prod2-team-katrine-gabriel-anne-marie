@@ -79,7 +79,14 @@
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                                                 <div class="img-article">
-                                                    <?php the_post_thumbnail('blogue', array('class' => 'img-responsive')); ?>
+                                                    <?php 
+                                                        if (has_post_thumbnail()){
+                                                        the_post_thumbnail('blogue', array('class' => 'img-responsive'));
+                                                    }
+                                                    else {
+                                                        echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="" class="img-responsive">';
+                                                    }
+                                                    ?>
                                                     <span class="ruban pull-left"><?php the_category(); ?></span>
                                                     <div class="date">
                                                         <div class='square-box month-box'>
@@ -110,152 +117,6 @@
                                             } // end if
                                             wp_reset_query();
                                     ?>
-
-                                    <div class="article">
-                                        <div class="row">
-                                        
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                                <div class="img-article">
-                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blogue.jpg" class="img-responsive" alt="">
-                                                    <span class="ruban pull-left">Catégorie</span>
-                                                    <div class="date">
-                                                        <div class='square-box month-box'>
-                                                            <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Mars<span class = "fa fa-circle right-circle"></span></span></div></div>
-                                                        </div>
-                                                        <div class='square-box day-box'>
-                                                            <div class='square-content day-content'><div><span class="day">31</span></div></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 infoarticle">
-
-                                                <h4>À l’aube du transport intelligent au Québec</h4>
-                                                <h6>Par Sousso Kelouwani, PH. D., Professeur à l'Université' du Québec à Trois-Rivières </h6>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate [...]</p>
-                                                <a href="">Lire la suite</a>
-
-                                            </div>
-                                        
-                                        </div>
-                                    </div>
-                                    <div class="article">
-                                        <div class="row">
-                                        
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                                <div class="img-article">
-                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blogue.jpg" class="img-responsive" alt="">
-                                                    <span class="ruban pull-left">Catégorie</span>
-                                                    <div class="date">
-                                                        <div class='square-box month-box'>
-                                                            <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Mars<span class = "fa fa-circle right-circle"></span></span></div></div>
-                                                        </div>
-                                                        <div class='square-box day-box'>
-                                                            <div class='square-content day-content'><div><span class="day">29</span></div></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 infoarticle">
-
-                                                <h4>À l’aube du transport intelligent au Québec</h4>
-                                                <h6>Par Sousso Kelouwani, PH. D., Professeur à l'Université' du Québec à Trois-Rivières </h6>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate [...]</p>
-                                                <a href="">Lire la suite</a>
-
-                                            </div>
-                                        
-                                        </div>
-                                    </div>
-                                    <div class="article">
-                                        <div class="row">
-                                        
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                                <div class="img-article">
-                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blogue.jpg" class="img-responsive" alt="">
-                                                    <span class="ruban pull-left">Catégorie</span>
-                                                    <div class="date">
-                                                        <div class='square-box month-box'>
-                                                            <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Mars<span class = "fa fa-circle right-circle"></span></span></div></div>
-                                                        </div>
-                                                        <div class='square-box day-box'>
-                                                            <div class='square-content day-content'><div><span class="day">9</span></div></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 infoarticle">
-
-                                                <h4>À l’aube du transport intelligent au Québec</h4>
-                                                <h6>Par Sousso Kelouwani, PH. D., Professeur à l'Université' du Québec à Trois-Rivières </h6>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate [...]</p>
-                                                <a href="">Lire la suite</a>
-
-                                            </div>
-                                        
-                                        </div>
-                                    </div>
-                                    <div class="article">
-                                        <div class="row">
-                                        
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                                <div class="img-article">
-                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blogue.jpg" class="img-responsive" alt="">
-                                                    <span class="ruban pull-left">Catégorie</span>
-                                                    <div class="date">
-                                                        <div class='square-box month-box'>
-                                                            <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Février<span class = "fa fa-circle right-circle"></span></span></div></div>
-                                                        </div>
-                                                        <div class='square-box day-box'>
-                                                            <div class='square-content day-content'><div><span class="day">28</span></div></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 infoarticle">
-
-                                                <h4>À l’aube du transport intelligent au Québec</h4>
-                                                <h6>Par Sousso Kelouwani, PH. D., Professeur à l'Université' du Québec à Trois-Rivières </h6>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate [...]</p>
-                                                <a href="">Lire la suite</a>
-
-                                            </div>
-                                        
-                                        </div>
-                                    </div>
-                                    <div class="article">
-                                        <div class="row">
-                                        
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                                <div class="img-article">
-                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blogue.jpg" class="img-responsive" alt="">
-                                                    <span class="ruban pull-left">Catégorie</span>
-                                                    <div class="date">
-                                                        <div class='square-box month-box'>
-                                                            <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Janvier<span class = "fa fa-circle right-circle"></span></span></div></div>
-                                                        </div>
-                                                        <div class='square-box day-box'>
-                                                            <div class='square-content day-content'><div><span class="day">13</span></div></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 infoarticle">
-
-                                                <h4>À l’aube du transport intelligent au Québec</h4>
-                                                <h6>Par Sousso Kelouwani, PH. D., Professeur à l'Université' du Québec à Trois-Rivières </h6>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate [...]</p>
-                                                <a href="">Lire la suite</a>
-
-                                            </div>
-                                        
-                                        </div>
-                                    </div>
 	    
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
