@@ -878,6 +878,28 @@ div.marginpadding{
     li.onglet-1:hover {
         margin-bottom: 195px;
     }
+    a.a-1 {
+        margin-right: 0%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    a.a-2 {
+        margin-right: 0%;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .lien-1 {
+        margin-top: 20px;
+        padding-bottom: 0px;
+        margin-left: 0px;
+    }
+    #menu-deroulant, #menu-deroulant ul {
+        margin-left:1px;
+    }
+    .lien-2 {
+        margin-bottom: 20px;
+        margin-left:0;
+    }
      /* Slider */
     img.un {
         display: none;
@@ -1594,6 +1616,15 @@ div.marginpadding{
         padding-left: 50px;
         padding-right: 50px;
     }
+    .lien-1 {
+        margin-left: 10px;
+    }
+    .lien-2 {
+        margin-left: 10px;
+    }
+    a.a-2 {
+        margin-right: 10.8%;
+    }
     #menu-deroulant, #menu-deroulant ul {
         font-size: 9pt;
         margin-right: -50px;
@@ -1608,6 +1639,15 @@ div.marginpadding{
         text-align: center;
         padding-left: 50px;
         padding-right: 50px;
+    }
+    .lien-1 {
+        margin-left: 10px;
+    }
+    .lien-2 {
+        margin-left: 10px;
+    }
+    a.a-2 {
+        margin-right: 10.8%;
     }
     #menu-deroulant, #menu-deroulant ul {
         font-size: 9pt;
