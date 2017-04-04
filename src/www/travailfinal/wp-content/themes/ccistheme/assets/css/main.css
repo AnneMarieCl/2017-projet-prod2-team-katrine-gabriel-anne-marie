@@ -1470,8 +1470,79 @@ div.marginpadding{
     .image .ruban {
         top:30%;
     }
-    .col-md-3 {
-    width: 24.5%;
+    /* #################### PUBLICATION ET BLOGUE INDEX #################### */
+    .publication, .blogue {
+    min-height: 0px;
+    }
+    .publication .image {
+        padding-left: 9%;
+        padding-left: 9%;
+        width: 30%;
+    }
+    .publication .titre {
+        padding-left: 9%;
+    }
+    .publication .texte {
+        width: 65%;
+        padding-top: 8%;
+    }
+    .publication .texte h2{
+        font-size: 20px;
+    }
+    .publication a p.lien, .blogue a p.lien {
+        padding-right: 100px;
+        padding-top: 0px;
+    }
+    .blogue .texte h2{
+        font-size: 20px;
+    }
+    .blogue .image {
+        padding-left: 9%;
+        width: 30%;
+    }
+    .blogue .titre {
+         padding-left: 9%;   
+    }
+    .blogue .texte {
+        width: 65%;
+        padding-top: 8%;
+    }
+    .image .ruban {
+        width: 44%;
+        top: 32%;
+    }
+    /* #################### SIDEBAR INDEX #################### */
+    .date {
+        left:32%;
+    }
+    .sidebar-am h4 {
+        padding-left: 14%;
+        padding-right: 8%;
+    }
+    .paragraphe {
+           padding-left: 8%!important;
+           padding-right: 8%;
+    }
+     /* #################### DEVENIR MEMBRE INDEX #################### */
+    .devenir-membre h2 {
+        padding-top: 7%;
+    }
+    .devenir-membre {
+        min-height:300px;
+        margin-bottom: 10%;
+    }
+    a.bouton {
+        width: 75%;
+    }
+    .gauche {
+        margin-left: 17%;
+    }
+    .droit {
+        margin-left: 2%;
+    }
+    /* #################### PARTENAIRES #################### */
+    .partenaire {
+        padding-top: 0px;
     }
     /* PAGE DE LA CCIS */
     /* Grandeur du background de la sidebar page présentation de la chambre */
