@@ -466,6 +466,22 @@ a:hover {
     padding: 5px 10px ;
     font-size: 15pt;
 }
+
+/* Ruban edit des class wp */
+.article .ruban .post-categories {
+    padding: 0;
+    margin: 0;
+}
+
+.article .ruban .post-categories li {
+    display: inline-block;
+    color: #fff;
+}
+
+.article .ruban .post-categories li a{
+    color: #fff!important;
+    font-size: 15pt!important;
+}
 /* Style pour afficher date */
 .date {
     position: absolute;
@@ -1177,7 +1193,7 @@ div.marginpadding{
         width: 35%;
     }
     /* #################### SIDEBAR INDEX #################### */
-    .date {
+    aside .date {
         left:9%;
     }
     .sidebar-am h4 {
@@ -1408,7 +1424,7 @@ div.marginpadding{
         top:-25px;
     }
      /* #################### SIDEBAR INDEX #################### */
-    .date {
+    aside .date {
         left:32%;
     }
     .sidebar-am h4 {
@@ -1546,7 +1562,7 @@ div.marginpadding{
         top: 32%;
     }
     /* #################### SIDEBAR INDEX #################### */
-    .date {
+    aside .date {
         left:32%;
     }
     .sidebar-am h4 {
