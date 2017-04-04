@@ -1,12 +1,13 @@
         <?php get_header();?>
 
-        <!--<div class="background-img hidden-xs">
-            <img src="assets/images/background-blogue.png" class="img-responsive center-block" alt="blogue">
-            <h1>BLOGUE</h1>
-        </div> -->
-
         <!-- Début du main -->
         <main>
+            <!-- Image -->
+            <div class="background-img hidden-xs" id="header">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/background-blogue.png" class="img-responsive center-block" alt="blogue">
+                <h1>BLOGUE</h1>
+            </div>
+
             <section id="blog">
                 <div class="container-fluid">
                     

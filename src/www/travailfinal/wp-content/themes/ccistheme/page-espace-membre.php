@@ -2,7 +2,7 @@
 
         <!-- Main -->
         <main>
-            <!-- Image dans le header -->
+            <!-- Image -->
             <div class="background-img hidden-xs" id="header">
                 <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/images/background-membre.png" alt="L'espace membre">
                 <h1>ESPACE MEMBRE</h1>

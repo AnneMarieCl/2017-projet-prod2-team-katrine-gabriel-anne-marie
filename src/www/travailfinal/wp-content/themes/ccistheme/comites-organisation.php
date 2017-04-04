@@ -1,13 +1,12 @@
         <?php get_header();?>
-        <!-- Image dans le header -->
-        <div class="background-img hidden-xs">
-            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/images/background-header.jpg" alt="CCIS">
-            <h1>LES COMITÉS D'ORGANISATION</h1>
-        </div>
-
 
         <!-- Main -->
         <main>
+            <!-- Image -->
+            <div class="background-img hidden-xs" id="header">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/images/background-header.jpg" alt="CCIS">
+                <h1>LES COMITÉS D'ORGANISATION</h1>
+            </div>
 
             <!-- Section : Comites organisation -->
             <section id="presentation-chambre" class="comites">

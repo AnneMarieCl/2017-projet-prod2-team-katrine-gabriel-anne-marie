@@ -1,13 +1,12 @@
         <?php get_header();?>
 
-        <!--<div class="background-img hidden-xs">
-            <img src="assets/images/background-formations-evenements.jpg" class="img-responsive center-block" alt="Formations et événements">
-            <h1>FORMATIONS ET ÉVÉNEMENTS</h1>
-        </div> -->
-
-
         <!-- Main -->
         <main>
+            <!-- Image -->
+            <div class="background-img hidden-xs" id="header">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/background-formations-evenements.jpg" class="img-responsive center-block" alt="Formations et événements">
+                <h1>FORMATIONS ET ÉVÉNEMENTS</h1>
+            </div> 
 
         </main>
         <!-- Fin du main -->
