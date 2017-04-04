@@ -2,17 +2,19 @@
 
         <main>
              <div class="container-fluid">
+                <!-- Slider -->
                 <section class="slider">
-                    <div class="image-1">
-                            <img class="un" src="<?php echo get_template_directory_uri(); ?>/assets/images/slider-1.jpg" alt="">
-                            <div class="carousel-caption">
-                                <p>Blogue</p>
-                                <h2>Shawinigan, un modèle en matière de développement des régions</h2>
-                                <p>Catégorie</p>
-                                <a href="#"><p class="savoir-plus">En savoir plus</p></a>
-                            </div> 
+                    <div class="image-1 hidden-xs">
+                        <img class="un" src="<?php echo get_template_directory_uri(); ?>/assets/images/slider-1.jpg" alt="">
+                        <div class="carousel-caption">
+                            <p>Blogue</p>
+                            <h2>Shawinigan, un modèle en matière de développement des régions</h2>
+                            <p>Catégorie</p>
+                            <a href="#"><p class="savoir-plus">En savoir plus</p></a>
+                        </div> 
                     </div>
-                </section>        
+                </section>  
+                <!-- Section : Événements -->
                 <section class="evenement">
                     <div class="row">
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 texte">
