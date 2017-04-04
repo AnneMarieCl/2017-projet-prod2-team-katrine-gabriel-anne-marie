@@ -951,7 +951,7 @@ div.marginpadding{
         padding-left: 9%;
     }
     .image .ruban {
-        width: 35%;
+        width: 30%!important;
     }
     /* Section devenir membre index */
     .devenir-membre {
@@ -1431,9 +1431,6 @@ div.marginpadding{
     .sidebar-am h4 {
         padding-left: 14%;
     }
-    .paragraphe {
-           padding-left: 8%!important;
-    }
     /* PAGE DE LA CCIS */
     /* Grandeur du background de la sidebar page présentation de la chambre */
     #presentation-chambre.ccis aside{
@@ -1543,7 +1540,7 @@ div.marginpadding{
     .publication a p.lien, .blogue a p.lien {
         padding-right: 100px;
         padding-top: 0px;
-    }
+    }   
     .blogue .texte h2{
         font-size: 20px;
     }
@@ -1571,7 +1568,6 @@ div.marginpadding{
         padding-right: 8%;
     }
     .paragraphe {
-           padding-left: 8%!important;
            padding-right: 8%;
     }
      /* #################### DEVENIR MEMBRE INDEX #################### */
