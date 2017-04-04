@@ -762,11 +762,12 @@ div.background-image{
     margin-bottom: 30px;
 }
 /* Bouton en savoir plus */
-#presentation-chambre a#moreinfo {
+#presentation-chambre a#moreinfo, #wpcf7-f35-p5-o1 > form > p > input {
     background-color: #ee3a43;
     color: #ffffff;
     padding: 10px 50px;
     margin-bottom: 50px;
+    border:none;
 }
 #presentation-chambre h5.format {
     font-size: 17px;
@@ -796,6 +797,27 @@ div.nousjoindre{
 div.marginpadding{
     margin:0;
     padding:0;
+}
+/* Formulaire de contact */
+#wpcf7-f35-p5-o1 > div ul li{
+    display: none;
+}
+#wpcf7-f35-p5-o1 > form > p > label > span > span {
+    display:block;
+    color: #ee3a43;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 100%;
+}
+/* Formulaire 100% de large */
+form p label {
+    width:100%!important;
+}
+#wpcf7-f35-p5-o1 > form > p > label > span > textarea{
+    border-color: #bfbfbf;
 }
 /* #################### RESPONSIVE #################### */
 /* X-Small device */
@@ -868,7 +890,7 @@ div.marginpadding{
         padding: 10px 0;
     }
     
-     /* Slider */
+/* Slider */
     img.un {
         display: none;
     }
