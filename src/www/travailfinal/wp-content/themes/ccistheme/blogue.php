@@ -291,12 +291,6 @@
                 </div>
             </section>     
         </main>
-
         <!-- Fin du main -->
+        <?php get_footer();?>
 
-        <?php include'../includes/footer.php'; ?>
-
-        <?php include'../includes/script.php'; ?>
-
-    </body>
-</html>

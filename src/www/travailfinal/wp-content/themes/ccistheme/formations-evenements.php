@@ -12,9 +12,6 @@
         </main>
         <!-- Fin du main -->
 
-        <?php include'../includes/footer.php'; ?>
-
-        <?php include'../includes/script.php'; ?>
-
+        <?php get_footer();?>
     </body>
 </html>
