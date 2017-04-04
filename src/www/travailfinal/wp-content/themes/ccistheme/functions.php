@@ -13,6 +13,6 @@ add_action( 'init', 'mesMenus' );
 
 // Add Thumbnail
 add_theme_support( 'post-thumbnails' );
-add_image_size( 'blogue', '', 800, true );
+add_image_size( 'blogue', 800, 800, true );
 
 ?>
