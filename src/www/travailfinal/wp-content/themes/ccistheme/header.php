@@ -66,10 +66,64 @@
                                 'theme_location' => 'menuprincipal',
                                 'menu_id'     => 'menu-deroulant',
                                 'container' => '', 
-                                'items_wrap' => '<ul class="nav navbar-nav menu-principal navbar-right">%3$s</ul>',
+                                'items_wrap' => '<ul class="nav navbar-nav menu-principal navbar-right" id="menu-deroulant">%3$s</ul>',
                                             ) );
                                 ?>   
                             </div>
+
+     
+                                <!--<ul class="nav navbar-nav menu-principal navbar-right" id="menu-deroulant">
+                                    
+                                    <li class="onglet-1">
+                                        <a class="premier-niveau" id="ccis" href="ccis.php">La ccis</a>
+                                        <ul id="deroule">
+                                            <li class="lien-1">
+                                                <a class="a-1" href="ccis.php">Présentation de la chambre</a>
+                                                <a href="comites-organisation.php">Les comités d'organisation</a>
+                                            </li>
+                                            <li class="lien-2">
+                                                <a class="a-2" href="conseil-administration.php">Conseil d'administration</a>
+                                                <a href="implications.php">Les implications</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="onglet">
+                                        <a href="publications.php">Publications</a>
+                                    </li>
+
+                                    <li class="onglet">
+                                        <a href="formations-evenements.php">Formations et événements</a>
+                                    </li>
+
+                                    <li class="onglet">
+                                        <a href="blogue.php">Blogue</a>
+                                    </li>
+
+                                    <li class="onglet">
+                                        <a href="espace-membre.php">espace membre</a>
+                                    </li>
+
+                                    <li class="onglet">
+                                        <a href="boutique.php">Boutique</a>
+                                    </li>
+
+                                    <li class="hidden-sm hidden-md hidden-lg">
+                                        <a href="contact.php">Contact</a>
+                                    </li>
+
+                                    <li class="hidden-sm hidden-md hidden-lg">
+                                        <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+                                    </li>
+
+                                    <li class="hidden-sm hidden-md hidden-lg">
+                                        <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"><i class="fa fa-search" id="loupe" aria-hidden="true"></i></a>
+                                    </li>
+                                </ul>-->
                         </div>
                     </div>
                 </section>
