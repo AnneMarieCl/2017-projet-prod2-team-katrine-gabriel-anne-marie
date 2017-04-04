@@ -11,14 +11,22 @@
 
                         <!-- Menu de navigation -->
                         <div id="footer-nav" class="col-xs-12 col-sm-3 col-md-3 col-lg-2">
-                            <ul id="footer-menu">
+                            <?php
+                                wp_nav_menu( array(
+                                    'theme_location' => 'menufooter',
+                                    'menu_id'  => 'footer-menu',
+                                    'container' => '', 
+                                    'items_wrap' => '<ul id="footer-menu">%3$s</ul>',
+                                ) );
+                            ?>   
+                            <!--<ul id="footer-menu">
                                 <li><a href="ccis.php">LA CCIS</a></li>
                                 <li><a href="publications.php">PUBLICATIONS</a></li>
                                 <li><a href="formations-evenements.php">FORMATIONS ET ÉVÉNEMENTS</a></li>
                                 <li><a href="blogue.php">BLOGUE</a></li>
                                 <li><a href="espace-membre.php">ESPACE MEMBRE</a></li>
                                 <li><a href="boutique.php">BOUTIQUE</a></li>
-                            </ul>
+                            </ul>-->
                         </div>
 
                         <!-- Infolettre -->

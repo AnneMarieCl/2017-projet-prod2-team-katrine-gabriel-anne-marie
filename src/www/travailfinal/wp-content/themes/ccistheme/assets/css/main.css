@@ -610,6 +610,7 @@ footer #footer-un p {
 footer #footer-un #footer-menu {
     margin:0;
     padding:0;
+    text-transform: uppercase;
 }
 footer #footer-un #footer-menu li {
     display: block;
