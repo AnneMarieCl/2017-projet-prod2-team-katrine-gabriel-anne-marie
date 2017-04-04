@@ -73,7 +73,7 @@
      
                                 <!--<ul class="nav navbar-nav menu-principal navbar-right" id="menu-deroulant">
                                     
-                                    SOUS-MENU :
+                                    ****** SOUS-MENU ***** :
                                     <li class="onglet-1">
                                         <a class="premier-niveau" id="ccis" href="ccis.php">La ccis</a>
                                         <ul id="deroule">
@@ -106,23 +106,6 @@
 
                                     <li class="onglet">
                                         <a href="boutique.php">Boutique</a>
-                                    </li>
-
-                                    CE QUE L'ON MONTRE EN XS SEULEMENT :
-                                    <li class="hidden-sm hidden-md hidden-lg">
-                                        <a href="contact.php">Contact</a>
-                                    </li>
-
-                                    <li class="hidden-sm hidden-md hidden-lg">
-                                        <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
-                                    </li>
-
-                                    <li class="hidden-sm hidden-md hidden-lg">
-                                        <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                                    </li>
-
-                                    <li>
-                                        <a href="#"><i class="fa fa-search" id="loupe" aria-hidden="true"></i></a>
                                     </li>
                                 </ul>-->
                         </div>
