@@ -58,19 +58,35 @@
 
                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
                                     
+                                    <?php 
+                                    $args = array(
+                                        'post_type' => 'post',
+                                        'posts_per_page' => 6,
+                                    );
+
+                                    $query = new WP_Query( $args );
+                                    
+                                        if ( $query->have_posts() ) {
+                                            while ( $query->have_posts() ) {
+                                                $query->the_post(); 
+                                                //
+                                                // Post Content here
+                                                //
+                                    ?>
+
                                     <div class="article">
                                         <div class="row">
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                                                 <div class="img-article">
-                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blogue.jpg" class="img-responsive" alt="">
-                                                    <span class="ruban pull-left">Catégorie</span>
+                                                    <?php the_post_thumbnail('blogue', array('class' => 'img-responsive')); ?>
+                                                    <span class="ruban pull-left"><?php the_category(); ?></span>
                                                     <div class="date">
                                                         <div class='square-box month-box'>
-                                                            <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Avril<span class = "fa fa-circle right-circle"></span></span></div></div>
+                                                            <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span><?php the_time('F'); ?><span class = "fa fa-circle right-circle"></span></span></div></div>
                                                         </div>
                                                         <div class='square-box day-box'>
-                                                            <div class='square-content day-content'><div><span class="day">3</span></div></div>
+                                                            <div class='square-content day-content'><div><span class="day"><?php the_time('j'); ?></span></div></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -78,14 +94,22 @@
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 infoarticle">
 
-                                                <h4>À l’aube du transport intelligent au Québec</h4>
-                                                <h6>Par Sousso Kelouwani, PH. D., Professeur à l'Université' du Québec à Trois-Rivières </h6>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate [...]</p>
+                                                <h4><?php the_title(); ?></h4>
+                                                <h6><?php the_author(); ?></h6>
+                                                <p><?php the_excerpt(); ?></p>
                                                 <a href="">Lire la suite</a>
 
                                             </div>
                                         </div>
                                     </div>
+
+                                    <?php
+                                        } // end while
+
+
+                                            } // end if
+                                            wp_reset_query();
+                                    ?>
 
                                     <div class="article">
                                         <div class="row">
