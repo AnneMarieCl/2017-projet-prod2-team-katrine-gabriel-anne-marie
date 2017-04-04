@@ -117,10 +117,10 @@ a.a-2 {
     width: 1850%;
     margin-left:0;
 }
-#deroule a{
+.sub-menu a{
     color:#ffffff;
 }
-#deroule a:hover {
+.sub-menu a:hover {
     color: #455560;
 }
 .navbar {
