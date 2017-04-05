@@ -261,7 +261,6 @@ a.bouton {
     width: 540px;
     text-align: center;
     color: white;
-    border-radius: 4px;
 }
 a.bouton:hover {
     color: #3e3d3d;
@@ -774,7 +773,7 @@ aside h2 {
     color: #c6262d;
 }
 
-#presentation-chambre div.menu-menu-ccis-container  a:hover{
+#presentation-chambre div.menu-menu-ccis-container a:hover{
     background-color: #ee3a43;
     color:#ffffff;
 }
@@ -822,7 +821,7 @@ aside h2 {
     margin-bottom: 50px;
     border:none;
 }
-#presentation-chambre a#moreinfo:hover{
+#presentation-chambre a#moreinfo:hover, #wpcf7-f35-p5-o1 > form > p > input:hover{
 background-color: #c6262d;
 }
 #presentation-chambre h5.format {
