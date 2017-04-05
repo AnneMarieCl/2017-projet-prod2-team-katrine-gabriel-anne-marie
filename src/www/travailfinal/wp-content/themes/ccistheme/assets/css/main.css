@@ -910,13 +910,15 @@ div.marginpadding{
     }
     /*********************************/
     #menu-deroulant li:hover ul {
-    left: auto;
+    left: 0;
     background-color: rgba(198, 38, 45, 0.7);
-    width: 200%;
-    
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
     text-align: center;
     font-size: 8pt;
     }
+    
     #menu-item-26:hover {
     margin-bottom: 170px;
 }
