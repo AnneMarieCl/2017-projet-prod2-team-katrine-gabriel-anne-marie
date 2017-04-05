@@ -729,6 +729,10 @@ div.background-image{
     border-bottom: 1px solid #455560;
     text-align: right;
 }
+#presentation-chambre > div > div > aside > ul, #presentation-chambre > div > div > aside{
+    margin:0;
+    padding:0;
+}
 /* Liens dans la sidebar */
 aside h2 {
     font-size: 24px;
