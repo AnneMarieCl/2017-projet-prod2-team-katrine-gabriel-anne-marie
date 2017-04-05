@@ -18,7 +18,6 @@
                                 <h3>Contact</h3>
                                 <!-- Formulaire avec le plug-in WP -->
                                 <h4 class="espaceenahut">Demande d'information</h4>
-                                <p><?php the_content();?></p>
                                 <?php 
                                 if ( have_posts() ) {
                                     while ( have_posts() ) {
@@ -29,7 +28,7 @@
                                     ?>	
 
                                     <!-- Contenu de la page -->
-                                    <p><?php the_content();?></p>
+                                    <?php the_content();?>
 
                                     <?php
                                     } // end while
@@ -80,5 +79,3 @@
         <!-- Fin du main -->
         
         <?php get_footer();?>
-    </body>
-</html>
