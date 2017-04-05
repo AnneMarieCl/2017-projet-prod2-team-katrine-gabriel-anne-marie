@@ -12,6 +12,7 @@
             <section id="presentation-chambre" class="espace-membre">
                 <div class="container-fluid">
                     <div class="row">
+
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div id="margedroite" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <h3>Espace Membre</h3>
@@ -71,6 +72,7 @@
                                 <p>Chaque jeudi à 16h50 sur les ondes du 92,9 CFUT, le directeur général de la CCIS Martin St-Pierre présente sa chronique économique qui porte sur l'actualité économique locale et régionale. Nous restons à l'affût de l'actualité qui touche nos membres de près!</p>
                             </div>
                         </div>    
+                        
                     </div>
                 </div>
             </section>   
