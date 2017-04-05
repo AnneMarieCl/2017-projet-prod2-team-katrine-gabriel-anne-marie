@@ -884,7 +884,45 @@ div.marginpadding{
     #bs-example-navbar-collapse-1 #menu-deroulant li{
         padding: 10px 0;
     }
-    
+    /*********************************/
+    #menu-deroulant li:hover ul {
+    left: auto;
+    background-color: rgba(198, 38, 45, 0.7);
+    width: 200%;
+    margin-left: -195px;
+    text-align: center;
+    font-size: 8pt;
+    }
+    #menu-item-26:hover {
+    margin-bottom: 195px;
+}
+    #menu-item-34 a{
+    margin-right: 0%;
+    display: block;
+    margin-bottom: 20px;
+    }
+    #menu-item-32 a {
+    margin-right: 0%;
+    margin-bottom: 20px;
+    display: block;
+    }
+    li#menu-item-34 {
+        margin-top: 35px;
+        margin-bottom: -15px;
+        padding-bottom: 0px;
+    }
+    #menu-item-26 a {
+        margin-bottom: 20px;
+    }
+    #menu-item-32 {
+        margin-top:0px;
+    }
+    #menu-item-60 {
+        margin-top: -10px;
+    }
+    #bs-example-navbar-collapse-1 #menu-item-26 li{
+        padding:10px 0;
+    }
 /* Slider */
     img.un {
         display: none;
