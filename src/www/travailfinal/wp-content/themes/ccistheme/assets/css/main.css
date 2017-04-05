@@ -727,6 +727,20 @@ div.background-image{
     text-align: right;
 }
 /* Liens dans la sidebar */
+
+aside h2 {
+    font-size: 24px;
+}
+
+.widget ul {
+    padding: 0;
+    margin: 0;
+}
+
+.widget, .widget li {
+    display: block;
+}
+
 #presentation-chambre div.menu-menu-ccis-container  a:hover{
     background-color: #ee3a43;
     color:#ffffff;
