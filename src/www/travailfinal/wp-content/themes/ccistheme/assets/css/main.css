@@ -799,7 +799,7 @@ aside h2 {
     margin-left: 100px;
 }
 /* Enlever la scroll bar horizontal */
-#presentation-chambre{
+#presentation-chambre, #page-index{
     overflow:hidden;
 }
 /* Mettre le texte en gras */

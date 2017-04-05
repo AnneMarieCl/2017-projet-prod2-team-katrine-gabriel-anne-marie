@@ -42,11 +42,6 @@
                                     'items_wrap' => '<ul id="social">%3$s</ul>',
                                 ) );
                             ?>
-                            <!--<ul id="social">
-                                <li><a href="https://www.facebook.com/CCIShawi" target="_blank"><span class="fa fa-facebook-square"></span></a></li>
-                                <li><a href="https://www.linkedin.com/company/3266947?trk=tyah&trkInfo=tas%3AChambre%20de%20commerce%20et%20d%27industrie%20de%20Shawi" target="_blank"><span class="fa fa-linkedin-square"></span></a></li>
-                                <li><a href="https://twitter.com/CCIShawinigan" target="_blank"><span class="fa fa-twitter-square"></span></a></li>
-                            </ul>-->
                         </div>
                     </div>
                 </div>

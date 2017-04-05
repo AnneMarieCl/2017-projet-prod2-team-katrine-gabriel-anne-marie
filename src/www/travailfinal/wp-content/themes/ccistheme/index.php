@@ -1,6 +1,6 @@
         <?php get_header();?>
 
-        <main>
+        <main id="page-index">
              <div class="container-fluid">
 
                 <!-- Slider -->
