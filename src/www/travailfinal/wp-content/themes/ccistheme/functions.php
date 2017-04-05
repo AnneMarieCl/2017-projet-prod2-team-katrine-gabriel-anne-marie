@@ -6,6 +6,7 @@ function mesMenus() {
 		'menucontact' => 'Menu contact',
 		'menufooter' => 'Menu footer',
 		'menuccis' => 'Menu ccis',
+		'menusocialfooter' => 'Menu réseaux sociaux',
 	) );
 }
 
