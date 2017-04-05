@@ -69,45 +69,7 @@
                                 ) );
                                 ?>   
                             </div>
-
-     
-                                <!--<ul class="nav navbar-nav menu-principal navbar-right" id="menu-deroulant">
-                                    
-                                    ****** SOUS-MENU ***** :
-                                    <li class="onglet-1">
-                                        <a class="premier-niveau" id="ccis" href="ccis.php">La ccis</a>
-                                        <ul id="deroule">
-                                            <li class="lien-1">
-                                                <a class="a-1" href="ccis.php">Présentation de la chambre</a>
-                                                <a href="comites-organisation.php">Les comités d'organisation</a>
-                                            </li>
-                                            <li class="lien-2">
-                                                <a class="a-2" href="conseil-administration.php">Conseil d'administration</a>
-                                                <a href="implications.php">Les implications</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                    <li class="onglet">
-                                        <a href="publications.php">Publications</a>
-                                    </li>
-
-                                    <li class="onglet">
-                                        <a href="formations-evenements.php">Formations et événements</a>
-                                    </li>
-
-                                    <li class="onglet">
-                                        <a href="blogue.php">Blogue</a>
-                                    </li>
-
-                                    <li class="onglet">
-                                        <a href="espace-membre.php">espace membre</a>
-                                    </li>
-
-                                    <li class="onglet">
-                                        <a href="boutique.php">Boutique</a>
-                                    </li>
-                                </ul>-->
+                            
                         </div>
                     </div>
                 </section>
