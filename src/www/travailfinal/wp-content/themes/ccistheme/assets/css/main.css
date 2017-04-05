@@ -304,6 +304,12 @@ img.partn {
 aside.padding-titre {
     padding-top: 50px;
 }
+.text-index {
+    margin-left: -6px;
+}
+li#text-9 {
+    padding-left: 15px;
+}
 .aside h3.titre {
     padding-left:0px!important;   
 }
