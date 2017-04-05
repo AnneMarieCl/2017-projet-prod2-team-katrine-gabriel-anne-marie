@@ -464,11 +464,9 @@ a:hover {
     position: relative;
     overflow: hidden; 
 }
-
 #blog .img-article img {
     float:clear;
 }
-
 /* Ruban pour display catégories */
 .article .ruban {
     color: #fff;
@@ -479,18 +477,15 @@ a:hover {
     padding: 5px 10px ;
     font-size: 15pt;
 }
-
 /* Ruban edit des class wp */
 .article .ruban .post-categories {
     padding: 0;
     margin: 0;
 }
-
 .article .ruban .post-categories li {
     display: inline-block;
     color: #fff;
 }
-
 .article .ruban .post-categories li a{
     color: #fff!important;
     font-size: 15pt!important;
@@ -1151,7 +1146,6 @@ div.marginpadding{
     #presentation-chambre div.devenezmembre{
         margin-bottom: 75px;
     }
-
     /* PAGE DE LA CCIS */
     /* Ajout d'un espace à droite et à gauche du contenu */
     #margedroite, .devenezmembre{
@@ -1206,7 +1200,6 @@ div.marginpadding{
     footer #footer-un p {
         font-size: 8pt;
     }
-    
 }
 /* Small device */
 @media screen and (min-width: 768px) and (max-width: 992px){
@@ -1564,7 +1557,7 @@ div.marginpadding{
          padding-right: 30px;
     }
     #menu-item-32 {
-    margin-top: -51px!important;
+        margin-top: -51px!important;
     }
     #menu-deroulant, #menu-deroulant ul {
         font-size: 7pt;
@@ -1583,7 +1576,7 @@ div.marginpadding{
         font-size: 15px!important;
     }
     .image-1 p {
-    padding-bottom: 15px; 
+        padding-bottom: 15px; 
     } 
     /* #################### EVENEMENT #################### */
     .image {
@@ -1595,7 +1588,7 @@ div.marginpadding{
     }
     /* #################### PUBLICATION ET BLOGUE INDEX #################### */
     .publication, .blogue {
-    min-height: 0px;
+        min-height: 0px;
     }
     .publication .image {
         padding-left: 9%;
