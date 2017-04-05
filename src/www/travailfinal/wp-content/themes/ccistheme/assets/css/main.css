@@ -719,19 +719,28 @@ div.background-image{
     color: #ee3a43;
 }
 /* Liens dans la sidebar */
-#presentation-chambre #sousnav a{
+#presentation-chambre div.menu-menu-ccis-container a{
     background-color: transparent;
     color:#455560;
     padding: 15px 40px 15px 0px;
     border-bottom: 1px solid #455560;
+    text-align: right;
 }
 /* Liens dans la sidebar */
-#presentation-chambre #sousnav a:hover{
+#presentation-chambre div.menu-menu-ccis-container  a:hover{
     background-color: #ee3a43;
     color:#ffffff;
 }
-#presentation-chambre #sousnav{
+#presentation-chambre div.menu-menu-ccis-container, #nav_menu-3 {
     padding:0;
+    list-style: none;
+}
+#nav_menu-3 div ul li{
+    display:block;
+}
+#menu-menu-ccis{
+    padding:0;
+    margin:0;
 }
 /* Ajout d'un espace à droite et à gauche du contenu */
 #margedroite, .devenezmembre{
