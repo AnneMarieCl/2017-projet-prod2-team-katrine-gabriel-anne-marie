@@ -209,9 +209,6 @@ p.inscription2:hover, p.inscription:hover {
     font-size: 15pt;
 }
 /* #################### SECTION PUBLICATION ET BLOGUE #################### */
-.publication,.blogue {
-    min-height: 825px;
-}
 .titre {
     padding-top: 55px;
     padding-left: 100px;

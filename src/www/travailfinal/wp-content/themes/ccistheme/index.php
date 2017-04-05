@@ -75,25 +75,6 @@
                            <!-- <img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>-->
                             <span class="ruban pull-left"><?php the_category(); ?></span>
                         </div>
-
-                        <!-- Événement 2 -->
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 texte">
-                            <p>Événement</p>
-                            <h3 class="espacedessous"><?php the_title(); ?></h3>
-                            <p class="paragraphe"><?php the_excerpt(); ?></p>
-                            <a href="#"><p class="inscription2">S'inscrire</p></a>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 image">
-                            <?php 
-                                                        if (has_post_thumbnail()){
-                                                        the_post_thumbnail('evenement', array('class' => 'img-responsive'));
-                                                    }
-                                                    else {
-                                                        echo '<img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt="">';
-                                                    }
-                                                    ?><a href="#"></a>
-                            <span class="ruban pull-left"><?php the_category(); ?></span>
-                        </div>
                          <?php
                                         } // end while
 
@@ -107,6 +88,11 @@
                   <div class="row">
                         <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">  
                             <section class="publication">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titre">
+                                        <h3>Publication</h3>
+                                    </div>
+                                </div>
                                  <?php
                                     $args = array(
                                         'post_type' => 'publication',
@@ -122,30 +108,6 @@
                                                 // Post Content here
                                                 //
                                     ?>
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titre">
-                                        <h3>Publication</h3>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 image">
-                                        <?php 
-                                                        if (has_post_thumbnail()){
-                                                        the_post_thumbnail('evenement', array('class' => 'img-responsive'));
-                                                    }
-                                                    else {
-                                                        echo '<img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt="">';
-                                                    }
-                                                    ?><a href="#"></a>
-                                        <span class="ruban pull-left">Catégorie</span>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 texte">
-                                        <h2><?php the_title(); ?></h2>
-                                        <p><?php the_excerpt(); ?></p>
-                                        <a href="#"><p class="lien">Lire la suite</p></a>
-                                        <a href="#"><p class="lien">Allez aux publications</p></a>
-                                    </div>
-                                </div>
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 image">
                                         <?php 
@@ -174,7 +136,12 @@
                                     ?>
                             </section>
                             <section class="blogue">
-                                <?php
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titre">
+                                        <h3>Blogue</h3>
+                                    </div>
+                                </div>
+                                 <?php
                                     $args = array(
                                         'post_type' => 'post',
                                         'posts_per_page' => 2,
@@ -189,11 +156,6 @@
                                                 // Post Content here
                                                 //
                                     ?>
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titre">
-                                        <h3>Blogue</h3>
-                                    </div>
-                                </div>
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 image">
                                          <?php 
