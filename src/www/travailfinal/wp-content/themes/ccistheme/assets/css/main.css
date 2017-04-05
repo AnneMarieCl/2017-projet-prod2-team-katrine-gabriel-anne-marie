@@ -352,7 +352,7 @@ a:hover {
     width: 100%
 }
 /* Correction horizontal Scroll Bar */
-#blog .row {
+#blog .row, #publications .row {
     margin: 0;
 }
 /* Style des catégories des articles */
