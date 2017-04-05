@@ -5,7 +5,7 @@
             <!-- Image -->
             <div class="background-img hidden-xs" id="header">
                 <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/images/background-membre.png" alt="L'espace membre">
-                <h1>ESPACE MEMBRE</h1>
+                <h1><?php the_title();?></h1>
             </div>
 
             <!-- Section : Espace membre  -->
