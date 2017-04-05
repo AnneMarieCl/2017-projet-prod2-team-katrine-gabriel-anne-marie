@@ -687,6 +687,9 @@ footer #footer-deux h5 {
     height: 100%;
     width: 100%;
 }
+#presentation-chambre iframe{
+    padding: 20px 0;
+}
 /* Titre de la page - À propos */
 #presentation-chambre h3{
     margin-top: 50px;
@@ -734,45 +737,35 @@ div.background-image{
     border-bottom: 1px solid #455560;
     text-align: right;
 }
-
 /* Liens dans la sidebar */
-
 aside h2 {
     font-size: 24px;
 }
-
 #blog aside, #publications aside {
     padding-top: 50px;
 }
-
 .widget ul {
     padding: 0;
     margin: 0;
 }
-
 .widget {
     margin-bottom: 100px;
 }
-
 .widget a:hover {
     background: #c6262d;
     color: #fff;
 }
-
 .widget, .widget li {
     display: block;
 }
-
 .widget li a {
     background: none;
     color: #ee3a43;
 }
-
 .widget li a:hover {
     background: none;
     color: #c6262d;
 }
-
 #presentation-chambre div.menu-menu-ccis-container a:hover{
     background-color: #ee3a43;
     color:#ffffff;
@@ -788,7 +781,6 @@ aside h2 {
     padding:0;
     margin:0;
 }
-
 /* Ajout d'un espace à droite et à gauche du contenu */
 #margedroite, .devenezmembre{
     padding-right: 110px;
