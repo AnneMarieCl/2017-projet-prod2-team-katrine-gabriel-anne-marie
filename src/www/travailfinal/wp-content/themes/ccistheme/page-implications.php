@@ -48,10 +48,10 @@
                         
                         <!-- Sidebar -->
                         <aside class="hidden-xs hidden-sm col-md-3 col-lg-3">
-                            <div class="row">
+                            <ul class="row">
                                 <!-- Côté droit -->
                                 <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-ccis' ) ) : Endif; ?>
-                            </div>
+                            </ul>
                         </aside>
                         
                     </div>
@@ -62,5 +62,3 @@
         <!-- Fin du main -->
 
         <?php get_footer();?>
-    </body>
-</html>
