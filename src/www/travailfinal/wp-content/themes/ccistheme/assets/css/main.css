@@ -862,6 +862,43 @@ div.marginpadding{
 #wpcf7-f35-p5-o1 > form > p > label > span > textarea{
     border-color: #bfbfbf;
 }
+
+/*Single.php*/
+#blog-single {
+    padding-top: 120px;
+    margin-top: 50px;
+}
+
+#blog-single aside {
+    margin-top: -50px;
+    padding-top: 50px;
+}
+
+#blog-single .row{
+    margin: 0;
+}
+
+#blog-single .ruban {
+    width: 100%;
+    background: #ee3a43;
+    position: static;
+    margin-bottom: 20px;
+}
+
+#blog-single .ruban ul{
+    padding: 0;
+    margin: 0;
+}
+
+#blog-single .ruban ul li{
+    display: block;
+    padding: 5px;
+    font-size: 15pt;
+}
+
+#blog-single .ruban ul li a{
+    color: #fff;
+}
 /* #################### RESPONSIVE #################### */
 /* X-Small device */
 @media (max-width: 767px){
