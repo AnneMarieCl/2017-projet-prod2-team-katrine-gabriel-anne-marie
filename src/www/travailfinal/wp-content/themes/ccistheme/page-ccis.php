@@ -11,7 +11,6 @@
             <!-- Section : Présentation de la chambre -->
             <section id="presentation-chambre" class="ccis">
                 <div class="container-fluid">
-                    
                     <div class="row">
                         
                         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
@@ -95,7 +94,6 @@
                                 <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-ccis' ) ) : Endif; ?>
                             </ul>
                         </aside>    
-                        
                     </div> 
                     
                 </div>
