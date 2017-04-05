@@ -301,6 +301,9 @@ img.partn {
     color: #3e3d3d;
 }
 /* #################### ASIDE INDEX #################### */
+aside.padding-titre {
+    padding-top: 50px;
+}
 .aside h3.titre {
     padding-left:0px!important;   
 }

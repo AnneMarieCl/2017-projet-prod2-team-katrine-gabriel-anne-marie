@@ -186,7 +186,7 @@
                              </section>
                          </div>    
                           <section class="aside">
-                             <aside class="col-xs-0 col-sm-4 col-md-4 col-lg-3">
+                             <aside class="col-xs-0 col-sm-4 col-md-4 col-lg-3 padding-titre">
                                   
                                  <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-index' ) ) : Endif; ?>
                                            <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 activite">
