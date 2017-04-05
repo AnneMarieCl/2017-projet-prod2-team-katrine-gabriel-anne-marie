@@ -855,6 +855,9 @@ div.marginpadding{
     line-height: inherit;
     width: 100%;
 }
+#wpcf7-f35-p5-o1 > form > div.wpcf7-response-output.wpcf7-validation-errors{
+    display:none;
+}
 /* Formulaire 100% de large */
 #wpcf7-f35-p5-o1 form p label {
     width:100%!important;
