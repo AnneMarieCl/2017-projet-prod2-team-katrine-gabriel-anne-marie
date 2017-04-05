@@ -146,11 +146,11 @@ ul.contact{
     left: 12%;
     padding-bottom: 100px;
 }
-.carousel-caption ul.post-categories {
+ul.post-categories {
     list-style: none;
     padding-left: 0px;
 }
-.carousel-caption ul.post-categories a{
+ul.post-categories a{
     color: #fff;
     font-size: 20px;
     text-align: left;
