@@ -41,16 +41,39 @@
                 <!-- Section : Événements -->
                 <section class="evenement">
                     <div class="row">
+                         <?php
+                                    $args = array(
+                                        'post_type' => 'evenement',
+                                        'posts_per_page' => 2,
+                                    );
+
+                                    $query = new WP_Query( $args );
+            
+                                        if ( $query->have_posts() ) {
+                                            while ( $query->have_posts() ) {
+                                                $query->the_post(); 
+                                                //
+                                                // Post Content here
+                                                //
+                                    ?>
                         <!-- Événement 1 -->
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 texte">
                             <p class="premiertruc">Événement</p>
-                            <h3 class="espacedessous">Toute la ville parle PME</h3>
+                            <h3 class="espacedessous"><?php the_title(); ?></h3>
                             <p class="paragraphe">Les entrepreneurs d’ici sont inspirants. Venez découvrir leur parcours tout au long du développement de leur entreprise [...]</p>
                             <a href="#"><p class="inscription">S'inscrire</p></a>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 image">
-                            <img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>
-                            <span class="ruban pull-left">Catégorie</span>
+                            <?php 
+                                                        if (has_post_thumbnail()){
+                                                        the_post_thumbnail('evenement', array('class' => 'img-responsive'));
+                                                    }
+                                                    else {
+                                                        echo '<img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt="">';
+                                                    }
+                                                    ?>
+                           <!-- <img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>-->
+                            <span class="ruban pull-left"><?php the_category(); ?></span>
                         </div>
 
                         <!-- Événement 2 -->
@@ -64,6 +87,13 @@
                             <img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>
                             <span class="ruban pull-left">Catégorie</span>
                         </div>
+                         <?php
+                                        } // end while
+
+
+                                            } // end if
+                                            wp_reset_query();
+                                    ?>
                     </div>
                 </section>
                             
