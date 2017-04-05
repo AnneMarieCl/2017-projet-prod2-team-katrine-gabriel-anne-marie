@@ -72,16 +72,15 @@
                                                         echo '<img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt="">';
                                                     }
                                                     ?><a href="#"></a>
-                           <!-- <img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>-->
                             <span class="ruban pull-left"><?php the_category(); ?></span>
                         </div>
                          <?php
-                                        } // end while
+                                 } // end while
 
 
-                                            } // end if
-                                            wp_reset_query();
-                                    ?>
+                                     } // end if
+                                     wp_reset_query();
+                            ?>
                     </div>
                 </section>
                             
@@ -189,92 +188,7 @@
                              <aside class="col-xs-0 col-sm-4 col-md-4 col-lg-3 padding-titre">
                                   
                                  <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-index' ) ) : Endif; ?>
-                                           <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 activite">
-                                                    <h3 class="titre">Activités à venir</h3>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 date-index">
-                                                        <div class="date">
-                                                            <div class='square-box month-box'>
-                                                                <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Mai<span class = "fa fa-circle right-circle"></span></span></div></div>
-                                                            </div>
-                                                            <div class='square-box day-box'>
-                                                                <div class='square-content day-content'><div><span class="month">11</span></div></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">  
-                                                        <div id="titre-calendar-1" class="sidebar-am">
-                                                            <h4></h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 paragraphe">  
-                                                        <p></p>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border">  
-                                                        <a href="" class="text-center">S'inscrire</a>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 date-index">
-                                                        <div class="date">
-                                                            <div class='square-box month-box'>
-                                                                <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Décembre<span class = "fa fa-circle right-circle"></span></span></div></div>
-                                                            </div>
-                                                            <div class='square-box day-box'>
-                                                                <div class='square-content day-content'><div><span class="month">29</span></div></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">  
-                                                        <div id="titre-calendar-2" class="sidebar-am">
-                                                            <h4>Toute la ville en parle</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 paragraphe">  
-                                                        <p>Les entrepreneurs d’ici sont inspirants. Venez découvrir leur parcours tout au long du développement de leur entreprise...</p>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border">  
-                                                        <a href="" class="text-center">S'inscrire</a>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 date-index">
-                                                        <div class="date">
-                                                            <div class='square-box month-box'>
-                                                                <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span>Décembre<span class = "fa fa-circle right-circle"></span></span></div></div>
-                                                            </div>
-                                                            <div class='square-box day-box'>
-                                                                <div class='square-content day-content'><div><span class="month">29</span></div></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">  
-                                                        <div id="titre-calendar-4" class="sidebar-am">
-                                                            <h4>Toute la ville en parle</h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 paragraphe">  
-                                                        <p>Les entrepreneurs d’ici sont inspirants. Venez découvrir leur parcours tout au long du développement de leur entreprise...</p>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border">  
-                                                        <a href="" class="text-center">S'inscrire</a>
-                                                    </div>
-                                                </div>-->
-                                                
-                               
+                                           
                               </aside>
                           </section>
                          </div>
