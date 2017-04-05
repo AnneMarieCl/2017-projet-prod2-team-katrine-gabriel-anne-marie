@@ -695,7 +695,7 @@ div.background-image{
 }
 /* Grandeur du background de la sidebar page présentation de la chambre */
 #presentation-chambre.ccis aside{
-    height: 1800px;
+    height: 2000px;
 }
 /* Grandeur du background de la sidebar page comites organisation de la chambre */
 #presentation-chambre.comites aside{
@@ -1503,7 +1503,7 @@ div.marginpadding{
     /* PAGE DE LA CCIS */
     /* Grandeur du background de la sidebar page présentation de la chambre */
     #presentation-chambre.ccis aside{
-        height: 2200px;
+        height: 2400px;
     }
 
     /* Grandeur du background de la sidebar page comites organisation de la chambre */
@@ -1662,7 +1662,7 @@ div.marginpadding{
     /* PAGE DE LA CCIS */
     /* Grandeur du background de la sidebar page présentation de la chambre */
     #presentation-chambre.ccis aside{
-        height: 2000px;
+        height: 2200px;
     }
 
     /* Grandeur du background de la sidebar page comites organisation de la chambre */
