@@ -104,7 +104,7 @@
                                                 <h4><?php the_title(); ?></h4>
                                                 <h6><?php the_author(); ?></h6>
                                                 <p><?php the_excerpt(); ?></p>
-                                                <a href="">Lire la suite</a>
+                                                <a href="<?php the_permalink()?>">Lire la suite</a>
 
                                             </div>
                                         </div>
