@@ -897,6 +897,12 @@ div.marginpadding{
     display: block;
     padding: 5px;
     font-size: 15pt;
+    text-align: center;
+}
+
+#blog-single .wp-post-image {
+    padding-left: 0!important;
+    padding-bottom: 15px;
 }
 
 #blog-single .ruban ul li a{

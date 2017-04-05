@@ -18,29 +18,21 @@
                     
                     <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
                         
-                        
-                        <div class="row">
-                            
-                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5">
+                        <span class="ruban pull-left"><?php the_category(); ?></span>
+                        <h2><?php the_title(); ?></h2>
+                        <?php $author = get_the_author(); ?> 
+                        <span><i class="fa fa-user"></i> Écrit par <a href="#"><?php the_author();?></a></span>
+                        <h5 id="publish_date">Publié le <?php the_date(); ?><h5>
+        
                                 <?php
                                 if (has_post_thumbnail()){
-                                    the_post_thumbnail('blogue', array('class' => 'img-responsive'));
+                                    the_post_thumbnail('blogue', array('class' => 'col-md-6 img-responsive'));
                                 }
                                 else {
                                     echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="" class="img-responsive">';
                                 }
+                                the_content();
                                 ?>
-                            </div>
-                        
-                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7">
-                            <span class="ruban pull-left"><?php the_category(); ?></span>
-                                <h2><?php the_title(); ?></h2>
-                                <h5 id="publish_date">Publié le <?php the_date(); ?><h5>
-                                <?php $author = get_the_author(); ?> 
-                                <span><i class="fa fa-user"></i> Écrit par <a href="#"><?php the_author();?></a></span>
-                            </div>
-                            
-                        </div>
                         
                         <div class="blog-item blog-content">
                                                         
