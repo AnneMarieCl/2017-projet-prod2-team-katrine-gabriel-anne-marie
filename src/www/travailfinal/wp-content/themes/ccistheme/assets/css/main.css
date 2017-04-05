@@ -1490,6 +1490,11 @@ div.marginpadding{
     #presentation-chambre.ca aside{
         min-height: 2600px;
     }
+    /* Side bar */
+    /* Liens dans la sidebar */
+    #presentation-chambre div.menu-menu-ccis-container a{
+        padding: 15px 20px 15px 0px;
+    }
     /* #################### PUBLICATIONS ET BLOGUE #################### */
     /*Correction fonts*/
     #post-type ul li{
