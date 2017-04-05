@@ -36,7 +36,7 @@
                             </div>
                             <!-- Section : Devenez membre -->
                             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                                <img src="assets/images/avatar-membre.png" alt="Devenez membre">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/avatar-membre.png" alt="Devenez membre">
                             </div>
                                                         
                             <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9 devenezmembre">
