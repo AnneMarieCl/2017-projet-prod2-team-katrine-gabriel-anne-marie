@@ -188,7 +188,8 @@
                           <section class="aside">
                              <aside class="col-xs-0 col-sm-4 col-md-4 col-lg-3">
                                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 activite">
-                                                    <h3 class="titre">Activités à venir</h3>
+                                                     <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-index' ) ) : Endif; ?>
+                                                   <!-- <h3 class="titre">Activités à venir</h3>
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 date-index">
@@ -269,7 +270,7 @@
                                                 <div class="row">
                                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border">  
                                                         <a href="" class="text-center">S'inscrire</a>
-                                                    </div>
+                                                    </div>-->
                                                 </div>
                                
                               </aside>
