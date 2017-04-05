@@ -9,7 +9,17 @@ function mesMenus() {
 		'menusocialfooter' => 'Menu réseaux sociaux',
 	) );
 }
-
+// Déclencher le php dans les widget
+add_filter('widget_text', 'php_text', 99);
+function php_text($text) {
+if (strpos($text, '<' . '?') !== false) {
+ob_start();
+eval('?' . '>' . $text);
+$text = ob_get_contents();
+ob_end_clean();
+}
+return $text;
+}
 // Déclencher les fonctions
 add_action( 'init', 'mesMenus' );
 
