@@ -5,7 +5,7 @@
             <!-- Image -->
             <div class="background-img hidden-xs" id="header">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/background-blogue.png" class="img-responsive center-block" alt="blogue">
-                <h1>BLOGUE</h1>
+                <h1><?php the_title();?></h1>
             </div>
 
             <section id="blog">

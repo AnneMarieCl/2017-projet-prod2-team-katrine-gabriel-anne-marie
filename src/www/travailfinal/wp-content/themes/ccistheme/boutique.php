@@ -5,7 +5,7 @@
             <!-- Image -->
             <div class="background-img hidden-xs" id="header">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/background-boutique.png" class="img-responsive center-block" alt="Formations et événements">
-                <h1>BOUTIQUE</h1>
+                <h1><?php the_title();?></h1>
             </div>
 
         </main>

@@ -5,7 +5,7 @@
             <!-- Image -->
             <div class="background-img hidden-xs" id="header">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/background-formations-evenements.jpg" class="img-responsive center-block" alt="Formations et événements">
-                <h1>FORMATIONS ET ÉVÉNEMENTS</h1>
+                <h1><?php the_title();?></h1>
             </div> 
 
         </main>
