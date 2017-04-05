@@ -60,7 +60,7 @@
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 texte">
                             <p class="premiertruc">Événement</p>
                             <h3 class="espacedessous"><?php the_title(); ?></h3>
-                            <p class="paragraphe">Les entrepreneurs d’ici sont inspirants. Venez découvrir leur parcours tout au long du développement de leur entreprise [...]</p>
+                            <p class="paragraphe"><?php the_excerpt(); ?></p>
                             <a href="#"><p class="inscription">S'inscrire</p></a>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 image">
@@ -71,7 +71,7 @@
                                                     else {
                                                         echo '<img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt="">';
                                                     }
-                                                    ?>
+                                                    ?><a href="#"></a>
                            <!-- <img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>-->
                             <span class="ruban pull-left"><?php the_category(); ?></span>
                         </div>
@@ -79,13 +79,20 @@
                         <!-- Événement 2 -->
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 texte">
                             <p>Événement</p>
-                            <h3 class="espacedessous">Défis des entreprises</h3>
-                            <p class="paragraphe">Venez vivre en grand nombre une expérience sportive unique sur l’île Melville.</p>
+                            <h3 class="espacedessous"><?php the_title(); ?></h3>
+                            <p class="paragraphe"><?php the_excerpt(); ?></p>
                             <a href="#"><p class="inscription2">S'inscrire</p></a>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 image">
-                            <img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>
-                            <span class="ruban pull-left">Catégorie</span>
+                            <?php 
+                                                        if (has_post_thumbnail()){
+                                                        the_post_thumbnail('evenement', array('class' => 'img-responsive'));
+                                                    }
+                                                    else {
+                                                        echo '<img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt="">';
+                                                    }
+                                                    ?><a href="#"></a>
+                            <span class="ruban pull-left"><?php the_category(); ?></span>
                         </div>
                          <?php
                                         } // end while
@@ -100,6 +107,21 @@
                   <div class="row">
                         <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">  
                             <section class="publication">
+                                 <?php
+                                    $args = array(
+                                        'post_type' => 'publication',
+                                        'posts_per_page' => 2,
+                                    );
+
+                                    $query = new WP_Query( $args );
+            
+                                        if ( $query->have_posts() ) {
+                                            while ( $query->have_posts() ) {
+                                                $query->the_post(); 
+                                                //
+                                                // Post Content here
+                                                //
+                                    ?>
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titre">
                                         <h3>Publication</h3>
@@ -107,30 +129,66 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 image">
-                                        <img src="https://dummyimage.com/325.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>
+                                        <?php 
+                                                        if (has_post_thumbnail()){
+                                                        the_post_thumbnail('evenement', array('class' => 'img-responsive'));
+                                                    }
+                                                    else {
+                                                        echo '<img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt="">';
+                                                    }
+                                                    ?><a href="#"></a>
                                         <span class="ruban pull-left">Catégorie</span>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 texte">
-                                        <h2>Formulaire de candidature <span>ca ccis</span> 2017-2018</h2>
-                                        <p>Remplissez un formulaire et déposer votre candidature comme administrateur de la CCIS.</p>
+                                        <h2><?php the_title(); ?></h2>
+                                        <p><?php the_excerpt(); ?></p>
                                         <a href="#"><p class="lien">Lire la suite</p></a>
                                         <a href="#"><p class="lien">Allez aux publications</p></a>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 image">
-                                        <img src="https://dummyimage.com/325.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>
+                                        <?php 
+                                                        if (has_post_thumbnail()){
+                                                        the_post_thumbnail('evenement', array('class' => 'img-responsive'));
+                                                    }
+                                                    else {
+                                                        echo '<img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt="">';
+                                                    }
+                                                    ?><a href="#"></a>
                                         <span class="ruban pull-left">Catégorie</span>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 texte">
-                                        <h2>Formulaire de candidature <span>ca ccis</span> 2017-2018</h2>
-                                        <p>Remplissez un formulaire et déposer votre candidature comme administrateur de la CCIS.</p>
+                                        <h2><?php the_title(); ?></h2>
+                                        <p><?php the_excerpt(); ?></p>
                                         <a href="#"><p class="lien">Lire la suite</p></a>
                                         <a href="#"><p class="lien">Allez aux publications</p></a>
                                     </div>
                                 </div>
+                                 <?php
+                                        } // end while
+
+
+                                            } // end if
+                                            wp_reset_query();
+                                    ?>
                             </section>
                             <section class="blogue">
+                                <?php
+                                    $args = array(
+                                        'post_type' => 'post',
+                                        'posts_per_page' => 2,
+                                    );
+
+                                    $query = new WP_Query( $args );
+            
+                                        if ( $query->have_posts() ) {
+                                            while ( $query->have_posts() ) {
+                                                $query->the_post(); 
+                                                //
+                                                // Post Content here
+                                                //
+                                    ?>
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titre">
                                         <h3>Blogue</h3>
@@ -138,28 +196,31 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 image">
-                                        <img src="https://dummyimage.com/325.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>
-                                        <span class="ruban pull-left">Catégorie</span>
+                                         <?php 
+                                                        if (has_post_thumbnail()){
+                                                        the_post_thumbnail('evenement', array('class' => 'img-responsive'));
+                                                    }
+                                                    else {
+                                                        echo '<img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt="">';
+                                                    }
+                                                    ?><a href="#"></a>
+                                        <span class="ruban pull-left"><?php the_category(); ?></span>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 texte">
-                                        <h2>Formulaire de candidature <span>ca ccis</span> 2017-2018</h2>
-                                        <p>Remplissez un formulaire et déposer votre candidature comme administrateur de la CCIS.</p>
+                                        <h2><?php the_title(); ?></h2>
+                                        <p><?php the_excerpt(); ?></p>
                                         <a href="#"><p class="lien">Lire la suite</p></a>
                                         <a href="#"><p class="lien">Allez sur le blogue</p></a>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 image">
-                                        <img src="https://dummyimage.com/325.png/455560/fff" class="img-responsive" alt=""><a href="#"></a>
-                                        <span class="ruban pull-left">Catégorie</span>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 texte">
-                                        <h2>Formulaire de candidature <span>ca ccis</span> 2017-2018</h2>
-                                        <p>Remplissez un formulaire et déposer votre candidature comme administrateur de la CCIS.</p>
-                                        <a href="#"><p class="lien">Lire la suite</p></a>
-                                        <a href="#"><p class="lien">Allez sur le blogue</p></a>
-                                    </div>
-                               </div>
+                                
+                                <?php
+                                        } // end while
+
+
+                                            } // end if
+                                            wp_reset_query();
+                                    ?>
                              </section>
                          </div>    
                           <section class="aside">
