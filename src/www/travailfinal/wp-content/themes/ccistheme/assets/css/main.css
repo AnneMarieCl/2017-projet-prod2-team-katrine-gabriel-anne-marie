@@ -822,6 +822,9 @@ aside h2 {
     margin-bottom: 50px;
     border:none;
 }
+#presentation-chambre a#moreinfo:hover{
+background-color: #c6262d;
+}
 #presentation-chambre h5.format {
     font-size: 17px;
     font-weight: bold;

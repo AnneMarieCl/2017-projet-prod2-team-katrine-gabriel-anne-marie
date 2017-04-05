@@ -23,14 +23,14 @@
                                 <h5 class="format">Le comité de programmation</h5>
                                 <p>Le comité de programmation produit annuellement le calendrier d’activités en fonction des besoins actuels de son bassin de membres.</p>
                                 <p>Nombre de rencontres annuelles  : 2 à 4 </p>
-                                <p class="gras">(Réservé aux membres du <a href="conseil-administration.php">conseil d'administration</a>)</p>
+                                <p class="gras">(Réservé aux membres du <a href="http://localhost:8000/travailfinal/index.php/conseil-administration/">conseil d'administration</a>)</p>
 
                                 <!-- Gala Distinction Desjardins -->
                                 <h4 class="espaceenahut">Gala Distinction Desjardins</h4>
                                 <h5 class="format">Le comité de recrutement</h5>
                                 <p>Le comité recrutement du Gala se rencontre en vue de cibler des candidatures potentielles dans les différentes catégories du Gala Distinction Desjardins. Le comité recrutement a pour objectif également de clarifier les candidatures reçues afin de faciliter le travail du jury qui aura à déterminer les gagnants.</p>
                                 <p>Nombre de rencontres annuelles : 4 à 6</p>
-                                <p class="gras">(Ouvert à tous les <a href="espace-membre.php">membres</a>)</p>
+                                <p class="gras">(Ouvert à tous les <a href="http://localhost:8000/travailfinal/index.php/espace-membre/">membres</a>)</p>
 
                                 <h5 class="format">Le jury</h5>
                                 <p>Le jury du Gala Distinction Desjardins est responsable du choix des finalistes et des gagnants dans chaque catégorie du Gala. Pour se faire, il travaille à partir des documents de candidature détaillés remplis par les candidats et des critères rigoureux établis par la CCIS.</p>
@@ -40,27 +40,27 @@
                                 <h5 class="format">Le comité organisateur</h5>
                                 <p>Le Comité Organisateur du Gala se réunit en vue de produire l’événement et effectuer la mise en œuvre du calendrier de production établi. Parmi ses mandats, il doit notamment développer un axe de communication relié au contexte actuel de l’économie locale et assurer l’organisation (artistique, technique et logistique) du plus grand rendez-vous annuel des gens d’affaires de la CCIS.</p>
                                 <p>Nombre de rencontres annuelles : 7 à 10 </p>
-                                <p class="gras">(Ouvert à tous les <a href="espace-membre.php">membres</a>)</p>
+                                <p class="gras">(Ouvert à tous les <a href="http://localhost:8000/travailfinal/index.php/espace-membre/">membres</a>)</p>
                                 
                                 <!-- Toute la ville parle PME -->
                                 <h4 class="espaceenahut">Toute la ville parle PME</h4>
                                 <h5 class="format">Le comité Toute la ville parle PME</h5>
                                 <p>Le Comité TLVP PME veille à l’organisation et à la mise en œuvre de l’événement du point de vue artistique, technique et logistique,  ainsi qu’à la sélection des entreprises interviewées et leurs entrepreneurs  lors de cette soirée.</p>
                                 <p>Nombre de rencontres annuelles : 4 à 7</p>
-                                <p class="gras">(Ouvert à tous les <a href="espace-membre.php">membres</a>)</p>
+                                <p class="gras">(Ouvert à tous les <a href="http://localhost:8000/travailfinal/index.php/espace-membre/">membres</a>)</p>
 
                                 <!-- Cocktail des micros-->
                                 <h4 class="espaceenahut">Cocktail des micros</h4>
                                 <h5 class="format">Le comité Cocktail des micros</h5>
                                 <p>Le comité CDM veille à l’organisation artistique, technique et logistique ainsi qu’à la sélection des exposants de cette soirée afin de s’assurer de faire vivre une soirée exceptionnelle à ses participants.</p>
                                 <p>Nombre de rencontres annuelles : 4 à 7</p>
-                                <p class="gras">(Ouvert à tous les <a href="espace-membre.php">membres</a>)</p>
+                                <p class="gras">(Ouvert à tous les <a href="http://localhost:8000/travailfinal/index.php/espace-membre/">membres</a>)</p>
 
                                 <!-- Tournois de golf -->
                                 <h4 class="espaceenahut">Tournois de golf</h4>
                                 <p>Le comité du Tournoi de golf des gens d’affaires organise le financement de l’événement, l’animation sur le parcours ainsi que la soirée après golf (tirages, encans, souper).</p>
                                 <p>Nombre de rencontres annuelles : 4 à 7</p>
-                                <p class="gras">(Ouvert à tous les <a href="espace-membre.php">membres</a>)</p>
+                                <p class="gras">(Ouvert à tous les <a href="http://localhost:8000/travailfinal/index.php/espace-membre/">membres</a>)</p>
                             </div>
                             <!-- Section : Devenez membre -->
                             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
@@ -70,7 +70,7 @@
                             <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9 devenezmembre">
                                 <h4>DEVENEZ MEMBRE</h4>
                                 <p class="espacebas">Être membre de la CCIS, c'est choisir de solidifier ses acquis en partageant votre expertise et celle d'autres membres tout en bénéficiant de plusieurs services vous donnant accès à une clientèle privilège.</p>
-                                <a href="espace-membre.php" id="moreinfo">En savoir plus</a>
+                                <a href="http://localhost:8000/travailfinal/index.php/espace-membre/" id="moreinfo">En savoir plus</a>
                             </div>
                         </div>
                         
