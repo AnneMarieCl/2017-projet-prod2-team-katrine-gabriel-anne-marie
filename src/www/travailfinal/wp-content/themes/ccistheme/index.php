@@ -117,13 +117,13 @@
                                                         echo '<img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt="">';
                                                     }
                                                     ?><a href="#"></a>
-                                        <span class="ruban pull-left">Catégorie</span>
+                                        <span class="ruban pull-left"><?php the_category(); ?></span>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 texte">
                                         <h2><?php the_title(); ?></h2>
                                         <p><?php the_excerpt(); ?></p>
                                         <a href="#"><p class="lien">Lire la suite</p></a>
-                                        <a href="#"><p class="lien">Allez aux publications</p></a>
+                                        <a href="index.php/publications"><p class="lien">Allez aux publications</p></a>
                                     </div>
                                 </div>
                                  <?php
@@ -171,7 +171,7 @@
                                         <h2><?php the_title(); ?></h2>
                                         <p><?php the_excerpt(); ?></p>
                                         <a href="#"><p class="lien">Lire la suite</p></a>
-                                        <a href="#"><p class="lien">Allez sur le blogue</p></a>
+                                        <a href="index.php/blogue"><p class="lien">Allez sur le blogue</p></a>
                                     </div>
                                 </div>
                                 
@@ -210,11 +210,11 @@
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 bouton-gauche">
-                                                        <a class="bouton gauche" href="#"><h4>Devenez membre !</h4>
+                                                        <a class="bouton gauche" href="index.php/espace-membre"><h4>Devenez membre !</h4>
                                                         <p>Solidifier vos acquis et  accédez à une clientèle privilège</p></a>
                                                     </div>
                                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 bouton-droit">
-                                                        <a class="bouton droit" href="#"><h4>Ne ratez aucune activité !</h4>
+                                                        <a class="bouton droit" href="index.php/formations-evenements"><h4>Ne ratez aucune activité !</h4>
                                                         <p>Inscrivez-vous à l’alerte <span>SMS</span></p></a>
                                                     </div>
                                                 </div>    

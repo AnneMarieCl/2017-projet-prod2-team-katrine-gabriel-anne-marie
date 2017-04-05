@@ -682,6 +682,17 @@ footer #footer-deux h5 {
     padding-right: 25px;
     margin: 20px 0;
 }
+/* #################### FORMATION ET EVENEMENT #################### */
+.form-event {
+    margin-bottom: 100px;
+}
+h3.event {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.formation {
+    margin-bottom: 100px;
+}
 /*** TOUTES LES PAGES DE LA CCIS ***/
 /* Map */
 #map{
