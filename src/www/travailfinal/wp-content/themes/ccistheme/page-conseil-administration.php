@@ -134,13 +134,6 @@
                             
                                 <!-- Côté droit -->
                                 <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-ccis' ) ) : Endif; ?>
-
-                                <div id="sousnav" class="hidden-xs hidden-sm col-md-12 col-lg-12">
-                                    <a href="ccis.php" class="text-right">Présentation de la chambre</a>
-                                    <a href="conseil-administration.php" class="text-right">Conseil d'administration</a>
-                                    <a href="comites-organisation.php" class="text-right">Les comités d'organisation</a>
-                                    <a href="implications.php" class="text-right">Les implications</a>
-                                </div>
                             </div>
                         </aside>
                         
