@@ -683,7 +683,7 @@ footer #footer-deux h5 {
     width: 100%;
 }
 #presentation-chambre iframe{
-    padding: 20px 0;
+    padding: 20px 0 0 0;
 }
 /* Titre de la page - À propos */
 #presentation-chambre h3{
