@@ -76,18 +76,14 @@
                         
                         <!-- Sidebar -->
                         <aside class="hidden-xs hidden-sm col-md-3 col-lg-3">
-                            
                             <div class="row">
                                 <!-- Côté droit -->
                                 <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-ccis' ) ) : Endif; ?>  
                             </div>
-                            
-                        </aside>
-                        
+                        </aside>    
                         
                     </div>
-                    
-                    
+                     
                 </div>
             </section>   
         </main>
