@@ -200,13 +200,17 @@
                             
                         </div>
                         
-                        <!-- Sidebar -->
-                        <aside class="hidden-xs col-sm-4 col-md-4 col-lg-3 formation">
-                            <ul class="row">
-                                <!-- Côté droit -->
-                                 <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-blogue' ) ) : Endif; ?>
-                            </ul>
-                        </aside>    
+                        <aside class="col-xs-0 col-sm-4 col-md-4 col-lg-3 formation padding-titre">
+                            
+                            <div class="row">
+                                
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                     <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-blogue' ) ) : Endif; ?>
+                                </div>
+                                
+                            </div>
+                            
+                        </aside>
                         
                         
                     </div>
