@@ -833,6 +833,9 @@ aside h2 {
 #presentation-chambre h4.espaceenahut{
     margin-top: 40px;
 }
+#presentation-chambre h4.espaceenahut2{
+    margin-top: 80px;
+}
 /* Espace en haut du bouton : En savoir plus */
 #presentation-chambre p.espacebas{
     margin-bottom: 30px;
