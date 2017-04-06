@@ -13,7 +13,7 @@
                     
                     <div class="row">
                         
-                        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">
 
                             
                             <div class="row">
@@ -200,7 +200,7 @@
                             
                         </div>
                         
-                        <aside class="col-xs-0 col-sm-3 col-md-3 col-lg-3 formation">
+                        <aside class="col-xs-0 col-sm-4 col-md-4 col-lg-3 formation padding-titre">
                             
                             <div class="row">
                                 
