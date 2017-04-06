@@ -479,7 +479,7 @@ a:hover {
     float:clear;
 }
 /* Ruban pour display catégories */
-.formation .ruban, .form-event .ruban, .article .ruban {
+.article .ruban {
     color: #fff;
     background: #ee3a43;
     position: absolute;
@@ -688,15 +688,9 @@ footer #footer-deux h5 {
     margin: 20px 0;
 }
 /* #################### FORMATION ET EVENEMENT #################### */
-.form-event {
-    margin-bottom: 100px;
-}
 h3.event {
     margin-bottom: 50px;
     margin-top: 50px;
-}
-.formation {
-    margin-bottom: 100px;
 }
 .enleve-padding {
     padding-right: 0px;

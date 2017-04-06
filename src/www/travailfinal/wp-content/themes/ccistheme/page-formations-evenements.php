@@ -8,7 +8,7 @@
                 <h1><?php the_title();?></h1>
             </div> 
 
-         <section id="formation-evenement">
+         <section id="blog">
                 <div class="container-fluid">
                     
                     <div class="row">
@@ -54,8 +54,8 @@
                                                 //
                                     ?>
 
-                                    <div class="form-event">
-                                        <div class="row">
+                                    <div class="article">
+                                        <div class="row resp">
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 enleve-padding">
                                                 <div class="img-article">
@@ -117,8 +117,8 @@
                                                 //
                                     ?>
 
-                                    <div class="formation">
-                                        <div class="row">
+                                    <div class="article">
+                                        <div class="row resp">
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 enleve-padding">
                                                 <div class="img-article">
