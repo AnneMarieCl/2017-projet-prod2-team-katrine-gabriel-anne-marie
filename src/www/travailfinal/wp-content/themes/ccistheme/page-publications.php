@@ -16,10 +16,6 @@
                         <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">
 
                             
-                            <div class="row">
-
-                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
-
                                     <ul class="pager">
 			
                                         <li><a class="icon-prev" href=""><span class="fa fa-angle-double-left"></span></a></li>                           
@@ -33,9 +29,6 @@
                                             
                                     </ul>
 	    
-                                </div>
-
-                                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
                                     <h3 class="event">Publications</h3>
                                     
                                     <?php
@@ -97,8 +90,7 @@
                                             wp_reset_query();
                                     ?>
 	    
-                                </div>
-                                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
+ 
 
                                     <ul class="pager pager-bottom">
 			
@@ -112,20 +104,15 @@
                                         <li><a class="icon-next" href=""><span class="fa fa-angle-double-right"></span></a></li>
                                             
                                     </ul>
-	    
-                                </div>
-                                
-                            </div>
-                            
+
                         </div>
                         
                         <aside class="col-xs-0 col-sm-4 col-md-4 col-lg-3 formation">
                             
                             <div class="row">
                                 
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-titre">
+
                                      <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-blogue' ) ) : Endif; ?>
-                                </div>
                                 
                             </div>
                             
