@@ -975,11 +975,18 @@ div.marginpadding{
     margin:0;
     padding:0;
 }
-
+.container:hover{
+opacity:0.8;
+-moz-transition: opacity 0.7s;
+-webkit-transition: opacity 0.7s;
+-o-transition: opacity 0.7s;
+}
 .container {
     position: relative;
 }
-
+.img-responsive{
+    display: inline-block;
+}
 .middle {
   transition: .5s ease;
   opacity: 0;
