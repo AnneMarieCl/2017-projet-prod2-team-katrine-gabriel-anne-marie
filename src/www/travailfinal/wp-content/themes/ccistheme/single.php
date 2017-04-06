@@ -18,11 +18,11 @@
     
                     <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1 test">
                         
-                        <span class="ruban pull-left"><?php the_category(); ?></span>
+                        <div class="ruban pull-left"><?php the_category(); ?></div>
                         <h2><?php the_title(); ?></h2>
                         <?php $author = get_the_author(); ?> 
                         <span>Écrit par <?php the_author();?></span>
-                        <h6 id="publish_date">Publié le <?php the_date(); ?><h6>
+                        <p id="publish_date">Publié le <?php the_date(); ?><p>
                         
                         <?php
                             if (has_post_thumbnail()){
@@ -80,10 +80,16 @@
 
             </div><!--/.col-md-9-->
 
-            <aside class="col-md-3">
-
-            <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-blogue' ) ) : Endif ?>
-
+            <aside class="col-xs-0 col-sm-4 col-md-4 col-lg-3 formation padding-titre">
+                
+                <div class="row">
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-blogue' ) ) : Endif; ?>
+                    </div>
+                    
+                </div>
+                
             </aside>
 
         </div><!--/.row-->

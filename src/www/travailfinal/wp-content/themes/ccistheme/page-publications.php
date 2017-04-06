@@ -60,7 +60,7 @@
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 enleve-padding">
                                                 <div class="img-article">
                                                     <?php 
-                                                        if (has_post_thumbnail()){
+                                                    if (has_post_thumbnail()){
                                                         the_post_thumbnail('publication', array('class' => 'img-responsive'));
                                                     }
                                                     else {
