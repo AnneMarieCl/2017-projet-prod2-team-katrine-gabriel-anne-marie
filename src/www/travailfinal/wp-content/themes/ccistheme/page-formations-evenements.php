@@ -57,7 +57,7 @@
                                     <div class="form-event">
                                         <div class="row">
                                         
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 enleve-padding">
                                                 <div class="img-article">
                                                     <?php 
                                                         if (has_post_thumbnail()){
@@ -120,7 +120,7 @@
                                     <div class="formation">
                                         <div class="row">
                                         
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 enleve-padding">
                                                 <div class="img-article">
                                                     <?php 
                                                         if (has_post_thumbnail()){

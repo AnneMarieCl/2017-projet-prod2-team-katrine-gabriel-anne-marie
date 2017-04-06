@@ -174,6 +174,8 @@ img.un {
      min-height: 500px;
      background-color: #999999;
      color: white;
+     padding-right: 25px;
+     padding-bottom: 50px;
  }
 .texte {
      padding-top: 75px;
@@ -204,9 +206,12 @@ p.inscription2:hover, p.inscription:hover {
     background: #ee3a43;
     position: absolute;
     top: 20%;
-    width: 50%;
-    padding: 10px 15px ;
+    width: 45%;
+    padding: 5px 10px ;
     font-size: 15pt;
+}
+ul.post-categories {
+    margin-bottom: 0px;
 }
 /* #################### SECTION PUBLICATION ET BLOGUE #################### */
 .titre {
@@ -474,7 +479,7 @@ a:hover {
     float:clear;
 }
 /* Ruban pour display catégories */
-.article .ruban {
+.formation .ruban, .form-event .ruban, .article .ruban {
     color: #fff;
     background: #ee3a43;
     position: absolute;
@@ -692,6 +697,9 @@ h3.event {
 }
 .formation {
     margin-bottom: 100px;
+}
+.enleve-padding {
+    padding-right: 0px;
 }
 /*** TOUTES LES PAGES DE LA CCIS ***/
 /* Map */
