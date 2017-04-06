@@ -955,8 +955,12 @@ div.marginpadding{
     margin-bottom: 15px;
 }
 
-#blog-single .pager li a{
+#blog-single .pager li a {
     padding: 0;
+}
+
+#blog-single .pager li {
+    margin-bottom: 70px;
 }
 /* #################### RESPONSIVE #################### */
 /* X-Small device */
