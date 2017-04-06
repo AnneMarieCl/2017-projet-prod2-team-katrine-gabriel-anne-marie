@@ -305,6 +305,10 @@ img.partn {
     color: #3e3d3d;
 }
 /* #################### ASIDE INDEX #################### */
+aside.padding-titre {
+    padding-top: 50px;
+    min-height: 1250px;
+}
 .text-index {
     margin-left: -6px;
 }
@@ -376,7 +380,10 @@ p #publish_date{
     line-height: 1.42857143;
     color: #333;
 }
-
+/* Correction horizontal Scroll Bar */
+#blog .row, #publications .row {
+    margin: 0;
+}
 /* Style des catégories des articles */
 #post-type {
     margin-top: 50px;
@@ -909,6 +916,10 @@ div.marginpadding{
     padding-top: 50px;
 }
 
+#blog-single .row{
+    margin: 0;
+}
+
 #blog-single .ruban {
     width: 100%;
     background: #ee3a43;
@@ -1223,10 +1234,6 @@ div.marginpadding{
     #post-type ul li{
         float: none;
         width: 100%;
-    }
-    .formation{
-        margin:0;
-        padding:0;
     }
     /*Remove Sidebar*/
     aside {
