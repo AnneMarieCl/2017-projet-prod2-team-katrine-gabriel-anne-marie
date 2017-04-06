@@ -695,6 +695,9 @@ h3.event {
 .enleve-padding {
     padding-right: 0px;
 }
+aside.formation {
+    min-height: 2020px!important;
+}
 /*** TOUTES LES PAGES DE LA CCIS ***/
 /* Map */
 #map{

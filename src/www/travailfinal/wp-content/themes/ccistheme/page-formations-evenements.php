@@ -17,6 +17,24 @@
 
                             
                             <div class="row">
+                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
+                                    
+                                    <div id="post-type" class="text-center center">
+                                        <ul>
+                                            <li><a href="">Tout</a></li>
+                                            <li><a href="">Formations</a></li>
+                                            <li><a href="">Événements</a></li>
+                                            <li><a href="">Autres</a></li>
+                                        </ul>
+                                        <select id="post-type">
+                                            <option value="Tout">Tout</option>
+                                            <option value="Formations">Formations</option>
+                                            <option value="Événements">Événements</option>
+                                            <option value="Autres">Autres</option>
+                                        </select>
+                                    </div>
+
+                                 </div>
 
                                  <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
 
@@ -41,7 +59,7 @@
                                     <?php
                                     $args = array(
                                         'post_type' => 'evenement',
-                                        'posts_per_page' => 6,
+                                        'posts_per_page' => 3,
                                     );
 
                                     $query = new WP_Query( $args );
@@ -104,7 +122,7 @@
                                     <?php
                                     $args = array(
                                         'post_type' => 'formation',
-                                        'posts_per_page' => 6,
+                                        'posts_per_page' => 3,
                                     );
 
                                     $query = new WP_Query( $args );
@@ -182,7 +200,7 @@
                             
                         </div>
                         
-                        <aside class="col-xs-0 col-sm-3 col-md-3 col-lg-3">
+                        <aside class="col-xs-0 col-sm-3 col-md-3 col-lg-3 formation">
                             
                             <div class="row">
                                 
