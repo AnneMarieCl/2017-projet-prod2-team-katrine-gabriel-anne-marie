@@ -35,8 +35,8 @@
                                 ?>
                         
                         <span class="comments-made"><i class="fa fa-comment"></i> <a href="#">1 commentaire</a></span>
-                        <h2>Commentaires</h2>
 
+                        <h4>Commentaires</h4>
                         <div class="comments">
                             <form role="form">
                                 <div class="form-group">
