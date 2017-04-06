@@ -184,13 +184,13 @@
                                     ?>
                              </section>
                          </div>    
-                          <section class="aside">
-                             <aside class="col-xs-0 col-sm-4 col-md-4 col-lg-3 padding-titre">
-                                  
+                        <!-- Sidebar -->
+                        <aside class="hidden-xs col-sm-4 col-md-4 col-lg-3 padding-titre">
+                            <ul>
+                                <!-- Côté droit -->
                                  <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-index' ) ) : Endif; ?>
-                                           
-                              </aside>
-                          </section>
+                            </ul>
+                        </aside>
                          </div>
                      </div>
                     

@@ -143,7 +143,7 @@
 
                         <!-- Sidebar -->
                         <aside class="hidden-xs col-sm-4 col-md-4 col-lg-3 formation">
-                            <ul class="row">
+                            <ul>
                                 <!-- Côté droit -->
                                  <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-blogue' ) ) : Endif; ?>
                             </ul>
