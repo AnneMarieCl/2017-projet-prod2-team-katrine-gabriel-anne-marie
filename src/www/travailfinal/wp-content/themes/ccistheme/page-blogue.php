@@ -162,26 +162,50 @@
             <div class="container-fluid photos-presentation">
                 <!-- Six images -->
                 <div class="row">
-                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 container">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-1.jpg" alt="Smiley face" class="img-responsive">
+                        <div class="middle">
+                            <div class="text">John Doe</div>
+                        </div>
                     </div>
-                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 container">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-2.jpg" alt="Smiley face" class="img-responsive">
-                </div>
-                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <div class="middle">
+                            <div class="text">John Doe</div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 container">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-3.jpg" alt="Smiley face" class="img-responsive">
+                        <div class="middle">
+                            <div class="text">John Doe</div>
+                        </div>
                     </div>
-                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 container">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-4.jpg" alt="Smiley face" class="img-responsive">
+                        <div class="middle">
+                            <div class="text">John Doe</div>
+                        </div>
                     </div>
-                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 container">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-5.jpg" alt="Smiley face" class="img-responsive">
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-6.jpg" alt="Smiley face" class="img-responsive">
+                        <div class="middle">
+                            <div class="text">John Doe</div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 container">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-6.jpg" alt="Smiley face" class="img-responsive">
+                        <div class="middle">
+                            <div class="text">John Doe</div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
-    </div>
 
         </main>
         <!-- Fin du main -->
