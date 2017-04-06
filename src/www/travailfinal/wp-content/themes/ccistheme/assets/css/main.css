@@ -980,7 +980,6 @@ div.marginpadding{
     position: relative;
 }
 
-
 .middle {
   transition: .5s ease;
   opacity: 0;
@@ -988,7 +987,7 @@ div.marginpadding{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%);
 }
 
 .container:hover .middle {
@@ -996,10 +995,8 @@ div.marginpadding{
 }
 
 .text {
-  background-color: #4CAF50;
   color: white;
   font-size: 16px;
-  padding: 16px 32px;
 }
 
 /* #################### RESPONSIVE #################### */
