@@ -162,47 +162,58 @@
             <div class="container-fluid photos-presentation">
                 <!-- Six images -->
                 <div class="row">
-                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 container">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-1.jpg" alt="Soirée CCIS" class="img-responsive">
-                        <div class="middle">
-                            <div class="text"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></div>
+                    <a href="https://www.instagram.com/">
+                        <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 container">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-1.jpg" alt="Soirée CCIS" class="img-responsive">
+                            <div class="middle">
+                                <div class="text"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 container">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-2.jpg" alt="Conseil d'administration CCIS" class="img-responsive">
-                        <div class="middle">
-                            <div class="text"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></div>
+                    <a href="https://www.instagram.com/">
+                        <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 container">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-2.jpg" alt="Conseil d'administration CCIS" class="img-responsive">
+                            <div class="middle">
+                                <div class="text"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 container">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-3.jpg" alt="Partenaires de la CCIS" class="img-responsive">
-                        <div class="middle">
-                            <div class="text"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></div>
+                    <a href="https://www.instagram.com/">
+                        <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 container">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-3.jpg" alt="Partenaires de la CCIS" class="img-responsive">
+                            <div class="middle">
+                                <div class="text"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 container">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-4.jpg" alt="Soirée CCIS" class="img-responsive">
-                        <div class="middle">
-                            <div class="text"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></div>
+                    <a href="https://www.instagram.com/">
+                        <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 container">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-4.jpg" alt="Soirée CCIS" class="img-responsive">
+                            <div class="middle">
+                                <div class="text"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 container">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-5.jpg" alt="Soirée CCIS" class="img-responsive">
-                        <div class="middle">
-                            <div class="text"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></div>
+                    <a href="https://www.instagram.com/">
+                        <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 container">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-5.jpg" alt="Soirée CCIS" class="img-responsive">
+                            <div class="middle">
+                                <div class="text"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></div>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 container">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-6.jpg" alt="Soirée CCIS" class="img-responsive">
-                        <div class="middle">
-                            <div class="text"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></div>
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 container">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-6.jpg" alt="Soirée CCIS" class="img-responsive">
+                            <div class="middle">
+                                <div class="text"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                     
                 </div>
             </div>
