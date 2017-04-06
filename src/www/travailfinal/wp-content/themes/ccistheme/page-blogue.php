@@ -28,7 +28,7 @@
                                             <li><a href="">Grand dossiers</a></li>
                                             <li><a href="">Autres</a></li>
                                         </ul>
-                                        <select id="post-type">
+                                        <select>
                                             <option value="Tout">Tout</option>
                                             <option value="Faits saillants">Faits saillants</option>
                                             <option value="Actualités">Actualités</option>
@@ -103,7 +103,7 @@
 
                                                 <h4><?php the_title(); ?></h4>
                                                 <h6><?php the_author(); ?></h6>
-                                                <p><?php the_excerpt(); ?></p>
+                                                <?php the_excerpt(); ?>
                                                 <a href="<?php the_permalink()?>">Lire la suite</a>
 
                                             </div>
@@ -119,8 +119,9 @@
                                     ?>
 	    
                                 </div>
-                                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
 
+                                <!-- Numéro de pages -->
+                                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
                                     <ul class="pager pager-bottom">
 			
                                         <li><a class="icon-prev" href=""><span class="fa fa-angle-double-left"></span></a></li>                           
@@ -131,9 +132,8 @@
                                         <li><a class="page-nbr" href="?page=5">5</a></li>
                                         <li><a class="page-nbr" href="?page=6">6</a></li>
                                         <li><a class="icon-next" href=""><span class="fa fa-angle-double-right"></span></a></li>
-                                            
+                                        
                                     </ul>
-	    
                                 </div>
                                 
                             </div>
@@ -156,7 +156,33 @@
                     </div>
                     
                 </div>
-            </section>     
+            </section>  
+
+            <!-- Présentation des images -->
+            <div class="container-fluid photos-presentation">
+                <!-- Six images -->
+                <div class="row">
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-1.jpg" alt="Smiley face" class="img-responsive">
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-2.jpg" alt="Smiley face" class="img-responsive">
+                </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-3.jpg" alt="Smiley face" class="img-responsive">
+                    </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-4.jpg" alt="Smiley face" class="img-responsive">
+                    </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-5.jpg" alt="Smiley face" class="img-responsive">
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-galerie-6.jpg" alt="Smiley face" class="img-responsive">
+                </div>
+            </div>
+    </div>
+
         </main>
         <!-- Fin du main -->
         <?php get_footer();?>

@@ -968,6 +968,14 @@ div.marginpadding{
 #blog-single .pager li {
     margin-bottom: 70px;
 }
+
+/* Galerie de photos */
+.photos-presentation div{
+    margin:0;
+    padding:0;
+    
+}
+
 /* #################### RESPONSIVE #################### */
 /* X-Small device */
 @media (max-width: 767px){
