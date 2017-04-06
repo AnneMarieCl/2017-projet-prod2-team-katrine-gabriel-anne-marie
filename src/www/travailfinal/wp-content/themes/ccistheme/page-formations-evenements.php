@@ -54,7 +54,7 @@
                                 </div>
 
                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
-                                    <h3 class="event">Événement</h3>
+                                    <h3 class="event">Événements</h3>
                                     
                                     <?php
                                     $args = array(
