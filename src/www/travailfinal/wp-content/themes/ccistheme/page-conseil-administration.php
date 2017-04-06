@@ -28,12 +28,12 @@
 
                                     $query = new WP_Query( $args );
             
-                                        if ( $query->have_posts() ) {
-                                            while ( $query->have_posts() ) {
-                                                $query->the_post(); 
-                                                //
-                                                // Post Content here
-                                                //
+                                    if ( $query->have_posts() ) {
+                                        while ( $query->have_posts() ) {
+                                            $query->the_post(); 
+                                            //
+                                            // Post Content here
+                                            //
                                 ?>
 	    
                                 <h5 class="format"><?php the_field('nom_du_membre'); ?></h5>
@@ -41,7 +41,6 @@
                                 <p><?php the_field('nom_et_adresse_de_lentreprise'); ?><br>
                                 <?php the_field('numero_de_telephone'); ?><br>
                                 <a href="mailto:<?php the_field('adresse_courriel'); ?>"><?php the_field('adresse_courriel'); ?></a></p>
-
 
                                 <?php
                                             } // end while
@@ -59,20 +58,19 @@
                                     );
 
                                     $query = new WP_Query( $args );
-            
-                                        if ( $query->have_posts() ) {
-                                            while ( $query->have_posts() ) {
-                                                $query->the_post(); 
-                                                //
-                                                // Post Content here
-                                                //
+        
+                                    if ( $query->have_posts() ) {
+                                        while ( $query->have_posts() ) {
+                                            $query->the_post(); 
+                                            //
+                                            // Post Content here
+                                            //
                                 ?>
 	    
                                 <h5 class="format"><?php the_field('nom_de_ladministrateur'); ?></h5>
                                 <p><?php the_field('nom_et_adresse_de_lentreprise'); ?><br>
                                 <?php the_field('numero_de_telephone'); ?><br>
                                 <a href="mailto:<?php the_field('adresse_courriel'); ?>"><?php the_field('adresse_courriel'); ?></a></p>
-
 
                                 <?php
                                             } // end while
