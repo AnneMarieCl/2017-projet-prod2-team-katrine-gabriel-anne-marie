@@ -936,10 +936,18 @@ div.marginpadding{
 #blog-single .btn {
     background: #ee3a43;
     color: #fff;
+    border-radius:0px;
+    border-color: transparent;
+    padding: 10px 50px;
 }
 
 #blog-single .btn:hover {
     background: #c6262d;
+}
+
+/* Enlever les contour arrondi  */
+.form-control {
+    border-radius:0px;
 }
 
 #blog-single .pager li {
