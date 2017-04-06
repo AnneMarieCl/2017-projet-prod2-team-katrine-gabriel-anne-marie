@@ -250,7 +250,6 @@ img.fond {
 }
 .devenir-membre {
     min-height: 500px;
-    padding-top: 55px;
 }
 .devenir-membre h2 {
     color: white;
@@ -308,6 +307,7 @@ img.partn {
 /* #################### ASIDE INDEX #################### */
 aside.padding-titre {
     padding-top: 50px;
+    min-height: 1250px;
 }
 .text-index {
     margin-left: -6px;
