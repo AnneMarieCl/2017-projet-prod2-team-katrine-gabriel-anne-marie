@@ -764,6 +764,7 @@ aside h2 {
 }
 #blog aside, #publications aside {
     padding-top: 50px;
+    min-height: 3200px;
 }
 .widget ul {
     padding: 0;
