@@ -10,6 +10,8 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato%7CTauri" rel="stylesheet">
         <script src="https://use.fontawesome.com/2a85d3823f.js"></script>
+        <!-- FavIcon -->
+        <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon.ico" />
         <!-- Style.css -->
         <link href="<?php bloginfo("stylesheet_url") ?>" rel="stylesheet">
     </head>
