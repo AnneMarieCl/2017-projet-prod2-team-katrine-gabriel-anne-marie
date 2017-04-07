@@ -308,7 +308,7 @@ aside.padding-titre {
     min-height: 1250px;
 }
 .text-index {
-    margin-left: -6px;
+    margin-left: 0px;
 }
 li#text-9 {
     padding-left: 15px;
@@ -342,9 +342,20 @@ li#text-9 {
     padding-left: 20px;
     padding-right: 35px;
 }
+aside.formation .border {
+    padding-left: 0px;
+    padding-right: 0px;
+}
 .aside {
     padding-left: 0px;
 }
+aside.formation .date {
+    left: 0;
+}
+aside.formation .paragraphe {
+    padding-left: 0px;
+}
+
 /* #################### PUBLICATIONS ET BLOGUE #################### */
 #blog h6 {
     color: #455560;
