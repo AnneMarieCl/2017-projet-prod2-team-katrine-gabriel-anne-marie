@@ -1189,16 +1189,16 @@ div.marginpadding{
      }
     .texte {
         padding-left: 9%; 
+        padding-right: 12%;
         width: 95%;
     }
     .image {
         padding-left: 9%;
-        padding-right: 9%;
     }
     /* Section publication index */
     .publication .image {
         padding-left: 9%;
-        padding-left: 9%;
+        padding-right: 12%;
     }
     .publication .titre {
         padding-left: 9%;
@@ -1212,7 +1212,7 @@ div.marginpadding{
     }
     .blogue .image {
         padding-left: 9%;
-        padding-left: 9%;
+        padding-right: 12%;
     }
     .image .ruban {
         width: 30%!important;
@@ -1236,11 +1236,11 @@ div.marginpadding{
         width: 70%;
     }
     .gauche {
-        margin-left: 9%;
+        margin-left: 12%;
         margin-top: 200px;
     }
     .droit {
-        margin-left: 9%;
+        margin-left: 12%;
     }
     /* Section partenaires index */
     img.partn {
@@ -1427,7 +1427,7 @@ div.marginpadding{
     /* #################### PUBLICATION INDEX #################### */
     .publication .image {
         padding-left: 9%;
-        padding-left: 9%;
+        padding-right: 9%;
     }
     .publication .titre {
         padding-left: 9%;
@@ -1441,10 +1441,11 @@ div.marginpadding{
     }
     .blogue .image {
         padding-left: 9%;
-        padding-left: 9%;
+        padding-right: 9%;
     }
     .texte {
         padding-left: 9%;
+        padding-right: 9%;
     }
     .image .ruban {
         width: 35%;
@@ -1468,12 +1469,13 @@ div.marginpadding{
     }
     .devenir-membre {
         min-height: 250px;
+        padding-top: 50px;
     }
     a.bouton {
         width: 46%;
     }
     .gauche {
-        margin-left: 0%;
+        margin-left: 1%;
     }
     .droit {
         margin-left: 50%;
