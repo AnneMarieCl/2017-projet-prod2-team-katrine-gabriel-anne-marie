@@ -60,7 +60,7 @@
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 texte">
                             <p class="premiertruc">Événement</p>
                             <h3 class="espacedessous"><?php the_title(); ?></h3>
-                            <p class="paragraphe"><?php the_excerpt(); ?></p>
+                            <?php the_excerpt(); ?>
                             <a href="#"><p class="inscription">S'inscrire</p></a>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 image">
@@ -121,7 +121,7 @@
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 texte">
                                         <h2><?php the_title(); ?></h2>
-                                        <p><?php the_excerpt(); ?></p>
+                                        <?php the_excerpt(); ?>
                                         <a href="#"><p class="lien">Lire la suite</p></a>
                                         <a href="index.php/publications"><p class="lien">Allez aux publications</p></a>
                                     </div>
@@ -169,7 +169,7 @@
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 texte">
                                         <h2><?php the_title(); ?></h2>
-                                        <p><?php the_excerpt(); ?></p>
+                                        <?php the_excerpt(); ?>
                                         <a href="#"><p class="lien">Lire la suite</p></a>
                                         <a href="index.php/blogue"><p class="lien">Allez sur le blogue</p></a>
                                     </div>
@@ -189,7 +189,9 @@
                             <div class="row">
                                 
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-titre2">
-                                     <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-index' ) ) : Endif; ?>
+                                    <ul>
+                                        <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-index' ) ) : Endif; ?>
+                                    </ul>
                                 </div>
                                 
                             </div>

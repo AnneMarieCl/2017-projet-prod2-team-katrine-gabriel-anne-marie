@@ -87,7 +87,9 @@
                 <div class="row">
                     
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <ul>
                             <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-blogue' ) ) : Endif; ?>
+                        </ul>
                     </div>
                     
                 </div>

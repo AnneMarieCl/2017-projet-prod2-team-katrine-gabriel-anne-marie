@@ -1,5 +1,13 @@
         <?php get_header();?>
 
+        <?php
+        $args = array(
+            'post_type' => 'post',
+            'posts_per_page' => 6,
+        );
+
+        $query = new WP_Query( $args );
+        ?>
         <!-- Début du main -->
         <main>
             <!-- Image -->
@@ -41,18 +49,24 @@
 
                                  <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
 
-                                    <?php wp_pagenavi(); ?>
+                                    <ul class="pager pager-bottom">
+			
+                                        <li><a class="icon-prev" href=""><span class="fa fa-angle-double-left"></span></a></li>                           
+                                        <li><a class="page-nbr current" href="?page=1">1</a></li>                               
+                                        <li><a class="page-nbr" href="?page=2">2</a></li>                                   
+                                        <li><a class="page-nbr" href="?page=3">3</a></li>
+                                        <li><a class="page-nbr" href="?page=4">4</a></li>
+                                        <li><a class="page-nbr" href="?page=5">5</a></li>
+                                        <li><a class="page-nbr" href="?page=6">6</a></li>
+                                        <li><a class="icon-next" href=""><span class="fa fa-angle-double-right"></span></a></li>
+                                        
+                                    </ul>
 	    
                                 </div>
 
                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
                                     
                                     <?php
-                                    $args = array(
-                                        'post_type' => 'post',
-                                    );
-
-                                    $query = new WP_Query( $args );
             
                                         if ( $query->have_posts() ) {
                                             while ( $query->have_posts() ) {
@@ -133,7 +147,9 @@
                             <div class="row">
                                 
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-titre">
-                                     <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-blogue' ) ) : Endif; ?>
+                                    <ul>
+                                        <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-blogue' ) ) : Endif; ?>
+                                    </ul>
                                 </div>
                                 
                             </div>

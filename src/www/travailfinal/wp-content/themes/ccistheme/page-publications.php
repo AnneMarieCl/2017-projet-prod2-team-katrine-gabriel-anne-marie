@@ -82,7 +82,7 @@
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 infoarticle">
 
                                                 <h4><?php the_title(); ?></h4>
-                                                <p><?php the_excerpt(); ?></p>
+                                                <?php the_excerpt(); ?>
                                                 <a href="">Lire la suite</a>
 
                                             </div>
@@ -124,7 +124,9 @@
                             <div class="row">
                                 
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-titre">
-                                     <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-publications' ) ) : Endif; ?>
+                                    <ul>
+                                        <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-publications' ) ) : Endif; ?>
+                                    </ul>
                                 </div>
                                 
                             </div>
