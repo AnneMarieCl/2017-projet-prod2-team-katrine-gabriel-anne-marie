@@ -58,10 +58,12 @@
 
                     <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
                         <nav>
-                            <ul class="pager">
-                                <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Article précédent</a></li>
-                                <li class="next pull-right"><a href="#">Article suivant <span aria-hidden="true">&rarr;</span></a></li>
-                            </ul>
+                            <div class="previous-article pull-left">
+                                <?php previous_post_link(); ?>
+                            </div>
+                            <div class="next-article pull-right">
+                                <?php next_post_link(); ?>
+                            </div>
                         </nav>
                     </div>
 

@@ -969,6 +969,25 @@ div.marginpadding{
     background: #c6262d;
 }
 
+.previous-article, .next-article {
+    color: #ee3a43;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.previous-article:hover, .next-article:hover{
+    color: #c6262d;
+}
+
+.previous-article a, .next-article a{
+    color: #ee3a43;
+}
+
+.previous-article a:hover, .next-article a:hover{
+    color: #c6262d;
+}
+
+
 /* Enlever les contour arrondi  */
 .form-control {
     border-radius:0px;
