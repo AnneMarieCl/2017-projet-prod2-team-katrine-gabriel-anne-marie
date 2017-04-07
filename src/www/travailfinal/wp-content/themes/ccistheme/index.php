@@ -184,7 +184,7 @@
                                     ?>
                              </section>
                          </div>    
-                         <aside class="col-xs-0 col-sm-4 col-md-4 col-lg-3 formation">
+                         <aside class="col-xs-0 col-sm-4 col-md-4 col-lg-3 activite">
                             
                             <div class="row">
                                 

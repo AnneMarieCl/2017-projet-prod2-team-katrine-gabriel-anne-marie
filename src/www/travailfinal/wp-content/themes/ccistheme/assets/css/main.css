@@ -330,22 +330,29 @@ li#text-9 {
     padding-left: 20px;
     padding-right: 35px;
 }
-aside.formation .border {
+aside.formation .border, aside.activite .border {
     padding-left: 0px;
     padding-right: 0px;
 }
 .aside {
     padding-left: 0px;
 }
-aside.formation .date {
+aside.formation .date, aside.activite .date {
     left: 0;
 }
-aside.formation .paragraphe {
+aside.formation .paragraphe, aside.activite .paragraphe {
     padding-left: 0px;
 }
 .padding-titre2 {
     padding-right: 75px;
     margin-left: 15px;
+}
+aside.activite {
+    min-height: 1200px;
+}
+aside.activite h2 {
+    margin-top: 75px;
+    margin-left: -15px;
 }
 /* #################### PUBLICATIONS ET BLOGUE #################### */
 #blog h6 {
