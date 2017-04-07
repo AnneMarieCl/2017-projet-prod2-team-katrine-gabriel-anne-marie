@@ -2,7 +2,7 @@
 
 	<section id="blog-single" class="container-fluid">
         <div class="row">
-            <div class="col-md-9">
+            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">
 
                     <?php 
                         if ( have_posts() ) {
