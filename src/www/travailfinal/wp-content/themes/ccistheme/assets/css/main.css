@@ -302,13 +302,10 @@ img.partn {
 .bouton-partn:hover {
     color: #3e3d3d;
 }
-/* #################### ASIDE INDEX #################### */
+/* #################### ASIDE #################### */
 aside.padding-titre {
     padding-top: 50px;
     min-height: 1250px;
-}
-.text-index {
-    margin-left: 0px;
 }
 li#text-9 {
     padding-left: 15px;
@@ -326,15 +323,6 @@ li#text-9 {
 .date-index {
      padding-top: 135px;
      padding-left: 30px;
-}
-#index aside p {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 20px;
-    padding-right: 15px;
-}
-#index .text-center {
-    margin-bottom: 25px;
 }
 .border {
     border-bottom: 1px solid #000;
@@ -355,7 +343,10 @@ aside.formation .date {
 aside.formation .paragraphe {
     padding-left: 0px;
 }
-
+.padding-titre2 {
+    padding-right: 75px;
+    margin-left: 15px;
+}
 /* #################### PUBLICATIONS ET BLOGUE #################### */
 #blog h6 {
     color: #455560;
