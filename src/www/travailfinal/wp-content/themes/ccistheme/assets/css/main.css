@@ -303,6 +303,34 @@ img.partn {
     color: #3e3d3d;
 }
 /* #################### ASIDE #################### */
+/* Sidebar style général*/
+aside {
+    background: #d5dbdf;
+    height: 100%;
+    display: block;
+}
+aside h4 {
+    font-size: 24px;
+}
+aside p {
+    margin: 20px 0;
+}
+aside h4 img {
+    margin-right: 10px
+}
+aside a {
+    font-size: 16px;
+    background: #ee3a43;
+    color: #fff;
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+}
+.sidebar {
+    padding: 100px 0;
+    border-bottom: 1px #000 solid; 
+    height: 100%;
+}
 aside.padding-titre {
     padding-top: 50px;
     min-height: 1250px;
@@ -330,17 +358,17 @@ li#text-9 {
     padding-left: 20px;
     padding-right: 35px;
 }
-aside.formation .border, aside.activite .border {
+aside.formation .border, aside.activite .border, aside.blog .border {
     padding-left: 0px;
     padding-right: 0px;
 }
 .aside {
     padding-left: 0px;
 }
-aside.formation .date, aside.activite .date {
+aside.formation .date, aside.activite .date, aside.blog .date {
     left: 0;
 }
-aside.formation .paragraphe, aside.activite .paragraphe {
+aside.formation .paragraphe, aside.activite .paragraphe, aside.blog .paragraphe {
     padding-left: 0px;
 }
 .padding-titre2 {
@@ -580,34 +608,6 @@ p #publish_date{
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-}
-/* Sidebar */
-aside {
-    background: #d5dbdf;
-    height: 100%;
-    display: block;
-}
-aside h4 {
-    font-size: 24px;
-}
-aside p {
-    margin: 20px 0;
-}
-aside h4 img {
-    margin-right: 10px
-}
-aside a {
-    font-size: 16px;
-    background: #ee3a43;
-    color: #fff;
-    width: 100%;
-    display: block;
-    padding: 10px 0;
-}
-.sidebar {
-    padding: 100px 0;
-    border-bottom: 1px #000 solid; 
-    height: 100%;
 }
 /* #################### FOOTER #################### */
 /* Stylistique général du footer */
