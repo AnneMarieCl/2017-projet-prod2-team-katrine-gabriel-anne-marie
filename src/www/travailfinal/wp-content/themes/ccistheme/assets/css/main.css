@@ -352,7 +352,7 @@ li#text-9 {
      padding-left: 30px;
 }
 .border {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #455560;
     padding-bottom: 50px;
     padding-left: 20px;
     padding-right: 35px;
@@ -1906,5 +1906,8 @@ div.marginpadding{
     }
     #loupe{
         margin-right:20px;
+    }
+    .partenaire {
+        padding-top: 150px;
     }
 }
