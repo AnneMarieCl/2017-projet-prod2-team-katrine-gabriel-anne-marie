@@ -450,6 +450,10 @@ p #publish_date{
     color: #fff;
     background: #ee3a43;
 }
+#blog-single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > p > img{
+    margin:0 10px 10px 0;
+    padding:0;
+}
 /* Select pour responsive */
 #post-type select {
     margin-top: 145px;
