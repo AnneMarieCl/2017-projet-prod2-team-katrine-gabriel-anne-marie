@@ -933,7 +933,10 @@ div.marginpadding{
     background: #ee3a43;
     position: static;
     margin-bottom: 20px;
-    margin-top: 80px
+    margin-top: 80px;
+    color: white;
+    padding: 5px 10px;
+    font-size:20px;
 }
 
 #blog-single .ruban ul{
