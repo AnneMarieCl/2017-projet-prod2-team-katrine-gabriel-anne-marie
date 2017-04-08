@@ -8,7 +8,7 @@
                     <div class="image-1">
                         <img class="un" src="<?php echo get_template_directory_uri(); ?>/assets/images/slider-1.jpg" alt="">
                         <div class="carousel-caption">
-                            <?php
+                                <?php
                                     $args = array(
                                         'post_type' => 'post',
                                         'posts_per_page' => 1,
@@ -22,18 +22,20 @@
                                                 //
                                                 // Post Content here
                                                 //
-                                    ?>
+                                ?>
+
                             <p>Blogue</p>
                             <h2><?php the_title(); ?></h2>
                             <?php the_category(); ?>
                             <a href="#"><p class="savoir-plus">En savoir plus</p></a>
-                              <?php
-                                        } // end while
+
+                                <?php
+                                            } // end while
 
 
-                                            } // end if
-                                            wp_reset_query();
-                                    ?>
+                                        } // end if
+                                        wp_reset_query();
+                                ?>
                         </div> 
                     </div>
                 </section>  
@@ -41,21 +43,22 @@
                 <!-- Section : Événements -->
                 <section class="evenement">
                     <div class="row">
-                         <?php
-                                    $args = array(
-                                        'post_type' => 'evenement',
-                                        'posts_per_page' => 2,
-                                    );
+                        <?php
+                            $args = array(
+                                'post_type' => 'evenement',
+                                'posts_per_page' => 2,
+                            );
 
-                                    $query = new WP_Query( $args );
-            
-                                        if ( $query->have_posts() ) {
-                                            while ( $query->have_posts() ) {
-                                                $query->the_post(); 
-                                                //
-                                                // Post Content here
-                                                //
-                                    ?>
+                            $query = new WP_Query( $args );
+
+                            if ( $query->have_posts() ) {
+                                while ( $query->have_posts() ) {
+                                    $query->the_post(); 
+                                    //
+                                    // Post Content here
+                                    //
+                        ?>
+
                         <!-- Événement 1 -->
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 texte">
                             <p class="premiertruc">Événement</p>
@@ -65,22 +68,24 @@
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 image">
                             <?php 
-                                                        if (has_post_thumbnail()){
-                                                        the_post_thumbnail('evenement', array('class' => 'img-responsive'));
-                                                    }
-                                                    else {
-                                                        echo '<img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt="">';
-                                                    }
-                                                    ?><a href="#"></a>
+                                if (has_post_thumbnail()){
+                                the_post_thumbnail('evenement', array('class' => 'img-responsive'));
+                                }
+                                else {
+                                    echo '<img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt="">';
+                                }
+                            ?>
+                            <a href="#"></a>
                             <span class="ruban pull-left"><?php the_category(); ?></span>
                         </div>
+
                          <?php
-                                 } // end while
+                                } // end while
 
 
-                                     } // end if
-                                     wp_reset_query();
-                            ?>
+                            } // end if
+                            wp_reset_query();
+                        ?>
                     </div>
                 </section>
                             
