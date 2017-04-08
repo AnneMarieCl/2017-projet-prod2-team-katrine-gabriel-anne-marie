@@ -1228,7 +1228,7 @@ div.marginpadding{
     .devenir-membre {
         background-color: #455560;
         margin-top: 100px;
-        min-height: 550px;
+        min-height: 450px;
     }
     img.fond {
         display:none;
@@ -1236,8 +1236,8 @@ div.marginpadding{
     .devenir-membre h2 {
         color: #fff;
         padding-top: 15px;
-        text-align: left;
-        padding-left: 9%;
+        text-align: center;
+        font-size: 22px;
     }
     a.bouton {
         width: 70%;
@@ -1870,6 +1870,9 @@ div.marginpadding{
         min-height: 2700px;
     }
 
+    img.fond {
+        margin-top: 40px;
+    }
     /* #################### Footer #################### */
     /* Stylistique de la police */
     footer #footer-un #reseaux-sociaux h5, 
@@ -1892,6 +1895,9 @@ div.marginpadding{
         font-size: 9pt;
         margin-right: -50px;
     }
+    img.fond {
+        margin-top: 40px;
+    }
 }
 /* XX-Large device */
 @media screen and (min-width: 1702px) and ( max-width: 4000px) {
@@ -1912,5 +1918,8 @@ div.marginpadding{
     }
     .partenaire {
         padding-top: 150px;
+    }
+    img.fond {
+        margin-top: 40px;
     }
 }
