@@ -32,11 +32,11 @@
                                     
                                     <div id="post-type" class="text-center center">
                                         <ul>
-                                            <li><a href="">Tout</a></li>
+                                            <li><a href="http://localhost:8000/travailfinal/index.php/blogue">Tout</a></li>
                                             <li><a href="http://localhost:8000/travailfinal/index.php/blogue-faits-saillants">Faits saillants</a></li>
-                                            <li><a href="">Actualités</a></li>
-                                            <li><a href="">Grand dossiers</a></li>
-                                            <li><a href="">Zone médias</a></li>
+                                            <li><a href="http://localhost:8000/travailfinal/index.php/blogue-actualites">Actualités</a></li>
+                                            <li><a href="http://localhost:8000/travailfinal/index.php/blogue-grands-dossiers">Grand dossiers</a></li>
+                                            <li><a href="http://localhost:8000/travailfinal/index.php/blogue-zone-medias">Zone médias</a></li>
                                         </ul>
                                         <select>
                                             <option value="Tout">Tout</option>
