@@ -488,29 +488,23 @@ p #publish_date{
     border: none;
 }
 /* Navigation */
-.pager {
+
+.pagination {
     margin-top: 50px;
     margin-bottom: 0;
 }
-.pager li {
-    display: block;
-    float: left;
-    width:12.5%;
+
+.pagination a, .pagination span{
+    padding: 10px;
+    background: #ee3a43;
+    color: #fff;
+    font-size: 16px;
 }
-.pager a {
-    font-size: 18px;
-    color: #ee3a43;
-    padding: 0;
-    border: 0!important;
+
+.pagination a:hover, .pagination span {
+    background:#c6262d; 
 }
-.pager a:hover {
-    background: #fff!important;
-    color: #c6262d;
-}
-/* Ajout d'un margin entre main et footer */
-.pager-bottom {
-    margin-bottom: 50px;
-}
+
 /* Style des articles */
 #blog .article {
     padding: 50px 0;
