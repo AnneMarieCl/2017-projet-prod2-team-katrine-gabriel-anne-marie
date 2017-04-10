@@ -3,7 +3,7 @@
         <?php
         $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
         $args = array(
-            'post_type' => 'post',
+            'post_type' => 'evenement',
             'category_name' => 'evenements',
             'posts_per_page' => 6,
             'paged' => $paged,
@@ -20,8 +20,7 @@
                 <h1><?php the_title();?></h1>
             </div> 
 
-            <!-- Section blogue -->
-            <section id="blog">
+         <section id="blog">
                 <div class="container-fluid">
                     
                     <div class="row">
@@ -30,24 +29,25 @@
 
                             
                             <div class="row">
-                                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
+                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
                                     
                                     <div id="post-type" class="text-center center formations">
                                         <ul>
                                             <li><a href="http://localhost:8000/travailfinal/index.php/formations-evenements/">Tout</a></li>
                                             <li><a href="http://localhost:8000/travailfinal/index.php/formations">Formations</a></li>
-                                            <li><a href="http://localhost:8000/travailfinal/index.php/evenements/">Événements</a></li>
+                                            <li><a class="current" href="http://localhost:8000/travailfinal/index.php/evenements/">Événements</a></li>
                                         </ul>
-                                        <select>
-                                            <option value="Tout">Tout</option>
-                                            <option value="Formations">Formations</option>
-                                            <option value="Événements">Événements</option>
+                                        <select ONCHANGE="location = this.options[this.selectedIndex].value;">
+                                            <option value="http://localhost:8000/travailfinal/index.php/formations-evenements/">Tout</option>
+                                            <option value="http://localhost:8000/travailfinal/index.php/formations">Formations</option>
+                                            <option value="http://localhost:8000/travailfinal/index.php/evenements/" selected="selected">Événements</option>
                                         </select>
                                     </div>
 
-                                </div>
+                                 </div>
 
-                                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
+                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
+
                                     <div class="pagination">
                                         <?php
                                         global $query;
@@ -60,12 +60,10 @@
                                         ) );
                                         ?>
                                     </div>
+	    
                                 </div>
 
-                                    
-                                <!-- Événements -->
                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
-                                    <h3 class="event">Événements</h3>
                                     
                                     <?php
 
@@ -105,7 +103,10 @@
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 infoarticle">
 
                                                 <h4><?php the_title(); ?></h4>
+                                                <h6><?php the_field("organisateur"); ?></h6>
                                                 <?php the_excerpt(); ?>
+                                                <h6><span class="fa fa-map-marker"></span> <?php the_field("emplacement"); ?></h6>
+                                                <a href="<?php the_permalink()?>">En savoir plus</a>
 
                                             </div>
                                         </div>
@@ -116,13 +117,12 @@
 
 
                                             } // end if
-                                            wp_reset_query();
                                     ?>
-        
+	    
                                 </div>
 
-                                <!-- Numéro de pages -->
                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
+
                                     <div class="pagination pagination-fin">
                                         <?php
                                         global $query;
@@ -135,28 +135,32 @@
                                         ) );
                                         ?>
                                     </div>
+	    
                                 </div>
                                 
                             </div>
                             
                         </div>
                         
-                        <aside class="hidden-xs hidden-sm col-md-4 col-lg-3 blog">
+                        <aside class="hidden-xs hidden-sm col-md-4 col-lg-3 formation">
+                            
                             <div class="row">
-                
+                                
                                 <div class="hidden-xs hidden-sm col-md-12 col-lg-12 padding-titre">
                                     <ul>
                                         <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-events' ) ) : Endif; ?>
-                                    </ul>
+                                    </ul>     
                                 </div>
                                 
                             </div>
+                            
                         </aside>
+                        
                         
                     </div>
                     
                 </div>
-            </section>   
+            </section>     
         </main>
         <!-- Fin du main -->
 

@@ -34,14 +34,14 @@
                                     <div id="post-type" class="text-center center">
                                         <ul>
                                             <li><a href="http://localhost:8000/travailfinal/index.php/blogue">Tout</a></li>
-                                            <li><a href="http://localhost:8000/travailfinal/index.php/blogue-faits-saillants">Faits saillants</a></li>
+                                            <li><a class="current" href="http://localhost:8000/travailfinal/index.php/blogue-faits-saillants">Faits saillants</a></li>
                                             <li><a href="http://localhost:8000/travailfinal/index.php/blogue-actualites/">Actualités</a></li>
                                             <li><a href="http://localhost:8000/travailfinal/index.php/blogue-grands-dossiers">Grand dossiers</a></li>
                                             <li><a href="http://localhost:8000/travailfinal/index.php/blogue-zone-medias">Zone médias</a></li>
                                         </ul>
                                         <select ONCHANGE="location = this.options[this.selectedIndex].value;">
-                                            <option value="http://localhost:8000/travailfinal/index.php/blogue" selected="selected">Tout</option>
-                                            <option value="http://localhost:8000/travailfinal/index.php/blogue-faits-saillants">Faits saillants</option>
+                                            <option value="http://localhost:8000/travailfinal/index.php/blogue">Tout</option>
+                                            <option value="http://localhost:8000/travailfinal/index.php/blogue-faits-saillants" selected="selected">Faits saillants</option>
                                             <option value="http://localhost:8000/travailfinal/index.php/blogue-actualites">Actualités</option>
                                             <option value="http://localhost:8000/travailfinal/index.php/blogue-grands-dossiers">Grand dossiers</option>
                                             <option value="http://localhost:8000/travailfinal/index.php/blogue-zone-medias">Zone médias</option>

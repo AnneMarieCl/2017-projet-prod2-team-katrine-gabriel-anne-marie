@@ -3,7 +3,8 @@
         <?php
         $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
         $args = array(
-            'post_type' => 'event',
+            'post_type' => 'evenement',
+            'category_name' => 'formations',
             'posts_per_page' => 6,
             'paged' => $paged,
         );
@@ -33,13 +34,13 @@
                                     <div id="post-type" class="text-center center formations">
                                         <ul>
                                             <li><a href="http://localhost:8000/travailfinal/index.php/formations-evenements/">Tout</a></li>
-                                            <li><a href="http://localhost:8000/travailfinal/index.php/formations">Formations</a></li>
+                                            <li><a class="current" href="http://localhost:8000/travailfinal/index.php/formations">Formations</a></li>
                                             <li><a href="http://localhost:8000/travailfinal/index.php/evenements/">Événements</a></li>
                                         </ul>
-                                        <select>
-                                            <option value="Tout">Tout</option>
-                                            <option value="Formations">Formations</option>
-                                            <option value="Événements">Événements</option>
+                                        <select ONCHANGE="location = this.options[this.selectedIndex].value;">
+                                            <option value="http://localhost:8000/travailfinal/index.php/formations-evenements/">Tout</option>
+                                            <option value="http://localhost:8000/travailfinal/index.php/formations" selected="selected">Formations</option>
+                                            <option value="http://localhost:8000/travailfinal/index.php/evenements/">Événements</option>
                                         </select>
                                     </div>
 
@@ -62,18 +63,10 @@
 	    
                                 </div>
 
-                                <!-- Formations -->
                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
-                                    <h3 class="event">Formations</h3>
                                     
                                     <?php
-                                    $args = array(
-                                        'post_type' => 'formation',
-                                        'posts_per_page' => 3,
-                                    );
 
-                                    $query = new WP_Query( $args );
-            
                                         if ( $query->have_posts() ) {
                                             while ( $query->have_posts() ) {
                                                 $query->the_post(); 
@@ -89,20 +82,32 @@
                                                 <div class="img-article">
                                                     <?php 
                                                         if (has_post_thumbnail()){
-                                                        the_post_thumbnail('formation', array('class' => 'img-responsive'));
+                                                        the_post_thumbnail('evenement', array('class' => 'img-responsive'));
                                                     }
                                                     else {
                                                         echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="" class="img-responsive">';
                                                     }
                                                     ?>
                                                     <span class="ruban pull-left"><?php the_category(); ?></span>
+                                                    <div class="date">
+                                                        <div class='square-box month-box'>
+                                                            <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span><?php the_time('F'); ?><span class = "fa fa-circle right-circle"></span></span></div></div>
+                                                        </div>
+                                                        <div class='square-box day-box'>
+                                                            <div class='square-content day-content'><div><span class="day"><?php the_time('j'); ?></span></div></div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 infoarticle">
 
                                                 <h4><?php the_title(); ?></h4>
-                                                <p><?php the_excerpt(); ?></p>
+                                                <h6><?php the_field("organisateur"); ?></h6>
+                                                <?php the_excerpt(); ?>
+                                                <h6><span class="fa fa-map-marker"></span> <?php the_field("emplacement"); ?></h6>
+                                                <a href="<?php the_permalink()?>">En savoir plus</a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -112,10 +117,10 @@
 
 
                                             } // end if
-                                            wp_reset_query();
                                     ?>
 	    
                                 </div>
+
                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
 
                                     <div class="pagination pagination-fin">

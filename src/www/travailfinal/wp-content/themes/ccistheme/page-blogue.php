@@ -32,7 +32,7 @@
                                     
                                     <div id="post-type" class="text-center center">
                                         <ul>
-                                            <li><a href="http://localhost:8000/travailfinal/index.php/blogue">Tout</a></li>
+                                            <li><a class="current" href="http://localhost:8000/travailfinal/index.php/blogue">Tout</a></li>
                                             <li><a href="http://localhost:8000/travailfinal/index.php/blogue-faits-saillants">Faits saillants</a></li>
                                             <li><a href="http://localhost:8000/travailfinal/index.php/blogue-actualites">Actualités</a></li>
                                             <li><a href="http://localhost:8000/travailfinal/index.php/blogue-grands-dossiers">Grand dossiers</a></li>
