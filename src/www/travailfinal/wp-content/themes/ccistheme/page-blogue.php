@@ -104,7 +104,7 @@
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 infoarticle">
 
                                                 <h4><?php the_title(); ?></h4>
-                                                <h6><?php the_author(); ?></h6>
+                                                <h6><?php the_field("auteur"); ?></h6>
                                                 <?php the_excerpt(); ?>
                                                 <a href="<?php the_permalink()?>">Lire la suite</a>
 

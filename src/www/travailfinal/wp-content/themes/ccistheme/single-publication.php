@@ -20,8 +20,7 @@
                         
                         <div class="ruban pull-left"><?php the_category(); ?></div>
                         <h2><?php the_title(); ?></h2>
-                        <?php $author = get_the_author(); ?> 
-                        <span>Écrit par <?php the_author();?></span>
+                        <span>Écrit par <?php the_field("auteur");?></span>
                         <p id="publish_date">Publié le <?php the_date(); ?><p>
                         
                         <?php
