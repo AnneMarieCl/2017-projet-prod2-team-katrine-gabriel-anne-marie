@@ -98,7 +98,7 @@
                                     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 texte">
                                         <h2><?php the_title(); ?></h2>
                                         <?php the_excerpt(); ?>
-                                        <a href="#"><p class="lien">Lire la suite</p></a>
+                                        <a href="<?php the_permalink()?>"><p class="lien">Lire la suite</p></a>
                                         <a href="index.php/publications"><p class="lien">Allez aux publications</p></a>
                                     </div>
                                 </div>
