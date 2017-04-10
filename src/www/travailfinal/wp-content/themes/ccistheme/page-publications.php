@@ -13,14 +13,14 @@
                     
                     <div class="row">
                         
-                        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">
+                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
 
                             
                             <div class="row">
 
                                  <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
 
-                                    <ul class="pager">
+                                    <ul class="pager publications">
 			
                                         <li><a class="icon-prev" href=""><span class="fa fa-angle-double-left"></span></a></li>                           
                                         <li><a class="page-nbr current" href="?page=1">1</a></li>                               
@@ -119,11 +119,11 @@
                             
                         </div>
                         
-                        <aside class="col-xs-0 col-sm-4 col-md-4 col-lg-3 formation">
+                        <aside class="hidden-xs hidden-sm col-md-4 col-lg-3 formation">
                             
                             <div class="row">
                                 
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-titre">
+                                <div class="hidden-xs hidden-sm col-md-12 col-lg-12 padding-titre">
                                     <ul>
                                         <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-publications' ) ) : Endif; ?>
                                     </ul>

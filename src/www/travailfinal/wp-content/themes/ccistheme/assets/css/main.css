@@ -1695,6 +1695,10 @@ div.marginpadding{
     .sidebar-am h4 {
         padding-left: 14%;
     }
+    /* Grosseur des polices dans la sidebar */
+    aside h2 {
+        font-size: 20px;
+    }
     /* PAGE DE LA CCIS */
     /* Grandeur du background de la sidebar page présentation de la chambre */
     #presentation-chambre.ccis aside{
@@ -1723,7 +1727,7 @@ div.marginpadding{
     /* #################### PUBLICATIONS ET BLOGUE #################### */
     /*Correction fonts*/
     #post-type ul li{
-        font-size: 16px;
+        font-size: 14px;
     }
     #header h1 {
         top: calc(50% + 32px);
@@ -1833,6 +1837,10 @@ div.marginpadding{
     .paragraphe {
            padding-right: 8%;
     }
+    /* Grosseur des polices dans la sidebar */
+    aside h2 {
+        font-size: 20px;
+    }
      /* #################### DEVENIR MEMBRE INDEX #################### */
     .devenir-membre h2 {
         padding-top: 7%;
@@ -1902,6 +1910,10 @@ div.marginpadding{
     }
     img.fond {
         margin-top: 40px;
+    }
+    /* Grosseur des polices dans la sidebar */
+    aside h2 {
+        font-size: 20px;
     }
 }
 /* XX-Large device */
