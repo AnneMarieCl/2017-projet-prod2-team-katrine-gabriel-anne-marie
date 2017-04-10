@@ -4,6 +4,7 @@
         $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
         $args = array(
             'post_type' => 'post',
+            'category_name' => 'actualites',
             'posts_per_page' => 6,
             'paged' => $paged,
         );
