@@ -498,7 +498,7 @@ p #publish_date{
 /* Navigation */
 
 .pagination {
-    margin-bottom: 0;
+    margin-bottom: 50px;
 }
 
 .pagination a, .pagination span{
