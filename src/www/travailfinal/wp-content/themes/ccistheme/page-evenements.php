@@ -20,7 +20,8 @@
                 <h1><?php the_title();?></h1>
             </div> 
 
-         <section id="blog">
+            <!-- Section blogue -->
+            <section id="blog">
                 <div class="container-fluid">
                     
                     <div class="row">
@@ -29,7 +30,7 @@
 
                             
                             <div class="row">
-                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
+                                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
                                     
                                     <div id="post-type" class="text-center center formations">
                                         <ul>
@@ -44,7 +45,7 @@
                                         </select>
                                     </div>
 
-                                 </div>
+                                </div>
 
                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
                                     <div class="pagination">
@@ -117,7 +118,7 @@
                                             } // end if
                                             wp_reset_query();
                                     ?>
-	    
+        
                                 </div>
 
                                 <!-- Numéro de pages -->
@@ -141,9 +142,8 @@
                         </div>
                         
                         <aside class="hidden-xs hidden-sm col-md-4 col-lg-3 blog">
-                            
                             <div class="row">
-                                
+                
                                 <div class="hidden-xs hidden-sm col-md-12 col-lg-12 padding-titre">
                                     <ul>
                                         <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-events' ) ) : Endif; ?>
@@ -151,9 +151,7 @@
                                 </div>
                                 
                             </div>
-                            
                         </aside>
-                        
                         
                     </div>
                     
