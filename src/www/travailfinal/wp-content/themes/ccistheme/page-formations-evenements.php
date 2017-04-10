@@ -32,9 +32,9 @@
                                     
                                     <div id="post-type" class="text-center center formations">
                                         <ul>
-                                            <li><a href="">Tout</a></li>
-                                            <li><a href="">Formations</a></li>
-                                            <li><a href="">Événements</a></li>
+                                            <li><a href="http://localhost:8000/travailfinal/index.php/formations-evenements/">Tout</a></li>
+                                            <li><a href="http://localhost:8000/travailfinal/index.php/formations">Formations</a></li>
+                                            <li><a href="http://localhost:8000/travailfinal/index.php/evenements/">Événements</a></li>
                                         </ul>
                                         <select>
                                             <option value="Tout">Tout</option>
