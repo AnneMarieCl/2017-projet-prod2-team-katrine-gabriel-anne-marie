@@ -3,6 +3,7 @@
         <main id="page-index">
              <div class="container-fluid">
                 <!-- Slider -->
+                <!-- Slider -->
                 <section class="slider hidden-xs">
                     <div class="image-1">
                         <img class="un" src="<?php echo get_template_directory_uri(); ?>/assets/images/slider-1.jpg" alt="">
