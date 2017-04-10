@@ -136,6 +136,7 @@ ul.contact{
 .image-1 {
     position: relative;
     background-image: url(../images/slider-1.jpg);
+    background-size: cover;
 }
 .image-1 p {
     padding-bottom: 25px;
