@@ -62,7 +62,7 @@
                     
                         <!-- MENU PRINCIPAL -->
                         <div class="collapse navbar-collapse principal" id="bs-example-navbar-collapse-1">
-                            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 enleve-padding">       
+                            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">       
                                 <?php
                                 wp_nav_menu( array(
                                     'theme_location' => 'menuprincipal',

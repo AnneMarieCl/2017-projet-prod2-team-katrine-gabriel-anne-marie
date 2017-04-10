@@ -13,24 +13,22 @@
                     
                     <div class="row">
                         
-                        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">
+                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
 
                             
                             <div class="row">
                                  <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
                                     
-                                    <div id="post-type" class="text-center center">
+                                    <div id="post-type" class="text-center center formations">
                                         <ul>
                                             <li><a href="">Tout</a></li>
                                             <li><a href="">Formations</a></li>
                                             <li><a href="">Événements</a></li>
-                                            <li><a href="">Autres</a></li>
                                         </ul>
                                         <select>
                                             <option value="Tout">Tout</option>
                                             <option value="Formations">Formations</option>
                                             <option value="Événements">Événements</option>
-                                            <option value="Autres">Autres</option>
                                         </select>
                                     </div>
 
@@ -200,11 +198,11 @@
                             
                         </div>
                         
-                        <aside class="col-xs-0 col-sm-4 col-md-4 col-lg-3 formation">
+                        <aside class="hidden-xs hidden-sm col-md-4 col-lg-3 formation">
                             
                             <div class="row">
                                 
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-titre">
+                                <div class="hidden-xs hidden-sm col-md-12 col-lg-12 padding-titre">
                                     <ul>
                                         <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-events' ) ) : Endif; ?>
                                     </ul>     

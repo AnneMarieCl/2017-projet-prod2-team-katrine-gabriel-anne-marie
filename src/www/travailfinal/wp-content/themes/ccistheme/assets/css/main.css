@@ -212,6 +212,11 @@ ul.post-categories {
     margin-bottom: 0px;
 }
 /* #################### SECTION PUBLICATION ET BLOGUE #################### */
+/* Enlever l'apparence des flèches du select */
+select{
+   -webkit-appearance: none;
+   -moz-appearance: none;
+}
 .titre {
     padding-top: 55px;
     padding-left: 100px;
@@ -341,7 +346,7 @@ li#text-9 {
     padding-left:0px!important;   
 }
 .sidebar-am {
-    padding-top: 65px;
+    padding-top: 40px;
     text-transform: uppercase;
 }
 .sidebar-am h4 {
@@ -352,7 +357,7 @@ li#text-9 {
      padding-left: 30px;
 }
 .border {
-    border-bottom: 1px solid #455560;
+    border-bottom: 1px solid #ffffff;
     padding-bottom: 50px;
     padding-left: 20px;
     padding-right: 35px;
@@ -436,6 +441,9 @@ p #publish_date{
     width: 20%;
     background: #d5dbdf;
     font-family: 'Tauri', sans-serif;
+}
+#post-type.formations ul li{
+    width:33.33%;
 }
 #post-type ul li a{
     display: block;
@@ -1263,6 +1271,9 @@ div.marginpadding{
         padding-left: 6.5%;
     }
     /* #################### PUBLICATIONS ET BLOGUE #################### */
+    ul#responsive-pub{
+        margin-top: 100px !important;
+    }
     /* Change la liste des post type */
     #post-type ul li{
         float: none;
@@ -1695,6 +1706,10 @@ div.marginpadding{
     .sidebar-am h4 {
         padding-left: 14%;
     }
+    /* Grosseur des polices dans la sidebar */
+    aside h2 {
+        font-size: 20px;
+    }
     /* PAGE DE LA CCIS */
     /* Grandeur du background de la sidebar page présentation de la chambre */
     #presentation-chambre.ccis aside{
@@ -1723,7 +1738,7 @@ div.marginpadding{
     /* #################### PUBLICATIONS ET BLOGUE #################### */
     /*Correction fonts*/
     #post-type ul li{
-        font-size: 16px;
+        font-size: 14px;
     }
     #header h1 {
         top: calc(50% + 32px);
@@ -1833,6 +1848,10 @@ div.marginpadding{
     .paragraphe {
            padding-right: 8%;
     }
+    /* Grosseur des polices dans la sidebar */
+    aside h2 {
+        font-size: 20px;
+    }
      /* #################### DEVENIR MEMBRE INDEX #################### */
     .devenir-membre h2 {
         padding-top: 7%;
@@ -1902,6 +1921,10 @@ div.marginpadding{
     }
     img.fond {
         margin-top: 40px;
+    }
+    /* Grosseur des polices dans la sidebar */
+    aside h2 {
+        font-size: 20px;
     }
 }
 /* XX-Large device */
