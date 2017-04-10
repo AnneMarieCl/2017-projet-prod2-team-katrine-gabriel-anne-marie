@@ -39,12 +39,12 @@
                                             <li><a href="http://localhost:8000/travailfinal/index.php/blogue-grands-dossiers">Grand dossiers</a></li>
                                             <li><a href="http://localhost:8000/travailfinal/index.php/blogue-zone-medias">Zone médias</a></li>
                                         </ul>
-                                        <select>
-                                            <option value="Tout">Tout</option>
-                                            <option value="Faits saillants">Faits saillants</option>
-                                            <option value="Actualités">Actualités</option>
-                                            <option value="Grand dossiers">Grand dossiers</option>
-                                            <option value="Zone médias">Zone médias</option>
+                                        <select ONCHANGE="location = this.options[this.selectedIndex].value;">
+                                            <option value="http://localhost:8000/travailfinal/index.php/blogue" selected="selected">Tout</option>
+                                            <option value="http://localhost:8000/travailfinal/index.php/blogue-faits-saillants">Faits saillants</option>
+                                            <option value="http://localhost:8000/travailfinal/index.php/blogue-actualites">Actualités</option>
+                                            <option value="http://localhost:8000/travailfinal/index.php/blogue-grands-dossiers">Grand dossiers</option>
+                                            <option value="http://localhost:8000/travailfinal/index.php/blogue-zone-medias">Zone médias</option>
                                         </select>
                                     </div>
 
