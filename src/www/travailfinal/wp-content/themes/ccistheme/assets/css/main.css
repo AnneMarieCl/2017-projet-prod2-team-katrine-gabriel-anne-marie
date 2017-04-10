@@ -212,6 +212,11 @@ ul.post-categories {
     margin-bottom: 0px;
 }
 /* #################### SECTION PUBLICATION ET BLOGUE #################### */
+/* Enlever l'apparence des flèches du select */
+select{
+   -webkit-appearance: none;
+   -moz-appearance: none;
+}
 .titre {
     padding-top: 55px;
     padding-left: 100px;
