@@ -3,7 +3,8 @@
         <?php
         $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
         $args = array(
-            'post_type' => 'event',
+            'post_type' => 'post',
+            'category_name' => 'evenements',
             'posts_per_page' => 6,
             'paged' => $paged,
         );
@@ -45,8 +46,7 @@
 
                                  </div>
 
-                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
-
+                                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
                                     <div class="pagination">
                                         <?php
                                         global $query;
@@ -59,15 +59,12 @@
                                         ) );
                                         ?>
                                     </div>
-	    
                                 </div>
 
-                                <!-- Événements -->
                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
-                                    <h3 class="event">Événements</h3>
                                     
                                     <?php
-
+            
                                         if ( $query->have_posts() ) {
                                             while ( $query->have_posts() ) {
                                                 $query->the_post(); 
@@ -77,13 +74,13 @@
                                     ?>
 
                                     <div class="article">
-                                        <div class="row resp">
+                                        <div class="row">
                                         
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 enleve-padding">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                                                 <div class="img-article">
                                                     <?php 
                                                         if (has_post_thumbnail()){
-                                                        the_post_thumbnail('evenement', array('class' => 'img-responsive'));
+                                                        the_post_thumbnail('blogue', array('class' => 'img-responsive'));
                                                     }
                                                     else {
                                                         echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="" class="img-responsive">';
@@ -104,7 +101,9 @@
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 infoarticle">
 
                                                 <h4><?php the_title(); ?></h4>
+                                                <h6><?php the_field("auteur"); ?></h6>
                                                 <?php the_excerpt(); ?>
+                                                <a href="<?php the_permalink()?>">Lire la suite</a>
 
                                             </div>
                                         </div>
@@ -115,13 +114,12 @@
 
 
                                             } // end if
-                                            wp_reset_query();
                                     ?>
 	    
                                 </div>
-                              
-                                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
 
+                                <!-- Numéro de pages -->
+                                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
                                     <div class="pagination">
                                         <?php
                                         global $query;
@@ -134,21 +132,20 @@
                                         ) );
                                         ?>
                                     </div>
-	    
                                 </div>
                                 
                             </div>
                             
                         </div>
                         
-                        <aside class="hidden-xs hidden-sm col-md-4 col-lg-3 formation">
+                        <aside class="hidden-xs hidden-sm col-md-4 col-lg-3 blog">
                             
                             <div class="row">
                                 
                                 <div class="hidden-xs hidden-sm col-md-12 col-lg-12 padding-titre">
                                     <ul>
                                         <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-events' ) ) : Endif; ?>
-                                    </ul>     
+                                    </ul>
                                 </div>
                                 
                             </div>
@@ -159,7 +156,7 @@
                     </div>
                     
                 </div>
-            </section>     
+            </section>   
         </main>
         <!-- Fin du main -->
 
