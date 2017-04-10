@@ -144,7 +144,7 @@ ul.contact{
 .image-1 p {
     padding-bottom: 25px;
 }
-.carousel-caption {
+.tp-loop-wrap {
     text-align: left;
     left: 12%;
     padding-bottom: 100px;
@@ -158,11 +158,11 @@ ul.post-categories a{
     font-size: 20px;
     text-align: left;
 }
-.carousel-caption h2 {
+.tp-caption h2 {
     text-transform: uppercase;
     font-size: 30px!important;
 }
-.carousel-caption p {
+.tp-loop-wrap p {
     font-size: 20px!important;
 }
 .slider p.savoir-plus{
@@ -1442,16 +1442,8 @@ div.marginpadding{
     margin-top: -48px!important;
     }
      /* #################### SLIDER #################### */
-    .carousel-caption {
-        bottom: -105px;
-        left: 18%;
-    }
-    .carousel-caption h2{
-        font-size: 20px!important;
-        margin-top: -10px;
-    }
-    .carousel-caption p{
-        font-size: 15px!important;
+    .tp-parallax-wrap {
+        left:18%!important;
     }
     .image-1 p {
     padding-bottom: 15px; 
@@ -1617,16 +1609,8 @@ div.marginpadding{
     margin-top: -51px!important;
     }
     /* #################### SLIDER #################### */
-    .carousel-caption {
-        bottom: -105px;
-        left: 18%;
-    }
-    .carousel-caption h2{
-        font-size: 20px!important;
-        margin-top: -10px;
-    }
-    .carousel-caption p{
-        font-size: 15px!important;
+    .tp-parallax-wrap {
+        left:20%!important;
     }
     .image-1 p {
     padding-bottom: 15px; 
@@ -1783,20 +1767,12 @@ div.marginpadding{
         margin-right: -27px;
     }  
     /* #################### SLIDER #################### */
-    .carousel-caption {
-        bottom: -55px;
-        left: 18%;
-    }
-    .carousel-caption h2{
-        
-        margin-top: -10px;
-    }
-    .carousel-caption p{
-        font-size: 15px!important;
+    .tp-parallax-wrap {
+        left:18%!important;
     }
     .image-1 p {
-        padding-bottom: 15px; 
-    } 
+    padding-bottom: 15px; 
+    }
     /* #################### EVENEMENT #################### */
     .image {
         padding-top: 8%; 
@@ -1934,6 +1910,10 @@ div.marginpadding{
     /* Grosseur des polices dans la sidebar */
     aside h2 {
         font-size: 20px;
+    }
+    /*####################### slider ############################*/
+    .tp-parallax-wrap {
+        left:16%!important;
     }
 }
 /* XX-Large device */
