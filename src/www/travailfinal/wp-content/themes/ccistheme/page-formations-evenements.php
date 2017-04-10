@@ -19,18 +19,16 @@
                             <div class="row">
                                  <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
                                     
-                                    <div id="post-type" class="text-center center">
+                                    <div id="post-type" class="text-center center formations">
                                         <ul>
                                             <li><a href="">Tout</a></li>
                                             <li><a href="">Formations</a></li>
                                             <li><a href="">Événements</a></li>
-                                            <li><a href="">Autres</a></li>
                                         </ul>
                                         <select>
                                             <option value="Tout">Tout</option>
                                             <option value="Formations">Formations</option>
                                             <option value="Événements">Événements</option>
-                                            <option value="Autres">Autres</option>
                                         </select>
                                     </div>
 
