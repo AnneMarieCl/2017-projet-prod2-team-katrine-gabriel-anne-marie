@@ -147,7 +147,7 @@
                                     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 texte">
                                         <h2><?php the_title(); ?></h2>
                                         <?php the_excerpt(); ?>
-                                        <a href="#"><p class="lien">Lire la suite</p></a>
+                                        <a href="<?php the_permalink()?>"><p class="lien">Lire la suite</p></a>
                                         <a href="index.php/blogue"><p class="lien">Allez sur le blogue</p></a>
                                     </div>
                                 </div>
@@ -215,7 +215,7 @@
                                         
                                     </div>
                                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 texte3">
-                                        <a class="bouton-partn" href="#"><p>Voir tous les partenaires</p></a>
+                                        <a class="bouton-partn" href="http://localhost:8000/travailfinal/index.php/conseil-administration/"><p>Voir tous les partenaires</p></a>
                                     </div>
                                 </div>
                                 <div class="row">
