@@ -224,4 +224,3 @@
         </main>
         <!-- Fin du main -->
         <?php get_footer();?>
-
