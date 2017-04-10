@@ -490,7 +490,6 @@ p #publish_date{
 /* Navigation */
 
 .pagination {
-    margin-top: 50px;
     margin-bottom: 0;
 }
 
@@ -499,6 +498,7 @@ p #publish_date{
     background: #ee3a43;
     color: #fff;
     font-size: 16px;
+    margin-top: 50px;
 }
 
 .pagination a:hover, .pagination span {

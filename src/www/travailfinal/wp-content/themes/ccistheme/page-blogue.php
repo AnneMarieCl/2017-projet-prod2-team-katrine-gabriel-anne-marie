@@ -4,7 +4,7 @@
         $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
         $args = array(
             'post_type' => 'post',
-            'posts_per_page' => 2,
+            'posts_per_page' => 6,
             'paged' => $paged,
         );
 
@@ -36,14 +36,14 @@
                                             <li><a href="">Faits saillants</a></li>
                                             <li><a href="">Actualités</a></li>
                                             <li><a href="">Grand dossiers</a></li>
-                                            <li><a href="">Autres</a></li>
+                                            <li><a href="">Zone média</a></li>
                                         </ul>
                                         <select>
                                             <option value="Tout">Tout</option>
                                             <option value="Faits saillants">Faits saillants</option>
                                             <option value="Actualités">Actualités</option>
                                             <option value="Grand dossiers">Grand dossiers</option>
-                                            <option value="Autres">Autres</option>
+                                            <option value="Zone médias">Zone média</option>
                                         </select>
                                     </div>
 

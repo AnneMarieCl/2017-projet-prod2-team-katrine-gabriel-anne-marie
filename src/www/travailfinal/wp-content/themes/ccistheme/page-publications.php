@@ -1,5 +1,16 @@
  <?php get_header();?>
 
+        <?php
+        $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+        $args = array(
+            'post_type' => 'publication',
+            'posts_per_page' => 6,
+            'paged' => $paged,
+        );
+
+        $query = new WP_Query( $args );
+        ?>
+
         <!-- Main -->
         <main>
             <!-- Image -->
@@ -20,18 +31,18 @@
 
                                  <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
 
-                                    <ul class="pager" id="responsive-pub">
-			
-                                        <li><a class="icon-prev" href=""><span class="fa fa-angle-double-left"></span></a></li>                           
-                                        <li><a class="page-nbr current" href="?page=1">1</a></li>                               
-                                        <li><a class="page-nbr" href="?page=2">2</a></li>                                   
-                                        <li><a class="page-nbr" href="?page=3">3</a></li>
-                                        <li><a class="page-nbr" href="?page=4">4</a></li>
-                                        <li><a class="page-nbr" href="?page=5">5</a></li>
-                                        <li><a class="page-nbr" href="?page=6">6</a></li>
-                                        <li><a class="icon-next" href=""><span class="fa fa-angle-double-right"></span></a></li>
-                                            
-                                    </ul>
+                                    <div class="pagination">
+                                        <?php
+                                        global $query;
+                                        $big = 999999999; // need an unlikely integer
+                                        echo paginate_links( array(
+                                        'base' => str_replace( $big, '%#%', get_pagenum_link( $big ) ),
+                                        'format' => '?paged=%#%',
+                                        'current' => max( 1, get_query_var('paged') ),
+                                        'total' => $query->max_num_pages
+                                        ) );
+                                        ?>
+                                    </div>
 	    
                                 </div>
 
@@ -39,12 +50,6 @@
                                     <h3 class="event">Publications</h3>
                                     
                                     <?php
-                                    $args = array(
-                                        'post_type' => 'publication',
-                                        'posts_per_page' => 6,
-                                    );
-
-                                    $query = new WP_Query( $args );
             
                                         if ( $query->have_posts() ) {
                                             while ( $query->have_posts() ) {
@@ -94,24 +99,23 @@
 
 
                                             } // end if
-                                            wp_reset_query();
                                     ?>
 	    
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
 
-                                    <ul class="pager pager-bottom">
-			
-                                        <li><a class="icon-prev" href=""><span class="fa fa-angle-double-left"></span></a></li>                           
-                                        <li><a class="page-nbr current" href="?page=1">1</a></li>                               
-                                        <li><a class="page-nbr" href="?page=2">2</a></li>                                   
-                                        <li><a class="page-nbr" href="?page=3">3</a></li>
-                                        <li><a class="page-nbr" href="?page=4">4</a></li>
-                                        <li><a class="page-nbr" href="?page=5">5</a></li>
-                                        <li><a class="page-nbr" href="?page=6">6</a></li>
-                                        <li><a class="icon-next" href=""><span class="fa fa-angle-double-right"></span></a></li>
-                                            
-                                    </ul>
+                                    <div class="pagination">
+                                        <?php
+                                        global $query;
+                                        $big = 999999999; // need an unlikely integer
+                                        echo paginate_links( array(
+                                        'base' => str_replace( $big, '%#%', get_pagenum_link( $big ) ),
+                                        'format' => '?paged=%#%',
+                                        'current' => max( 1, get_query_var('paged') ),
+                                        'total' => $query->max_num_pages
+                                        ) );
+                                        ?>
+                                    </div>
 	    
                                 </div>
                                 
