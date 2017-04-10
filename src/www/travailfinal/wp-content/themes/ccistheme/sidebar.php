@@ -7,6 +7,6 @@ if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-ccis' ) ) 
 if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-publications' ) ) : Endif; 
 // Événements
 if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-events' ) ) : Endif; 
-//Blogue
+// Blogue
 if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-blogue' ) ) : Endif; 
 ?>
