@@ -22,6 +22,9 @@ h1 {
     background-color: white;
     margin-left: 25px;
 }
+a:focus {
+    text-decoration: none; 
+}
 /* #################### HEADER #################### */
 /*** MENU HEADER ***/
 /* Ajouter une bordure autour du logo */
