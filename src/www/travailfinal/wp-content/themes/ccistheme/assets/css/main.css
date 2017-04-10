@@ -467,6 +467,13 @@ p #publish_date{
     margin:0 10px 10px 0;
     padding:0;
 }
+/* pour les singles */
+#blog-single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > p > a {
+    color:#333;
+}
+#blog-single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > p > a:hover {
+    color:#ee3a43;
+}
 /* Select pour responsive */
 #post-type select {
     margin-top: 145px;
