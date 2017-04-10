@@ -8,8 +8,7 @@
                 <h1><?php the_title();?></h1>
             </div> 
 
-<!-- test -->
-         <section id="blog">
+            <section id="blog">
                 <div class="container-fluid">
                     
                     <div class="row">
