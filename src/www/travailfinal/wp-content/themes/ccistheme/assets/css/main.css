@@ -908,7 +908,7 @@ div.marginpadding{
     display:block;
     color: #ee3a43;
 }
-#wpcf7-f35-p5-o1 button, #wpcf7-f35-p5-o1 input, #wpcf7-f35-p5-o1 select, #wpcf7-f35-p5-o1 textarea {
+#wpcf7-f35-p5-o1 button, #wpcf7-f35-p5-o1 input[type=text], #wpcf7-f35-p5-o1 input[type=email],#wpcf7-f35-p5-o1 input[type=tel], #wpcf7-f35-p5-o1 select, #wpcf7-f35-p5-o1 textarea {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
