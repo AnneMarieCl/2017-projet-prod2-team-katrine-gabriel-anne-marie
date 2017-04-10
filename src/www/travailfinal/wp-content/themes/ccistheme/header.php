@@ -22,7 +22,7 @@
             <nav class="navbar navbar-default navbar-fixed-top">
                 <section class="burger">
                     <div class="container-fluid">
-                        <!-- BOUTON RESPONSIVE -->
+                        <!-- Responsive -->
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                                 <span class="sr-only">Navigation</span>
@@ -55,13 +55,13 @@
                 <section class="principal">
                     <div class="row">
                         <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-                            <!-- LOGO -->
+                            <!-- Logo -->
                             <a class="logo" href="http://localhost:8000/travailfinal/">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-principal.png" alt="Logo de la CCIS">
                             </a>
                         </div>
                     
-                        <!-- MENU PRINCIPAL -->
+                        <!-- Menu principal -->
                         <div class="collapse navbar-collapse principal" id="bs-example-navbar-collapse-1">
                             <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">       
                                 <?php
