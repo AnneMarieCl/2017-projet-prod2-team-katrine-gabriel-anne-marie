@@ -158,13 +158,6 @@ ul.post-categories a{
     font-size: 20px;
     text-align: left;
 }
-.tp-caption h2 {
-    text-transform: uppercase;
-    font-size: 30px!important;
-}
-.tp-loop-wrap p {
-    font-size: 20px!important;
-}
 .slider p.savoir-plus{
     color: #ee3a43; 
     font-size: 20px!important;
@@ -1445,6 +1438,12 @@ div.marginpadding{
     .tp-parallax-wrap {
         left:18%!important;
     }
+    .tp-caption.tp-resizeme h2 {
+        font-size: 18px!important;
+    } 
+    .tp-caption.tp-resizeme p {
+        font-size: 14px!important;
+    } 
     .image-1 p {
     padding-bottom: 15px; 
     }
@@ -1612,6 +1611,12 @@ div.marginpadding{
     .tp-parallax-wrap {
         left:20%!important;
     }
+    .tp-caption.tp-resizeme h2 {
+        font-size: 22px!important;
+    } 
+    .tp-caption.tp-resizeme p {
+        font-size: 18px!important;
+    } 
     .image-1 p {
     padding-bottom: 15px; 
     }
@@ -1770,6 +1775,12 @@ div.marginpadding{
     .tp-parallax-wrap {
         left:18%!important;
     }
+    .tp-caption.tp-resizeme h2 {
+        font-size: 22px!important;
+    } 
+    .tp-caption.tp-resizeme p {
+        font-size: 18px!important;
+    } 
     .image-1 p {
     padding-bottom: 15px; 
     }
