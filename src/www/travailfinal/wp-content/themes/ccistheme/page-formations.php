@@ -96,14 +96,6 @@
                                                     }
                                                     ?>
                                                     <span class="ruban pull-left"><?php the_category(); ?></span>
-                                                    <div class="date">
-                                                        <div class='square-box month-box'>
-                                                            <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span><?php the_time('F'); ?><span class = "fa fa-circle right-circle"></span></span></div></div>
-                                                        </div>
-                                                        <div class='square-box day-box'>
-                                                            <div class='square-content day-content'><div><span class="day"><?php the_time('j'); ?></span></div></div>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
                                         
@@ -111,8 +103,6 @@
 
                                                 <h4><?php the_title(); ?></h4>
                                                 <p><?php the_excerpt(); ?></p>
-                                                <a href="<?php the_permalink()?>">Plus de détails</a><br>
-                                                <a href="#" class="style-bouton">S'inscrire</a>
                                             </div>
                                         </div>
                                     </div>

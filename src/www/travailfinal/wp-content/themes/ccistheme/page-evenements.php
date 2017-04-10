@@ -105,8 +105,6 @@
 
                                                 <h4><?php the_title(); ?></h4>
                                                 <?php the_excerpt(); ?>
-                                                <a href="<?php the_permalink()?>">Plus de détails</a><br>
-                                                <a href="#" class="style-bouton">S'inscrire</a>
 
                                             </div>
                                         </div>
