@@ -179,7 +179,7 @@
                             <div class="row">
                                 <section class="devenir-membre">
                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                        <div class="image-1">
+                                        <div class="image-2">
                                             <img class="fond" src="<?php echo get_template_directory_uri(); ?>/assets/images/background-membre-index.png" alt="">
                                             <div class="appel-action"> 
                                                 <div class="row">

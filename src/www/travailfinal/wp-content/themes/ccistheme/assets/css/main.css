@@ -284,6 +284,9 @@ a.bouton:hover {
 a.bouton h4 {
     padding-top: 15px;
 }
+.image-2 {
+    position: relative;
+}
 /* #################### PARTENAIRES #################### */
 .partenaire {
     padding-top: 55px;
