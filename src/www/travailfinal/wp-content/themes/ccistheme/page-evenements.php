@@ -61,10 +61,13 @@
                                     </div>
                                 </div>
 
+                                    
+                                <!-- Événements -->
                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
+                                    <h3 class="event">Événements</h3>
                                     
                                     <?php
-            
+
                                         if ( $query->have_posts() ) {
                                             while ( $query->have_posts() ) {
                                                 $query->the_post(); 
@@ -74,13 +77,13 @@
                                     ?>
 
                                     <div class="article">
-                                        <div class="row">
+                                        <div class="row resp">
                                         
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 enleve-padding">
                                                 <div class="img-article">
                                                     <?php 
                                                         if (has_post_thumbnail()){
-                                                        the_post_thumbnail('blogue', array('class' => 'img-responsive'));
+                                                        the_post_thumbnail('evenement', array('class' => 'img-responsive'));
                                                     }
                                                     else {
                                                         echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="" class="img-responsive">';
@@ -101,9 +104,7 @@
                                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 infoarticle">
 
                                                 <h4><?php the_title(); ?></h4>
-                                                <h6><?php the_field("auteur"); ?></h6>
                                                 <?php the_excerpt(); ?>
-                                                <a href="<?php the_permalink()?>">Lire la suite</a>
 
                                             </div>
                                         </div>
@@ -114,6 +115,7 @@
 
 
                                             } // end if
+                                            wp_reset_query();
                                     ?>
 	    
                                 </div>
