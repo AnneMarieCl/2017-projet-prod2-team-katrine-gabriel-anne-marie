@@ -11,7 +11,7 @@
                         ?>
                     </div>
                 </section>  
-                
+                <!-- Section : Événements -->
                 <!-- Section : Événements -->
                 <section class="evenement">
                     <div class="row">
