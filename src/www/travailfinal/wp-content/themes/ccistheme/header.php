@@ -14,6 +14,7 @@
         <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon.ico" />
         <!-- Style.css -->
         <link href="<?php bloginfo("stylesheet_url") ?>" rel="stylesheet">
+        <?php wp_head(); ?>
     </head>
     <body>
         <header>
