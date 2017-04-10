@@ -1263,6 +1263,9 @@ div.marginpadding{
         padding-left: 6.5%;
     }
     /* #################### PUBLICATIONS ET BLOGUE #################### */
+    ul#responsive-pub{
+        margin-top: 100px !important;
+    }
     /* Change la liste des post type */
     #post-type ul li{
         float: none;
