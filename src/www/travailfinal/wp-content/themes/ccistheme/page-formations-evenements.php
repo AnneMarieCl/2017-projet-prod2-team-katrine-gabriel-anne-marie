@@ -177,7 +177,7 @@
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
 
-                                    <div class="pagination">
+                                    <div class="pagination pagination-fin">
                                         <?php
                                         global $query;
                                         $big = 999999999; // need an unlikely integer
