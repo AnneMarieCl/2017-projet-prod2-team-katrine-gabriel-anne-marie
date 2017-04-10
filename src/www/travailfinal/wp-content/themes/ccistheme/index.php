@@ -2,7 +2,7 @@
 
         <main id="page-index">
              <div class="container-fluid">
-
+<!-- Section : Événements -->
                 <!-- Slider -->
                 <section class="slider hidden-xs">
                     <div class="image-1">
