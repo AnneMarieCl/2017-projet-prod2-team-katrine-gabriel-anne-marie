@@ -6,9 +6,37 @@
                 <!-- Slider -->
                 <section class="slider hidden-xs">
                     <div class="image-1">
-                        <?php 
-                            echo do_shortcode( "[rev_slider alias='sliderprincipal']" );
-                        ?>
+                        <img class="un" src="<?php echo get_template_directory_uri(); ?>/assets/images/slider-1.jpg" alt="">
+                        <div class="carousel-caption">
+                                <?php
+                                    $args = array(
+                                        'post_type' => 'post',
+                                        'posts_per_page' => 1,
+                                    );
+
+                                    $query = new WP_Query( $args );
+            
+                                        if ( $query->have_posts() ) {
+                                            while ( $query->have_posts() ) {
+                                                $query->the_post(); 
+                                                //
+                                                // Post Content here
+                                                //
+                                ?>
+
+                            <p>Blogue</p>
+                            <h2><?php the_title(); ?></h2>
+                            <?php the_category(); ?>
+                            <a href="#"><p class="savoir-plus">En savoir plus</p></a>
+
+                                <?php
+                                            } // end while
+
+
+                                        } // end if
+                                        wp_reset_query();
+                                ?>
+                        </div> 
                     </div>
                 </section>  
                 <!-- Section : Événements -->
