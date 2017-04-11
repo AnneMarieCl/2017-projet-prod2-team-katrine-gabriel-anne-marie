@@ -141,6 +141,9 @@ ul.contact{
    /* background-image: url(../images/slider-1.jpg);*/
     background-size: cover;
 }
+span.background-slider {
+    background-color: rgba(18, 18, 14, 0.4);
+}
 .image-1 p {
     padding-bottom: 25px;
 }
