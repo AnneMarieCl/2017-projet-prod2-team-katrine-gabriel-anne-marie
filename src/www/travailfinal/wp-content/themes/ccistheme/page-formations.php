@@ -79,7 +79,7 @@
                                                         the_post_thumbnail('evenement', array('class' => 'img-responsive'));
                                                     }
                                                     else {
-                                                        echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="" class="img-responsive">';
+                                                        echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="Logo officiel de la CCIS" class="img-responsive">';
                                                     }
                                                     ?>
                                                     <span class="ruban pull-left"><?php the_category(); ?></span>

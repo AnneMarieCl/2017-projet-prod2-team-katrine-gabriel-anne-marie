@@ -46,7 +46,7 @@
                                     the_post_thumbnail('evenement', array('class' => 'img-responsive'));
                                 }
                                 else {
-                                   echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="" class="img-responsive">';
+                                   echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="Logo officiel de la CCIS" class="img-responsive">';
                                 }
                             ?>
                             <a href="#"></a>
@@ -96,7 +96,7 @@
                                                 the_post_thumbnail('evenement', array('class' => 'img-responsive'));
                                             }
                                             else {
-                                                echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="" class="img-responsive">';
+                                                echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="Logo officiel de la CCIS" class="img-responsive">';
                                             }
                                     ?>
                                     <a href="#"></a>
@@ -195,7 +195,7 @@
                 <section class="devenir-membre">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <div class="image-2">
-                            <img class="fond" src="<?php echo get_template_directory_uri(); ?>/assets/images/background-membre-index.png" alt="">
+                            <img class="fond" src="<?php echo get_template_directory_uri(); ?>/assets/images/background-membre-index.png" alt="Image soirée de la CCIS">
                             <div class="appel-action"> 
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">

@@ -25,7 +25,7 @@
                                 the_post_thumbnail('blogue', array('class' => 'col-md-6 img-responsive'));
                             }
                             else {
-                                echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="" class="col-md-6 img-responsive">';
+                                echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="Logo officiel de la CCIS" class="col-md-6 img-responsive">';
                             }
                             the_content();
 
