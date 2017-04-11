@@ -149,7 +149,7 @@
                                                 the_post_thumbnail('evenement', array('class' => 'img-responsive'));
                                             }
                                             else {
-                                                echo '<img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt="">';
+                                                echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="" class="img-responsive">';
                                             }
                                     ?>
                                     <a href="#"></a>
