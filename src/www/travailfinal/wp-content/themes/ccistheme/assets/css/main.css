@@ -1719,7 +1719,7 @@ div.marginpadding{
         left:32%;
     }
     .sidebar-am h4 {
-        padding-left: 14%;
+        padding-left: 0%;
     }
     /* Grosseur des polices dans la sidebar */
     aside h2 {
@@ -1855,7 +1855,7 @@ div.marginpadding{
         left:32%;
     }
     .sidebar-am h4 {
-        padding-left: 14%;
+        padding-left: 0%;
         padding-right: 8%;
     }
     .paragraphe {
