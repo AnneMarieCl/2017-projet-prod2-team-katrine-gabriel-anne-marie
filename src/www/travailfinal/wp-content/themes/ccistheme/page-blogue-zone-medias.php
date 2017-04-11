@@ -19,18 +19,15 @@
                 <h1><?php the_title();?></h1>
             </div>
 
+            <!-- Liste des articles de la catégorie Zone Médias -->
             <section id="blog">
                 <div class="container-fluid">
-                    
                     <div class="row">
-                        
                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
-
-                            
                             <div class="row">
                                 
+                                <!-- Menu de navigation -->
                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
-                                    
                                     <div id="post-type" class="text-center center">
                                         <ul>
                                             <li><a href="http://localhost:8000/travailfinal/index.php/blogue">Tout</a></li>
@@ -47,9 +44,9 @@
                                             <option value="http://localhost:8000/travailfinal/index.php/blogue-zone-medias" selected="selected">Zone médias</option>
                                         </select>
                                     </div>
-
                                  </div>
 
+                                 <!-- Pagination -->
                                  <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
                                     <div class="pagination">
                                         <?php
@@ -66,7 +63,6 @@
                                 </div>
 
                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
-                                    
                                     <?php
             
                                         if ( $query->have_posts() ) {
@@ -76,10 +72,9 @@
                                                 // Post Content here
                                                 //
                                     ?>
-
                                     <div class="article">
                                         <div class="row">
-                                        
+                                            <!-- Image des articles -->
                                             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                                                 <div class="img-article">
                                                     <?php 
@@ -101,14 +96,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        
+                                            <!-- Textte des articles -->
                                             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 infoarticle">
-
                                                 <h4><?php the_title(); ?></h4>
                                                 <h6><?php the_field("auteur"); ?></h6>
                                                 <?php the_excerpt(); ?>
                                                 <a href="<?php the_permalink()?>">Lire la suite</a>
-
                                             </div>
                                         </div>
                                     </div>
@@ -119,7 +112,6 @@
 
                                             } // end if
                                     ?>
-	    
                                 </div>
 
                                 <!-- Numéro de pages -->
@@ -137,26 +129,19 @@
                                         ?>
                                     </div>
                                 </div>
-                                
                             </div>
-                            
                         </div>
                         
+                        <!-- Sidebar -->
                         <aside class="hidden-xs hidden-sm col-md-4 col-lg-3 blog">
-                            
                             <div class="row">
-                                
                                 <div class="hidden-xs hidden-sm col-md-12 col-lg-12 padding-titre">
                                     <ul>
                                         <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-blogue' ) ) : Endif; ?>
                                     </ul>
-                                </div>
-                                
+                                </div> 
                             </div>
-                            
                         </aside>
-                        
-                        
                     </div>
                     
                 </div>
@@ -218,7 +203,6 @@
                             </div>
                         </div>
                     </a>
-                    
                 </div>
             </div>
 
