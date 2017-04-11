@@ -142,7 +142,8 @@ ul.contact{
     background-size: cover;
 }
 span.background-slider {
-    background-color: rgba(18, 18, 14, 0.4);
+    background-color: rgba(18, 18, 14, 0.5);
+    padding: 0 5px;
 }
 .image-1 p {
     padding-bottom: 25px;
