@@ -64,7 +64,7 @@
 
                 <!-- Section : Publications -->          
                 <div class="row">
-                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9 enleve-padding">  
+                    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9 enleve-padding">  
                         <section class="publication">
                             <div class="row enleve-margin">
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titre">
@@ -89,7 +89,7 @@
                             
                             <div class="row">
                                 <!-- Image -->
-                                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 image">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 image">
                                     <?php 
                                             if (has_post_thumbnail()){
                                                 the_post_thumbnail('evenement', array('class' => 'img-responsive'));
@@ -103,7 +103,7 @@
                                 </div>
 
                                 <!-- Description -->
-                                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 texte">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 texte">
                                     <h2><?php the_title(); ?></h2>
                                     <?php the_excerpt(); ?>
                                     <a href="<?php the_permalink()?>"><p class="lien">Lire la suite</p></a>
@@ -143,7 +143,7 @@
                             ?>
                             <div class="row">
                                 <!-- Image -->
-                                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 image">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 image">
                                         <?php 
                                             if (has_post_thumbnail()){
                                                 the_post_thumbnail('evenement', array('class' => 'img-responsive'));
@@ -157,7 +157,7 @@
                                 </div>
                                 
                                 <!-- Texte -->
-                                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 texte">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 texte">
                                     <h2><?php the_title(); ?></h2>
                                     <?php the_excerpt(); ?>
                                     <a href="<?php the_permalink()?>"><p class="lien">Lire la suite</p></a>
@@ -176,7 +176,7 @@
                         </div>   
 
                         <!-- Sidebar -->
-                        <aside class="col-xs-0 col-sm-4 col-md-4 col-lg-3 activite">
+                        <aside class="hidden-xs hidden-sm col-md-4 col-lg-3 activite">
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-titre2">
                                 <ul>
