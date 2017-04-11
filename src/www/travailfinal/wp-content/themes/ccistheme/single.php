@@ -13,15 +13,12 @@
                             //
                     ?>
 
-                
                 <div class="row">
-    
-                    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1 test">
-                        
+                    <!-- Image et texte de l'article -->
+                    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1 test"> 
                         <div class="ruban pull-left"><?php the_category(); ?></div>
                         <h2><?php the_title(); ?></h2>
                         <p id="publish_date">Publié le <?php the_date(); ?><p>
-                        
                         <?php
                             if (has_post_thumbnail()){
                                 the_post_thumbnail('blogue', array('class' => 'col-md-6 img-responsive'));
@@ -33,7 +30,7 @@
                         ?>
                     </div>
                         
-
+                    <!-- Zone de commentaires -->
                     <div class="comments col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
                         <form role="form">
                             <h2>Commentaires</h2>
@@ -54,6 +51,7 @@
                         </form>
                     </div>
 
+                    <!-- Pagination entre les articles -->
                     <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
                         <nav>
                             <div class="previous-article pull-left">
@@ -64,39 +62,27 @@
                             </div>
                         </nav>
                     </div>
-
-                    
-                    
                 </div>
                 
-                
-
-                    <?php
-                        } // end while
+                <?php
+                    } // end while
 
 
-                            } // end if
-                    ?>
-
+                        } // end if
+                ?>
             </div><!--/.col-md-9-->
 
+            <!-- Sidebar -->
             <aside class="col-xs-0 col-sm-4 col-md-4 col-lg-3 formation padding-titre">
-                
                 <div class="row">
-                    
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul>
                             <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-blogue' ) ) : Endif; ?>
                         </ul>
                     </div>
-                    
-                </div>
-                
+                </div>     
             </aside>
-
         </div><!--/.row-->
-
     </section><!--/#blog-single-->
-
 
 <?php get_footer();?>
