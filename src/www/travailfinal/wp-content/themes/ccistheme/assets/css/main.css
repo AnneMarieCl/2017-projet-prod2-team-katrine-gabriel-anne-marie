@@ -1263,13 +1263,9 @@ div.marginpadding{
         width: 30%!important;
     }
     /* Section devenir membre index */
-    .devenir-membre {
-        background-color: #455560;
-        margin-top: 100px;
-        min-height: 450px;
-    }
     img.fond {
-        display:none;
+        height: 100%;
+        width:100%;
     }
     .devenir-membre h2 {
         color: #fff;
@@ -1526,12 +1522,6 @@ div.marginpadding{
     a.bouton {
         width: 46%;
     }
-    .bouton-gauche {
-        top: -25px;
-    }
-    .bouton-droit {
-        top:-25px;
-    }
     /* #################### PARTENAIRES INDEX #################### */
     img.partn {
         width: 85%;
@@ -1707,12 +1697,6 @@ div.marginpadding{
     }
     a.bouton {
         width: 46%;
-    }
-    .bouton-gauche {
-        top: -25px;
-    }
-    .bouton-droit {
-        top:-25px;
     }
      /* #################### SIDEBAR INDEX #################### */
     aside .date {
