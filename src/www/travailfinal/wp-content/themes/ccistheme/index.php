@@ -1,5 +1,6 @@
         <?php get_header();?>
 
+        <!-- Début du main -->
         <main id="page-index">
              <div class="container-fluid">
                 <!-- Slider -->
@@ -248,5 +249,6 @@
             </section>
 
         </main>
+        <!-- Fin du main -->
 
         <?php get_footer();?>
