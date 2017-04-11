@@ -78,7 +78,7 @@
                                     <div class="article">
                                         <div class="row resp">
                                         
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 enleve-padding">
+                                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 enleve-padding">
                                                 <div class="img-article">
                                                     <?php 
                                                         if (has_post_thumbnail()){
@@ -100,7 +100,7 @@
                                                 </div>
                                             </div>
                                         
-                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 infoarticle">
+                                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 infoarticle">
 
                                                 <h4><?php the_title(); ?></h4>
                                                 <h6><?php the_field("organisateur"); ?></h6>

@@ -1542,9 +1542,7 @@ div.marginpadding{
     #header h1 {
         top: calc(50% + 32px);
     }
-    .article h4 {
-        margin-top: 50px; 
-    }
+
     /* Style des articles */
     #blog .article div{
         margin:0;
@@ -1552,7 +1550,6 @@ div.marginpadding{
     }
     #blog .article div.infoarticle{
         margin:0;
-        padding-left: 0px;
     }
     /* #################### FOOTER #################### */
     /* Infolettre */
