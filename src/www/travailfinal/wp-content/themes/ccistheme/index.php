@@ -36,7 +36,8 @@
                             <p class="premiertruc"><?php the_category(); ?></p>
                             <h3 class="espacedessous"><?php the_title(); ?></h3>
                             <?php the_excerpt(); ?>
-                            <a href="#"><p class="inscription">S'inscrire</p></a>
+                            <a href="<?php the_permalink()?>" class="rouge">En savoir plus</a><br>
+                            <a href="#"><p class="bouton">S'inscrire</p></a>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 image">
@@ -188,7 +189,7 @@
 
                 </div>
             </div>
-            
+
             <!-- Section : Devenir membre --> 
             <div class="row">
                 <section class="devenir-membre">

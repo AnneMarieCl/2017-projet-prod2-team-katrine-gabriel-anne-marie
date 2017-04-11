@@ -742,7 +742,11 @@ p.bouton:hover {
     background: #c6262d;
     color: #fff;
 }
-#blog .article a:hover {
+#page-index > div.container-fluid > section.evenement > div > div > a.rouge{
+    color: #ee3a43;
+    font-size: 18px;
+}
+#blog .article a:hover, #page-index > div.container-fluid > section.evenement > div > div > a.rouge:hover {
     color: #c6262d;
     font-size: 18px;
 }
