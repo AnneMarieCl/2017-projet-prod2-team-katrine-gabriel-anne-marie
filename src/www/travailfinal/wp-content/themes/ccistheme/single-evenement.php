@@ -3,7 +3,6 @@
 	<section id="blog-single" class="container-fluid">
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">
-
                     <?php 
                         if ( have_posts() ) {
                         while ( have_posts() ) {
@@ -13,11 +12,9 @@
                             //
                     ?>
 
-                
                 <div class="row">
-    
+                    <!-- Iamge et texte de l'article -->
                     <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1 test">
-                        
                         <div class="ruban pull-left"><?php the_category(); ?></div>
                         <h2><?php the_title(); ?></h2>
                         <p id="publish_date">Organisé par <?php the_field('organisateur')?> le <?php the_field("date") ?><p>
@@ -33,8 +30,8 @@
                             <h6><span class="fa fa-map-marker"></span> <?php the_field("emplacement"); ?></h6>    
                             <a href="#"><p class="bouton">S'inscrire</p></a>
                     </div>
-                        
 
+                    <!-- Zone pour commentaires --> 
                     <div class="comments col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
                         <form role="form">
                             <h2>Commentaires</h2>
@@ -55,6 +52,7 @@
                         </form>
                     </div>
 
+                    <!-- Pagination pour le changement d'article -->
                     <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
                         <nav>
                             <div class="previous-article pull-left">
@@ -65,12 +63,7 @@
                             </div>
                         </nav>
                     </div>
-
-                    
-                    
                 </div>
-                
-                
 
                     <?php
                         } // end while
@@ -81,23 +74,17 @@
 
             </div><!--/.col-md-9-->
 
+            <!-- Sidebar -->
             <aside class="col-xs-0 col-sm-4 col-md-4 col-lg-3 formation padding-titre">
-                
                 <div class="row">
-                    
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul>
                             <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-blogue' ) ) : Endif; ?>
                         </ul>
                     </div>
-                    
                 </div>
-                
             </aside>
-
         </div><!--/.row-->
-
     </section><!--/#blog-single-->
-
 
 <?php get_footer();?>
