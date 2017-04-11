@@ -95,7 +95,7 @@
                                                 the_post_thumbnail('evenement', array('class' => 'img-responsive'));
                                             }
                                             else {
-                                                echo '<img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt="">';
+                                                echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="" class="img-responsive">';
                                             }
                                     ?>
                                     <a href="#"></a>
@@ -149,7 +149,7 @@
                                                 the_post_thumbnail('evenement', array('class' => 'img-responsive'));
                                             }
                                             else {
-                                                echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="" class="img-responsive">';
+                                                echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="Logo officiel de la CCIS" class="img-responsive">';
                                             }
                                     ?>
                                     <a href="#"></a>
@@ -188,7 +188,8 @@
 
                 </div>
             </div>
-                
+            
+            <!-- Section : Devenir membre --> 
             <div class="row">
                 <section class="devenir-membre">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
