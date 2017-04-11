@@ -106,8 +106,8 @@
                                                 <h6><?php the_field("organisateur"); ?></h6>
                                                 <?php the_excerpt(); ?>
                                                 <h6><span class="fa fa-map-marker"></span> <?php the_field("emplacement"); ?></h6>
-                                                <a href="<?php the_permalink()?>">En savoir plus</a>
-
+                                                <a href="<?php the_permalink()?>">En savoir plus</a><br>
+                                                <a href="#"><p class="bouton">S'inscrire</p></a>
                                             </div>
                                         </div>
                                     </div>
