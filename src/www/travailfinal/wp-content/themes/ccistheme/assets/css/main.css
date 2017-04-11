@@ -266,6 +266,17 @@ a.bouton {
     text-align: center;
     color: white;
 }
+#page-index > div.row > section > div > div > div > div > div.background div{
+    background-color: #ee3a43;
+    padding: 10px 1px;
+    margin: 50px 100px;
+}
+#page-index > div.row > section > div > div > div > div > div.background div a{
+    color: #ffffff;
+}
+#page-index > div.row > section > div > div > div > div > div.background div:hover{
+    background-color: #c6262d;
+}
 a.bouton:hover {
     color: #3e3d3d;
 }
@@ -275,14 +286,13 @@ a.bouton:hover {
 .droit {
     margin-top: 40px;
 }
-.appel-action p {
-    padding-bottom: 15px;
-}
 a.bouton h4 {
     padding-top: 15px;
 }
 .image-2 {
     position: relative;
+    height: 100%;
+    width: 100%;
 }
 /* #################### PARTENAIRES #################### */
 .partenaire {
@@ -1268,18 +1278,10 @@ div.marginpadding{
         width:100%;
     }
     .devenir-membre h2 {
-        color: #fff;
-        padding-top: 15px;
+        padding-top: 0px;
         text-align: center;
-        font-size: 22px;
+        font-size: 16px;
     }
-    a.bouton {
-        width: 70%;
-    }
-    .gauche {
-        margin-top: 200px;
-    }
-
     /* Section partenaires index */
     img.partn {
         width: 85%;
@@ -1364,7 +1366,10 @@ div.marginpadding{
         width: 100%;
         top: 0;
     }
-
+    #blog-single {
+        padding-top: 0px; 
+        margin-top: 50px;
+    }
     /* #################### PAGE À PROPOS #################### */
     /* Titre de la page */
     #presentation-chambre h3{
@@ -1509,18 +1514,13 @@ div.marginpadding{
         padding-left: 4%;
     }
     /* #################### DEVENIR MEMBRE INDEX #################### */
+        img.fond {
+        height: 100%;
+        width:100%;
+    }
     .devenir-membre h2 {
         padding-top: 15px;
-        text-align: left;
-        padding-left: 4%;
         font-size: 18px;    
-    }
-    .devenir-membre {
-        min-height: 250px;
-        padding-top: 50px;
-    }
-    a.bouton {
-        width: 46%;
     }
     /* #################### PARTENAIRES INDEX #################### */
     img.partn {
@@ -1688,8 +1688,6 @@ div.marginpadding{
     /* #################### DEVENIR MEMBRE INDEX #################### */
     .devenir-membre h2 {
         padding-top: 15px;
-        text-align: left;
-        padding-left: 6%;
         font-size: 18px;    
     }
     .devenir-membre {
