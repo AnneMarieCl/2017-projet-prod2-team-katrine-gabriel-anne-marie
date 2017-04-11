@@ -202,19 +202,16 @@
                             <img class="fond" src="<?php echo get_template_directory_uri(); ?>/assets/images/background-membre-index.png" alt="Image soirée de la CCIS">
                             <div class="appel-action"> 
                                 <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                                         <h2>Vous désirez vous joindre à nous ?</h2>
-                                    </div>
-                                    <div class="col-xs-hidden col-sm-12 col-md-6 col-lg-6">
-                                        
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 bouton-gauche">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 bouton-gauche text-center">
                                         <a class="bouton gauche" href="index.php/espace-membre"><h4>Devenez membre !</h4>
                                         <p>Solidifier vos acquis et  accédez à une clientèle privilège</p></a>
                                     </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 bouton-droit">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 bouton-droit text-center">
                                         <a class="bouton droit" href="index.php/formations-evenements"><h4>Ne ratez aucune activité !</h4>
                                         <p>Inscrivez-vous à l’alerte <span>SMS</span></p></a>
                                     </div>

@@ -259,11 +259,9 @@ img.fond {
 .devenir-membre h2 {
     color: white;
     padding-top: 100px;
-    text-align: right;
 }
 a.bouton {
     background-color: #ee3a43;
-    position: absolute;
     width: 540px;
     text-align: center;
     color: white;
@@ -272,12 +270,10 @@ a.bouton:hover {
     color: #3e3d3d;
 }
 .gauche {
-    margin-left: 300px;
     margin-top: 40px;
 }
 .droit {
     margin-top: 40px;
-    margin-left: 50px;
 }
 .appel-action p {
     padding-bottom: 15px;
@@ -1285,12 +1281,9 @@ div.marginpadding{
         width: 70%;
     }
     .gauche {
-        margin-left: 12%;
         margin-top: 200px;
     }
-    .droit {
-        margin-left: 12%;
-    }
+
     /* Section partenaires index */
     img.partn {
         width: 85%;
@@ -1533,12 +1526,6 @@ div.marginpadding{
     a.bouton {
         width: 46%;
     }
-    .gauche {
-        margin-left: 1%;
-    }
-    .droit {
-        margin-left: 50%;
-    }
     .bouton-gauche {
         top: -25px;
     }
@@ -1721,12 +1708,6 @@ div.marginpadding{
     a.bouton {
         width: 46%;
     }
-    .gauche {
-        margin-left: 1%;
-    }
-    .droit {
-        margin-left: 50%;
-    }
     .bouton-gauche {
         top: -25px;
     }
@@ -1895,12 +1876,7 @@ div.marginpadding{
     a.bouton {
         width: 75%;
     }
-    .gauche {
-        margin-left: 17%;
-    }
-    .droit {
-        margin-left: 2%;
-    }
+
     /* #################### PARTENAIRES #################### */
     .partenaire {
         padding-top: 0px;
@@ -1986,15 +1962,15 @@ div.marginpadding{
     }
     .partenaire {
         margin-top: 150px;
-    }
-    img.fond {
-        margin-top: 40px;
-    }
+    } 
     #blog aside, #publications aside {
         padding-top: 50px;
         min-height: 4000px;
     }
     aside.formation {
         min-height: 2100px!important;
+    }
+    aside.activite {
+        min-height: 2200px;
     }
 }
