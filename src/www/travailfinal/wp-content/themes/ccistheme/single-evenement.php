@@ -17,7 +17,18 @@
                     <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1 test">
                         <div class="ruban pull-left"><?php the_category(); ?></div>
                         <h2><?php the_title(); ?></h2>
-                        <p id="publish_date">Organisé par <?php the_field('organisateur')?> le <?php the_field("date") ?><p>
+                        <?php
+                        $date = get_field('date');
+
+                        // Extraire Y,M,D
+                        $y = substr($date, 0, 4);
+                        $m = substr($date, 4, 2);
+                        $d = substr($date, 6, 2);
+
+                        // Créer le format UNIX
+                        $time = strtotime("{$d}-{$m}-{$y}");
+                        ?>
+                        <p id="publish_date">Organisé par <span><?php the_field('organisateur')?></span> le <span><?php echo date_i18n('j F Y', $time); ?></span><p>
                         
                         <?php
                             if (has_post_thumbnail()){

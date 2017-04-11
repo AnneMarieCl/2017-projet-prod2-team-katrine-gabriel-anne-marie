@@ -18,7 +18,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1 test"> 
                         <div class="ruban pull-left"><?php the_category(); ?></div>
                         <h2><?php the_title(); ?></h2>
-                        <p id="publish_date">Publié le <?php the_date(); ?><p>
+                        <p id="publish_date">Publié le <span><?php the_date(); ?></span> par <span><?php the_field('auteur'); ?></span></p>
                         <?php
                             if (has_post_thumbnail()){
                                 the_post_thumbnail('blogue', array('class' => 'col-md-6 img-responsive'));

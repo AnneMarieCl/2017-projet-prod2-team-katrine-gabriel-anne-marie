@@ -84,11 +84,22 @@
                                                     ?>
                                                     <span class="ruban pull-left"><?php the_category(); ?></span>
                                                     <div class="date">
+                                                            <?php
+                                                            $date = get_field('date');
+
+                                                            // Extraire Y,M,D
+                                                            $y = substr($date, 0, 4);
+                                                            $m = substr($date, 4, 2);
+                                                            $d = substr($date, 6, 2);
+
+                                                            // Créer le format UNIX
+                                                            $time = strtotime("{$d}-{$m}-{$y}");
+                                                            ?>
                                                         <div class='square-box month-box'>
-                                                            <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span><?php the_time('F'); ?><span class = "fa fa-circle right-circle"></span></span></div></div>
+                                                            <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span><?php echo date_i18n('F', $time); ?><span class = "fa fa-circle right-circle"></span></span></div></div>
                                                         </div>
                                                         <div class='square-box day-box'>
-                                                            <div class='square-content day-content'><div><span class="day"><?php the_time('j'); ?></span></div></div>
+                                                            <div class='square-content day-content'><div><span class="day"><?php echo date_i18n('j', $time); ?></span></div></div>
                                                         </div>
                                                     </div>
                                                 </div>

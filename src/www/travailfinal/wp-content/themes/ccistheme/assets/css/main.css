@@ -544,7 +544,7 @@ p #publish_date{
     background: #ee3a43;
     position: absolute;
     top: 10%;
-    width: 50%;
+    width: 70%;
     padding: 5px 10px ;
     font-size: 15pt;
 }
@@ -601,6 +601,7 @@ p #publish_date{
 .month-content {
     color: #fff;
     font-size: 12px;
+    text-transform: capitalize;
 }
 .left-circle {
     position: absolute;
@@ -1028,6 +1029,9 @@ div.marginpadding{
     color: #c6262d;
 }
 
+#publish_date span {
+    color: #ee3a43;
+}
 
 /* Enlever les contour arrondi  */
 .form-control {
@@ -1363,6 +1367,10 @@ div.marginpadding{
         padding: 10px 15px ;
         font-size: 15pt;
     }
+    .article .ruban {
+        width: 100%;
+        top: 0;
+    }
 
     /* #################### PAGE À PROPOS #################### */
     /* Titre de la page */
@@ -1492,6 +1500,10 @@ div.marginpadding{
     }
     .image .ruban {
         width: 35%;
+    }
+
+    .article .ruban {
+        width: 50%;
     }
     /* #################### SIDEBAR INDEX #################### */
     aside .date {
@@ -1688,6 +1700,9 @@ div.marginpadding{
         padding: 0px;
         width: 40%;
         top: 37%;
+    }
+    .article .ruban {
+        width: 66%;
     }
     /* #################### DEVENIR MEMBRE INDEX #################### */
     .devenir-membre h2 {
