@@ -32,7 +32,7 @@
 
                         <!-- Événement 1 -->
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 texte">
-                            <p class="premiertruc">Événement</p>
+                            <p class="premiertruc"><?php the_category(); ?></p>
                             <h3 class="espacedessous"><?php the_title(); ?></h3>
                             <?php the_excerpt(); ?>
                             <a href="#"><p class="inscription">S'inscrire</p></a>
@@ -40,10 +40,10 @@
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 image">
                             <?php 
                                 if (has_post_thumbnail()){
-                                the_post_thumbnail('evenement', array('class' => 'img-responsive'));
+                                    the_post_thumbnail('evenement', array('class' => 'img-responsive'));
                                 }
                                 else {
-                                    echo '<img src="https://dummyimage.com/400.png/455560/fff" class="img-responsive" alt="">';
+                                   echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="" class="img-responsive">';
                                 }
                             ?>
                             <a href="#"></a>
@@ -65,7 +65,7 @@
                             <section class="publication">
                                 <div class="row enleve-margin">
                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titre">
-                                        <h3>Publication</h3>
+                                        <h3>Publications</h3>
                                     </div>
                                 </div>
                                  <?php
