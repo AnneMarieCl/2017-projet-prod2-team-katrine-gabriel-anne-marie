@@ -145,14 +145,18 @@
                             <div class="row">
                                 <!-- Image -->
                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 image">
-                                        <?php 
-                                            if (has_post_thumbnail()){
-                                                the_post_thumbnail('evenement', array('class' => 'img-responsive'));
-                                            }
-                                            else {
-                                                echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="Logo officiel de la CCIS" class="img-responsive">';
-                                            }
-                                    ?>
+                                             <div class="img-article">
+                                                    <?php 
+                                                    if (has_post_thumbnail()){
+                                                        the_post_thumbnail('blogue', array('class' => 'img-responsive'));
+                                                    }
+                                                    else {
+                                                        echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="Logo officiel de la CCIS" class="img-responsive">';
+                                                    }
+                                                    ?>
+                                                    <span class="ruban pull-left"><?php the_category(); ?></span>
+
+                                                </div>
                                     <a href="#"></a>
                                     <span class="ruban pull-left"><?php the_category(); ?></span>
                                 </div>
