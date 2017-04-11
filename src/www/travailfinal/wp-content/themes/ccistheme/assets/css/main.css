@@ -1943,6 +1943,10 @@ div.marginpadding{
     .tp-parallax-wrap {
         left:16%!important;
     }
+    #blog aside, #publications aside {
+        padding-top: 50px;
+        min-height: 3000px;
+    }
 }
 /* XX-Large device */
 @media screen and (min-width: 1702px) and ( max-width: 4000px) {
@@ -1966,5 +1970,12 @@ div.marginpadding{
     }
     img.fond {
         margin-top: 40px;
+    }
+    #blog aside, #publications aside {
+        padding-top: 50px;
+        min-height: 4000px;
+    }
+    aside.formation {
+        min-height: 2100px!important;
     }
 }
