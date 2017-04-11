@@ -32,7 +32,7 @@
                         ?>
 
                         <!-- Événement 1 -->
-                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 texte">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 texte">
                             <p class="premiertruc"><?php the_category(); ?></p>
                             <h3 class="espacedessous"><?php the_title(); ?></h3>
                             <?php the_excerpt(); ?>
@@ -40,7 +40,7 @@
                             <a href="#"><p class="bouton">S'inscrire</p></a>
                         </div>
 
-                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 image">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 image">
                             <?php 
                                 if (has_post_thumbnail()){
                                     the_post_thumbnail('evenement', array('class' => 'img-responsive'));

@@ -138,7 +138,6 @@ ul.contact{
 }
 .image-1 {
     position: relative;
-   /* background-image: url(../images/slider-1.jpg);*/
     background-size: cover;
 }
 span.background-slider {
@@ -1070,10 +1069,6 @@ div.marginpadding{
 .container {
     position: relative;
 }
-
-.img-responsive{
-    display: inline-block;
-}
 .middle {
   position: absolute;
   top: 0;
@@ -1250,6 +1245,9 @@ div.marginpadding{
     .image {
         padding-left: 9%;
     }
+    .image .ruban {
+        width: 40%!important;
+    }
     /* Section publication index */
     .publication .image {
         padding-left: 9%;
@@ -1269,9 +1267,6 @@ div.marginpadding{
         padding-left: 9%;
         padding-right: 12%;
     }
-    .image .ruban {
-        width: 30%!important;
-    }
     /* Section devenir membre index */
     img.fond {
         height: 100%;
@@ -1281,6 +1276,9 @@ div.marginpadding{
         padding-top: 0px;
         text-align: center;
         font-size: 16px;
+    }
+    .image-2 {
+        padding-top: 50px;
     }
     /* Section partenaires index */
     img.partn {
@@ -1465,41 +1463,40 @@ div.marginpadding{
         left:18%!important;
     }
     .tp-caption.tp-resizeme h2 {
-        font-size: 18px!important;
+        font-size: 28px!important;
     } 
     .tp-caption.tp-resizeme p {
-        font-size: 14px!important;
+        font-size: 20px!important;
     } 
     .image-1 p {
     padding-bottom: 15px; 
     }
     /* #################### PUBLICATION INDEX #################### */
     .publication .image {
-        padding-left: 9%;
-        padding-right: 9%;
+        padding-left: 5%;
+        padding-right: 0%;
     }
     .publication .titre {
-        padding-left: 9%;
+        padding-left: 5%;
     }
     .blogue .titre {
-         padding-left: 9%;
+         padding-left: 5%;
     }
     .publication a p.lien, .blogue a p.lien {
         padding-top: 50px;
-        padding-right: 100px;
+        padding-right: 10px;
     }
     .blogue .image {
-        padding-left: 9%;
-        padding-right: 9%;
+        padding-left: 5%;
+        padding-right: 0%;
     }
     .texte {
-        padding-left: 9%;
-        padding-right: 9%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     .image .ruban {
-        width: 35%;
+        width: 40%;
     }
-
     .article .ruban {
         width: 50%;
     }
@@ -1521,6 +1518,9 @@ div.marginpadding{
     .devenir-membre h2 {
         padding-top: 15px;
         font-size: 18px;    
+    }
+    .image-2 {
+        padding-top: 50px;
     }
     /* #################### PARTENAIRES INDEX #################### */
     img.partn {
@@ -1648,19 +1648,16 @@ div.marginpadding{
     .publication .image {
         padding-left: 9%;
         padding-left: 9%;
-        width: 30%;
+        padding-right: 0px;
     }
     .publication .titre {
         padding-left: 9%;
-    }
-    .publication .texte {
-        width: 65%;
     }
     .publication .texte h2{
         font-size: 20px;
     }
     .publication a p.lien, .blogue a p.lien {
-        padding-right: 100px;
+        padding-right: 10px;
         padding-top: 0px;
     }
     .blogue .texte h2{
@@ -1669,21 +1666,20 @@ div.marginpadding{
     .blogue .image {
         padding-left: 9%;
         padding-left: 9%;
-        width: 30%;
     }
     .blogue .titre {
          padding-left: 9%;
     }
-    .blogue .texte {
-        width: 65%;
-    }
     .image .ruban {
         padding: 0px;
-        width: 40%;
-        top: 37%;
+        width: 45%;
+        top: 25%;
     }
     .article .ruban {
         width: 66%;
+    }
+    .sidebar-am {
+    padding-left: 15px;
     }
     /* #################### DEVENIR MEMBRE INDEX #################### */
     .devenir-membre h2 {
@@ -1797,8 +1793,7 @@ div.marginpadding{
     }
     .publication .image {
         padding-left: 9%;
-        padding-left: 9%;
-        width: 30%;
+        padding-left: 5%;
     }
     .publication .titre {
         padding-left: 9%;
@@ -1818,8 +1813,7 @@ div.marginpadding{
         font-size: 20px;
     }
     .blogue .image {
-        padding-left: 9%;
-        width: 30%;
+        padding-left: 5%;
     }
     .blogue .titre {
          padding-left: 9%;   
@@ -1858,7 +1852,9 @@ div.marginpadding{
     a.bouton {
         width: 75%;
     }
-
+    .sidebar-am {
+    padding-left: 25px;
+    }
     /* #################### PARTENAIRES #################### */
     .partenaire {
         padding-top: 0px;
