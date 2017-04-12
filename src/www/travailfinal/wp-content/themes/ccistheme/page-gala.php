@@ -75,18 +75,23 @@
 
                                 <h5 class="format">Économie sociale</h5>
                                 <h5 class="">Gagnant : 92,9 CFUT</h5>
+                                <p>(Catégorie discrétionnaire d’année en année. Un organisme à but non lucratif (OBNL) ayant des activités marchandes ou une coopérative offrant des biens ou services qui respecte les principes de fonctionnement suivants : un processus de gestion démocratique, la participation et la prise en charge individuelle et collective, la primauté de la personne et du travail sur le capital, et finalement, la propriété collective des capitaux et des moyens de production.)</p>
 
                                 <h5 class="format">Relève entrepreneuriale</h5>
                                 <h5 class="">Gagnant : ICO Technologies Inc</h5>
+                                <p>(Catégorie discrétionnaire d’année en année. Entreprise ayant assuré sa pérennité grâce à un processus de transfert, de rachat, de fusion, d’acquisition ou de relève, et ce, depuis au plus deux (2) ans. )</p>
 
                                 <h5 class="format">Personnalité d'affaires féminine</h5>
                                 <h5 class="">Gagnant : Marie-Josée Gervais</h5>
+                                <p>La personnalité d’affaires féminine se distingue par ses compétences entrepreneuriales et ses réalisations dans son secteur d’activités, son dynamisme et son engagement social et dans son milieu. La personnalité d’affaires féminine est choisie en fonction de sa notoriété, de son leadership ou son entrepreneurship, de son audace, sa ténacité et sa vision ainsi que son engagement au sein de la communauté.)</p>
 
                                 <h5 class="format">Personnalité d'affaires masculine Gilles-Martel</h5>
                                 <h5 class="">Gagnant : Roger Lavergne</h5>
+                                <p>(La personnalité d’affaires masculine se distingue par ses compétences entrepreneuriales et ses réalisations dans son secteur d’activités, son dynamisme et son engagement social et dans son milieu. La personnalité d’affaires masculine est choisie en fonction de sa notoriété, de son leadership ou son entrepreneurship, de son audace, sa ténacité et sa vision ainsi que son engagement au sein de la communauté.)</p>
 
                                 <h5 class="format">Prix du jury</h5>
                                 <h5 class="">Gagnant : Sensée épicerie spécialisée</h5>
+                                <p>(Catégorie discrétionnaire d’année en année. Ce prix est décerné par le jury de sélection à une entreprise ou un entrepreneur s’étant distingué par l’excellence générale de ses performances ou par un succès exceptionnellement méritoire.)</p>
 
                                 <h5 class="format">Diversification économique</h5>
                                 <h5 class="">Gagnant : Sim-Cognibox</h5>
