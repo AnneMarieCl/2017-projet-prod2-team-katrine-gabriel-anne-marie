@@ -1203,29 +1203,37 @@ div.marginpadding{
     }
     /* sous-menu espace membre */
     li#menu-item-237 {
-        margin-top: 35px;
-        padding-bottom: 0px;
-        font-size: 10px;
+        margin-top: 35px!important;
+        padding-bottom: 0px!important;
+        font-size: 10px!important;
+        margin-left: 0px;
     }
-    li#menu-item-239 {
+    li#menu-item-251 {
+        font-size: 10px;
+        padding-top: 70px!important;
+        margin-left: 0px!important;
+        padding-left: 0%!important;
+    }
+    li#menu-item-252 {
         font-size: 10px;
         padding-top: 5px!important;
-    }
-    li#menu-item-238 {
-        font-size: 10px;
-        padding-top: 5px!important;
+        padding-left: 0%!important;
     }
     li#menu-item-240 {
         font-size: 10px;
-        padding-top: 5px!important;
+        padding-top: 15px!important;
+        margin-left: 0%!important;
     }
     li#menu-item-241 {
         font-size: 10px;
         padding-top: 5px!important;
+        margin-top: 0px!important;
+        padding-left: 0%!important;
     }
     li#menu-item-242 {
         font-size: 10px;
         padding-top: 5px!important;
+        padding-left: 0%!important;
     }
     #menu-item-61:hover {
     margin-bottom: 195px;
