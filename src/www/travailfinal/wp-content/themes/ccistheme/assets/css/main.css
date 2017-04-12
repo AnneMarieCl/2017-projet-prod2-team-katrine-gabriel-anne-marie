@@ -1274,6 +1274,9 @@ div.marginpadding{
     #blog > div > div > div > div > div > h3 {
         margin-top: 80px;
     }
+    .previous-article, .next-article{
+        margin-bottom: 60px;
+    }
     /* #################### SECTION ÉVÉNEMENTS #################### */
     .premiertruc {
         padding-top: 50px;
