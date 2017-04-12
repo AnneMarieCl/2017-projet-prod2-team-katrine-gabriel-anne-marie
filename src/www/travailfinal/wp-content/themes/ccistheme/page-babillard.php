@@ -83,6 +83,7 @@
                                                 <h4><?php the_title(); ?></h4>
                                                 <h6><?php the_field("auteur"); ?></h6>
                                                 <?php the_content(); ?>
+                                                <a href="<?php the_field("site_web_de_lauteur");?>"><?php the_field("site_web_de_lauteur");?></a>
                                             </div>
                                         </div>
                                     </div>
