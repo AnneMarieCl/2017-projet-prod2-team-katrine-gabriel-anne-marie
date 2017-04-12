@@ -455,6 +455,12 @@ p #publish_date{
 #blog-single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > p > a:hover {
     color:#ee3a43;
 }
+#blog-single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > a > h5{
+    color: #ee3a43;
+}
+#blog-single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > a > h5:hover{
+    color: #c6262d;
+}
 /* Select pour responsive */
 #post-type select {
     margin-top: 145px;
