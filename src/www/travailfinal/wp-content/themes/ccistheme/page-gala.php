@@ -47,18 +47,29 @@
 
                                 <h5 class="format">Tourisme et hébergement</h5>
                                 <h5 class="">Gagnant : Défis du parc</h5>
+                                <h5 class="">Finaliste : Défis du parc</h5>
+                                <h5 class="">Finaliste : Soirée des Brasseurs</h5>
+                                <h5 class="">Finaliste : Auberge Gouverneur Shawinigan</h5>
                                 <p>(Une entreprise, un organisme ou un événement ayant favorisé l’accroissement des recettes touristiques et le positionnement accru de la ville de Shawinigan. Une attention particulière est accordée aux initiatives ayant favorisé l’attraction du territoire en lui associant un événement en tourisme d’affaires, un festival, un événement sportif ou culturel susceptible d’attirer ou de prolonger le séjour des visiteurs.)</p>
 
                                 <h5 class="format">Employeur de choix</h5>
                                 <h5 class="">Gagnant : Synapse Électronique</h5>
+                                <h5 class="">Finaliste : Peinture Robert Dupont Inc</h5>
+                                <h5 class="">Finaliste : Synapse Électronique</h5>
+                                <h5 class="">Finaliste : IGA Extra Famille Baril</h5>
                                 <p>(Le prix Employeur de choix récompense tout type d’entreprise qui s’est démarquée par une ou des pratiques de gestion des ressources humaines qu’elle a mises en place. Entre autres, il peut s’agir de pratiques en matière de conciliation travail-vie personnelle, d’environnement de travail, de formation, de développement et d’amélioration des compétences de ses employés, de méthodes innovantes relativement à la rétention ou à l’attraction de la main-d’œuvre, etc.)</p>
 
                                 <h5 class="format">Innovation et nouveaux marchés</h5>
                                 <h5 class="">Gagnant : Conseillers en gestion et informatique CGI Inc</h5>
+                                <h5 class="">Finaliste : ICO Technologies Inc</h5>
+                                <h5 class="">Finaliste : Conseillers en gestion et informatique CGI Inc</h5>
                                 <p>(Une entreprise ou un organisme qui se distingue par la conquête de nouveaux marchés ou de nouveaux territoires (provincial, national ou international), le développement de nouveaux procédés, d’un produit ou d’un service innovateur, de nouvelles techniques de commercialisation et qui démontre la capacité de poursuivre son action dans ce domaine ou dans l’adaptation et l’application de technologies nouvelles.)</p>
 
                                 <h5 class="format">Nouvelle entreprise</h5>
                                 <h5 class="">Gagnant : Fait par une maman</h5>
+                                <h5 class="">Finaliste : Fait par une maman</h5>
+                                <h5 class="">Finaliste : Ora Boutique</h5>
+                                <h5 class="">Finaliste : Coffrage Pelletier</h5>
                                 <p>(Une entreprise qui est en opération depuis au moins six (6) mois, pour un maximum de 36 mois. Elle se démarque par l’évolution de sa rentabilité, ses réalisations exceptionnelles ainsi que la qualité de sa gestion. L’entreprise démontre des perspectives de développement à long terme.)</p>
 
                                 <h5 class="format">Entreprise manufacturière</h5>
