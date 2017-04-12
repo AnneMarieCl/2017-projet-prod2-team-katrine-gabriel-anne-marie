@@ -15,7 +15,7 @@
                         
                         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                             <div id="margedroite" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <h3>Présentation de la chambre</h3>
+                                <h3><?php the_title();?></h3>
 
                                 <!-- Intégration Google Maps -->
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sfr!2sus!4v1490800428198!6m8!1m7!1sGhuAfBcIWMAAAAQWnf1Wwg!2m2!1d46.52240245695442!2d-72.7484868765236!3f66.7892009827807!4f-3.9025932898902482!5f0.4000000000000002" style="border: 0; width: 100%; height: 300px"></iframe>

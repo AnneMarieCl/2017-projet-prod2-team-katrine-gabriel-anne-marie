@@ -15,7 +15,7 @@
 
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div id="margedroite" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <h3>Contact</h3>
+                                <h3><?php the_title();?></h3>
                                 <!-- Formulaire avec le plug-in WP -->
                                 <h4 class="espaceenahut">Demande d'information</h4>
                                 <?php 
