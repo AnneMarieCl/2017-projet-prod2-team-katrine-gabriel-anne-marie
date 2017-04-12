@@ -805,6 +805,9 @@ aside h2 {
 #blog aside, #publications aside, #post aside {
     padding-top: 50px;
 }
+#post aside {
+    min-height: 1500px;
+}
 .widget ul {
     padding: 0;
     margin: 0;
@@ -1728,24 +1731,17 @@ div.marginpadding{
     #presentation-chambre.ccis aside{
         height: 2200px;
     }
-
     /* Grandeur du background de la sidebar page comites organisation de la chambre */
     #presentation-chambre.comites aside{
         min-height: 1900px;
     }
-
     /* Grandeur du background de la sidebar page implications */
     #presentation-chambre.implications aside{
         min-height: 900px;
     }
-
     /* Grandeur du background de la sidebar page ca */
     #presentation-chambre.ca aside{
         min-height: 2700px;
-    }
-
-    img.fond {
-        margin-top: 40px;
     }
     /* #################### Footer #################### */
     /* Stylistique de la police */
@@ -1768,9 +1764,6 @@ div.marginpadding{
     #menu-deroulant, #menu-deroulant ul {
         font-size: 9pt;
         margin-right: -50px;
-    }
-    img.fond {
-        margin-top: 40px;
     }
     /* Grosseur des polices dans la sidebar */
     aside h2 {
