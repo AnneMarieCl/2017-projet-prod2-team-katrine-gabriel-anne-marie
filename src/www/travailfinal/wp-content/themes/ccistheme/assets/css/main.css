@@ -334,8 +334,7 @@ aside a {
     border-bottom: 1px #000 solid; 
     height: 100%;
 }
-aside.padding-titre {
-    padding-top: 50px;
+.padding-titre {
     min-height: 1250px;
 }
 li#text-9 {
@@ -844,7 +843,7 @@ aside.aside-gala {
 aside h2 {
     font-size: 24px;
 }
-#blog aside, #publications aside, #post aside {
+#blog aside, #publications aside, #post aside, #event aside {
     padding-top: 50px;
 }
 #post aside {
