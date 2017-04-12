@@ -1290,6 +1290,10 @@ div.marginpadding{
     .bouton-partn p {
         padding-left: 6.5%;
     }
+        
+    #page-index > div.container-fluid > section.evenement > div > div > div > div > div.col-xs-12.col-sm-6.col-md-6.col-lg-6.col-sm-push-6{
+        margin-top: 75px;
+    }
     /* #################### PUBLICATIONS ET BLOGUE #################### */
     ul#responsive-pub{
         margin-top: 100px !important;
