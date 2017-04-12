@@ -1738,6 +1738,10 @@ div.marginpadding{
     aside.aside-implications-membres {
         min-height: 900px;
     }
+    /* aside page services-membres */ 
+    aside.sidebar-services {
+         min-height: 1500px;
+    }
     /* #################### PUBLICATIONS ET BLOGUE #################### */
     /*Correction fonts*/
     #post-type ul li{
@@ -1826,6 +1830,10 @@ div.marginpadding{
     aside.aside-implications-membres {
         min-height: 900px;
     }
+    /* aside page services-membres */ 
+    aside.sidebar-services {
+         min-height: 1500px;
+    }
      /* #################### DEVENIR MEMBRE INDEX #################### */
     .devenir-membre h2 {
         padding-top: 7%;
@@ -1903,6 +1911,10 @@ div.marginpadding{
         padding-top: 50px;
         min-height: 3000px;
     }
+    /* aside page services-membres */ 
+    aside.sidebar-services {
+         min-height: 1500px;
+    }
 }
 /* XX-Large device */
 @media screen and (min-width: 1702px) and ( max-width: 4000px) {
@@ -1940,5 +1952,9 @@ div.marginpadding{
     /* aside page implications-membres */
     aside.aside-implications-membres {
         min-height: 900px;
+    }
+    /* aside page services-membres */ 
+    aside.sidebar-services {
+         min-height: 1500px;
     }
 }
