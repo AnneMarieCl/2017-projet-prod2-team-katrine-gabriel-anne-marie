@@ -306,7 +306,6 @@ img.partn {
 .bouton-partn:hover {
     color: #3e3d3d;
 }
-
 /* #################### ASIDE #################### */
 aside {
     background: #d5dbdf;
@@ -532,12 +531,10 @@ p #publish_date{
     padding: 50px 0;
     border-bottom: 1px #ee3a43 solid;
 }
-
 .evenement .article {
     border: none;
     padding-bottom: 0;
 }
-
 .article a {
     color: #ee3a43;
     font-size: 18px;
@@ -983,7 +980,6 @@ div.marginpadding{
 #wpcf7-f35-p5-o1 > form > p > label > span > textarea{
     border-color: #bfbfbf;
 }
-
 /* ########### Single.php ########### */
 #blog-single {
     padding-top: 120px;
@@ -993,7 +989,6 @@ div.marginpadding{
     margin-top: -50px;
     padding-top: 50px;
 }
-
 #blog-single .row{
     margin: 0;
 }
@@ -1007,7 +1002,6 @@ div.marginpadding{
     padding: 5px 10px;
     font-size:20px;
 }
-
 #blog-single .ruban ul{
     padding: 0;
     margin: 0;
@@ -1351,7 +1345,6 @@ div.marginpadding{
     #blog > div > div > div > div > div > h3 {
         margin-top: 80px;
     }
-
     .previous-article, .next-article{
         margin-bottom: 60px;
     }
@@ -1721,17 +1714,14 @@ div.marginpadding{
     #presentation-chambre.ccis aside{
         height: 2400px;
     }
-
     /* Grandeur du background de la sidebar page comites organisation de la chambre */
     #presentation-chambre.comites aside{
         min-height: 1950px;
     }
-
     /* Grandeur du background de la sidebar page implications */
     #presentation-chambre.implications aside{
         min-height: 900px;
     }
-
     /* Grandeur du background de la sidebar page ca */
     #presentation-chambre.ca aside{
         min-height: 2600px;
