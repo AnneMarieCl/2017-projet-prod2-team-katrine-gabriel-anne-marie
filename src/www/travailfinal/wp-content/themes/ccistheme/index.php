@@ -16,6 +16,11 @@
                 <section class="evenement">
                     <div class="row">
                             <?php
+                                function custom_excerpt_length( $length ) {
+                                    return 40;
+                                }
+                                add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
                                 $args = array(
                                     'post_type' => 'evenement',
                                     'posts_per_page' => 2,

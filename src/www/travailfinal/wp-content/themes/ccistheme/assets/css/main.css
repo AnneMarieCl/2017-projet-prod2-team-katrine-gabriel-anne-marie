@@ -753,7 +753,7 @@ font-size: 16px;
     color: #fff;
     display: inline-block;
     padding: 10px 50px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 p.bouton:hover {
     background: #c6262d;
@@ -1625,7 +1625,7 @@ div.marginpadding{
      /* sous-menu espace membre */ 
     li#menu-item-61 ul.sub-menu {
         margin-left: -460px;
-        font-size: 6pt;
+        font-size: 7pt;
     }
     li#menu-item-237 {
     margin-top: 25px;
