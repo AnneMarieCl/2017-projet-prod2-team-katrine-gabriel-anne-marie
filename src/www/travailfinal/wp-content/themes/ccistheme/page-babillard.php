@@ -85,7 +85,7 @@
                                                 <?php the_content();
                                                 $website = get_field('site_web_de_lauteur');
                                                 if( $website ){ ?>
-                                                <p class="website">Site Web de l'annonceur : <a href="<?php echo $website;?>"><?php echo $website;?></a></p>
+                                                <p class="website">Site Web de l'annonceur : <a href="<?php echo $website;?>" class="rouge"><?php echo $website;?></a></p>
                                                 <?php } ?>
                                             </div>
                                         </div>
