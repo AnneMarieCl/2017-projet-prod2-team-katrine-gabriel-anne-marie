@@ -36,16 +36,8 @@
                             <div class="article">
                                 <div class="row">         
                                     
-                                    <!-- Texte de l'article -->
-                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 infoevent">
-                                        <h4><?php the_title(); ?></h4>
-                                        <h6><?php the_field("auteur"); ?></h6>
-                                        <?php the_excerpt(); ?>
-                                        <a href="<?php the_permalink()?>">En savoir plus</a><br>
-                                        <a href="#"><p class="bouton">S'inscrire</p></a>
-                                    </div>
                                     <!-- Image de l'article -->
-                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-sm-push-6">
                                         <div class="img-article">
                                             <?php 
                                             if (has_post_thumbnail()){
@@ -66,6 +58,14 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <!-- Texte de l'article -->
+                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-sm-pull-6 infoevent">
+                                        <h4><?php the_title(); ?></h4>
+                                        <?php the_excerpt(); ?>
+                                        <a href="<?php the_permalink()?>">En savoir plus</a><br>
+                                        <a href="#"><p class="bouton">S'inscrire</p></a>
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
