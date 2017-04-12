@@ -1459,17 +1459,17 @@ div.marginpadding{
     }
     /* sous-menu espace membre */ 
     li#menu-item-61 ul.sub-menu {
-        margin-left: -307px;
+        margin-left: -350px;
         font-size: 6pt;
     }
     li#menu-item-237 {
     margin-top: 25px;
     padding-bottom: 0px;
-    margin-left: -20px
+    margin-left: -15px
     }
     li#menu-item-251 {
         padding-left: 10%;
-        margin-top: -60px;
+        margin-top: -72px;
     }
     li#menu-item-252 {
         padding-left: 10%;
@@ -1478,11 +1478,12 @@ div.marginpadding{
     }
     li#menu-item-240 {
         padding-top: 25px;
-        margin-left: -20px
+        margin-left: -15px;
+        margin-bottom: 25px;
     }
     li#menu-item-241 {
         padding-left: 20%;
-        margin-top: -86px;
+        margin-top: -72px;
     }
     li#menu-item-242 {
         padding-left: 20%;
