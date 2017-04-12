@@ -1,5 +1,6 @@
         <?php get_header();?>
-                        <!-- Main -->
+        
+        <!-- Main -->
         <main>
             <!-- Image -->
             <div class="background-img hidden-xs" id="header">
