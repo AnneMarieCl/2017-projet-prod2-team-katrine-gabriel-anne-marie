@@ -963,7 +963,8 @@ div.marginpadding{
     padding: 5px;
     font-size: 15pt;
 }
-#blog-single .wp-post-image {
+#blog-single .wp-post-image, 
+#blog-single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > img {
     padding-left: 0!important;
     padding-bottom: 0;
     margin:0 10px 10px 0;
@@ -1161,6 +1162,30 @@ div.marginpadding{
     }
     #bs-example-navbar-collapse-1 #menu-item-26 li{
         padding:10px 0;
+    }
+    /* sous-menu espace membre */
+    li#menu-item-237 {
+        margin-top: 35px;
+        padding-bottom: 0px;
+        font-size: 10px;
+    }
+    li#menu-item-239 {
+        font-size: 10px;
+    }
+    li#menu-item-238 {
+        font-size: 10px;
+    }
+    li#menu-item-240 {
+        font-size: 10px;
+    }
+    li#menu-item-241 {
+        font-size: 10px;
+    }
+    li#menu-item-242 {
+        font-size: 10px;
+    }
+    #menu-item-61:hover {
+    margin-bottom: 220px;
     }
     /* Slider */
     img.un {
