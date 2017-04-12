@@ -82,8 +82,11 @@
                                             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 infoarticle">
                                                 <h4><?php the_title(); ?></h4>
                                                 <h6><?php the_field("auteur"); ?></h6>
-                                                <?php the_content(); ?>
-                                                <a href="<?php the_field("site_web_de_lauteur");?>"><?php the_field("site_web_de_lauteur");?></a>
+                                                <?php the_content();
+                                                $website = get_field('site_web_de_lauteur');
+                                                if( $website ){ ?>
+                                                <p class="website">Site Web de l'annonceur : <a href="<?php echo $website;?>"><?php echo $website;?></a></p>
+                                                <?php } ?>
                                             </div>
                                         </div>
                                     </div>
