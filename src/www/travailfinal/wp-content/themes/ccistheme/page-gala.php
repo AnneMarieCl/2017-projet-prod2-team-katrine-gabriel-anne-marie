@@ -32,9 +32,60 @@
                                 <p>De plus, être finaliste apporte une grande crédibilité à l'entreprise. Cette visibilité médiatique est donc appelée à perdurer, puisque les médias se tourneront vers des entreprises crédibles pour leurs différents dossiers par exemple. Les clients et partenaires seront aussi séduits par cette valeur ajoutée.</p>
                                 <p>Être finaliste au Gala Distinction Desjardins apporte tant de retombées positives! Pourquoi attendre avant de déposer votre candidature pour la prochaine édition?</p>
 
-                                 <!-- Édition en cours -->
+                                <!-- Édition en cours -->
                                 <h4 class="espaceenahut">Gala Distinction Desjardins 2016</h4>
                                 <p>Découvrez nos 4 finalistes pour le nom du prix Personnalité d'affaires féminine. Le nom choisi sera dévoilé en juin 2017. Un merci tout spécial aux familles de nos finalistes et à Madeleine Lacoursière de la Société d'histoire et de généalogie de Shawinigan qui ont contribué à la recherche et à la rédaction des biographies. Vous pouvez faire connaître votre choix par courriel à Martin St-Pierre, directeur général de la CCIS : <a href="mailto:martin@ccishawinigan.ca">martin@ccishawinigan.ca</a></p>
+
+                                <!-- Gagnants - Édition en cours -->
+                                <h4 class="espaceenahut">Gagnants de la 23e édition du Gala distinction Desjardins 2016</h4>
+                                <h5 class="format">Commerce de détail et restauration</h5>
+                                <h5 class="formatdeux">Canadian Tire/Entreprises Sylvie Drolet</h5>
+
+                                <h5 class="format">Tourisme et hébergement</h5>
+                                <h5 class="formatdeux">Défis du parc</h5>
+
+                                <h5 class="format">Employeur de choix</h5>
+                                <h5 class="formatdeux">Synapse Électronique</h5>
+
+                                <h5 class="format">Innovation et nouveaux marchés</h5>
+                                <h5 class="formatdeux">Conseillers en gestion et informatique CGI Inc</h5>
+
+                                <h5 class="format">Nouvelle entreprise</h5>
+                                <h5 class="formatdeux">Fait par une maman</h5>
+
+                                <h5 class="format">Entreprise manufacturière</h5>
+                                <h5 class="formatdeux">Synapse Électronique</h5>
+
+                                <h5 class="format">Entreprise de service aux particuliers</h5>
+                                <h5 class="formatdeux">Pépinière du Parc</h5>
+
+                                <h5 class="format">Entreprise de service aux entreprises</h5>
+                                <h5 class="formatdeux">Val-Mauricie électrique</h5>
+
+                                <h5 class="format">Économie sociale</h5>
+                                <h5 class="formatdeux">92,9 CFUT</h5>
+
+                                <h5 class="format">Relève entrepreneuriale</h5>
+                                <h5 class="formatdeux">ICO Technologies Inc</h5>
+
+                                <h5 class="format">Personnalité d'affaires féminine</h5>
+                                <h5 class="formatdeux">Marie-Josée Gervais</h5>
+
+                                <h5 class="format">Personnalité d'affaires masculine Gilles-Martel</h5>
+                                <h5 class="formatdeux">Roger Lavergne</h5>
+
+                                <h5 class="format">Prix du jury</h5>
+                                <h5 class="formatdeux">Sensée épicerie spécialisée</h5>
+
+                                <h5 class="format">Diversification économique</h5>
+                                <h5 class="police">Sim-Cognibox</h5>
+                                <h5 class="police">AddÉnergie</h5>
+                                <h5 class="police">Comaintel Inc</h5>
+
+                                <h5 class="format">Prix Coup de coeur du public</h5>
+                                <h5 class="formatdeux">Comméléo Inc</h5>
+
+                                <!-- Finalistes - Édition en cours -->
                             </div>
 
                             <!-- Section : Devenez membre -->
