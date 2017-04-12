@@ -15,51 +15,70 @@
                 <!-- Section : Événements -->
                 <section class="evenement">
                     <div class="row">
-                        <?php
-                            $args = array(
-                                'post_type' => 'evenement',
-                                'posts_per_page' => 2,
-                            );
+                            <?php
+                                $args = array(
+                                    'post_type' => 'evenement',
+                                    'posts_per_page' => 2,
+                                );
 
-                            $query = new WP_Query( $args );
+                                $query = new WP_Query( $args );
 
-                            if ( $query->have_posts() ) {
-                                while ( $query->have_posts() ) {
-                                    $query->the_post(); 
-                                    //
-                                    // Post Content here
-                                    //
-                        ?>
-
-                        <!-- Boucle des événements -->
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 texte">
-                            <p class="premiertruc"><?php the_category(); ?></p>
-                            <h3 class="espacedessous"><?php the_title(); ?></h3>
-                            <?php the_excerpt(); ?>
-                            <a href="<?php the_permalink()?>" class="rouge">En savoir plus</a><br>
-                            <a href="#"><p class="bouton">S'inscrire</p></a>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 image">
-                            <?php 
-                                if (has_post_thumbnail()){
-                                    the_post_thumbnail('evenement', array('class' => 'img-responsive'));
-                                }
-                                else {
-                                   echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="Logo officiel de la CCIS" class="img-responsive">';
-                                }
+                                if ( $query->have_posts() ) {
+                                    while ( $query->have_posts() ) {
+                                        $query->the_post(); 
+                                        //
+                                        // Post Content here
+                                        //
                             ?>
-                            <a href="#"></a>
-                            <span class="ruban pull-left"><?php the_category(); ?></span>
+
+                                    <!-- Boucle des événements -->
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="article">
+                                <div class="row">         
+                                    
+                                    <!-- Texte de l'article -->
+                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 infoevent">
+                                        <h4><?php the_title(); ?></h4>
+                                        <h6><?php the_field("auteur"); ?></h6>
+                                        <?php the_excerpt(); ?>
+                                        <a href="<?php the_permalink()?>">En savoir plus</a><br>
+                                        <a href="#"><p class="bouton">S'inscrire</p></a>
+                                    </div>
+                                    <!-- Image de l'article -->
+                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                        <div class="img-article">
+                                            <?php 
+                                            if (has_post_thumbnail()){
+                                                the_post_thumbnail('blogue', array('class' => 'img-responsive'));
+                                            }
+                                            else {
+                                                echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="Logo officiel de la CCIS" class="img-responsive">';
+                                            }
+                                            ?>
+                                            <span class="ruban pull-left"><?php the_category(); ?></span>
+                                            <div class="date">
+                                                <div class='square-box month-box'>
+                                                    <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span><?php the_time('F'); ?><span class = "fa fa-circle right-circle"></span></span></div></div>
+                                                </div>
+                                                <div class='square-box day-box'>
+                                                    <div class='square-content day-content'><div><span class="day"><?php the_time('j'); ?></span></div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                                
 
-                         <?php
-                                } // end while
+                                <?php
+                                        } // end while
 
 
-                            } // end if
-                            wp_reset_query();
-                        ?>
+                                    } // end if
+                                    wp_reset_query();
+                                ?>
+                                
                     </div>
                 </section>
 
@@ -92,7 +111,7 @@
                                         <div class="article">
                                             <div class="row">
                                                 <!-- Image de l'article -->
-                                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                                                     <div class="img-article">
                                                         <?php 
                                                         if (has_post_thumbnail()){
@@ -115,7 +134,7 @@
                                                 </div>
                                                 
                                                 <!-- Texte de l'article -->
-                                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 infoarticle">
+                                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 infoarticle">
                                                     <h4><?php the_title(); ?></h4>
                                                     <h6><?php the_field("auteur"); ?></h6>
                                                     <?php the_excerpt(); ?>
