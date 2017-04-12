@@ -1808,4 +1808,7 @@ div.marginpadding{
     aside.activite {
         min-height: 2200px;
     }
+    #post aside {
+        min-height: 2100px;
+    }
 }
