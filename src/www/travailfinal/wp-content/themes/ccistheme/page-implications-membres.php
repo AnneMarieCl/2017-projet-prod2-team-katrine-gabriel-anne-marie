@@ -8,7 +8,7 @@
                 <h1><?php the_title();?></h1>
             </div>
 
-            <!-- Section : Présentation de la chambre -->
+            <!-- Section : Implications  -->
             <section id="presentation-chambre" class="implications-membres">
                 <div class="container-fluid">
                     <div class="row">
