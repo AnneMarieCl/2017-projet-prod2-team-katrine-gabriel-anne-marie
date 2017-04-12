@@ -32,7 +32,7 @@
                                 <p>En plus d’organiser divers événements pour ses membres, la CCIS considère important de s’impliquer activement dans les activités externes répondant à son mandat.</p>
                                 <p class="gras">Vous désirez inviter la CCIS à s’impliquer dans votre événement?<br><a href="mailto:info@ccishawinigan.ca">info@ccishawinigan.ca</a></p> 
                             </div>
-                            
+
                             <!-- Section : Devenez membre -->
                             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/avatar-membre.png" alt="Devenez membre">
@@ -41,7 +41,7 @@
                             <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9 devenezmembre">
                                 <h4>DEVENEZ MEMBRE</h4>
                                 <p class="espacebas">Être membre de la CCIS, c'est choisir de solidifier ses acquis en partageant votre expertise et celle d'autres membres tout en bénéficiant de plusieurs services vous donnant accès à une clientèle privilège.</p>
-                                <a href="http://localhost:8000/travailfinal/index.php/espace-membre/" id="moreinfo">En savoir plus</a>
+                                <a href="http://localhost:8000/travailfinal/index.php/devenir-membre/" id="moreinfo">En savoir plus</a>
                             </div>
                         </div>
                         
