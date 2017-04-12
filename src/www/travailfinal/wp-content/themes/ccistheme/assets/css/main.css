@@ -1231,7 +1231,9 @@ div.marginpadding{
     .image .ruban {
         width: 40%!important;
     }
-
+    .article a {
+        font-size: 17px;
+    }
     /* Section devenir membre index */
     img.fond {
         height: 100%;
@@ -1586,6 +1588,9 @@ div.marginpadding{
     }
     .col-md-3 {
     width: 24%;
+    }
+    .article a {
+        font-size: 14px;
     }
     /* #################### PUBLICATION ET BLOGUE INDEX #################### */
     .image .ruban {
