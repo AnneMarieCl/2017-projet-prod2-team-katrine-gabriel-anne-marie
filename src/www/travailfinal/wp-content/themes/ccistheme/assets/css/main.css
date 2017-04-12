@@ -1126,7 +1126,6 @@ div.marginpadding{
         text-align: center;
         font-size: 8pt;
     }
-    
     #menu-item-26:hover {
         margin-bottom: 130px;
     }   
@@ -1161,7 +1160,7 @@ div.marginpadding{
     #bs-example-navbar-collapse-1 #menu-item-26 li{
         padding:10px 0;
     }
-/* Slider */
+    /* Slider */
     img.un {
         display: none;
     }
@@ -1261,7 +1260,7 @@ div.marginpadding{
         margin:0;
         padding-left: 0px;
     }
-/* #################### SECTION ÉVÉNEMENTS #################### */
+    /* #################### SECTION ÉVÉNEMENTS #################### */
     .premiertruc {
         padding-top: 50px;
     }
@@ -1521,7 +1520,6 @@ div.marginpadding{
      .contact>li>a { 
         font-size:7pt;
     }
-
     #menu-deroulant, #menu-deroulant ul {
         font-size: 7pt;
         margin-right: -20px;
@@ -1531,7 +1529,7 @@ div.marginpadding{
         background-color: white;
     }
     #menu-item-32 {
-    margin-top: -51px!important;
+        margin-top: -51px!important;
     }
     /* #################### SLIDER #################### */
     .tp-parallax-wrap {
@@ -1544,7 +1542,7 @@ div.marginpadding{
         font-size: 18px!important;
     } 
     .image-1 p {
-    padding-bottom: 15px; 
+        padding-bottom: 15px; 
     }
     /* #################### EVENEMENT #################### */
     .image {
@@ -1555,7 +1553,7 @@ div.marginpadding{
         top:42%;
     }
     .col-md-3 {
-    width: 24%;
+        width: 24%;
     }
     .article a {
         font-size: 14px;
@@ -1570,7 +1568,7 @@ div.marginpadding{
         width: 66%;
     }
     .sidebar-am {
-    padding-left: 15px;
+        padding-left: 15px;
     }
     /* #################### DEVENIR MEMBRE INDEX #################### */
     .devenir-membre h2 {
@@ -1692,7 +1690,7 @@ div.marginpadding{
         padding-right: 8%;
     }
     .paragraphe {
-           padding-right: 8%;
+        padding-right: 8%;
     }
     /* Grosseur des polices dans la sidebar */
     aside h2 {
@@ -1710,7 +1708,7 @@ div.marginpadding{
         width: 75%;
     }
     .sidebar-am {
-    padding-left: 25px;
+        padding-left: 25px;
     }
     /* #################### PARTENAIRES #################### */
     .partenaire {
