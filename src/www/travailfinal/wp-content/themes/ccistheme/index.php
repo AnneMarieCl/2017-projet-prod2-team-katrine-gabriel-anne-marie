@@ -63,127 +63,149 @@
                     </div>
                 </section>
 
-                <!-- Section : Publications -->          
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9 enleve-padding">  
-                        <section class="publication">
-                            <div class="row enleve-margin">
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titre">
-                                    <h3>Publications</h3>
-                                </div>
-                            </div>
-                                <?php
-                                $args = array(
-                                    'post_type' => 'publication',
-                                    'posts_per_page' => 2,
-                                );
-
-                                $query = new WP_Query( $args );
-        
-                                    if ( $query->have_posts() ) {
-                                        while ( $query->have_posts() ) {
-                                            $query->the_post(); 
-                                            //
-                                            // Post Content here
-                                            //
-                                ?>
-                            
+                <!-- Section : Publications --> 
+                <section id="post">                    
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                             <div class="row">
-                                <!-- Image -->
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 image">
-                                    <?php 
-                                            if (has_post_thumbnail()){
-                                                the_post_thumbnail('evenement', array('class' => 'img-responsive'));
-                                            }
-                                            else {
-                                                echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="Logo officiel de la CCIS" class="img-responsive">';
-                                            }
-                                    ?>
-                                    <a href="#"></a>
-                                    <span class="ruban pull-left"><?php the_category(); ?></span>
-                                </div>
 
-                                <!-- Description -->
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 texte">
-                                    <h2><?php the_title(); ?></h2>
-                                    <?php the_excerpt(); ?>
-                                    <a href="<?php the_permalink()?>"><p class="lien">Lire la suite</p></a>
-                                    <a href="index.php/publications"><p class="lien">Allez aux publications</p></a>
-                                </div>
-                            </div>
-                                <?php
-                                    } // end while
+                                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
+                                    <section class="publication">
+                                        <h3 class="titre">Publications</h3>
+                                        <?php
 
+                                            $args = array(
+                                                'post_type' => 'publication',
+                                                'posts_per_page' => 2,
+                                            );
 
-                                        } // end if
-                                        wp_reset_query();
-                                ?>
-                        </section>
+                                            $query = new WP_Query( $args );
 
-                        <!-- Section : Blogue -->
-                        <section class="blogue">
-                            <div class="row">
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titre">
-                                    <h3>Blogue</h3>
-                                </div>
-                            </div>
-                            <?php
-                                $args = array(
-                                    'post_type' => 'post',
-                                    'posts_per_page' => 2,
-                                );
+                                            if ( $query->have_posts() ) {
+                                                while ( $query->have_posts() ) {
+                                                    $query->the_post(); 
+                                                    //
+                                                    // Post Content here
+                                                    //
+                                        ?>
 
-                                $query = new WP_Query( $args );
-        
-                                    if ( $query->have_posts() ) {
-                                        while ( $query->have_posts() ) {
-                                            $query->the_post(); 
-                                            //
-                                            // Post Content here
-                                            //
-                            ?>
-                            <div class="row">
-                                <!-- Image -->
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 image">
-                                             <div class="img-article">
-                                                    <?php 
-                                                    if (has_post_thumbnail()){
-                                                        the_post_thumbnail('blogue', array('class' => 'img-responsive'));
-                                                    }
-                                                    else {
-                                                        echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="Logo officiel de la CCIS" class="img-responsive">';
-                                                    }
-                                                    ?>
-                                                    <span class="ruban pull-left"><?php the_category(); ?></span>
-
+                                        <div class="article">
+                                            <div class="row">
+                                                <!-- Image de l'article -->
+                                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                                                    <div class="img-article">
+                                                        <?php 
+                                                        if (has_post_thumbnail()){
+                                                            the_post_thumbnail('blogue', array('class' => 'img-responsive'));
+                                                        }
+                                                        else {
+                                                            echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="Logo officiel de la CCIS" class="img-responsive">';
+                                                        }
+                                                        ?>
+                                                        <span class="ruban pull-left"><?php the_category(); ?></span>
+                                                        <div class="date">
+                                                            <div class='square-box month-box'>
+                                                                <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span><?php the_time('F'); ?><span class = "fa fa-circle right-circle"></span></span></div></div>
+                                                            </div>
+                                                            <div class='square-box day-box'>
+                                                                <div class='square-content day-content'><div><span class="day"><?php the_time('j'); ?></span></div></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                    <a href="#"></a>
-                                    <span class="ruban pull-left"><?php the_category(); ?></span>
+                                                
+                                                <!-- Texte de l'article -->
+                                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 infoarticle">
+                                                    <h4><?php the_title(); ?></h4>
+                                                    <h6><?php the_field("auteur"); ?></h6>
+                                                    <?php the_excerpt(); ?>
+                                                    <a href="<?php the_permalink()?>">Lire la suite</a>
+                                                    <a class="second-link" href="index.php/publication">Allez aux publications</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <?php
+                                            } // end while
+
+
+                                                } // end if
+                                                wp_reset_query();
+                                        ?>
+                                    </section>
+                                    <section class="blogue">       
+                                        <h3 class="titre">Blogue</h3>
+                                        <?php
+
+                                            $args = array(
+                                                'post_type' => 'post',
+                                                'posts_per_page' => 2,
+                                            );
+
+                                            $query = new WP_Query( $args );
+
+                                            if ( $query->have_posts() ) {
+                                                while ( $query->have_posts() ) {
+                                                    $query->the_post(); 
+                                                    //
+                                                    // Post Content here
+                                                    //
+                                        ?>
+
+                                        <div class="article">
+                                            <div class="row">
+                                                <!-- Image de l'article -->
+                                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                                                    <div class="img-article">
+                                                        <?php 
+                                                        if (has_post_thumbnail()){
+                                                            the_post_thumbnail('blogue', array('class' => 'img-responsive'));
+                                                        }
+                                                        else {
+                                                            echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="Logo officiel de la CCIS" class="img-responsive">';
+                                                        }
+                                                        ?>
+                                                        <span class="ruban pull-left"><?php the_category(); ?></span>
+                                                        <div class="date">
+                                                            <div class='square-box month-box'>
+                                                                <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span><?php the_time('F'); ?><span class = "fa fa-circle right-circle"></span></span></div></div>
+                                                            </div>
+                                                            <div class='square-box day-box'>
+                                                                <div class='square-content day-content'><div><span class="day"><?php the_time('j'); ?></span></div></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <!-- Texte de l'article -->
+                                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 infoarticle">
+                                                    <h4><?php the_title(); ?></h4>
+                                                    <h6><?php the_field("auteur"); ?></h6>
+                                                    <?php the_excerpt(); ?>
+                                                    <a href="<?php the_permalink()?>">Lire la suite</a>
+                                                    <a class="second-link" href="index.php/blogue">Allez sur le blogue</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <?php
+                                            } // end while
+
+
+                                                } // end if
+                                                wp_reset_query();
+                                        ?>
+                                    </section>
                                 </div>
-                                
-                                <!-- Texte -->
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 texte">
-                                    <h2><?php the_title(); ?></h2>
-                                    <?php the_excerpt(); ?>
-                                    <a href="<?php the_permalink()?>"><p class="lien">Lire la suite</p></a>
-                                    <a href="index.php/blogue"><p class="lien">Allez sur le blogue</p></a>
-                                </div>
+
                             </div>
-                            
-                            <?php
-                                    } // end while
-
-
-                                        } // end if
-                                        wp_reset_query();
-                            ?>
-                            </section>
-                        </div>   
-
-                        <!-- Sidebar -->
-                        <aside class="hidden-xs hidden-sm col-md-4 col-lg-3 activite">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-titre2">
+                        
+                        </div>
+                        
+                    <!-- Sidebar -->
+                    <aside class="hidden-xs hidden-sm col-md-4 col-lg-3 blog">
+                        <div class="row">  
+                            <div class="hidden-xs hidden-sm col-md-12 col-lg-12 padding-titre">
                                 <ul>
                                     <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-index' ) ) : Endif; ?>
                                 </ul>
@@ -191,7 +213,8 @@
                         </div>
                     </aside>
 
-                </div>
+                    </div>
+                </section>
             </div>
 
             <!-- Section : Devenir membre --> 
