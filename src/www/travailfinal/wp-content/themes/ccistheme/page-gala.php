@@ -35,7 +35,11 @@
                                 <!-- Édition en cours -->
                                 <h4 class="espaceenahut">Gala Distinction Desjardins 2017</h4>
                                 <p>Découvrez nos 4 finalistes pour le nom du prix Personnalité d'affaires féminine. Le nom choisi sera dévoilé en juin 2017. Un merci tout spécial aux familles de nos finalistes et à Madeleine Lacoursière de la Société d'histoire et de généalogie de Shawinigan qui ont contribué à la recherche et à la rédaction des biographies. Vous pouvez faire connaître votre choix par courriel à Martin St-Pierre, directeur général de la CCIS : <a href="mailto:martin@ccishawinigan.ca">martin@ccishawinigan.ca</a></p>
-
+                                <h5 class="">Finaliste : <span class="redausurvol"><a href="#">Jeannette Laflamme</a></span></h5>
+                                <h5 class="">Finaliste : <span class="redausurvol"><a href="http://localhost:8000/travailfinal/index.php/biographie-pauline-b-allard/">Pauline B Allard</a></span></h5>
+                                <h5 class="">Finaliste : <span class="redausurvol"><a href="http://localhost:8000/travailfinal/index.php/biographie-lise-lavergne/">Lise Lavergne</a></span></h5>
+                                <h5 class="">Finaliste : <span class="redausurvol"><a href="#">Jeanne Fortin</a></span></h5>
+                                
                                 <!-- Gagnants - Édition en cours -->
                                 <h4 class="espaceenahut">Gagnants et finalistes de la 23e édition du Gala Distinction Desjardins 2016</h4>
                                 <h5 class="format">Commerce de détail et restauration</h5>
