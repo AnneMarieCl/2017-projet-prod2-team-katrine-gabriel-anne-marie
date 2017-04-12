@@ -130,31 +130,34 @@ ul.contact{
 /* sous-menu espace membre */ 
 li#menu-item-61 ul.sub-menu {
     margin-left: -807px;
+    font-size: 9pt;
 }
 li#menu-item-237 {
-    margin-top: 35px;
+    margin-top: 25px;
     padding-bottom: 0px;
-    font-size: 10px;
+    margin-left: -20px
 }
 li#menu-item-251 {
-    font-size: 10px;
-    padding-top: 5px!important;
+    padding-left: 10%;
+    margin-top: -60px;
 }
 li#menu-item-252 {
-    font-size: 10px;
-    padding-top: 5px!important;
+    padding-left: 10%;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 li#menu-item-240 {
-    font-size: 10px;
-    padding-top: 5px!important;
+    padding-top: 25px;
+    margin-left: -20px
 }
 li#menu-item-241 {
-    font-size: 10px;
-    padding-top: 5px!important;
+    padding-left: 20%;
+    margin-top: -86px;
 }
 li#menu-item-242 {
-    font-size: 10px;
-    padding-top: 5px!important;
+    padding-left: 20%;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 /* #################### SLIDER #################### */
 .slider {
