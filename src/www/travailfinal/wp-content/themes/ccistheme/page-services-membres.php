@@ -21,9 +21,7 @@
                                 <h4 class="espaceenahut">Rabais et privilèges</h4>
                                 <ul>
                                     <li>La microbrasserie Le Trou du diable offre aux membres de la CCIS un rabais de 50% sur palette avec l'achat d'un repas. Profitez des excellents produits de la microbrasserie avec cette offre exclusive!</li>
-
                                     <li>DigiFilm média-Presse offre 15% de rabais aux membres de la CCIS pour toutes leurs productions vidéos.</li>
-
                                     <li>Quoly offre gratuitement aux membres de la CCIS un audit technique sommaire de votre site web. Quoly analysera notamment les façons d'améliorer votre référencement web et d'augmenter le nombre de visites sur votre site.</li>
                                 </ul>
                                 

@@ -19,7 +19,6 @@
 
                                 <!-- Les membres -->
                                 <h4 class="espaceenahut">Qui sont nos membres</h4>
-
                                 <p>Nous effectuons présentement une mise à jour complète du profil de nos 600 membres. Nous vous présenterons cet automne un portrait détaillé de notre membership.</p>
                             </div>
 
