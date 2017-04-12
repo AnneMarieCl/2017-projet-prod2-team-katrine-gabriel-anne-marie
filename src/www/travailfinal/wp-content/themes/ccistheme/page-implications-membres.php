@@ -9,7 +9,7 @@
             </div>
 
             <!-- Section : Présentation de la chambre -->
-            <section id="presentation-chambre" class="implications">
+            <section id="presentation-chambre" class="implications-membres">
                 <div class="container-fluid">
                     <div class="row">
                         
