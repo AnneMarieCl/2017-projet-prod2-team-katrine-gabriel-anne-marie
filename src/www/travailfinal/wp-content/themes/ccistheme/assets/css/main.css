@@ -1960,9 +1960,13 @@ div.marginpadding{
     .partenaire {
         margin-top: 150px;
     } 
-    #blog aside, #publications aside {
+    #publications aside {
         padding-top: 50px;
         min-height: 3000px;
+    }
+    #blog aside {
+        padding-top: 50px;
+        min-height: 4000px;
     }
     aside.formation {
         min-height: 2100px!important;
