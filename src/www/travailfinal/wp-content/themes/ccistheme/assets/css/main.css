@@ -1266,6 +1266,9 @@ div.marginpadding{
         margin:0;
         padding-left: 0px;
     }
+    #blog > div > div > div > div > div > h3 {
+        margin-top: 80px;
+    }
     /* #################### SECTION ÉVÉNEMENTS #################### */
     .premiertruc {
         padding-top: 50px;
