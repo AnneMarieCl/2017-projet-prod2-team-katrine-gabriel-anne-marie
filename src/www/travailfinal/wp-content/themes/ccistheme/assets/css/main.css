@@ -127,6 +127,10 @@ ul.contact{
 .navbar {
     border:none;
 }
+/* sous-menu espace membre */ 
+li#menu-item-61 ul.sub-menu {
+    margin-left: -807px;
+}
 /* #################### SLIDER #################### */
 .slider {
     padding-top: 50px;
