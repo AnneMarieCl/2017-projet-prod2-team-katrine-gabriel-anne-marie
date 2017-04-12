@@ -817,14 +817,16 @@ div.background-image{
 }
 /* Liens dans la sidebar */
 #presentation-chambre div.menu-menu-ccis-container a,
-#presentation-chambre div.menu-menu-membre-container a{
+#presentation-chambre div.menu-menu-membre-container a,
+#babillard div.menu-menu-membre-container a{
     background-color: transparent;
     color:#455560;
     padding: 15px 40px 15px 0px;
     border-bottom: 1px solid #455560;
     text-align: right;
 }
-#presentation-chambre > div > div > aside > ul, #presentation-chambre > div > div > aside{
+#presentation-chambre > div > div > aside > ul, #presentation-chambre > div > div > aside,
+#babillard > div > div > aside{
     margin:0;
     padding:0;
 }
@@ -861,7 +863,8 @@ aside h2 {
     color: #c6262d;
 }
 #presentation-chambre div.menu-menu-ccis-container a:hover,
-#presentation-chambre div.menu-menu-membre-container a:hover{
+#presentation-chambre div.menu-menu-membre-container a:hover,
+#babillard div.menu-menu-membre-container a:hover{
     background-color: #ee3a43;
     color:#ffffff;
 }
