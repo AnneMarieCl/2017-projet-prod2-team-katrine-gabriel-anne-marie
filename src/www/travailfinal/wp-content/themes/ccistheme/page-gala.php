@@ -34,7 +34,7 @@
 
                                  <!-- Édition en cours -->
                                 <h4 class="espaceenahut">Gala Distinction Desjardins 2016</h4>
-                                <p>Découvrez nos 4 finalistes pour le nom du prix Personnalité d'affaires féminine. Le nom choisi sera dévoilé en juin 2017. Un merci tout spécial aux familles de nos finalistes et à Madeleine Lacoursière de la Société d'histoire et de généalogie de Shawinigan qui ont contribué à la recherche et à la rédaction des biographies. </p>
+                                <p>Découvrez nos 4 finalistes pour le nom du prix Personnalité d'affaires féminine. Le nom choisi sera dévoilé en juin 2017. Un merci tout spécial aux familles de nos finalistes et à Madeleine Lacoursière de la Société d'histoire et de généalogie de Shawinigan qui ont contribué à la recherche et à la rédaction des biographies. Vous pouvez faire connaître votre choix par courriel à Martin St-Pierre, directeur général de la CCIS : <a href="mailto:martin@ccishawinigan.ca">martin@ccishawinigan.ca</a></p>
                             </div>
 
                             <!-- Section : Devenez membre -->
