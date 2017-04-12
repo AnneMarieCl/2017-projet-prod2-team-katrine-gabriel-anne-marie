@@ -830,6 +830,12 @@ div.background-image{
     margin:0;
     padding:0;
 }
+#babillard > div > div > aside {
+    min-height: 1000px;
+}
+aside.aside-gala {
+    min-height: 4000px;
+}
 /* Liens dans la sidebar */
 aside h2 {
     font-size: 24px;
@@ -1734,6 +1740,10 @@ div.marginpadding{
     #presentation-chambre div.menu-menu-ccis-container a{
         padding: 15px 20px 15px 0px;
     }
+    /* aside page gala */
+    aside.aside-gala {
+    min-height: 5000px;
+    }
     /* #################### PUBLICATIONS ET BLOGUE #################### */
     /*Correction fonts*/
     #post-type ul li{
@@ -1813,6 +1823,10 @@ div.marginpadding{
     /* aside blogue */
     #blog aside {
         min-height: 2800px;
+    }
+    /* aside page gala */
+    aside.aside-gala {
+    min-height: 4500px;
     }
      /* #################### DEVENIR MEMBRE INDEX #################### */
     .devenir-membre h2 {
