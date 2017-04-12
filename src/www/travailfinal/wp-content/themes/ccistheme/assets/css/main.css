@@ -1517,16 +1517,6 @@ div.marginpadding{
     .article .ruban {
         width: 50%;
     }
-    /* #################### SIDEBAR INDEX #################### */
-    aside .date {
-        left:9%;
-    }
-    .sidebar-am h4 {
-        padding-left: 4%;
-    }
-    #index aside p {
-        padding-left: 4%;
-    }
     /* #################### DEVENIR MEMBRE INDEX #################### */
         img.fond {
         height: 100%;
@@ -1744,6 +1734,10 @@ div.marginpadding{
     aside.aside-gala {
     min-height: 5000px;
     }
+    /* aside page implications-membres */
+    aside.aside-implications-membres {
+        min-height: 900px;
+    }
     /* #################### PUBLICATIONS ET BLOGUE #################### */
     /*Correction fonts*/
     #post-type ul li{
@@ -1828,6 +1822,10 @@ div.marginpadding{
     aside.aside-gala {
     min-height: 4500px;
     }
+    /* aside page implications-membres */
+    aside.aside-implications-membres {
+        min-height: 900px;
+    }
      /* #################### DEVENIR MEMBRE INDEX #################### */
     .devenir-membre h2 {
         padding-top: 7%;
@@ -1893,6 +1891,10 @@ div.marginpadding{
     aside h2 {
         font-size: 20px;
     }
+    /* aside page implications-membres */
+    aside.aside-implications-membres {
+        min-height: 900px;
+    }
     /*####################### slider ############################*/
     .tp-parallax-wrap {
         left:16%!important;
@@ -1934,5 +1936,9 @@ div.marginpadding{
     }
     #post aside {
         min-height: 2100px;
+    }
+    /* aside page implications-membres */
+    aside.aside-implications-membres {
+        min-height: 900px;
     }
 }
