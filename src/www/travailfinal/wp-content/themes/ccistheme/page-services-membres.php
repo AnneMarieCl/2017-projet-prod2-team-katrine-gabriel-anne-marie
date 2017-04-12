@@ -13,9 +13,9 @@
                 <div class="container-fluid">
                     <div class="row">
 
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                             <div id="margedroite" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <h3>Espace Membre</h3>
+                                <h3>Services au membres</h3>
 
                                 <!-- Les membres -->
                                 <h4 class="espaceenahut">Qui sont nos membres</h4>
@@ -72,7 +72,13 @@
                                 <p>Chaque jeudi à 16h50 sur les ondes du 92,9 CFUT, le directeur général de la CCIS Martin St-Pierre présente sa chronique économique qui porte sur l'actualité économique locale et régionale. Nous restons à l'affût de l'actualité qui touche nos membres de près!</p>
                             </div>
                         </div>    
-                        
+                                                <!-- Sidebar -->
+                        <aside class="hidden-xs hidden-sm col-md-3 col-lg-3">
+                            <ul>
+                                <!-- Côté droit -->
+                                <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-membre' ) ) : Endif; ?>
+                            </ul>
+                        </aside>
                     </div>
                 </div>
             </section>   
