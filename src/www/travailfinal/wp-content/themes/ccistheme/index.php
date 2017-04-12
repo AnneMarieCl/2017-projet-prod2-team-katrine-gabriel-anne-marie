@@ -273,13 +273,11 @@
             <!-- Section : Partenaires -->
             <section class="partenaire">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 texte2">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 texte2">
                         <h3>Nos partenaires</h3>
                     </div>
-                    <div class="col-xs-hidden col-sm-hidden col-md-6 col-lg-8">
-                        
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 texte3">
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 texte3 text-right">
                         <a class="bouton-partn" href="http://localhost:8000/travailfinal/index.php/conseil-administration/"><p>Voir tous les partenaires</p></a>
                     </div>
                 </div>
