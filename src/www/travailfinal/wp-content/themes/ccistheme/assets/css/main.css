@@ -1705,6 +1705,10 @@ div.marginpadding{
     aside h2 {
         font-size: 20px;
     }
+    /* sidebar blogue */
+    #blog aside {
+        min-height: 2800px;
+    }
     /* PAGE DE LA CCIS */
     /* Grandeur du background de la sidebar page présentation de la chambre */
     #presentation-chambre.ccis aside{
@@ -1805,6 +1809,10 @@ div.marginpadding{
     /* Grosseur des polices dans la sidebar */
     aside h2 {
         font-size: 20px;
+    }
+    /* aside blogue */
+    #blog aside {
+        min-height: 2800px;
     }
      /* #################### DEVENIR MEMBRE INDEX #################### */
     .devenir-membre h2 {
