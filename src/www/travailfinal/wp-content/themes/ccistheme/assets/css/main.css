@@ -16,7 +16,6 @@ h1 {
     color: #fff;
     text-transform: uppercase;
 }
-
 .logo {
     position: absolute;
     background-color: white;
@@ -35,7 +34,6 @@ a.logo img{
 ul.contact{ 
     height:40px;
     padding-top: 10px;
-            
 }
 .menu-contact {
     background-color: white;
@@ -58,7 +56,6 @@ ul.contact{
 .navbar-default .navbar-nav>li>a:hover {
     color: #ee3a43;
 }
-
 #bs-example-navbar-collapse-1 {
     height: 80px!important;
 }
@@ -76,12 +73,10 @@ ul.contact{
 .navbar-default .navbar-nav.menu-principal>li>a { 
     color: white;
 }
-
 .nav.menu-principal>li>a:hover { 
     background-color: #c6262d;
     height: 80px;  
 }
-
 /*** MENU DÉROULANT ***/
 #menu-deroulant, #menu-deroulant ul {
     list-style: none;
@@ -225,7 +220,6 @@ select{
 .texte span {
     text-transform: uppercase;
 }
-
 /* #################### DEVENIR MEMBRE #################### */
 img.fond {
     position: absolute;
@@ -244,7 +238,6 @@ a.bouton {
     text-align: center;
     color: white;
 }
-
 .second-link {
     margin-left: 50px; 
 }
@@ -488,11 +481,9 @@ p #publish_date{
     border: none;
 }
 /* Navigation */
-
 .pagination-fin {
     margin-bottom: 75px;
 }
-
 .pagination a, .pagination span{
     padding: 10px;
     background: #ee3a43;
@@ -500,17 +491,14 @@ p #publish_date{
     font-size: 16px;
     margin-top: 50px;
 }
-
 .pagination a:hover, .pagination span {
     background:#c6262d; 
 }
-
 /* Style des articles */
 .article {
     padding: 50px 0;
     border-bottom: 1px #ee3a43 solid;
 }
-
 .article a {
     color: #ee3a43;
     font-size: 18px;
@@ -945,7 +933,6 @@ div.marginpadding{
     padding-top: 120px;
     margin-top: 50px;
 }
-
 #blog-single aside {
     margin-top: -50px;
     padding-top: 50px;
@@ -954,7 +941,6 @@ div.marginpadding{
 #blog-single .row{
     margin: 0;
 }
-
 #blog-single .ruban {
     width: 100%;
     background: #ee3a43;
@@ -970,27 +956,22 @@ div.marginpadding{
     padding: 0;
     margin: 0;
 }
-
 #blog-single .ruban ul li{
     display: block;
     padding: 5px;
     font-size: 15pt;
 }
-
 #blog-single .wp-post-image {
     padding-left: 0!important;
     padding-bottom: 0;
     margin:0 10px 10px 0;
 }
-
 #blog-single .ruban ul li a{
     color: #fff;
 }
-
 #blog-single textarea {
     margin-bottom: 15px;
 }
-
 #blog-single .btn {
     background: #ee3a43;
     color: #fff;
@@ -998,51 +979,40 @@ div.marginpadding{
     border-color: transparent;
     padding: 10px 50px;
 }
-
 #blog-single .btn:hover {
     background: #c6262d;
 }
-
 .previous-article, .next-article {
     color: #ee3a43;
     font-size: 18px;
     margin-top: 50px;
 }
-
 .previous-article:hover, .next-article:hover{
     color: #c6262d;
 }
-
 .previous-article a, .next-article a{
     color: #ee3a43;
 }
-
 .previous-article a:hover, .next-article a:hover{
     color: #c6262d;
 }
-
 #publish_date span {
     color: #ee3a43;
 }
-
 /* Enlever les contour arrondi  */
 .form-control {
     border-radius:0px;
 }
-
 #blog-single .pager li {
     width: auto;
     margin-bottom: 15px;
 }
-
 #blog-single .pager li a {
     padding: 0;
 }
-
 #blog-single .pager li {
     margin-bottom: 70px;
 }
-
 /* ########### Galerie de photos ########### */
 /* Enlever les espaces blancs */
 .photos-presentation div{
@@ -1053,31 +1023,29 @@ div.marginpadding{
     position: relative;
 }
 .middle {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #c6262d;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #c6262d;
 }
 
 .container:hover .middle {
-  opacity: 0.7;
+    opacity: 0.7;
 }
-
 .text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
 /* #################### RESPONSIVE #################### */
 /* X-Small device */
 @media (max-width: 767px){
