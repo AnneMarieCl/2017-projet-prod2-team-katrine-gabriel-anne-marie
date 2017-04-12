@@ -816,7 +816,8 @@ div.background-image{
     color: #ee3a43;
 }
 /* Liens dans la sidebar */
-#presentation-chambre div.menu-menu-ccis-container a{
+#presentation-chambre div.menu-menu-ccis-container a,
+#presentation-chambre div.menu-menu-membre-container a{
     background-color: transparent;
     color:#455560;
     padding: 15px 40px 15px 0px;
@@ -859,7 +860,8 @@ aside h2 {
     background: none;
     color: #c6262d;
 }
-#presentation-chambre div.menu-menu-ccis-container a:hover{
+#presentation-chambre div.menu-menu-ccis-container a:hover,
+#presentation-chambre div.menu-menu-membre-container a:hover{
     background-color: #ee3a43;
     color:#ffffff;
 }
