@@ -464,7 +464,7 @@ p #publish_date{
 }
 /* pour les singles */
 #blog-single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > p > a,
-#margedroite > h5 > span > a, {
+#margedroite > h5 > span > a{
     color:#333;
 }
 #babillard > div > div > div > div > div > div > div > div.col-xs-12.col-sm-6.col-md-6.col-lg-8.infoarticle > p > a.rouge {
