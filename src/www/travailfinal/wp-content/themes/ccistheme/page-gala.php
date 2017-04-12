@@ -21,6 +21,17 @@
                                 <h4 class="espaceenahut">Devenir membre</h4>
                                 <p>Bacon ipsum dolor amet esse culpa deserunt picanha tail, ut sint kevin duis velit sunt. Est cupim do incididunt salami, ea tri-tip sed veniam magna culpa. Chicken meatloaf ut, excepteur nulla aliquip exercitation sunt tenderloin consectetur pork drumstick id tail. Short ribs aute ex porchetta burgdoggen pork chop et non ullamco laboris pork loin laborum. Shank rump laboris swine labore.</p>
                             </div>
+
+                            <!-- Section : Devenez membre -->
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/avatar-membre.png" alt="Devenez membre">
+                            </div>
+                                                        
+                            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9 devenezmembre">
+                                <h4>DEVENEZ MEMBRE</h4>
+                                <p class="espacebas">Être membre de la CCIS, c'est choisir de solidifier ses acquis en partageant votre expertise et celle d'autres membres tout en bénéficiant de plusieurs services vous donnant accès à une clientèle privilège.</p>
+                                <a href="http://localhost:8000/travailfinal/index.php/espace-membre/" id="moreinfo">En savoir plus</a>
+                            </div>
                         </div>    
                         
                         <!-- Sidebar -->

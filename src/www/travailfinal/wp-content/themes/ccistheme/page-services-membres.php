@@ -65,8 +65,20 @@
                                 <h4 class="espaceenahut">Chroniques économique au 92,9 CFUT</h4>
                                 <p>Chaque jeudi à 16h50 sur les ondes du 92,9 CFUT, le directeur général de la CCIS Martin St-Pierre présente sa chronique économique qui porte sur l'actualité économique locale et régionale. Nous restons à l'affût de l'actualité qui touche nos membres de près!</p>
                             </div>
+                            
+                            <!-- Section : Devenez membre -->
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/avatar-membre.png" alt="Devenez membre">
+                            </div>
+                                                        
+                            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9 devenezmembre">
+                                <h4>DEVENEZ MEMBRE</h4>
+                                <p class="espacebas">Être membre de la CCIS, c'est choisir de solidifier ses acquis en partageant votre expertise et celle d'autres membres tout en bénéficiant de plusieurs services vous donnant accès à une clientèle privilège.</p>
+                                <a href="http://localhost:8000/travailfinal/index.php/espace-membre/" id="moreinfo">En savoir plus</a>
+                            </div>
                         </div>    
-                                                <!-- Sidebar -->
+                        
+                        <!-- Sidebar -->
                         <aside class="hidden-xs hidden-sm col-md-3 col-lg-3">
                             <ul>
                                 <!-- Côté droit -->
