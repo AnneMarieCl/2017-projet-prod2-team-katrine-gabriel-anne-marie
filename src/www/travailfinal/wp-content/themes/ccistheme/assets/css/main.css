@@ -16,6 +16,9 @@ h1 {
     color: #fff;
     text-transform: uppercase;
 }
+h5.police {
+    font-size: 15px;
+}
 .logo {
     position: absolute;
     background-color: white;
@@ -1679,9 +1682,6 @@ div.marginpadding{
     .article .ruban {
         width: 66%;
     }
-    .sidebar-am {
-        padding-left: 15px;
-    }
     /* #################### DEVENIR MEMBRE INDEX #################### */
     .devenir-membre h2 {
         padding-top: 15px;
@@ -1819,9 +1819,6 @@ div.marginpadding{
     }
     a.bouton {
         width: 75%;
-    }
-    .sidebar-am {
-        padding-left: 25px;
     }
     /* #################### PARTENAIRES #################### */
     .partenaire {
