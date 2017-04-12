@@ -35,7 +35,7 @@
                         </div>    
                         
                         <!-- Sidebar -->
-                        <aside class="hidden-xs hidden-sm col-md-3 col-lg-3">
+                        <aside class="hidden-xs hidden-sm col-md-3 col-lg-3 sidebar-repertoire">
                             <ul>
                                 <!-- Côté droit -->
                                 <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar( 'sidebar-membre' ) ) : Endif; ?>

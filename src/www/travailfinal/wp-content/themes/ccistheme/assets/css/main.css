@@ -1746,6 +1746,10 @@ div.marginpadding{
     aside.sidebar-devenir {
         min-height: 800px;
     }
+    /* aside page répertoire */
+    aside.sidebar-repertoire {
+        min-height: 600px;
+    }
     /* #################### PUBLICATIONS ET BLOGUE #################### */
     /*Correction fonts*/
     #post-type ul li{
@@ -1842,6 +1846,10 @@ div.marginpadding{
     aside.sidebar-devenir {
         min-height: 700px;
     }
+    /* aside page répertoire */
+    aside.sidebar-repertoire {
+        min-height: 600px;
+    }
      /* #################### DEVENIR MEMBRE INDEX #################### */
     .devenir-membre h2 {
         padding-top: 7%;
@@ -1927,6 +1935,10 @@ div.marginpadding{
     aside.sidebar-devenir {
         min-height: 600px;
     }
+    /* aside page répertoire */
+    aside.sidebar-repertoire {
+        min-height: 600px;
+    }
 }
 /* XX-Large device */
 @media screen and (min-width: 1702px) and ( max-width: 4000px) {
@@ -1971,6 +1983,10 @@ div.marginpadding{
     }
     /* aside page devenir membre */
     aside.sidebar-devenir {
+        min-height: 600px;
+    }
+    /* aside page répertoire */
+    aside.sidebar-repertoire {
         min-height: 600px;
     }
 }
