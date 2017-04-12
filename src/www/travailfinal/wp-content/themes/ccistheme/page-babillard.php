@@ -44,6 +44,7 @@
                                 </div>
 
                                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1">
+                                <h3 class="event">Babillard</h3>
                                     <?php
                                         if ( $query->have_posts() ) {
                                             while ( $query->have_posts() ) {
