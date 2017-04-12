@@ -31,7 +31,7 @@
                                     //
                         ?>
 
-                        <!-- Événement 1 -->
+                        <!-- Boucle des événements -->
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 texte">
                             <p class="premiertruc"><?php the_category(); ?></p>
                             <h3 class="espacedessous"><?php the_title(); ?></h3>
