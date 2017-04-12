@@ -37,53 +37,66 @@
                                 <p>Découvrez nos 4 finalistes pour le nom du prix Personnalité d'affaires féminine. Le nom choisi sera dévoilé en juin 2017. Un merci tout spécial aux familles de nos finalistes et à Madeleine Lacoursière de la Société d'histoire et de généalogie de Shawinigan qui ont contribué à la recherche et à la rédaction des biographies. Vous pouvez faire connaître votre choix par courriel à Martin St-Pierre, directeur général de la CCIS : <a href="mailto:martin@ccishawinigan.ca">martin@ccishawinigan.ca</a></p>
 
                                 <!-- Gagnants - Édition en cours -->
-                                <h4 class="espaceenahut">Gagnants de la 23e édition du Gala distinction Desjardins 2016</h4>
+                                <h4 class="espaceenahut">Gagnants et finalistes de la 23e édition du Gala distinction Desjardins 2016</h4>
                                 <h5 class="format">Commerce de détail et restauration</h5>
-                                <h5 class="formatdeux">Canadian Tire/Entreprises Sylvie Drolet</h5>
+                                <h5 class="">Gagnant : Canadian Tire/Entreprises Sylvie Drolet</h5>
+                                <h5 class="">Finaliste : Boucherie Nobert Inc</h5>
+                                <h5 class="">Finaliste : Sensée épicerie spécialisée</h5>
+                                <h5 class="">Finaliste : Canadian Tire/Entreprises Sylvie Drolet</h5>
+                                <p>(Ce prix est décerné à une entreprise commerciale ou de restauration répondant aux besoins de la clientèle, qui s’adapte à la concurrence, qui innove dans sa gamme de produits ou de services, qui entretient son espace et y investit, qui s’implique dans l’animation ou le dynamisme de son milieu. Sont admissibles les entreprises offrant des services de vente au détail destinés au grand public à partir de points de vente établis, incluant les entreprises de restauration, mais excluant les entreprises de services publics et les organismes sociaux.)</p>
 
                                 <h5 class="format">Tourisme et hébergement</h5>
-                                <h5 class="formatdeux">Défis du parc</h5>
+                                <h5 class="">Gagnant : Défis du parc</h5>
+                                <p>(Une entreprise, un organisme ou un événement ayant favorisé l’accroissement des recettes touristiques et le positionnement accru de la ville de Shawinigan. Une attention particulière est accordée aux initiatives ayant favorisé l’attraction du territoire en lui associant un événement en tourisme d’affaires, un festival, un événement sportif ou culturel susceptible d’attirer ou de prolonger le séjour des visiteurs.)</p>
 
                                 <h5 class="format">Employeur de choix</h5>
-                                <h5 class="formatdeux">Synapse Électronique</h5>
+                                <h5 class="">Gagnant : Synapse Électronique</h5>
+                                <p>(Le prix Employeur de choix récompense tout type d’entreprise qui s’est démarquée par une ou des pratiques de gestion des ressources humaines qu’elle a mises en place. Entre autres, il peut s’agir de pratiques en matière de conciliation travail-vie personnelle, d’environnement de travail, de formation, de développement et d’amélioration des compétences de ses employés, de méthodes innovantes relativement à la rétention ou à l’attraction de la main-d’œuvre, etc.)</p>
 
                                 <h5 class="format">Innovation et nouveaux marchés</h5>
-                                <h5 class="formatdeux">Conseillers en gestion et informatique CGI Inc</h5>
+                                <h5 class="">Gagnant : Conseillers en gestion et informatique CGI Inc</h5>
+                                <p>(Une entreprise ou un organisme qui se distingue par la conquête de nouveaux marchés ou de nouveaux territoires (provincial, national ou international), le développement de nouveaux procédés, d’un produit ou d’un service innovateur, de nouvelles techniques de commercialisation et qui démontre la capacité de poursuivre son action dans ce domaine ou dans l’adaptation et l’application de technologies nouvelles.)</p>
 
                                 <h5 class="format">Nouvelle entreprise</h5>
-                                <h5 class="formatdeux">Fait par une maman</h5>
+                                <h5 class="">Gagnant : Fait par une maman</h5>
+                                <p>(Une entreprise qui est en opération depuis au moins six (6) mois, pour un maximum de 36 mois. Elle se démarque par l’évolution de sa rentabilité, ses réalisations exceptionnelles ainsi que la qualité de sa gestion. L’entreprise démontre des perspectives de développement à long terme.)</p>
 
                                 <h5 class="format">Entreprise manufacturière</h5>
-                                <h5 class="formatdeux">Synapse Électronique</h5>
+                                <h5 class="">Gagnant : Synapse Électronique</h5>
+                                <p>(Une entreprise manufacturière qui se distingue par l’excellence de ses produits, ses investissements, son innovation ou le développement de nouveaux marchés, ainsi que par la qualité de gestion de ses procédés.)</p>
 
                                 <h5 class="format">Entreprise de service aux particuliers</h5>
-                                <h5 class="formatdeux">Pépinière du Parc</h5>
+                                <h5 class="">Gagnant : Pépinière du Parc</h5>
+                                <p>(Une entreprise qui se démarque par son approche client, son unicité, sa créativité et la qualité des services qu’elle offre aux particuliers.)</p>
 
                                 <h5 class="format">Entreprise de service aux entreprises</h5>
-                                <h5 class="formatdeux">Val-Mauricie électrique</h5>
+                                <h5 class="">Gagnant : Val-Mauricie électrique</h5>
+                                <p>(Une entreprise qui se démarque par son approche client, son unicité, sa créativité et la qualité des services qu’elle offre aux entreprises.)</p>
 
                                 <h5 class="format">Économie sociale</h5>
-                                <h5 class="formatdeux">92,9 CFUT</h5>
+                                <h5 class="">Gagnant : 92,9 CFUT</h5>
 
                                 <h5 class="format">Relève entrepreneuriale</h5>
-                                <h5 class="formatdeux">ICO Technologies Inc</h5>
+                                <h5 class="">Gagnant : ICO Technologies Inc</h5>
 
                                 <h5 class="format">Personnalité d'affaires féminine</h5>
-                                <h5 class="formatdeux">Marie-Josée Gervais</h5>
+                                <h5 class="">Gagnant : Marie-Josée Gervais</h5>
 
                                 <h5 class="format">Personnalité d'affaires masculine Gilles-Martel</h5>
-                                <h5 class="formatdeux">Roger Lavergne</h5>
+                                <h5 class="">Gagnant : Roger Lavergne</h5>
 
                                 <h5 class="format">Prix du jury</h5>
-                                <h5 class="formatdeux">Sensée épicerie spécialisée</h5>
+                                <h5 class="">Gagnant : Sensée épicerie spécialisée</h5>
 
                                 <h5 class="format">Diversification économique</h5>
-                                <h5 class="police">Sim-Cognibox</h5>
-                                <h5 class="police">AddÉnergie</h5>
-                                <h5 class="police">Comaintel Inc</h5>
+                                <h5 class="">Gagnant : Sim-Cognibox</h5>
+                                <h5 class="">Gagnant : AddÉnergie</h5>
+                                <h5 class="">Gagnant : Comaintel Inc</h5>
+                                <p>(Cette reconnaissance spéciale et publique met en lumière la contribution exceptionnelle d’entreprises de Shawinigan qui ont contribué aux efforts de diversification de l’économie de la ville, soit par son développement ou dans le contexte de démarrage d’une entreprise ou d’un nouveau projet. Cette reconnaissance est décernée par le Comité de diversification et de développement économique de la Ville de Shawinigan.)</p>
 
                                 <h5 class="format">Prix Coup de coeur du public</h5>
-                                <h5 class="formatdeux">Comméléo Inc</h5>
+                                <h5 class="">Gagnant : Comméléo Inc</h5>
+                                <p>(Parmi les entreprises lauréates de la soirée, les participants du Gala distinction Desjardins seront appelés à sélectionner l’entreprise s’étant distinguée par l’excellence générale de ses performances ou par un succès exceptionnellement méritoire. Les personnalités d’affaires ne sont pas admissibles.)</p>
 
                                 <!-- Finalistes - Édition en cours -->
                             </div>
