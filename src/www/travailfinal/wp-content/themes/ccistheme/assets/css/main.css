@@ -131,6 +131,31 @@ ul.contact{
 li#menu-item-61 ul.sub-menu {
     margin-left: -807px;
 }
+li#menu-item-237 {
+    margin-top: 35px;
+    padding-bottom: 0px;
+    font-size: 10px;
+}
+li#menu-item-251 {
+    font-size: 10px;
+    padding-top: 5px!important;
+}
+li#menu-item-252 {
+    font-size: 10px;
+    padding-top: 5px!important;
+}
+li#menu-item-240 {
+    font-size: 10px;
+    padding-top: 5px!important;
+}
+li#menu-item-241 {
+    font-size: 10px;
+    padding-top: 5px!important;
+}
+li#menu-item-242 {
+    font-size: 10px;
+    padding-top: 5px!important;
+}
 /* #################### SLIDER #################### */
 .slider {
     padding-top: 50px;
