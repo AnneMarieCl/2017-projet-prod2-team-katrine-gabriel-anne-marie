@@ -66,7 +66,6 @@
                                                         echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="Logo officiel de la CCIS" class="img-responsive">';
                                                     }
                                                     ?>
-                                                    <span class="ruban pull-left"><?php the_category(); ?></span>
                                                     <div class="date">
                                                         <div class='square-box month-box'>
                                                             <div class='square-content month-content'><div><span class="month"><span class = "fa fa-circle left-circle"></span><?php the_time('F'); ?><span class = "fa fa-circle right-circle"></span></span></div></div>
