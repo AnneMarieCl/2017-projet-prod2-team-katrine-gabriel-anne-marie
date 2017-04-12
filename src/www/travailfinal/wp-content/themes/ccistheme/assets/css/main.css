@@ -1750,6 +1750,10 @@ div.marginpadding{
     aside.sidebar-repertoire {
         min-height: 600px;
     }
+    /* Aside page babillard */
+    #babillard > div > div > aside {
+        min-height: 1800px;
+    }
     /* #################### PUBLICATIONS ET BLOGUE #################### */
     /*Correction fonts*/
     #post-type ul li{
@@ -1850,6 +1854,10 @@ div.marginpadding{
     aside.sidebar-repertoire {
         min-height: 600px;
     }
+    /* Aside page babillard */
+    #babillard > div > div > aside {
+        min-height: 1600px;
+    }
      /* #################### DEVENIR MEMBRE INDEX #################### */
     .devenir-membre h2 {
         padding-top: 7%;
@@ -1927,6 +1935,9 @@ div.marginpadding{
         padding-top: 50px;
         min-height: 3000px;
     }
+    #babillard > div > div > aside {
+        min-height: 1600px;
+    }
     /* aside page services-membres */ 
     aside.sidebar-services {
          min-height: 1500px;
@@ -1960,6 +1971,7 @@ div.marginpadding{
     .partenaire {
         margin-top: 150px;
     } 
+    /* Sidebar hauteur */
     #publications aside {
         padding-top: 50px;
         min-height: 3000px;
@@ -1970,6 +1982,9 @@ div.marginpadding{
     }
     aside.formation {
         min-height: 2100px!important;
+    }
+    #babillard > div > div > aside {
+        min-height: 2200px;
     }
     aside.activite {
         min-height: 2200px;
