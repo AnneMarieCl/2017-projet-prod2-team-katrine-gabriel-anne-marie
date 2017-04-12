@@ -111,7 +111,7 @@
                                         <div class="article">
                                             <div class="row">
                                                 <!-- Image de l'article -->
-                                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                                                     <div class="img-article">
                                                         <?php 
                                                         if (has_post_thumbnail()){
@@ -134,7 +134,7 @@
                                                 </div>
                                                 
                                                 <!-- Texte de l'article -->
-                                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 infoarticle">
+                                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 infoarticle">
                                                     <h4><?php the_title(); ?></h4>
                                                     <h6><?php the_field("auteur"); ?></h6>
                                                     <?php the_excerpt(); ?>
