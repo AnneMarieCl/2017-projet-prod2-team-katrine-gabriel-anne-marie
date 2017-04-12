@@ -3,7 +3,7 @@
         <?php
         $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
         $args = array(
-            'post_type' => 'post',
+            'post_type' => 'post_babillard',
             'posts_per_page' => 6,
             'paged' => $paged,
         );
@@ -81,8 +81,7 @@
                                             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 infoarticle">
                                                 <h4><?php the_title(); ?></h4>
                                                 <h6><?php the_field("auteur"); ?></h6>
-                                                <?php the_excerpt(); ?>
-                                                <a href="<?php the_permalink()?>">Lire la suite</a>
+                                                <?php the_content(); ?>
                                             </div>
                                         </div>
                                     </div>
