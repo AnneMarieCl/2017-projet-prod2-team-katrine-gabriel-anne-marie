@@ -60,6 +60,12 @@ if ( function_exists('register_sidebar') ) {
 			'description' => 'La barre qui s’affiche à droite dans la page blogue',
 			'id' => 'sidebar-blogue', // l’ID pour l’appeler dans le template
 	));
+	register_sidebar(
+		array(
+			'name' => 'Sidebar Membres', // Le nom qui s’affiche dans l’admin
+			'description' => 'La barre qui s’affiche à droite dans la page blogue',
+			'id' => 'sidebar-membre', // l’ID pour l’appeler dans le template
+	));
 }
 
 //Remove link and list from Category Tag
