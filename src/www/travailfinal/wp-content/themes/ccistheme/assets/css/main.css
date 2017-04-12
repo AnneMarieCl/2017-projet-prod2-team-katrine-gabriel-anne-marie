@@ -424,7 +424,7 @@ p #publish_date{
     color: #333;
 }
 /* Correction horizontal Scroll Bar */
-#blog .row, #publications .row, #post .row {
+#blog .row, #publications .row, #event .row, #post .row, #babillard .row {
     margin: 0;
 }
 /* Style des catégories des articles */
@@ -508,7 +508,7 @@ p #publish_date{
     margin-bottom: 0!important;
 }
 .pagination-fin {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 .pagination a, .pagination span{
     padding: 10px;
