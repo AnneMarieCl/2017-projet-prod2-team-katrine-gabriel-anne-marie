@@ -27,7 +27,12 @@
                                 echo '<img src="'.get_template_directory_uri().'/assets/images/thumbnail-ccis.jpg" alt="" class="col-md-6 img-responsive">';
                             }
                             the_content();
+                            $file = get_field('piece_jointe');
+
+                            if( $file ): 
                         ?>
+                            <a href="<?php echo $file['url']; ?>"><?php echo ('<h5>Télécharger le document</h5>'); ?></a>
+                        <?php endif; ?>
                     </div>
                         
                     <!-- Zone de commentaires -->
