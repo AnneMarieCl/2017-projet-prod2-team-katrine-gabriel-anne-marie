@@ -15,7 +15,7 @@
                         
                         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                             <div id="margedroite" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <h3>Les comités d'organisation</h3>
+                                <h3><?php the_title();?></h3>
 
                                 <!-- Programmation -->
                                 <h4 class="espaceenahut">Programmation</h4>

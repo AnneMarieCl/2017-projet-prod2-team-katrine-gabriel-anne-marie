@@ -17,12 +17,6 @@
                             <div id="margedroite" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <h3>Services au membres</h3>
 
-                                <!-- Les membres -->
-                                <h4 class="espaceenahut">Qui sont nos membres</h4>
-
-                                <p>Nous effectuons présentement une mise à jour complète du profil de nos 600 membres. Nous vous présenterons cet automne un portrait détaillé de notre membership.</p>
-
-
                                 <!-- Rabais et privilèges -->
                                 <h4 class="espaceenahut">Rabais et privilèges</h4>
                                 <ul>
