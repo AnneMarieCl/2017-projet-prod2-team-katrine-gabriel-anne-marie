@@ -456,12 +456,12 @@ p #publish_date{
     color: #fff;
     background: #ee3a43;
 }
-#blog-single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > p > img{
+#single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > p > img{
     margin:0 10px 10px 0;
     padding:0;
 }
 /* pour les singles */
-#blog-single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > p > a,
+#single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > p > a,
 #margedroite > h5 > span > a{
     color:#333;
 }
@@ -469,17 +469,17 @@ p #publish_date{
     font-size:14px;
     color:#333;
 }
-#blog-single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > p > a:hover,
+#single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > p > a:hover,
 #margedroite > h5 > span > a:hover,
 #babillard > div > div > div > div > div > div > div > div.col-xs-12.col-sm-6.col-md-6.col-lg-8.infoarticle > p > a.rouge:hover  {
     color:#ee3a43;
 }
-#blog-single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > a > h5, 
-#blog-single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > a,{
+#single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > a > h5, 
+#single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > a,{
     color: #ee3a43;
 }
-#blog-single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > a > h5:hover,
-#blog-single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > a:hover{
+#single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > a > h5:hover,
+#single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > a:hover{
     color: #c6262d;
 }
 /* Select pour responsive */
@@ -980,18 +980,25 @@ div.marginpadding{
     border-color: #bfbfbf;
 }
 /* ########### Single.php ########### */
-#blog-single {
+#single {
     padding-top: 120px;
     margin-top: 50px;
 }
-#blog-single aside {
+#single a {
+    color: #ee3a43;
+}
+
+#single aside a {
+    color: #fff;
+}
+#single aside {
     margin-top: -50px;
     padding-top: 50px;
 }
-#blog-single .row{
+#single .row{
     margin: 0;
 }
-#blog-single .ruban {
+#single .ruban {
     width: 100%;
     background: #ee3a43;
     position: static;
@@ -1001,35 +1008,35 @@ div.marginpadding{
     padding: 5px 10px;
     font-size:20px;
 }
-#blog-single .ruban ul{
+#single .ruban ul{
     padding: 0;
     margin: 0;
 }
-#blog-single .ruban ul li{
+#single .ruban ul li{
     display: block;
     padding: 5px;
     font-size: 15pt;
 }
-#blog-single .wp-post-image, 
-#blog-single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > img {
+#single .wp-post-image, 
+#single > div > div > div > div.col-xs-12.col-sm-12.col-md-10.col-lg-10.col-md-offset-1.test > img {
     padding-left: 0!important;
     padding-bottom: 0;
     margin:0 10px 10px 0;
 }
-#blog-single .ruban ul li a{
+#single .ruban ul li a{
     color: #fff;
 }
-#blog-single textarea {
+#single textarea {
     margin-bottom: 15px;
 }
-#blog-single .btn {
+#single .btn {
     background: #ee3a43;
     color: #fff;
     border-radius:0px;
     border-color: transparent;
     padding: 10px 50px;
 }
-#blog-single .btn:hover {
+#single .btn:hover {
     background: #c6262d;
 }
 .previous-article, .next-article {
@@ -1053,14 +1060,14 @@ div.marginpadding{
 .form-control {
     border-radius:0px;
 }
-#blog-single .pager li {
+#single .pager li {
     width: auto;
     margin-bottom: 15px;
 }
-#blog-single .pager li a {
+#single .pager li a {
     padding: 0;
 }
-#blog-single .pager li {
+#single .pager li {
     margin-bottom: 70px;
 }
 /* ########### Galerie de photos ########### */
@@ -1376,7 +1383,7 @@ div.marginpadding{
         width: 100%;
         top: 0;
     }
-    #blog-single {
+    #single {
         padding-top: 0px; 
         margin-top: 50px;
     }
